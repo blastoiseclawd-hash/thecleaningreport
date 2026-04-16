@@ -3,23 +3,24 @@ export const siteConfig = {
   domain: "thecleaningreport.com",
   url: "https://thecleaningreport.com",
   tagline: "Practical indoor-cleaning buying guides for cleaner, lower-friction homes.",
-  description: "TheCleaningReport publishes practical, independent buying guides for robot vacuums, cordless vacuums, steam mops, pet-mess cleanup, and indoor cleaning tools that help real homes stay cleaner with less friction.",
+  description:
+    "TheCleaningReport publishes practical, independent buying guides for robot vacuums, cordless vacuums, steam mops, pet-mess cleanup, and indoor cleaning tools that help real homes stay cleaner with less friction.",
 
   colors: {
-    primary: "#4F7B62",
-    accent: "#C17A43",
-    dark: "#16212A",
-    light: "#F6F2EA",
-    cta: "#2E8B57",
+    primary: "#2D6B73",
+    accent: "#C48A49",
+    dark: "#102027",
+    light: "#F6F4EE",
+    cta: "#1F7A63",
   },
 
-  defaultTitle: "TheCleaningReport | Independent Buying Guides",
+  defaultTitle: "TheCleaningReport | Practical Indoor Cleaning Guides",
   titleTemplate: `%s | TheCleaningReport`,
   ogImage: "https://thecleaningreport.com/opengraph-image",
 
   author: {
     name: "TheCleaningReport Editorial Desks",
-    bio: "Three editorial desks cover everyday buyers, enthusiasts, and precision-minded readers. Every recommendation should be grounded in real research and clear tradeoffs.",
+    bio: "TheCleaningReport uses transparent editorial desks to cover everyday cleaning defaults, floor care and pet-mess cleanup, and deeper maintenance-tool decisions for real homes.",
     methodologyPage: "/how-we-review",
   },
 
@@ -32,24 +33,34 @@ export const siteConfig = {
 
   categories: [
     {
-      name: "Primary category",
-      slug: "primary-category",
-      description: "Replace this with the core category your new site will cover first.",
+      name: "Robot Vacuums",
+      slug: "robot-vacuums",
+      description: "Guides for navigation reliability, obstacle handling, dock upkeep, hair tangles, and real daily-cleaning payoff.",
     },
     {
-      name: "Secondary category",
-      slug: "secondary-category",
-      description: "Replace this with the second major category on the site roadmap.",
+      name: "Vacuums",
+      slug: "vacuums",
+      description: "Cordless, upright, and household vacuum recommendations that balance suction, maintenance, weight, and real-home usability.",
     },
     {
-      name: "Guides",
-      slug: "guides",
-      description: "Reference content, how-to pages, and evergreen buyer education.",
+      name: "Mops & Steam Mops",
+      slug: "mops-steam-mops",
+      description: "Surface-cleaning tools compared on residue, drying time, refill burden, and upkeep.",
+    },
+    {
+      name: "Pet Mess & Hair",
+      slug: "pet-mess-hair",
+      description: "Cleaning tools that hold up against hair, tracked-in mess, upholstery cleanup, and higher-friction households.",
+    },
+    {
+      name: "Cleaning Tools",
+      slug: "cleaning-tools",
+      description: "Indoor maintenance and specialty-cleaning tools once the floor-care core is established.",
     },
   ],
 
   ftcDisclosure:
-    "When you buy through our links, we may earn a commission at no extra cost to you.",
+    "When you buy through our links, we may earn a commission at no extra cost to you. That never changes what we recommend.",
 
   nav: {
     main: [
@@ -68,45 +79,45 @@ export const siteConfig = {
 
   featuredCoverage: [
     {
-      title: "How We Review",
-      href: "/how-we-review",
-      eyebrow: "Editorial standards",
-      description: "Explain the sourcing, ranking logic, and update process behind every recommendation.",
-    },
-    {
       title: "About TheCleaningReport",
       href: "/about",
-      eyebrow: "About the publication",
-      description: "Introduce the desks, the niche focus, and the kind of reader the site is built for.",
+      eyebrow: "Mission and scope",
+      description: "See what the site covers first, how the broader indoor-cleaning brand is framed, and what stays out of scope.",
+    },
+    {
+      title: "How We Review",
+      href: "/how-we-review",
+      eyebrow: "Methodology",
+      description: "See how we weigh maintenance burden, floor results, pet-mess friction, and long-term ownership tradeoffs.",
     },
     {
       title: "Affiliate Disclosure",
       href: "/disclosure",
       eyebrow: "Transparency",
-      description: "Spell out how commissions work and why they do not control the rankings.",
+      description: "See how affiliate revenue works here and why commissions should not control the rankings.",
     },
   ],
 
   trustPillars: [
     {
-      title: "Clear methodology",
-      description: "Readers should know how pages are researched, what was compared, and why a pick rose to the top.",
+      title: "Real-home friction first",
+      description: "The best cleaning tool is the one that still makes sense after you account for docking, refills, noise, tangles, and cleanup hassle.",
     },
     {
-      title: "Useful tradeoffs",
-      description: "Every recommendation should include the annoying parts, not just the sales pitch.",
+      title: "Maintenance counts as performance",
+      description: "A powerful cleaner that constantly clogs, leaks, or needs too much upkeep is not a better recommendation.",
     },
     {
-      title: "Decision-first writing",
-      description: "The page should help a reader decide faster, not force them through filler first.",
+      title: "Hype-resistant recommendations",
+      description: "We care more about reliable cleaning results and ownership burden than feature sprawl or marketing claims.",
     },
   ],
 
   comingSoonTopics: [
-    "Core buying guides",
-    "Comparison pages",
-    "Reference content",
-    "Trust pages",
+    "Robot vacuum buying guides",
+    "Cordless vacuum roundups",
+    "Pet-hair cleanup guides",
+    "Steam mop comparisons",
   ],
 } as const;
 

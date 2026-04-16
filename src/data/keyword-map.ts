@@ -23,8 +23,8 @@ export const keywordMapStats = {
   totalPrimaryVolume: pageTargets.reduce((sum, page) => sum + page.primaryVolume, 0),
   priority1Pages: pageTargets.filter((page) => page.priority === 1).length,
   byDesk: {
-    everyday: pageTargets.filter((page) => page.authorSlug === "everyday-desk").length,
-    enthusiast: pageTargets.filter((page) => page.authorSlug === "enthusiast-desk").length,
-    lab: pageTargets.filter((page) => page.authorSlug === "lab-desk").length,
+    everydayCleaning: pageTargets.filter((page) => page.authorSlug === "everyday-cleaning-desk").length,
+    floorCarePetMess: pageTargets.filter((page) => page.authorSlug === "floor-care-pet-mess-desk").length,
+    deepCleanMaintenance: pageTargets.filter((page) => page.authorSlug === "deep-clean-maintenance-desk").length,
   },
 };
