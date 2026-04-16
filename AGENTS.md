@@ -24,9 +24,9 @@ Before starting any task, scan the parent repo skills in `.claude/skills/` and f
 
 ## Phase Status
 
-- Current phase: `launch-new-site` foundation complete
+- Current phase: `research-customer-avatars` complete
 - Validation gate: passed in [`data/thecleaningreport-launch-validation-2026-04-16.md`](../../data/thecleaningreport-launch-validation-2026-04-16.md)
-- Next required phase: `research-customer-avatars`
+- Next required phase: `build-editorial-desks`
 
 ## Editorial Desks
 
@@ -34,23 +34,25 @@ Before starting any task, scan the parent repo skills in `.claude/skills/` and f
 
 | Desk | Focus | Planned readers | Status |
 |------|-------|-----------------|--------|
-| **Everyday Cleaning Desk** | Simple defaults for busy households | Busy floor-care upgrader, small-home cleaner | Placeholder profile only |
-| **Floor Care & Pet Mess Desk** | Vacuums, pet hair, high-friction cleanup | Pet-mess manager, heavier-use floor care shopper | Placeholder profile only |
-| **Deep Clean & Maintenance Desk** | Steam mops and indoor maintenance tools | Deep-clean and maintenance tool buyer | Placeholder profile only |
+| **Everyday Cleaning Desk** | Simple defaults for busy households | Practical Cordless Buyer | Placeholder profile only |
+| **Floor Care & Pet Mess Desk** | Vacuums, pet hair, high-friction cleanup | Automation-Minded Floor-Care Upgrader, Pet-Mess Floor Manager | Placeholder profile only |
+| **Deep Clean & Maintenance Desk** | Steam mops and indoor maintenance tools | Surface-Specific Deep Cleaner | Placeholder profile only |
 
 Full voice guides for these desks belong to Phase 3 via `build-editorial-desks`.
 
 ## Customer Avatars (Research-Backed)
 
-Phase 2 is still pending. Do not treat the seed profiles below as research-backed yet.
+Phase 2 is complete in [`data/avatar-research.md`](./data/avatar-research.md).
 
-Current seed set for validation:
-- **Busy floor-care upgrader**: wants better floors with less daily hassle, not a hobby.
-- **Pet-mess manager**: needs hair pickup, edge cleaning, and easy maintenance in homes with pets.
-- **Small-home or apartment cleaner**: cares about noise, storage footprint, and low-friction routines.
-- **Deep-clean and maintenance tool buyer**: shops for periodic reset tools that solve stubborn cleaning jobs without wasting money.
+Final avatar set:
+- **Automation-Minded Floor-Care Upgrader**: higher-AOV robot-vacuum buyer who pays to remove recurring work, with strong focus on dock upkeep, app reliability, obstacle handling, and pet-hair performance.
+- **Practical Cordless Buyer**: mainstream value-driven shopper who wants strong everyday pickup, manageable weight, easy storage, and clear best-under-$X guidance without premium fluff.
+- **Pet-Mess Floor Manager**: higher-friction pet household buyer who shops around tangles, furniture and stair cleanup, litter, mixed surfaces, and maintenance burden.
+- **Surface-Specific Deep Cleaner**: steam-mop and specialty-cleaning buyer who starts with floor-type safety and wants clear use-this or avoid-this guidance before features.
 
-Replace this placeholder section with real source-backed avatars during `research-customer-avatars`.
+Important interpretation:
+- `Small-home or apartment cleaner` remains a useful context, but the research showed it belongs inside `Practical Cordless Buyer` rather than standing alone as its own top-level avatar.
+- The first three launch pages still map cleanly to the strongest avatars: `best-robot-vacuum`, `best-cordless-vacuum`, and `best-vacuum-for-pet-hair`.
 
 ## Content Categories
 

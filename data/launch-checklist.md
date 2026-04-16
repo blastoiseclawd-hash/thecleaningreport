@@ -10,7 +10,7 @@
 - [x] Nested site repo exists and the clean scaffold baseline is pushed
 - [x] `data/avatar-research.md` placeholder exists for the next phase
 - [x] Phase 0 launch validation is documented
-- [ ] Customer-avatar research completed with real sources
+- [x] Customer-avatar research completed with real sources
 - [ ] Editorial desks expanded with full voice guides
 - [ ] Keyword map created from researched avatars
 - [ ] Master roadmap and launch slice generated
