@@ -24,9 +24,9 @@ Before starting any task, scan the parent repo skills in `.claude/skills/` and f
 
 ## Phase Status
 
-- Current phase: `research-customer-avatars` complete
+- Current phase: `build-editorial-desks` complete
 - Validation gate: passed in [`data/thecleaningreport-launch-validation-2026-04-16.md`](../../data/thecleaningreport-launch-validation-2026-04-16.md)
-- Next required phase: `build-editorial-desks`
+- Next required phase: `map-keywords-to-avatars`
 
 ## Editorial Desks
 
@@ -34,11 +34,16 @@ Before starting any task, scan the parent repo skills in `.claude/skills/` and f
 
 | Desk | Focus | Planned readers | Status |
 |------|-------|-----------------|--------|
-| **Everyday Cleaning Desk** | Simple defaults for busy households | Practical Cordless Buyer | Placeholder profile only |
-| **Floor Care & Pet Mess Desk** | Vacuums, pet hair, high-friction cleanup | Automation-Minded Floor-Care Upgrader, Pet-Mess Floor Manager | Placeholder profile only |
-| **Deep Clean & Maintenance Desk** | Steam mops and indoor maintenance tools | Surface-Specific Deep Cleaner | Placeholder profile only |
+| **Everyday Cleaning Desk** | Simple defaults, budget sense, and low-friction daily floor care | Practical Cordless Buyer | Full profile complete |
+| **Floor Care & Pet Mess Desk** | Robot vacuums, pet hair, tangles, mixed surfaces, and recurring cleanup labor | Automation-Minded Floor-Care Upgrader, Pet-Mess Floor Manager | Full profile complete |
+| **Deep Clean & Maintenance Desk** | Steam mops, surface-safe advice, and specialty-cleaning payoff analysis | Surface-Specific Deep Cleaner | Full profile complete |
 
-Full voice guides for these desks belong to Phase 3 via `build-editorial-desks`.
+Phase 3 outputs now live in [`src/data/authors.ts`](./src/data/authors.ts) and [`public/images/IMAGE-PROMPTS.md`](./public/images/IMAGE-PROMPTS.md).
+
+Desk operating notes:
+- **Everyday Cleaning Desk** should own mainstream cordless, budget, lightweight, and easy-storage floor-care pages.
+- **Floor Care & Pet Mess Desk** should own robots, pet-hair cleanup, self-emptying, obstacle handling, and high-friction mixed-surface comparisons.
+- **Deep Clean & Maintenance Desk** should own steam-mop, floor-type, compatibility, and later specialty-cleaning-tool pages.
 
 ## Customer Avatars (Research-Backed)
 
