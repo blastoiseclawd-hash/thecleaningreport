@@ -24,9 +24,9 @@ Before starting any task, scan the parent repo skills in `.claude/skills/` and f
 
 ## Phase Status
 
-- Current phase: `build-editorial-desks` complete
+- Current phase: `map-keywords-to-avatars` complete
 - Validation gate: passed in [`data/thecleaningreport-launch-validation-2026-04-16.md`](../../data/thecleaningreport-launch-validation-2026-04-16.md)
-- Next required phase: `map-keywords-to-avatars`
+- Next required phase: `generate-guide-opportunities`
 
 ## Editorial Desks
 
@@ -62,6 +62,15 @@ Important interpretation:
 ## Content Categories
 
 Robot Vacuums, Vacuums, Mops & Steam Mops, Pet Mess & Hair, Cleaning Tools
+
+## Keyword Map
+
+The current mapped roadmap lives in [`src/data/keyword-map.ts`](./src/data/keyword-map.ts).
+
+Phase 4 rules:
+- treat the keyword map as the typed inventory for approved early-stage page targets
+- keep trust-check queries like `reddit`, `consumer reports`, and year variants as research support unless they justify a truly distinct page
+- do not add maintenance-tool or generic cleaning pages to the map unless they trace back to the validated launch clusters or later roadmap validation
 
 ## Affiliate Programs
 
