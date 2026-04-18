@@ -1,0 +1,23 @@
+{
+  "site": "thecleaningreport",
+  "phase": "manual-baseline",
+  "lastDailyRunAt": null,
+  "lastWeeklyReviewAt": null,
+  "lastMonthlyRefreshAt": null,
+  "nextQueueItemId": null,
+  "openPRs": [],
+  "pendingApprovals": [],
+  "blockers": [
+    {
+      "id": "launch-spine-incomplete",
+      "description": "Only 1 of 4 launch-spine money pages exists (best-robot-vacuum). Cordless, pet-hair, steam-mop pages missing. Phase 0 P0.10 band-aided homepage tiles; full fix is Phase 7 P7.1.",
+      "createdAt": "2026-04-17"
+    }
+  ],
+  "metrics": {
+    "pagesLive": 6,
+    "pagesQueued": 60,
+    "pagesDraft": 0
+  },
+  "notes": "Phase 0 seed 2026-04-17. Launch spine incomplete (1/4 money pages). Stays manual-baseline until Phase 7 P7.1 ships cordless + pet-hair + steam-mop guides. Automation extends to TCR only after that."
+}

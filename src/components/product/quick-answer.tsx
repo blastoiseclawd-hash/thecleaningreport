@@ -1,5 +1,10 @@
 import Image from "next/image";
-import { type Product, priceDisplay } from "@/data/products";
+import {
+  getCommerceLinkRel,
+  getProductOfferLink,
+  type Product,
+  priceDisplay,
+} from "@/data/products";
 
 // ─── Props ──────────────────────────────────────────────────────
 
@@ -18,7 +23,7 @@ export function QuickAnswerBox({
   authorName,
   disclosureText,
 }: QuickAnswerBoxProps) {
-  const primaryLink = product.affiliateLinks[0];
+  const primaryLink = getProductOfferLink(product);
   const price = priceDisplay(product);
 
   return (
@@ -89,7 +94,7 @@ export function QuickAnswerBox({
               <a
                 href={primaryLink.url}
                 target="_blank"
-                rel="noopener noreferrer nofollow sponsored"
+                rel={getCommerceLinkRel(primaryLink)}
                 className="inline-flex items-center justify-center rounded-sm bg-[#27ae60] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#219a52]"
               >
                 See current price

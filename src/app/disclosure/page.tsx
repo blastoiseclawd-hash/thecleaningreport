@@ -40,6 +40,19 @@ export default function DisclosurePage() {
             <p>{disclosureContent.aiTransparency}</p>
             <p>{disclosureContent.closing}</p>
           </div>
+          <div className="mt-8 rounded-md border border-[#d9d4cb] bg-[#fffaf3] p-6">
+            <p className="eyebrow">Publication contact</p>
+            <p className="mt-4 text-[1rem] leading-8 text-[#46525b]">
+              Disclosure, partnership, or correction requests can be sent to{" "}
+              <a
+                href={`mailto:${siteConfig.publication.contactEmail}`}
+                className="text-[#2a5a8a] underline decoration-[#2a5a8a]/30 underline-offset-2"
+              >
+                {siteConfig.publication.contactEmail}
+              </a>
+              . The site currently operates under {siteConfig.publication.operatingEntity}.
+            </p>
+          </div>
         </div>
       </section>
     </>

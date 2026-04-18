@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 import { siteConfig } from "@/config/site";
@@ -9,12 +10,29 @@ export function Footer() {
         <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr_1fr]">
           <div className="space-y-5">
             <Link href="/" className="inline-block">
-              <p className="brand-wordmark text-[1.95rem] leading-none text-white sm:text-[2.2rem]">
-                {siteConfig.name}
-              </p>
-              <p className="mt-1 text-[0.78rem] font-semibold uppercase tracking-[0.22em] text-[#b8c7b2] sm:text-[0.84rem]">
-                {siteConfig.tagline}
-              </p>
+              <div className="flex items-center gap-3">
+                <div className="relative h-12 w-12 shrink-0 overflow-hidden rounded-xl border border-[#31424c] bg-[#fff8ef] p-1">
+                  <Image
+                    src={siteConfig.brandAssets.icon}
+                    alt={`${siteConfig.name} icon`}
+                    fill
+                    className="object-contain p-1"
+                    sizes="48px"
+                  />
+                </div>
+                <div>
+                  <Image
+                    src={siteConfig.brandAssets.wordmark}
+                    alt={siteConfig.name}
+                    width={420}
+                    height={72}
+                    className="h-auto max-w-[17rem]"
+                  />
+                  <p className="mt-1 text-[0.78rem] font-semibold uppercase tracking-[0.22em] text-[#b8c7b2] sm:text-[0.84rem]">
+                    {siteConfig.tagline}
+                  </p>
+                </div>
+              </div>
             </Link>
 
             <p className="max-w-xl text-[1rem] leading-8 text-[#d5ded8]">
@@ -32,12 +50,21 @@ export function Footer() {
             <ul className="mt-4 space-y-3">
               {siteConfig.featuredCoverage.map((item) => (
                 <li key={item.href}>
-                  <Link href={item.href} className="group block">
-                    <span className="text-[1.02rem] font-semibold text-white group-hover:text-[#d8e0d5]">
-                      {item.title}
-                    </span>
-                    <span className="mt-1 block text-[0.96rem] leading-7 text-[#c7d0cb]">{item.description}</span>
-                  </Link>
+                  {item.available ? (
+                    <Link href={item.href} className="group block">
+                      <span className="text-[1.02rem] font-semibold text-white group-hover:text-[#d8e0d5]">
+                        {item.title}
+                      </span>
+                      <span className="mt-1 block text-[0.96rem] leading-7 text-[#c7d0cb]">{item.description}</span>
+                    </Link>
+                  ) : (
+                    <div className="group block opacity-70">
+                      <span className="text-[1.02rem] font-semibold text-white">
+                        {item.title} <span className="text-[0.82rem] font-normal text-[#8d9c91]">(coming soon)</span>
+                      </span>
+                      <span className="mt-1 block text-[0.96rem] leading-7 text-[#c7d0cb]">{item.description}</span>
+                    </div>
+                  )}
                 </li>
               ))}
             </ul>
@@ -58,7 +85,20 @@ export function Footer() {
             </div>
 
             <div>
-              <p className="eyebrow text-[#b8c7b2]">Coverage building next</p>
+              <p className="eyebrow text-[#b8c7b2]">Launch guides</p>
+              <ul className="mt-4 space-y-3 text-[0.92rem] leading-7 text-[#dbe4de]">
+                {siteConfig.launchGuides.map((guide) => (
+                  <li key={guide.href}>
+                    <Link href={guide.href} className="font-medium text-[#dbe4de] hover:text-white">
+                      {guide.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div>
+              <p className="eyebrow text-[#b8c7b2]">Building next</p>
               <ul className="mt-4 space-y-3 text-[0.92rem] leading-7 text-[#dbe4de]">
                 {siteConfig.comingSoonTopics.map((topic) => (
                   <li key={topic}>{topic}</li>
@@ -72,6 +112,12 @@ export function Footer() {
       <div className="border-t border-[#273640] bg-[#10181f]">
         <div className="site-shell flex flex-col gap-3 py-5 text-center text-[0.85rem] text-[#a8b5b0] sm:text-left">
           <p>{siteConfig.ftcDisclosure}</p>
+          <p>
+            Editorial contact:{" "}
+            <a href={`mailto:${siteConfig.publication.contactEmail}`} className="hover:text-white">
+              {siteConfig.publication.contactEmail}
+            </a>
+          </p>
           <p>
             Copyright {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
           </p>

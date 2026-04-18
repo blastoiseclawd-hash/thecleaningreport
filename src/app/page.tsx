@@ -76,6 +76,42 @@ export default function HomePage() {
 
       <section className="section-space-sm">
         <div className="site-shell">
+          <div id="launch-guides" className="rounded-[28px] border border-[#d8d3ca] bg-[#fffaf2] p-7 sm:p-9">
+            <div className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
+              <div className="max-w-3xl">
+                <span className="editorial-rule">Launch guides</span>
+                <h2 className="mt-5 text-[2.6rem] font-bold leading-[0.98] text-[#23150f] sm:text-[3.2rem]">
+                  Start with the pages built for the launch spine.
+                </h2>
+              </div>
+              <p className="max-w-xl text-[1rem] leading-8 text-[#4d5862]">
+                These first guides are the site&apos;s public baseline: automation, everyday cordless cleanup,
+                and the pet-hair messes that expose weak recommendations fast.
+              </p>
+            </div>
+
+            <div className="mt-9 grid gap-5 lg:grid-cols-3">
+              {siteConfig.launchGuides.map((guide) => (
+                <article key={guide.href} className="rounded-[22px] border border-[#ddd5c8] bg-white p-6 shadow-[0_18px_36px_rgba(35,21,15,0.06)]">
+                  <p className="eyebrow">{guide.eyebrow}</p>
+                  <h3 className="mt-3 text-[2rem] font-bold leading-[1.02] text-[#23150f]">
+                    {guide.title}
+                  </h3>
+                  <p className="mt-4 text-[1rem] leading-8 text-[#46525b]">{guide.description}</p>
+                  {guide.available ? (
+                    <Link href={guide.href} className="mt-6 inline-flex text-[0.98rem] font-semibold text-[#2a5a8a] hover:text-[#1a3d5c]">
+                      Open guide
+                    </Link>
+                  ) : (
+                    <span className="mt-6 inline-flex text-[0.98rem] font-semibold text-[#8d8578]">
+                      Coming soon
+                    </span>
+                  )}
+                </article>
+              ))}
+            </div>
+          </div>
+
           <div className="flex flex-col gap-5 sm:flex-row sm:items-end sm:justify-between">
             <div className="max-w-3xl">
               <span className="editorial-rule">Coverage lanes</span>

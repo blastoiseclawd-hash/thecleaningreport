@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Manrope, Source_Serif_4 } from "next/font/google";
 
 import { Footer } from "@/components/layout/footer";
@@ -28,6 +28,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: siteConfig.url,
   },
+  icons: {
+    icon: [
+      { url: siteConfig.brandAssets.favicon, type: "image/svg+xml" },
+      { url: siteConfig.brandAssets.icon, type: "image/svg+xml" },
+    ],
+    apple: [{ url: siteConfig.brandAssets.appleTouchIcon, type: "image/svg+xml" }],
+    shortcut: [siteConfig.brandAssets.favicon],
+  },
+  manifest: "/manifest.webmanifest",
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -45,6 +54,10 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: siteConfig.colors.light,
 };
 
 export default function RootLayout({

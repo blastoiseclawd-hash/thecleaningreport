@@ -1,7 +1,12 @@
 import Link from "next/link";
 
 import { type Author } from "@/data/authors";
-import { priceDisplay, type Product } from "@/data/products";
+import {
+  getCommerceLinkRel,
+  getProductOfferLink,
+  priceDisplay,
+  type Product,
+} from "@/data/products";
 import { AuthorBioCard } from "@/components/content/author-bio";
 import { ProductImageGallery } from "@/components/product/product-image-gallery";
 import { articleSchema, breadcrumbSchema, faqSchema, productSchema, JsonLd } from "@/lib/schema";
@@ -79,10 +84,6 @@ interface HubPageProps {
 
   // Last updated note
   lastUpdatedNote?: string;
-}
-
-function reviewLink(product: Product) {
-  return product.affiliateLinks.find((link) => link.url && !link.url.includes("/dp/?tag="));
 }
 
 export function HubPage({
@@ -409,7 +410,7 @@ export function HubPage({
               if (!content) return null;
 
               const specs = curatedSpecs[product.id] || {};
-              const cta = reviewLink(product);
+              const offerLink = getProductOfferLink(product, siteConfig.affiliatePrograms.amazon.tag);
               const badge = badges[product.id] || "";
               return (
                 <section
@@ -457,24 +458,19 @@ export function HubPage({
                         </dl>
 
                         <div className="mt-6">
-                          {cta ? (
+                          {offerLink ? (
                             <a
-                              href={cta.url}
+                              href={offerLink.url}
                               target="_blank"
-                              rel="noopener noreferrer nofollow sponsored"
+                              rel={getCommerceLinkRel(offerLink)}
                               className="button-primary w-full"
                             >
-                              Check price on {cta.retailer}
+                              Check price on {offerLink.retailer}
                             </a>
                           ) : (
-                            <a
-                              href={`https://www.amazon.com/s?k=${encodeURIComponent(product.name)}&tag=${siteConfig.affiliatePrograms.amazon.tag}`}
-                              target="_blank"
-                              rel="noopener noreferrer nofollow sponsored"
-                              className="button-primary w-full"
-                            >
-                              Check price on Amazon
-                            </a>
+                            <span className="inline-flex w-full items-center justify-center rounded-sm border border-dashed border-[#ccb8a4] px-4 py-3 text-sm text-[#5e3d2d]">
+                              Retail links unavailable
+                            </span>
                           )}
                         </div>
                       </div>

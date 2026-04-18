@@ -9,7 +9,7 @@
  */
 
 import { siteConfig } from "@/config/site";
-import type { Product } from "@/data/products";
+import { getProductOfferUrl, type Product } from "@/data/products";
 
 // ─── WebSite Schema (homepage only) ─────────────────────────────
 
@@ -24,6 +24,10 @@ export function websiteSchema() {
       "@type": "Organization",
       name: siteConfig.name,
       url: siteConfig.url,
+      logo: {
+        "@type": "ImageObject",
+        url: `${siteConfig.url}${siteConfig.brandAssets.icon}`,
+      },
     },
   };
 }
@@ -83,6 +87,10 @@ export function articleSchema({
       "@type": "Organization",
       name: siteConfig.name,
       url: siteConfig.url,
+      logo: {
+        "@type": "ImageObject",
+        url: `${siteConfig.url}${siteConfig.brandAssets.icon}`,
+      },
     },
     ...(imageUrl ? { image: imageUrl } : {}),
   };
@@ -117,6 +125,10 @@ export function webPageSchema({
       "@type": "Organization",
       name: siteConfig.name,
       url: siteConfig.url,
+      logo: {
+        "@type": "ImageObject",
+        url: `${siteConfig.url}${siteConfig.brandAssets.icon}`,
+      },
     },
   };
 }
@@ -138,7 +150,7 @@ export function productSchema(product: Product) {
   if (product.price !== null) {
     schema.offers = {
       "@type": "Offer",
-      url: product.affiliateLinks[0]?.url || "",
+      url: getProductOfferUrl(product, siteConfig.affiliatePrograms.amazon.tag),
       priceCurrency: product.priceCurrency,
       price: product.price,
       availability:

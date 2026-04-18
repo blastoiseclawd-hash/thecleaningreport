@@ -1,0 +1,15 @@
+<svg width="540" height="96" viewBox="0 0 540 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="4" y="4" width="88" height="88" rx="22" fill="#16212A"/>
+  <circle cx="48" cy="48" r="25" fill="#FFF8EF"/>
+  <path d="M29 65H67" stroke="#4F7B62" stroke-width="6" stroke-linecap="round"/>
+  <path d="M32 51C35 40 42 33 53 33C60 33 66 35 70 40" stroke="#4F7B62" stroke-width="6" stroke-linecap="round"/>
+  <path d="M39 39V64" stroke="#C48A49" stroke-width="6" stroke-linecap="round"/>
+  <path d="M55 39V64" stroke="#C48A49" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="48" cy="73" r="4" fill="#C48A49"/>
+  <text x="112" y="44" fill="#182028" font-family="Georgia, 'Times New Roman', serif" font-size="36" font-weight="700">
+    TheCleaningReport
+  </text>
+  <text x="114" y="71" fill="#667361" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="4">
+    PRACTICAL INDOOR CLEANING GUIDES
+  </text>
+</svg>

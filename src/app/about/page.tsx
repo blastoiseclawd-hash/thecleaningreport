@@ -72,6 +72,28 @@ export default function AboutPage() {
           <p className="mt-5 text-[1.02rem] leading-8 text-[#46525b]">
             {aboutContent.closingSection.body}
           </p>
+          <div className="mt-8 rounded-md border border-[#d9d4cb] bg-[#fffaf3] p-6">
+            <p className="eyebrow">Publication details</p>
+            <div className="mt-4 grid gap-4 sm:grid-cols-2">
+              <div>
+                <p className="text-[0.72rem] font-semibold uppercase tracking-[0.18em] text-[#6d7a72]">
+                  Operating entity
+                </p>
+                <p className="mt-2 text-[1rem] text-[#46525b]">{siteConfig.publication.operatingEntity}</p>
+              </div>
+              <div>
+                <p className="text-[0.72rem] font-semibold uppercase tracking-[0.18em] text-[#6d7a72]">
+                  Editorial contact
+                </p>
+                <a
+                  href={`mailto:${siteConfig.publication.contactEmail}`}
+                  className="mt-2 inline-block text-[1rem] text-[#2a5a8a] underline decoration-[#2a5a8a]/30 underline-offset-2"
+                >
+                  {siteConfig.publication.contactEmail}
+                </a>
+              </div>
+            </div>
+          </div>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link href="/how-we-review" className="button-primary">
               Review the methodology

@@ -2,7 +2,11 @@
 
 import Image from "next/image";
 import type { Product } from "@/data/products";
-import { buildAmazonLink, priceDisplay } from "@/data/products";
+import {
+  getCommerceLinkRel,
+  getProductOfferLink,
+  priceDisplay,
+} from "@/data/products";
 
 // ─── Props ──────────────────────────────────────────────────────
 
@@ -17,18 +21,6 @@ export interface ComparisonTableProps {
 }
 
 // ─── Helpers ────────────────────────────────────────────────────
-
-/** Resolve the best affiliate link URL for a product. Amazon fallback uses ASIN. */
-function getCtaUrl(product: Product): string {
-  if (product.affiliateLinks.length > 0) {
-    const best = product.affiliateLinks.reduce((a, b) => (a.priority <= b.priority ? a : b));
-    return best.url;
-  }
-  if (product.asin) {
-    return buildAmazonLink(product.asin);
-  }
-  return "#";
-}
 
 /** Resolve which spec keys to display. Uses provided specKeys, or falls back to first 3 from the first product. */
 function resolveSpecKeys(products: Product[], specKeys?: string[]): string[] {
@@ -144,20 +136,29 @@ function DesktopTable({
             <td className="py-4 px-4"></td>
             {products.map((product) => (
               <td key={product.id} className="py-4 px-4 text-center">
-                <a
-                  href={getCtaUrl(product)}
-                  target="_blank"
-                  rel="nofollow noopener noreferrer sponsored"
-                  className="inline-block rounded-sm bg-[#27ae60] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#219a52]"
-                >
-                  Check Price
-                </a>
-                <a
-                  href={`#review-${product.slug}`}
-                  className="mt-2 block text-xs text-[#6F4E37]/60 underline decoration-dotted underline-offset-2 hover:text-[#6F4E37] transition-colors"
-                >
-                  Read full review
-                </a>
+                {(() => {
+                  const offerLink = getProductOfferLink(product);
+                  return offerLink ? (
+                    <>
+                      <a
+                        href={offerLink.url}
+                        target="_blank"
+                        rel={getCommerceLinkRel(offerLink)}
+                        className="inline-block rounded-sm bg-[#27ae60] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#219a52]"
+                      >
+                        Check Price
+                      </a>
+                      <a
+                        href={`#review-${product.slug}`}
+                        className="mt-2 block text-xs text-[#6F4E37]/60 underline decoration-dotted underline-offset-2 hover:text-[#6F4E37] transition-colors"
+                      >
+                        Read full review
+                      </a>
+                    </>
+                  ) : (
+                    <span className="text-xs text-[#6F4E37]/60">Retail links unavailable</span>
+                  );
+                })()}
               </td>
             ))}
           </tr>
@@ -242,20 +243,29 @@ function MobileCards({
 
           {/* CTA */}
           <div className="px-4 py-3 border-t border-[#2C1810]/8 text-center">
-            <a
-              href={getCtaUrl(product)}
-              target="_blank"
-              rel="nofollow noopener noreferrer sponsored"
-              className="inline-block w-full rounded-sm bg-[#27ae60] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#219a52]"
-            >
-              Check Price
-            </a>
-            <a
-              href={`#review-${product.slug}`}
-              className="mt-2 inline-block text-xs text-[#6F4E37]/60 underline decoration-dotted underline-offset-2 hover:text-[#6F4E37] transition-colors"
-            >
-              Read full review
-            </a>
+            {(() => {
+              const offerLink = getProductOfferLink(product);
+              return offerLink ? (
+                <>
+                  <a
+                    href={offerLink.url}
+                    target="_blank"
+                    rel={getCommerceLinkRel(offerLink)}
+                    className="inline-block w-full rounded-sm bg-[#27ae60] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#219a52]"
+                  >
+                    Check Price
+                  </a>
+                  <a
+                    href={`#review-${product.slug}`}
+                    className="mt-2 inline-block text-xs text-[#6F4E37]/60 underline decoration-dotted underline-offset-2 hover:text-[#6F4E37] transition-colors"
+                  >
+                    Read full review
+                  </a>
+                </>
+              ) : (
+                <span className="text-xs text-[#6F4E37]/60">Retail links unavailable</span>
+              );
+            })()}
           </div>
         </div>
       ))}

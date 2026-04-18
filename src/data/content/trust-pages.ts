@@ -60,5 +60,5 @@ export const disclosureContent = {
   aiTransparency:
     "AI may assist with drafting, organization, or workflow support, but published recommendations should stay grounded in real source material, verified product data, and human editorial judgment.",
   closing:
-    "Publication contact details and any operating entity details should be added before the site goes fully public.",
+    "Material relationship changes, new affiliate programs, and page-level commerce notes are updated before the corresponding links are promoted on the site.",
 };

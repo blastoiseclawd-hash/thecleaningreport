@@ -3,3 +3,7 @@ node_modules
 out
 dist
 .vercel
+
+tsconfig.tsbuildinfo
+.env*
+!.env.local.example

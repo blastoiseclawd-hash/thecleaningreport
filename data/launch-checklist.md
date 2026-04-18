@@ -13,8 +13,8 @@
 - [x] Customer-avatar research completed with real sources
 - [x] Editorial desks expanded with full voice guides
 - [x] Keyword map created from researched avatars
-- [ ] Master roadmap and launch slice generated
-- [ ] At least 3 manual launch pages are planned from the scored roadmap
+- [x] Master roadmap and launch slice generated
+- [x] At least 3 manual launch pages are planned from the scored roadmap
 - [ ] First 3 manual launch pages are built and reviewed
 
 ## After first public launch
