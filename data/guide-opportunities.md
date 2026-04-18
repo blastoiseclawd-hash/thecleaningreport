@@ -7,6 +7,19 @@ Current validated roadmap size: `88` opportunities
 - `32` support/comparison pages
 - sitewide ratio: `1.75 : 1`
 
+## Linkable Assets
+
+*Discovered via `identify-linkable-assets` on 2026-04-18 (Phase 8.5 Block A5). Full candidate file: `data/linkable-asset-candidates.md`.*
+*Asset Score is the 0–12 `identify-linkable-assets` rubric, not the volume-weighted score used in cluster tables. Rows here do not affect the Summary count math (cluster tables only).*
+
+| # | Asset Score (0–12) | Pattern | Zone | Build hrs | Desk | Status | Title |
+|---|-------------------|---------|------|-----------|------|--------|-------|
+| 1 | 11 | lookup | 1 | 20 | Deep Clean & Maintenance | NOT BUILT | Floor-surface compatibility matrix — vacuum/mop/cleaner safety across hardwood, laminate, tile, vinyl, carpet, stone, concrete |
+| 2 | 9 | downloadable | 1 | 11 | Floor Care & Pet Mess | NOT BUILT | Cat-litter + pet-stain carpet-rescue decision tree (printable PDF) |
+| 3 | 9 | downloadable | 1 | 9 | Floor Care & Pet Mess | NOT BUILT | Robot-vacuum monthly maintenance schedule (printable PDF) |
+| 4 | 8 | lookup | 1 | 16 | Floor Care & Pet Mess | NOT BUILT | Pet-hair tool lookup — tool × pet × floor × shedding level matrix |
+| 5 | 7 | diagram | 1 | 12 | Everyday Cleaning | NOT BUILT | Vacuum suction-loss troubleshooting flowchart (embeddable diagram + checklist hybrid) |
+
 ## Data Sources
 
 - **Fresh Ahrefs MCP (2026-04-18 pull) for 15 seed families:**

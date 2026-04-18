@@ -24,9 +24,12 @@ Before starting any task, scan the parent repo skills in `.claude/skills/` and f
 
 ## Phase Status
 
-- Current phase: `map-keywords-to-avatars` complete
-- Validation gate: passed in [`data/thecleaningreport-launch-validation-2026-04-16.md`](../../data/thecleaningreport-launch-validation-2026-04-16.md)
-- Next required phase: `generate-guide-opportunities`
+- Current phase: `infrastructure-complete` (Phase 8.5 Block A CLOSED 2026-04-18)
+- Validation log: [`data/site-launcher-agent-tcr-validation.md`](../../data/site-launcher-agent-tcr-validation.md) Session 3+
+- Phase 1–6 baseline: installed — publisher.ts, bot-policy.ts, llms.txt, ai-disclosure, cookie-consent, direct-answer, schema.tsx (Phase 8 productSchema), sitemap per-page mtime.
+- Linkable-asset candidates: 5 rows in [`data/guide-opportunities.md`](./data/guide-opportunities.md) `## Linkable Assets`.
+- PostHog: deferred per Phase 11.8 (GA-only consent banner shipped).
+- Next required phase: Phase 8.5 Block B1 — refresh `/best-robot-vacuum` to Phase 1-6 standards.
 
 ## Editorial Desks
 

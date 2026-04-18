@@ -85,6 +85,7 @@ export const siteConfig = {
       { label: "About", href: "/about" },
       { label: "How We Review", href: "/how-we-review" },
       { label: "Affiliate Disclosure", href: "/disclosure" },
+      { label: "AI & Editorial Transparency", href: "/ai-disclosure" },
       { label: "Privacy Policy", href: "/privacy" },
       { label: "Terms of Service", href: "/terms" },
     ],

@@ -84,10 +84,21 @@ export function getPublicPageRoutes(): PublicRouteEntry[] {
   }));
 }
 
-export function buildPublicSitemapEntries(lastModified = new Date().toISOString()) {
+function pageMtime(routePath: string): string {
+  const appDir = path.join(process.cwd(), "src", "app");
+  const relative = routePath === "/" ? "page.tsx" : path.join(routePath.slice(1), "page.tsx");
+  const pageFile = path.join(appDir, relative);
+  try {
+    return fs.statSync(pageFile).mtime.toISOString();
+  } catch {
+    return new Date().toISOString();
+  }
+}
+
+export function buildPublicSitemapEntries() {
   return getPublicPageRoutes().map((entry) => ({
     url: entry.path === "/" ? siteConfig.url : `${siteConfig.url}${entry.path}`,
-    lastModified,
+    lastModified: pageMtime(entry.path),
     changeFrequency: entry.changeFrequency,
     priority: entry.priority,
   }));

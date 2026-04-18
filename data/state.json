@@ -1,6 +1,6 @@
 {
   "site": "thecleaningreport",
-  "phase": "manual-baseline",
+  "phase": "infrastructure-complete",
   "lastDailyRunAt": null,
   "lastWeeklyReviewAt": null,
   "lastMonthlyRefreshAt": null,
@@ -10,14 +10,14 @@
   "blockers": [
     {
       "id": "launch-spine-incomplete",
-      "description": "Only 1 of 4 launch-spine money pages exists (best-robot-vacuum). Cordless, pet-hair, steam-mop pages missing. Phase 0 P0.10 band-aided homepage tiles; full fix is Phase 7 P7.1.",
+      "description": "Only 1 of 4 launch-spine money pages exists (best-robot-vacuum). Cordless, pet-hair, steam-mop pages pending Block B (B2-B4). Homepage tiles remain band-aided per Phase 0 P0.10 until Block D closes.",
       "createdAt": "2026-04-17"
     }
   ],
   "metrics": {
-    "pagesLive": 6,
-    "pagesQueued": 60,
+    "pagesLive": 8,
+    "pagesQueued": 88,
     "pagesDraft": 0
   },
-  "notes": "Phase 0 seed 2026-04-17. Launch spine incomplete (1/4 money pages). Stays manual-baseline until Phase 7 P7.1 ships cordless + pet-hair + steam-mop guides. Automation extends to TCR only after that."
+  "notes": "Phase 8.5 Block A CLOSED 2026-04-18. Phase 1-6 baseline installed via launcher skills: publisher.ts, bot-policy.ts, llms.txt, ai-disclosure, cookie-consent, direct-answer, sitemap per-page mtime. Schema.tsx refreshed with Phase 8 productSchema fields. 5 linkable-asset candidates injected into guide-opportunities.md. Stays infrastructure-complete until Block B1 ships (best-robot-vacuum refresh)."
 }

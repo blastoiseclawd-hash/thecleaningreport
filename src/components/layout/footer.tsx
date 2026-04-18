@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { siteConfig } from "@/config/site";
+import { editor } from "@/data/publisher";
 
 export function Footer() {
   return (
@@ -112,6 +113,12 @@ export function Footer() {
       <div className="border-t border-[#273640] bg-[#10181f]">
         <div className="site-shell flex flex-col gap-3 py-5 text-center text-[0.85rem] text-[#a8b5b0] sm:text-left">
           <p>{siteConfig.ftcDisclosure}</p>
+          <p>
+            Published by {siteConfig.name} &middot; Edited by{" "}
+            <Link href="/about" className="hover:text-white">
+              {editor.name}
+            </Link>
+          </p>
           <p>
             Editorial contact:{" "}
             <a href={`mailto:${siteConfig.publication.contactEmail}`} className="hover:text-white">
