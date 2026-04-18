@@ -10,6 +10,18 @@ export interface AffiliateLink {
   priority: number;
 }
 
+// TCR-exclusive signature — 0-5 scale per axis, 0 = worst friction, 5 = best.
+// Default axes are TCR-standard; individual pages may override via content
+// data `frictionAxes` if a category does not use one of the five (e.g. a
+// cordless vacuum has no dock axis).
+export interface FrictionScoreAxes {
+  clean: number;
+  nav: number;
+  dock: number;
+  noise: number;
+  routine: number;
+}
+
 export interface Product {
   id: string;
   slug: string;
@@ -38,6 +50,7 @@ export interface Product {
   lastUpdated: string;
   updateNotes: string;
   status: "active" | "discontinued" | "out-of-stock";
+  frictionScore?: FrictionScoreAxes;
 }
 
 export const categorySpecs: Record<string, string[]> = {
