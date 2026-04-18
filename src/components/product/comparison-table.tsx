@@ -77,7 +77,7 @@ function DesktopTable({
                 >
                   <div className="relative mx-auto mb-2 h-28 w-28">
                     <Image
-                      src={product.thumbnailUrl || product.images[0]?.url || "/images/logo-icon.svg"}
+                      src={product.thumbnailUrl || product.images[0]?.url || "/favicon.svg"}
                       alt={product.images[0]?.alt || product.name}
                       fill
                       className="object-contain"
@@ -199,7 +199,7 @@ function MobileCards({
             <a href={`#review-${product.slug}`} className="block group">
               <div className="relative mx-auto mb-3 h-32 w-32">
                 <Image
-                  src={product.thumbnailUrl || product.images[0]?.url || "/images/logo-icon.svg"}
+                  src={product.thumbnailUrl || product.images[0]?.url || "/favicon.svg"}
                   alt={product.images[0]?.alt || product.name}
                   fill
                   className="object-contain"

@@ -44,7 +44,7 @@ export function QuickAnswerBox({
         <div className="flex shrink-0 justify-center">
           <div className="relative size-28 bg-[#FAFAF8] p-1 sm:size-32">
             <Image
-              src={product.thumbnailUrl || product.images[0]?.url || "/images/logo-icon.svg"}
+              src={product.thumbnailUrl || product.images[0]?.url || "/favicon.svg"}
               alt={product.images[0]?.alt || product.name}
               fill
               className="object-contain p-2"

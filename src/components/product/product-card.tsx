@@ -88,7 +88,7 @@ export function ProductCard({
             )}
           >
             <Image
-              src={product.thumbnailUrl || product.images[0]?.url || "/images/logo-icon.svg"}
+              src={product.thumbnailUrl || product.images[0]?.url || "/favicon.svg"}
               alt={product.images[0]?.alt || name}
               fill
               className="object-contain p-3"

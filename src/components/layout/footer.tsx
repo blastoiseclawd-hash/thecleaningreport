@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 import { siteConfig } from "@/config/site";
@@ -11,28 +10,13 @@ export function Footer() {
         <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr_1fr]">
           <div className="space-y-5">
             <Link href="/" className="inline-block">
-              <div className="flex items-center gap-3">
-                <div className="relative h-12 w-12 shrink-0 overflow-hidden rounded-xl border border-[#31424c] bg-[#fff8ef] p-1">
-                  <Image
-                    src={siteConfig.brandAssets.icon}
-                    alt={`${siteConfig.name} icon`}
-                    fill
-                    className="object-contain p-1"
-                    sizes="48px"
-                  />
-                </div>
-                <div>
-                  <Image
-                    src={siteConfig.brandAssets.wordmark}
-                    alt={siteConfig.name}
-                    width={420}
-                    height={72}
-                    className="h-auto max-w-[17rem]"
-                  />
-                  <p className="mt-1 text-[0.78rem] font-semibold uppercase tracking-[0.22em] text-[#b8c7b2] sm:text-[0.84rem]">
-                    {siteConfig.tagline}
-                  </p>
-                </div>
+              <div>
+                <p className="text-[1.35rem] font-bold leading-tight text-[#f6fbf8]">
+                  {siteConfig.name}
+                </p>
+                <p className="mt-1 text-[0.78rem] font-semibold uppercase tracking-[0.22em] text-[#b8c7b2] sm:text-[0.84rem]">
+                  {siteConfig.tagline}
+                </p>
               </div>
             </Link>
 

@@ -53,7 +53,7 @@ export type Publisher = {
 export const publisher: Publisher = {
   name: siteConfig.name,
   url: siteConfig.url,
-  logo: `${siteConfig.url}/images/logo.png`,
+  logo: `${siteConfig.url}/favicon.svg`,
   foundingDate: "2026",
 };
 
