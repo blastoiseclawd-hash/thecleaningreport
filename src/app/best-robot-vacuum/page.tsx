@@ -44,6 +44,11 @@ export default function BestRobotVacuumPage() {
       faqs={content.faqs}
       breadcrumbLabel={content.breadcrumbLabel}
       lastUpdatedNote={content.lastUpdatedNote}
+      relatedLinks={[
+        { href: "/how-we-review", title: "How we score cleaning tools" },
+        { href: "/ai-disclosure", title: "AI and editorial transparency" },
+        { href: "/disclosure", title: "Affiliate disclosure" },
+      ]}
     />
   );
 }

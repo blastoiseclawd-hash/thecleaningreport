@@ -57,28 +57,28 @@ Blocks B-D locked for Phase 8.5 content sessions (22 pages). First three rows pr
 
 | # | Slug | Cluster | Page Type | Primary Keyword | Vol | KD | TP | Score | Desk | Status |
 |---|---|---|---|---|---:|---:|---:|---:|---|---|
-| 1 (B1) | best-robot-vacuum | Robot Vacuums | money-guide | best robot vacuum | 60000 | 8 | 38000 | 9.8 | Floor Care & Pet Mess Desk | IN PROGRESS |
-| 2 (B2) | best-cordless-vacuum | Cordless Vacuums | money-guide | best cordless vacuum | 51000 | 24 | 68000 | 9.4 | Everyday Cleaning Desk | NOT BUILT |
-| 3 (B3) | best-vacuum-for-pet-hair | Pet Mess & Hair | money-guide | best vacuum for pet hair | 32000 | 0 | 38000 | 9.6 | Floor Care & Pet Mess Desk | NOT BUILT |
-| 4 (B4) | best-steam-mop | Steam Mops | money-guide | best steam mop | 9200 | 2 | 13000 | 9.1 | Deep Clean & Maintenance Desk | NOT BUILT |
-| 5 (C1) | best-carpet-cleaner | Carpet & Upholstery | money-guide | best carpet cleaner | 22000 | 6 | 16000 | 9.5 | Deep Clean & Maintenance Desk | NOT BUILT |
-| 6 (C2) | best-handheld-vacuum | Handheld & Upright | money-guide | best handheld vacuum | 17000 | 2 | 23000 | 9.4 | Everyday Cleaning Desk | NOT BUILT |
-| 7 (C3) | best-grout-cleaner | Surface-Safe Deep Clean | money-guide | best grout cleaner | 8800 | 1 | 90 | 9.0 | Deep Clean & Maintenance Desk | NOT BUILT |
-| 8 (C4) | best-upholstery-cleaner | Carpet & Upholstery | money-guide | best upholstery cleaner | 5800 | 1 | 6500 | 9.0 | Deep Clean & Maintenance Desk | NOT BUILT |
-| 9 (C5) | best-hardwood-floor-cleaner | Surface-Safe Deep Clean | money-guide | best hardwood floor cleaner | 4400 | 1 | 11000 | 9.0 | Deep Clean & Maintenance Desk | NOT BUILT |
-| 10 (C6) | best-carpet-cleaner-for-pets | Carpet & Upholstery | money-guide | best carpet cleaner for pets | 6400 | 4 | 8600 | 9.0 | Floor Care & Pet Mess Desk | NOT BUILT |
-| 11 (C7) | best-upright-vacuum | Handheld & Upright | money-guide | best upright vacuum | 5100 | 1 | 2400 | 8.8 | Everyday Cleaning Desk | NOT BUILT |
-| 12 (C8) | best-robot-vacuum-and-mop | Robot Vacuums | money-guide | best robot vacuum and mop | 19000 | 9 | 39000 | 9.0 | Floor Care & Pet Mess Desk | NOT BUILT |
-| 13 (D1) | are-robot-vacuums-worth-it | Robot Vacuums | comparison | are robot vacuums worth it | 700 | 2 | 400 | 8.2 | Floor Care & Pet Mess Desk | NOT BUILT |
-| 14 (D2) | is-a-steam-mop-better-than-a-mop | Steam Mops | comparison | is a steam mop better than a mop | 20 | 1 | 700 | 8.0 | Deep Clean & Maintenance Desk | NOT BUILT |
-| 15 (D3) | do-steam-mops-ruin-hardwood-floors | Steam Mops | support-guide | do steam mops ruin hardwood floors | fallback | fallback | fallback | 8.2 | Deep Clean & Maintenance Desk | NOT BUILT |
-| 16 (D4) | cordless-vacuum-vs-upright-vacuum | Cordless Vacuums | comparison | cordless vacuum vs upright vacuum | fallback | fallback | fallback | 7.9 | Everyday Cleaning Desk | NOT BUILT |
-| 17 (D5) | bagged-vs-bagless-vacuum-for-pet-hair | Pet Mess & Hair | comparison | bagged vs bagless vacuum for pet hair | fallback | fallback | fallback | 7.6 | Floor Care & Pet Mess Desk | NOT BUILT |
-| 18 (D6) | how-to-clean-grout | Surface-Safe Deep Clean | support-guide | how to clean grout | 13000 | 13 | 9200 | 8.5 | Deep Clean & Maintenance Desk | NOT BUILT |
-| 19 (D7) | how-to-clean-grout-lines | Surface-Safe Deep Clean | support-guide | how to clean grout lines | 6500 | 1 | 9300 | 8.3 | Deep Clean & Maintenance Desk | NOT BUILT |
-| 20 (D8) | best-way-to-clean-hardwood-floors | Surface-Safe Deep Clean | support-guide | best way to clean hardwood floors | 3800 | 2 | 5400 | 8.0 | Deep Clean & Maintenance Desk | NOT BUILT |
-| 21 (D9) | do-robot-vacuums-work-on-thick-carpet | Robot Vacuums | support-guide | do robot vacuums work on thick carpet | fallback | fallback | fallback | 7.8 | Floor Care & Pet Mess Desk | NOT BUILT |
-| 22 (D10) | do-you-need-a-self-empty-dock | Robot Vacuums | support-guide | do you need a self-empty dock | fallback | fallback | fallback | 7.8 | Floor Care & Pet Mess Desk | NOT BUILT |
+| 1 | best-robot-vacuum | Robot Vacuums | money-guide | best robot vacuum | 60000 | 8 | 38000 | 9.8 | Floor Care & Pet Mess Desk | LIVE |
+| 2 | best-cordless-vacuum | Cordless Vacuums | money-guide | best cordless vacuum | 51000 | 24 | 68000 | 9.4 | Everyday Cleaning Desk | NOT BUILT |
+| 3 | best-vacuum-for-pet-hair | Pet Mess & Hair | money-guide | best vacuum for pet hair | 32000 | 0 | 38000 | 9.6 | Floor Care & Pet Mess Desk | NOT BUILT |
+| 4 | best-steam-mop | Steam Mops | money-guide | best steam mop | 9200 | 2 | 13000 | 9.1 | Deep Clean & Maintenance Desk | NOT BUILT |
+| 5 | best-carpet-cleaner | Carpet & Upholstery | money-guide | best carpet cleaner | 22000 | 6 | 16000 | 9.5 | Deep Clean & Maintenance Desk | NOT BUILT |
+| 6 | best-handheld-vacuum | Handheld & Upright | money-guide | best handheld vacuum | 17000 | 2 | 23000 | 9.4 | Everyday Cleaning Desk | NOT BUILT |
+| 7 | best-grout-cleaner | Surface-Safe Deep Clean | money-guide | best grout cleaner | 8800 | 1 | 90 | 9.0 | Deep Clean & Maintenance Desk | NOT BUILT |
+| 8 | best-upholstery-cleaner | Carpet & Upholstery | money-guide | best upholstery cleaner | 5800 | 1 | 6500 | 9.0 | Deep Clean & Maintenance Desk | NOT BUILT |
+| 9 | best-hardwood-floor-cleaner | Surface-Safe Deep Clean | money-guide | best hardwood floor cleaner | 4400 | 1 | 11000 | 9.0 | Deep Clean & Maintenance Desk | NOT BUILT |
+| 10 | best-carpet-cleaner-for-pets | Carpet & Upholstery | money-guide | best carpet cleaner for pets | 6400 | 4 | 8600 | 9.0 | Floor Care & Pet Mess Desk | NOT BUILT |
+| 11 | best-upright-vacuum | Handheld & Upright | money-guide | best upright vacuum | 5100 | 1 | 2400 | 8.8 | Everyday Cleaning Desk | NOT BUILT |
+| 12 | best-robot-vacuum-and-mop | Robot Vacuums | money-guide | best robot vacuum and mop | 19000 | 9 | 39000 | 9.0 | Floor Care & Pet Mess Desk | NOT BUILT |
+| 13 | are-robot-vacuums-worth-it | Robot Vacuums | comparison | are robot vacuums worth it | 700 | 2 | 400 | 8.2 | Floor Care & Pet Mess Desk | NOT BUILT |
+| 14 | is-a-steam-mop-better-than-a-mop | Steam Mops | comparison | is a steam mop better than a mop | 20 | 1 | 700 | 8.0 | Deep Clean & Maintenance Desk | NOT BUILT |
+| 15 | do-steam-mops-ruin-hardwood-floors | Steam Mops | support-guide | do steam mops ruin hardwood floors | fallback | fallback | fallback | 8.2 | Deep Clean & Maintenance Desk | NOT BUILT |
+| 16 | cordless-vacuum-vs-upright-vacuum | Cordless Vacuums | comparison | cordless vacuum vs upright vacuum | fallback | fallback | fallback | 7.9 | Everyday Cleaning Desk | NOT BUILT |
+| 17 | bagged-vs-bagless-vacuum-for-pet-hair | Pet Mess & Hair | comparison | bagged vs bagless vacuum for pet hair | fallback | fallback | fallback | 7.6 | Floor Care & Pet Mess Desk | NOT BUILT |
+| 18 | how-to-clean-grout | Surface-Safe Deep Clean | support-guide | how to clean grout | 13000 | 13 | 9200 | 8.5 | Deep Clean & Maintenance Desk | NOT BUILT |
+| 19 | how-to-clean-grout-lines | Surface-Safe Deep Clean | support-guide | how to clean grout lines | 6500 | 1 | 9300 | 8.3 | Deep Clean & Maintenance Desk | NOT BUILT |
+| 20 | best-way-to-clean-hardwood-floors | Surface-Safe Deep Clean | support-guide | best way to clean hardwood floors | 3800 | 2 | 5400 | 8.0 | Deep Clean & Maintenance Desk | NOT BUILT |
+| 21 | do-robot-vacuums-work-on-thick-carpet | Robot Vacuums | support-guide | do robot vacuums work on thick carpet | fallback | fallback | fallback | 7.8 | Floor Care & Pet Mess Desk | NOT BUILT |
+| 22 | do-you-need-a-self-empty-dock | Robot Vacuums | support-guide | do you need a self-empty dock | fallback | fallback | fallback | 7.8 | Floor Care & Pet Mess Desk | NOT BUILT |
 
 ## Support Coverage Audit
 

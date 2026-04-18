@@ -54,13 +54,9 @@ export function buildAmazonLink(asin: string, tag = "thecleaningreport-20"): str
   return `https://www.amazon.com/dp/${asin}?tag=${tag}`;
 }
 
-export function isValidAffiliateLink(link: AffiliateLink): boolean {
-  return Boolean(link.url && !link.url.includes("/dp/?tag="));
-}
-
 export function getAffiliateLinksByPriority(product: Product): AffiliateLink[] {
   return [...product.affiliateLinks]
-    .filter(isValidAffiliateLink)
+    .filter((link) => Boolean(link.url))
     .sort((a, b) => a.priority - b.priority);
 }
 
@@ -171,7 +167,7 @@ export const products: Product[] = [
     affiliateLinks: [
       {
         retailer: "Amazon",
-        url: buildAmazonLink("B0F3J6FR1H"),
+        url: "https://www.amazon.com/dp/B0F3J6FR1H?tag=thecleaningreport-20",
         tag: "thecleaningreport-20",
         priority: 1,
       },
@@ -330,7 +326,7 @@ export const products: Product[] = [
     images: [
       {
         url: "https://m.media-amazon.com/images/I/41WnAdfqthL._AC_SY300_SX300_QL70_ML2_.jpg",
-        alt: "Yeedi S20 Plus robot vacuum and dock product image",
+        alt: "Yeedi S20 Plus robot vacuum sitting on bagless auto-empty dock",
       },
     ],
     thumbnailUrl: "https://m.media-amazon.com/images/I/41WnAdfqthL._AC_SY300_SX300_QL70_ML2_.jpg",
@@ -356,7 +352,7 @@ export const products: Product[] = [
     affiliateLinks: [
       {
         retailer: "Amazon",
-        url: buildAmazonLink("B0FKSMWJHM"),
+        url: "https://www.amazon.com/dp/B0FKSMWJHM?tag=thecleaningreport-20",
         tag: "thecleaningreport-20",
         priority: 1,
       },
@@ -416,7 +412,7 @@ export const products: Product[] = [
     affiliateLinks: [
       {
         retailer: "Amazon",
-        url: buildAmazonLink("B0G5X4H4PS"),
+        url: "https://www.amazon.com/dp/B0G5X4H4PS?tag=thecleaningreport-20",
         tag: "thecleaningreport-20",
         priority: 1,
       },
@@ -450,7 +446,7 @@ export const products: Product[] = [
     images: [
       {
         url: "https://us.roborock.com/cdn/shop/files/01_q7m5.png?v=1756713888&width=1946",
-        alt: "Roborock Q7 M5 robot vacuum product image",
+        alt: "Roborock Q7 M5 robot vacuum in white finish with charging base",
       },
     ],
     thumbnailUrl: "https://us.roborock.com/cdn/shop/files/01_q7m5.png?v=1756713888&width=1946",

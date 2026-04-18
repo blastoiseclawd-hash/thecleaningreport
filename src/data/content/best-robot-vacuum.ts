@@ -67,7 +67,7 @@ export const bestRobotVacuumGuide: BestRobotVacuumGuide = {
   modifiedDate: "2026-04-16",
 
   quickAnswer:
-    "The best robot vacuum for most people is the Dreame L50 Ultra because it gives you the premium robot-vacuum experience most homes actually want: strong navigation, real dock automation, and a much saner current price than the most extravagant flagships. If you need the cheapest honest self-empty option, get the TP-Link Tapo RV30 Max Plus. If you are paying up for low furniture and premium obstacle handling, the Roborock Saros 10R is the clearer reason to spend more.",
+    "The Dreame L50 Ultra is the best robot vacuum for most homes: strong navigation, real dock automation, and a saner price than flagship models. Pick the TP-Link Tapo RV30 Max Plus if budget matters most. Pick the Roborock Saros 10R if low furniture or cluttered floors need premium obstacle handling.",
 
   productOrder: [
     "dreame-l50-ultra",
@@ -208,7 +208,7 @@ export const bestRobotVacuumGuide: BestRobotVacuumGuide = {
   reviews: {
     "dreame-l50-ultra": {
       heading: "Best Overall: Dreame L50 Ultra",
-      reviewerScore: 4.6,
+      reviewerScore: 4.5,
       scoreDiffReason:
         "It ranked first because it gives the broad robot-vacuum reader the cleanest balance of automation, navigation, and current price without forcing a flagship budget.",
       body: `This is the machine most readers should start with. At $699.99, the Dreame L50 Ultra is not cheap, but it is still far easier to justify than the four-figure flagships once you look at what it actually does in a normal week. It gives you a real docked system, believable mixed-floor usefulness, and a premium-enough navigation story without turning the whole page into a splurge contest.
@@ -233,7 +233,7 @@ It still has premium-robot baggage. Consumables cost money, the dock still needs
     },
     "roborock-saros-10r": {
       heading: "Best Premium Pick: Roborock Saros 10R",
-      reviewerScore: 4.3,
+      reviewerScore: 4.0,
       scoreDiffReason:
         "It scores high because the premium case is real here, especially for low-clearance furniture and layout complexity, but it stays behind the L50 Ultra because the price jump is steep for the average home.",
       body: `This is the robot for readers who know exactly why they are spending more. The Saros 10R is not the page's value play. It is the premium answer for homes that get annoyed by weak obstacle handling, missed zones under furniture, and premium robots that still feel clumsy once the floor gets lived in.
@@ -257,7 +257,7 @@ This is exactly the kind of robot the desk likes in the premium tier: expensive,
     },
     "tp-link-tapo-rv30-max-plus": {
       heading: "Best Budget Pick: TP-Link Tapo RV30 Max Plus",
-      reviewerScore: 4.1,
+      reviewerScore: 4.0,
       scoreDiffReason:
         "It stays near the top because the budget story is unusually clean here: you still get an auto-empty dock, and the current price is low enough to change the recommendation for value-first buyers.",
       body: `This is where the page gets practical fast. The Tapo RV30 Max Plus is currently $189.99 on the official store with the visible store discount applied, and that price changes the whole conversation. A decent self-empty robot at this number is far more interesting than a cheap plain-bin robot that still needs constant bin handling.
@@ -305,7 +305,7 @@ If the bagged-dock model already annoys you on paper, this is the pick to read. 
     },
     "dreame-x60-ultra": {
       heading: "Best Splurge: Dreame X60 Ultra",
-      reviewerScore: 3.9,
+      reviewerScore: 4.0,
       scoreDiffReason:
         "It ranks well because the flagship hardware is real, but the value penalty is too large to let it challenge the top of the page.",
       body: `There is nothing subtle about the X60 Ultra. At $1,614.99, this is the page's clear splurge pick. It exists for readers who are not asking, "What should most people buy?" They are asking, "What is the top-end robot if I am willing to spend heavily?"
@@ -329,7 +329,7 @@ This is the right kind of splurge inclusion: a serious machine, honestly framed,
     },
     "roborock-q7-m5": {
       heading: "Best Vacuum-First Value Pick: Roborock Q7 M5",
-      reviewerScore: 3.8,
+      reviewerScore: 3.5,
       scoreDiffReason:
         "It stays in the lineup because it gives the page a simpler vacuum-first option, but it ranks lower because it removes less work than the docked picks above it.",
       body: `Not every home wants a docked robot ecosystem. Some readers just want a cleaner, simpler robot that vacuums well enough, maps decently, and does not cost premium money. The Q7 M5 fills that role better than many cheaper robots that try to fake a premium story.

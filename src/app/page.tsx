@@ -1,12 +1,22 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 
 import { siteConfig } from "@/config/site";
+import { generatePageMetadata } from "@/lib/metadata";
 
 const coverageHighlights = siteConfig.categories.map((category) => ({
   slug: category.slug,
   name: category.name,
   summary: category.description,
 }));
+
+export const metadata: Metadata = generatePageMetadata({
+  title: siteConfig.defaultTitle,
+  description:
+    "Practical buying guides for robot vacuums, cordless vacuums, steam mops, and pet-mess cleanup that help real homes stay cleaner with less daily friction.",
+  slug: "",
+  type: "website",
+});
 
 export default function HomePage() {
   return (

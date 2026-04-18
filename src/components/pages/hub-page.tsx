@@ -9,6 +9,7 @@ import {
 } from "@/data/products";
 import { AuthorBioCard } from "@/components/content/author-bio";
 import { ProductImageGallery } from "@/components/product/product-image-gallery";
+import { DirectAnswer } from "@/components/content/direct-answer";
 import { articleSchema, breadcrumbSchema, faqSchema, productSchema, JsonLd } from "@/lib/schema";
 import { siteConfig } from "@/config/site";
 
@@ -178,9 +179,12 @@ export function HubPage({
               <h1 className="display-title mt-6 max-w-5xl text-[#f6fbf8]">
                 {title}
               </h1>
-              <p className="mt-7 max-w-3xl text-[1.2rem] leading-9 text-[#dae4de] sm:text-[1.28rem]">
+              <DirectAnswer
+                text={quickAnswer}
+                className="mt-7 max-w-3xl text-[1.2rem] leading-9 text-[#dae4de] sm:text-[1.28rem]"
+              >
                 {quickAnswer}
-              </p>
+              </DirectAnswer>
 
               <div className="mt-8 flex flex-wrap items-center gap-x-5 gap-y-2 text-[0.96rem] text-[#c3d0cb]">
                 <span>
