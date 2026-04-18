@@ -50,17 +50,26 @@ Desk operating notes:
 
 ## Customer Avatars (Research-Backed)
 
-Phase 2 is complete in [`data/avatar-research.md`](./data/avatar-research.md).
+Phase 2 complete in [`data/avatar-research.md`](./data/avatar-research.md). Expanded 2026-04-18 to cover all 10 clusters from the refreshed master roadmap — 6 full-depth avatars (launch clusters) + 3 backlog-light avatars with a deepen-on-promotion policy.
 
-Final avatar set:
+Full avatars (all launch clusters covered):
 - **Automation-Minded Floor-Care Upgrader**: higher-AOV robot-vacuum buyer who pays to remove recurring work, with strong focus on dock upkeep, app reliability, obstacle handling, and pet-hair performance.
 - **Practical Cordless Buyer**: mainstream value-driven shopper who wants strong everyday pickup, manageable weight, easy storage, and clear best-under-$X guidance without premium fluff.
-- **Pet-Mess Floor Manager**: higher-friction pet household buyer who shops around tangles, furniture and stair cleanup, litter, mixed surfaces, and maintenance burden.
-- **Surface-Specific Deep Cleaner**: steam-mop and specialty-cleaning buyer who starts with floor-type safety and wants clear use-this or avoid-this guidance before features.
+- **Pet-Mess Floor Manager**: higher-friction pet household buyer who shops around tangles, furniture and stair cleanup, litter, mixed surfaces, and maintenance burden. Now also owns pet-specific carpet cleaner queries.
+- **Surface-Specific Deep Cleaner**: caution-first steam-mop and surface-liquid-cleaner buyer. Scope expanded to hardwood floor cleaners, grout cleaners, and stainless steel cleaners. Owns the Surface-Safe Deep Clean launch cluster.
+- **Deep-Restoration Carpet & Upholstery Buyer** (new 2026-04-18): one-time buyer upgrading off Rug Doctor rentals, semi-annual refresh, moved-in, or stain-crisis. Non-pet-focused. Owns `best-carpet-cleaner`, `best-upholstery-cleaner`, `best-portable-carpet-cleaner`.
+- **Quick-Clean Handheld & Supplement Buyer** (new 2026-04-18): already owns a primary vacuum; shops handheld as a supplement for car cleanup, crumb patrol, stairs, and quick-burst use. Owns `best-handheld-vacuum`.
+
+Backlog-light avatars (deepen on cluster promotion — see policy in avatar-research.md):
+- **Traditional Upright Vacuum Buyer** — backlog for `best-upright-vacuum`; Practical Cordless voice carries interim content.
+- **Home-Maintenance DIY Buyer** — backlog for Window Cleaning Tools and Dryer Vent Cleaning Kits.
+- **Generic Mop Buyer** — backlog for non-steam mop pages; Surface-Specific Deep Cleaner voice carries interim content.
 
 Important interpretation:
-- `Small-home or apartment cleaner` remains a useful context, but the research showed it belongs inside `Practical Cordless Buyer` rather than standing alone as its own top-level avatar.
-- The first three launch pages still map cleanly to the strongest avatars: `best-robot-vacuum`, `best-cordless-vacuum`, and `best-vacuum-for-pet-hair`.
+- `Small-home or apartment cleaner` remains inside `Practical Cordless Buyer` rather than standing alone.
+- First-wave launch pages map cleanly to the strongest avatars: `best-robot-vacuum`, `best-cordless-vacuum`, `best-vacuum-for-pet-hair`, `best-steam-mop`, `best-carpet-cleaner`, `best-handheld-vacuum`.
+- Deep Clean & Maintenance Desk owns 4 of 7 launch clusters post-expansion and is the most load-bearing desk voice for Phase 8.5 Blocks C and D.
+- Backlog deepening policy is non-negotiable: any content session on a backlog-promoted slug must extend the relevant avatar to full depth BEFORE `plan-guide-pages` runs. See `plan-guide-pages` skill for the gate and `data/avatar-research.md` § "Backlog-cluster deepening policy" for the procedure.
 
 ## Content Categories
 
