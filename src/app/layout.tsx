@@ -1,11 +1,12 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, JetBrains_Mono, Manrope, Source_Serif_4 } from "next/font/google";
+import { Manrope, Source_Serif_4 } from "next/font/google";
 
 import { CookieConsent } from "@/components/consent/cookie-consent";
+import { Footer } from "@/components/layout/footer";
+import { Header } from "@/components/layout/header";
 import { siteConfig } from "@/config/site";
 import { JsonLd, websiteSchema } from "@/lib/schema";
 import "./globals.css";
-import "../styles/template-b.css";
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -14,18 +15,6 @@ const manrope = Manrope({
 
 const sourceSerif = Source_Serif_4({
   variable: "--font-source-serif",
-  subsets: ["latin"],
-  weight: ["400", "600", "700"],
-});
-
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
-
-const jetbrainsMono = JetBrains_Mono({
-  variable: "--font-jetbrains-mono",
   subsets: ["latin"],
   weight: ["400", "600", "700"],
 });
@@ -80,11 +69,13 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${manrope.variable} ${sourceSerif.variable} ${inter.variable} ${jetbrainsMono.variable} h-full antialiased`}
+      className={`${manrope.variable} ${sourceSerif.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col font-sans text-[#2C1810]">
         <JsonLd data={websiteSchema()} />
-        {children}
+        <Header />
+        <main className="flex-1">{children}</main>
+        <Footer />
         <CookieConsent />
       </body>
     </html>
