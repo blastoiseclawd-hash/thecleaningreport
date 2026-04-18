@@ -194,6 +194,13 @@ export const products: Product[] = [
     updateNotes:
       "Best robot vacuum lineup data verified against current Amazon listing plus Dreame official product page.",
     status: "active",
+    frictionScore: {
+      clean: 4.5,
+      nav: 4.5,
+      dock: 4.5,
+      noise: 3.5,
+      routine: 4,
+    },
   },
   {
     id: "roborock-saros-10r",
@@ -254,6 +261,13 @@ export const products: Product[] = [
     updateNotes:
       "Current retail price and product imagery verified on Roborock official store; review counts were not surfaced cleanly in-session.",
     status: "active",
+    frictionScore: {
+      clean: 4.5,
+      nav: 5,
+      dock: 4.5,
+      noise: 3.5,
+      routine: 3.5,
+    },
   },
   {
     id: "tp-link-tapo-rv30-max-plus",
@@ -314,6 +328,13 @@ export const products: Product[] = [
     updateNotes:
       "Current store pricing reflects the visible Tapo auto-applied discount shown on 2026-04-16.",
     status: "active",
+    frictionScore: {
+      clean: 2.5,
+      nav: 3.5,
+      dock: 3.5,
+      noise: 3.5,
+      routine: 3.5,
+    },
   },
   {
     id: "yeedi-s20-plus",
@@ -374,6 +395,13 @@ export const products: Product[] = [
     updateNotes:
       "Price, rating, and review count pulled from the current Amazon product listing for the best robot vacuum lineup.",
     status: "active",
+    frictionScore: {
+      clean: 4,
+      nav: 3.5,
+      dock: 3.5,
+      noise: 3.5,
+      routine: 3.5,
+    },
   },
   {
     id: "dreame-x60-ultra",
@@ -434,6 +462,13 @@ export const products: Product[] = [
     updateNotes:
       "Current Amazon price, review count, and listing imagery verified during the robot vacuum research pass.",
     status: "active",
+    frictionScore: {
+      clean: 5,
+      nav: 5,
+      dock: 5,
+      noise: 3.5,
+      routine: 4,
+    },
   },
   {
     id: "roborock-q7-m5",
@@ -493,5 +528,12 @@ export const products: Product[] = [
     updateNotes:
       "Current price and official imagery verified on Roborock store; review metrics were not surfaced cleanly in-session.",
     status: "active",
+    frictionScore: {
+      clean: 3.5,
+      nav: 3.5,
+      dock: 1.5,
+      noise: 3.5,
+      routine: 2.5,
+    },
   },
 ];
