@@ -1,0 +1,26 @@
+{
+  "overrides": [
+    "src/config/site.ts",
+    "src/config/bot-policy.ts",
+    "src/data/authors.ts",
+    "src/data/products.ts",
+    "src/data/keyword-map.ts",
+    "src/data/publisher.ts",
+    "package.json",
+    "README.md",
+    "AGENTS.md",
+    "CLAUDE.md"
+  ],
+  "notes": {
+    "src/config/site.ts": "Per-site branding (name, domain, affiliate tag).",
+    "src/config/bot-policy.ts": "Per-site AI bot policy.",
+    "src/data/authors.ts": "Editorial desk definitions.",
+    "src/data/products.ts": "Site-specific product catalog (includes FrictionScoreAxes).",
+    "src/data/keyword-map.ts": "Site-specific keyword-to-route map.",
+    "src/data/publisher.ts": "Publisher identity.",
+    "package.json": "Site-specific name + possibly scripts.",
+    "README.md": "Per-site README (rewritten Session 3 2026-04-18).",
+    "AGENTS.md": "Site-specific governance (portable section fenced in Track 8e).",
+    "CLAUDE.md": "Compatibility shim pointing at local AGENTS.md."
+  }
+}
