@@ -2,11 +2,10 @@ import type { Metadata, Viewport } from "next";
 import { Inter, JetBrains_Mono, Manrope, Source_Serif_4 } from "next/font/google";
 
 import { CookieConsent } from "@/components/consent/cookie-consent";
-import { Footer } from "@/components/layout/footer";
-import { Header } from "@/components/layout/header";
 import { siteConfig } from "@/config/site";
 import { JsonLd, websiteSchema } from "@/lib/schema";
 import "./globals.css";
+import "../styles/template-b.css";
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -85,9 +84,7 @@ export default function RootLayout({
     >
       <body className="flex min-h-full flex-col font-sans text-[#2C1810]">
         <JsonLd data={websiteSchema()} />
-        <Header />
-        <main className="flex-1">{children}</main>
-        <Footer />
+        {children}
         <CookieConsent />
       </body>
     </html>

@@ -41,10 +41,7 @@ export function StickyCTA({
   const [visible, setVisible] = useState(alwaysVisible);
 
   useEffect(() => {
-    if (alwaysVisible) {
-      setVisible(true);
-      return;
-    }
+    if (alwaysVisible) return;
     const onScroll = () => {
       const scrollY = window.scrollY;
       const docHeight = document.body.scrollHeight;

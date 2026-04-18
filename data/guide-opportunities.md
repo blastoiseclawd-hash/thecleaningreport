@@ -57,7 +57,7 @@ Blocks B-D locked for Phase 8.5 content sessions (22 pages). First three rows pr
 
 | # | Slug | Cluster | Page Type | Primary Keyword | Vol | KD | TP | Score | Desk | Status |
 |---|---|---|---|---|---:|---:|---:|---:|---|---|
-| 1 | best-robot-vacuum | Robot Vacuums | money-guide | best robot vacuum | 60000 | 8 | 38000 | 9.8 | Floor Care & Pet Mess Desk | NOT BUILT |
+| 1 | best-robot-vacuum | Robot Vacuums | money-guide | best robot vacuum | 60000 | 8 | 38000 | 9.8 | Floor Care & Pet Mess Desk | LIVE |
 | 2 | best-cordless-vacuum | Cordless Vacuums | money-guide | best cordless vacuum | 51000 | 24 | 68000 | 9.4 | Everyday Cleaning Desk | NOT BUILT |
 | 3 | best-vacuum-for-pet-hair | Pet Mess & Hair | money-guide | best vacuum for pet hair | 32000 | 0 | 38000 | 9.6 | Floor Care & Pet Mess Desk | NOT BUILT |
 | 4 | best-steam-mop | Steam Mops | money-guide | best steam mop | 9200 | 2 | 13000 | 9.1 | Deep Clean & Maintenance Desk | NOT BUILT |
@@ -105,7 +105,7 @@ Notes:
 
 | Slug | Page Type | Primary Keyword | Vol | KD | TP | Score | Desk | Status |
 |---|---|---|---:|---:|---:|---:|---|---|
-| best-robot-vacuum | money-guide | best robot vacuum | 60000 | 8 | 38000 | 9.8 | Floor Care & Pet Mess Desk | IN PROGRESS |
+| best-robot-vacuum | money-guide | best robot vacuum | 60000 | 8 | 38000 | 9.8 | Floor Care & Pet Mess Desk | LIVE |
 | best-robot-vacuum-and-mop | money-guide | best robot vacuum and mop | 19000 | 9 | 39000 | 9.0 | Floor Care & Pet Mess Desk | NOT BUILT |
 | best-robot-vacuum-for-pet-hair | money-guide | best robot vacuum for pet hair | 17000 | 10 | 15000 | 8.9 | Floor Care & Pet Mess Desk | NOT BUILT |
 | best-self-emptying-robot-vacuum | money-guide | best self emptying robot vacuum | 900 | 7 | 45000 | 9.0 | Floor Care & Pet Mess Desk | NOT BUILT |

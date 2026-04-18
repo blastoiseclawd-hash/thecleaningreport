@@ -79,9 +79,7 @@ export function FrictionGlyph({
         const fillY = spec.innerPad + (spec.height - fillHeight);
         return (
           <g key={key}>
-            <title>
-              {DEFAULT_AXIS_LABELS[key]}: {score} / {MAX_SCORE}
-            </title>
+            <title>{`${DEFAULT_AXIS_LABELS[key]}: ${score} / ${MAX_SCORE}`}</title>
             <rect
               x={x}
               y={spec.innerPad}
