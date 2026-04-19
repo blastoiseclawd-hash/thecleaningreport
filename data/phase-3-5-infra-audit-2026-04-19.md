@@ -107,3 +107,76 @@
 - **Skill**: `connect-site-infrastructure` hardened with 6 new sections (account-preflight, TXT-accumulation, destructive-DNS-confirmation, verify-only-mode, dedup-deferral, GTM-iframe-workaround).
 
 **Awaiting Lee approval on CWP strategy (A/B/C) before starting 3.5.B destructive actions.**
+
+---
+
+## Phase 3.5 CLOSURE — 2026-04-19 (hybrid option: fresh-start + keep 1 dup for observation)
+
+Lee picked **Option B (fresh-start CWP)** with a safer variant: create new account for NEW properties only (CWP + TCR), leave BCF/BPP legacy on Blastoise-IronClad. Per-record destructive confirmation preserved.
+
+### Final state
+
+| Site | GA4 account | GA4 property | Measurement ID | Stream ID | Status |
+|---|---|---|---|---|---|
+| BCF | Blastoise - IronClad (384028652) | 532945176 | G-K1MPR2MGHM | — | Live, consent-gated |
+| BPP | Blastoise - IronClad (384028652) | 533256006 | G-6ZS78MWHNT | — | Live, direct-load (registry was wrong saying false) |
+| CWP | Blastoise Affiliates (391896310, **new**) | 533686829 | G-1DR0XJRF84 | 14397906778 | Live (flipped from G-J744R3GYQR via commit 7caefea) |
+| TCR | Blastoise Affiliates (391896310, **new**) | 533690252 | G-LL7SMELECE | 14397913252 | Live (wired via commits 88956ef + abbd7ee stub-fix) |
+
+LeeSerel@gmail.com added as Administrator on both GA4 accounts 2026-04-19.
+
+### Destructive actions executed (all Lee-approved per-record)
+
+**Step 6 — cryptocompendium cleanup:**
+1. DELETED `sc-domain:thecleaningreport.com` GSC property from cryptocompendium@gmail.com (shadow from Playwright mis-auth).
+2. DELETED Namecheap TXT `google-site-verification=SxXTQLT02JjeHH_y3Kc8p4tPjuUWAHuijizsK2bXufU` (old cryptocompendium token). Active TXT `CPNQIixGZP71hQ9226pK_1l6DZRhFuaAg4WMTG3vM7E` (blastoise.clawd) preserved.
+
+**Step 7 — CWP GA4 dedup (6 deleted, 1 kept):**
+
+| Property ID | Evidence | Verdict |
+|---|---|---|
+| 532960152 | No streams (`/promo` redirect) | DELETED |
+| 532977178 | Stale G-4T9EYCPBB0, no-data banner | DELETED |
+| 532975966 | No-data banner | DELETED |
+| 532962333 | No streams (`/promo` redirect) | DELETED |
+| 532971118 | No streams (`/promo` redirect) | DELETED |
+| 532974956 | Stream 14368373690, "No data received in past 48 hours" | DELETED |
+| **532945759** | **Stream 14368364118, "Receiving traffic in past 48 hours" — pre-session canonical (G-J744R3GYQR)** | **KEPT 1 month for observation; re-verify + delete 2026-05-19 per calendar event `mgr58bqcmjjb1h9skpkiv8kquk`** |
+
+All 6 deletions went to Trash Can (32-day recovery window).
+
+**Step 8 — LeeSerel additions (non-destructive):**
+1. Administrator on Blastoise Affiliates GA4 account (new) — covers CWP + TCR new properties.
+2. Administrator on Blastoise-IronClad GA4 account — covers BCF + BPP + kept-for-obs CWP dup.
+3. Verified already Full user on TCR GSC (sc-domain:thecleaningreport.com).
+
+### GSC inventory (blastoise.clawd@gmail.com)
+
+On blastoise.clawd:
+- sc-domain:clearwaterpicks.com (Domain)
+- sc-domain:thecleaningreport.com (Domain)
+- Non-affiliate: findmoldremediationpros.com, findradonpros.com (URL prefix only), findwebsitepros.com (Domain + URL prefix duplicate — flagged)
+
+**NOT on blastoise.clawd:**
+- bettercoffeefinds.com (GSC location unknown, likely leeserel@gmail.com)
+- betterpetpicks.com (GSC location unknown, likely leeserel@gmail.com; registry was wrong saying configured:false — verified BPP fires live + sc-domain exists somewhere)
+
+BCF + BPP GSC migration to blastoise.clawd is Phase 3.5 follow-up (gap-register row #24) — needs Lee at keyboard for dual-account auth + DNS TXT re-verification.
+
+### Infra gate upgrade
+
+`tools/audit/check-infrastructure-gate.js` upgraded WARN → ERROR 2026-04-19. `npm run audit:repo` exits 0. Env override `INFRA_GATE_LEVEL=warn` preserved for mid-remediation flexibility.
+
+### Register close + queue
+
+- **Row #22 CLOSED** (Infrastructure enforcement) — gate now blocks on drift as ERROR.
+- **Row #23 queued** (verify-deploy-from-HEAD gap) — STRENGTHEN. Surfaced by TCR live site serving pre-reset `ae4b61e` for weeks under HTTP 200 mask because the build errored on the post-reset push and no check ran `list_deployments` vs `origin/main` HEAD. Fix: add to `connect-site-infrastructure` Phase 3 closure + new `check-vercel-deploy-parity.js` audit tool.
+- **Row #24 queued** (BCF + BPP GSC account migration) — STRENGTHEN. Both sibling sites' GSC on non-canonical account violates `feedback_google_account_for_site_properties.md`. Migration requires Lee session.
+
+### Registry writeback
+
+`data/site-registry.json` updated with canonical account IDs, property IDs, measurement IDs, stream IDs on all 4 affiliate-review sites. BPP analytics/searchConsole flipped to `configured:true` (registry was wrong pre-session). Phase 3.5 close notes appended per-site.
+
+### Calendar reminder queued
+
+Event `mgr58bqcmjjb1h9skpkiv8kquk` on blastoise.clawd primary calendar, 2026-05-19 10:00 ET (15 min) — re-verify CWP dup 532945759 has stopped receiving traffic, Move to Trash if clean.
