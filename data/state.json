@@ -1,6 +1,6 @@
 {
   "site": "thecleaningreport",
-  "phase": "rebuild-started",
+  "phase": "phase2-niche-confirmed",
   "lastDailyRunAt": null,
   "lastWeeklyReviewAt": null,
   "lastMonthlyRefreshAt": null,
@@ -13,6 +13,6 @@
     "pagesQueued": 0,
     "pagesDraft": 0
   },
-  "notes": "TCR Phase 8 rebuild started 2026-04-19. Scorched-earth reset per .claude/plans/can-you-review-our-lexical-robin.md. FrictionScoreAxes preserved (.salvage/frictionScoreAxes.ts); all post-domain content/research/audits wiped. Next phases land fresh per-site-avatar-driven model.",
+  "notes": "Phase 2 CLOSED 2026-04-19. Cleaning-niche confirmed. 7-cluster shortlist at data/cluster-shortlist.md (flagships: robot vacuum / cordless vacuum [sub-niche carve] / mop; supports: handheld vacuum / steam mop / carpet cleaner machine / chemical-cleaning bundle). Pass-3 SERP + volume-history fired on top 3 EXCELLENT candidates. BPP collision excludes pet-hair. MCP budget usage 2.0% this phase (3,006 units). Next: Phase 3 infrastructure verification OR jump to Phase 4 per Lee.",
   "planRef": ".claude/plans/can-you-review-our-lexical-robin.md"
 }
