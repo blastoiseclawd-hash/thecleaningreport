@@ -1,0 +1,784 @@
+{
+  "source": "vacuumwars.com/vacuum-wars-best-robot-vacuums",
+  "capturedAt": "2026-04-19T21:58:04.536Z",
+  "count": 21,
+  "products": [
+    {
+      "name": "Dreame X60 Max Ultra Complete",
+      "scores": {
+        "Vacuum Wars Overall": {
+          "product": 4.07,
+          "avg": 2.58
+        },
+        "Features": {
+          "product": 4.1,
+          "avg": 3.28
+        },
+        "Mopping Performance": {
+          "product": 3.24,
+          "avg": 2.39
+        },
+        "Obstacle Avoidance": {
+          "product": 4.59,
+          "avg": 3.39
+        },
+        "Pet": {
+          "product": 4.98,
+          "avg": 3.42
+        },
+        "Navigation": {
+          "product": 3.07,
+          "avg": 3.21
+        },
+        "Battery": {
+          "product": 2.22,
+          "avg": 2.56
+        },
+        "Performance": {
+          "product": 3.24,
+          "avg": 2.39
+        }
+      }
+    },
+    {
+      "name": "Dreame L50 Ultra",
+      "scores": {
+        "Vacuum Wars Overall": {
+          "product": 3.96,
+          "avg": 2.58
+        },
+        "Features": {
+          "product": 4,
+          "avg": 3.28
+        },
+        "Mopping Performance": {
+          "product": 2.88,
+          "avg": 2.39
+        },
+        "Obstacle Avoidance": {
+          "product": 4.17,
+          "avg": 3.39
+        },
+        "Pet": {
+          "product": 4.92,
+          "avg": 3.42
+        },
+        "Navigation": {
+          "product": 3.6,
+          "avg": 3.21
+        },
+        "Battery": {
+          "product": 2.54,
+          "avg": 2.56
+        },
+        "Performance": {
+          "product": 2.88,
+          "avg": 2.39
+        }
+      }
+    },
+    {
+      "name": "Roborock Saros 20",
+      "scores": {
+        "Vacuum Wars Overall": {
+          "product": 3.86,
+          "avg": 2.58
+        },
+        "Features": {
+          "product": 4.07,
+          "avg": 3.28
+        },
+        "Mopping Performance": {
+          "product": 3.27,
+          "avg": 2.39
+        },
+        "Obstacle Avoidance": {
+          "product": 3.54,
+          "avg": 3.39
+        },
+        "Pet": {
+          "product": 4.66,
+          "avg": 3.42
+        },
+        "Navigation": {
+          "product": 3.2,
+          "avg": 3.21
+        },
+        "Battery": {
+          "product": 2.41,
+          "avg": 2.56
+        },
+        "Performance": {
+          "product": 3.27,
+          "avg": 2.39
+        }
+      }
+    },
+    {
+      "name": "Dreame Matrix10 Ultra",
+      "scores": {
+        "Vacuum Wars Overall": {
+          "product": 3.86,
+          "avg": 2.58
+        },
+        "Features": {
+          "product": 4.11,
+          "avg": 3.28
+        },
+        "Mopping Performance": {
+          "product": 3.46,
+          "avg": 2.39
+        },
+        "Obstacle Avoidance": {
+          "product": 3.96,
+          "avg": 3.39
+        },
+        "Pet": {
+          "product": 4.67,
+          "avg": 3.42
+        },
+        "Navigation": {
+          "product": 3.15,
+          "avg": 3.21
+        },
+        "Battery": {
+          "product": 2.28,
+          "avg": 2.56
+        },
+        "Performance": {
+          "product": 3.46,
+          "avg": 2.39
+        }
+      }
+    },
+    {
+      "name": "Mova Mobius 60",
+      "scores": {
+        "Vacuum Wars Overall": {
+          "product": 3.85,
+          "avg": 2.58
+        },
+        "Features": {
+          "product": 4.06,
+          "avg": 3.28
+        },
+        "Mopping Performance": {
+          "product": 2.92,
+          "avg": 2.39
+        },
+        "Obstacle Avoidance": {
+          "product": 4.59,
+          "avg": 3.39
+        },
+        "Pet": {
+          "product": 4.8,
+          "avg": 3.42
+        },
+        "Navigation": {
+          "product": 3.12,
+          "avg": 3.21
+        },
+        "Battery": {
+          "product": 2.07,
+          "avg": 2.56
+        },
+        "Performance": {
+          "product": 2.92,
+          "avg": 2.39
+        }
+      }
+    },
+    {
+      "name": "Yeedi S20 Infinity",
+      "scores": {
+        "Vacuum Wars Overall": {
+          "product": 3.85,
+          "avg": 2.58
+        },
+        "Features": {
+          "product": 3.98,
+          "avg": 3.28
+        },
+        "Mopping Performance": {
+          "product": 2.13,
+          "avg": 2.39
+        },
+        "Obstacle Avoidance": {
+          "product": 4.38,
+          "avg": 3.39
+        },
+        "Pet": {
+          "product": 4.79,
+          "avg": 3.42
+        },
+        "Navigation": {
+          "product": 5,
+          "avg": 3.21
+        },
+        "Battery": {
+          "product": 5,
+          "avg": 2.56
+        },
+        "Performance": {
+          "product": 2.13,
+          "avg": 2.39
+        }
+      }
+    },
+    {
+      "name": "Ecovacs X11 OmniCyclone",
+      "scores": {
+        "Vacuum Wars Overall": {
+          "product": 3.84,
+          "avg": 2.58
+        },
+        "Features": {
+          "product": 4.21,
+          "avg": 3.28
+        },
+        "Mopping Performance": {
+          "product": 3.59,
+          "avg": 2.39
+        },
+        "Obstacle Avoidance": {
+          "product": 4.17,
+          "avg": 3.39
+        },
+        "Pet": {
+          "product": 4.67,
+          "avg": 3.42
+        },
+        "Navigation": {
+          "product": 4.32,
+          "avg": 3.21
+        },
+        "Battery": {
+          "product": 3.58,
+          "avg": 2.56
+        },
+        "Performance": {
+          "product": 3.59,
+          "avg": 2.39
+        }
+      }
+    },
+    {
+      "name": "Eufy E25 Omni",
+      "scores": {
+        "Vacuum Wars Overall": {
+          "product": 3.78,
+          "avg": 2.58
+        },
+        "Features": {
+          "product": 3.72,
+          "avg": 3.28
+        },
+        "Mopping Performance": {
+          "product": 2.91,
+          "avg": 2.39
+        },
+        "Obstacle Avoidance": {
+          "product": 4.38,
+          "avg": 3.39
+        },
+        "Pet": {
+          "product": 4.7,
+          "avg": 3.42
+        },
+        "Navigation": {
+          "product": 3.6,
+          "avg": 3.21
+        },
+        "Battery": {
+          "product": 2.75,
+          "avg": 2.56
+        },
+        "Performance": {
+          "product": 2.91,
+          "avg": 2.39
+        }
+      }
+    },
+    {
+      "name": "Dreame X50",
+      "scores": {
+        "Vacuum Wars Overall": {
+          "product": 3.78,
+          "avg": 2.58
+        },
+        "Features": {
+          "product": 4.02,
+          "avg": 3.28
+        },
+        "Mopping Performance": {
+          "product": 2.7,
+          "avg": 2.39
+        },
+        "Obstacle Avoidance": {
+          "product": 4.17,
+          "avg": 3.39
+        },
+        "Pet": {
+          "product": 4.75,
+          "avg": 3.42
+        },
+        "Navigation": {
+          "product": 3.5,
+          "avg": 3.21
+        },
+        "Battery": {
+          "product": 2.55,
+          "avg": 2.56
+        },
+        "Performance": {
+          "product": 2.7,
+          "avg": 2.39
+        }
+      }
+    },
+    {
+      "name": "Roborock Qrevo CurvX",
+      "scores": {
+        "Vacuum Wars Overall": {
+          "product": 3.78,
+          "avg": 2.58
+        },
+        "Features": {
+          "product": 4.03,
+          "avg": 3.28
+        },
+        "Mopping Performance": {
+          "product": 3.69,
+          "avg": 2.39
+        },
+        "Obstacle Avoidance": {
+          "product": 4.17,
+          "avg": 3.39
+        },
+        "Pet": {
+          "product": 4.72,
+          "avg": 3.42
+        },
+        "Navigation": {
+          "product": 4.07,
+          "avg": 3.21
+        },
+        "Battery": {
+          "product": 3.87,
+          "avg": 2.56
+        },
+        "Performance": {
+          "product": 3.69,
+          "avg": 2.39
+        }
+      }
+    },
+    {
+      "name": "Mova Z60 Ultra Roller Complete",
+      "scores": {
+        "Vacuum Wars Overall": {
+          "product": 3.76,
+          "avg": 2.58
+        },
+        "Features": {
+          "product": 4.09,
+          "avg": 3.28
+        },
+        "Mopping Performance": {
+          "product": 3.66,
+          "avg": 2.39
+        },
+        "Obstacle Avoidance": {
+          "product": 4.38,
+          "avg": 3.39
+        },
+        "Pet": {
+          "product": 4.66,
+          "avg": 3.42
+        },
+        "Navigation": {
+          "product": 2.63,
+          "avg": 3.21
+        },
+        "Battery": {
+          "product": 1.71,
+          "avg": 2.56
+        },
+        "Performance": {
+          "product": 3.66,
+          "avg": 2.39
+        }
+      }
+    },
+    {
+      "name": "Shark PowerDetect UV Reveal",
+      "scores": {
+        "Vacuum Wars Overall": {
+          "product": 3.74,
+          "avg": 2.58
+        },
+        "Features": {
+          "product": 3.64,
+          "avg": 3.28
+        },
+        "Mopping Performance": {
+          "product": 3.23,
+          "avg": 2.39
+        },
+        "Obstacle Avoidance": {
+          "product": 4.17,
+          "avg": 3.39
+        },
+        "Pet": {
+          "product": 4.56,
+          "avg": 3.42
+        },
+        "Navigation": {
+          "product": 5,
+          "avg": 3.21
+        },
+        "Battery": {
+          "product": 5,
+          "avg": 2.56
+        },
+        "Performance": {
+          "product": 3.23,
+          "avg": 2.39
+        }
+      }
+    },
+    {
+      "name": "Roborock Qrevo Curv 2 Flow",
+      "scores": {
+        "Vacuum Wars Overall": {
+          "product": 3.72,
+          "avg": 2.58
+        },
+        "Features": {
+          "product": 3.93,
+          "avg": 3.28
+        },
+        "Mopping Performance": {
+          "product": 2.1,
+          "avg": 2.39
+        },
+        "Obstacle Avoidance": {
+          "product": 3.34,
+          "avg": 3.39
+        },
+        "Pet": {
+          "product": 4.47,
+          "avg": 3.42
+        },
+        "Navigation": {
+          "product": 3.64,
+          "avg": 3.21
+        },
+        "Battery": {
+          "product": 2.92,
+          "avg": 2.56
+        },
+        "Performance": {
+          "product": 2.1,
+          "avg": 2.39
+        }
+      }
+    },
+    {
+      "name": "Narwal Flow",
+      "scores": {
+        "Vacuum Wars Overall": {
+          "product": 3.72,
+          "avg": 2.58
+        },
+        "Features": {
+          "product": 4.05,
+          "avg": 3.28
+        },
+        "Mopping Performance": {
+          "product": 3.48,
+          "avg": 2.39
+        },
+        "Obstacle Avoidance": {
+          "product": 3.75,
+          "avg": 3.39
+        },
+        "Pet": {
+          "product": 4.52,
+          "avg": 3.42
+        },
+        "Navigation": {
+          "product": 3.8,
+          "avg": 3.21
+        },
+        "Battery": {
+          "product": 3.35,
+          "avg": 2.56
+        },
+        "Performance": {
+          "product": 3.48,
+          "avg": 2.39
+        }
+      }
+    },
+    {
+      "name": "Mova V50 Ultra Complete",
+      "scores": {
+        "Vacuum Wars Overall": {
+          "product": 3.7,
+          "avg": 2.58
+        },
+        "Features": {
+          "product": 4.09,
+          "avg": 3.28
+        },
+        "Mopping Performance": {
+          "product": 3.13,
+          "avg": 2.39
+        },
+        "Obstacle Avoidance": {
+          "product": 2.92,
+          "avg": 3.39
+        },
+        "Pet": {
+          "product": 4.44,
+          "avg": 3.42
+        },
+        "Navigation": {
+          "product": 3.41,
+          "avg": 3.21
+        },
+        "Battery": {
+          "product": 2.25,
+          "avg": 2.56
+        },
+        "Performance": {
+          "product": 3.13,
+          "avg": 2.39
+        }
+      }
+    },
+    {
+      "name": "Dreame L40s Ultra AE",
+      "scores": {
+        "Vacuum Wars Overall": {
+          "product": 3.7,
+          "avg": 2.58
+        },
+        "Features": {
+          "product": 3.86,
+          "avg": 3.28
+        },
+        "Mopping Performance": {
+          "product": 3.36,
+          "avg": 2.39
+        },
+        "Obstacle Avoidance": {
+          "product": 3.96,
+          "avg": 3.39
+        },
+        "Pet": {
+          "product": 4.58,
+          "avg": 3.42
+        },
+        "Navigation": {
+          "product": 3.97,
+          "avg": 3.21
+        },
+        "Battery": {
+          "product": 3.61,
+          "avg": 2.56
+        },
+        "Performance": {
+          "product": 3.36,
+          "avg": 2.39
+        }
+      }
+    },
+    {
+      "name": "Roborock Saros 10R",
+      "scores": {
+        "Vacuum Wars Overall": {
+          "product": 3.7,
+          "avg": 2.58
+        },
+        "Features": {
+          "product": 3.99,
+          "avg": 3.28
+        },
+        "Mopping Performance": {
+          "product": 2.97,
+          "avg": 2.39
+        },
+        "Obstacle Avoidance": {
+          "product": 5,
+          "avg": 3.39
+        },
+        "Pet": {
+          "product": 4.78,
+          "avg": 3.42
+        },
+        "Navigation": {
+          "product": 3.59,
+          "avg": 3.21
+        },
+        "Battery": {
+          "product": 3.09,
+          "avg": 2.56
+        },
+        "Performance": {
+          "product": 2.97,
+          "avg": 2.39
+        }
+      }
+    },
+    {
+      "name": "Dreame X40 Master",
+      "scores": {
+        "Vacuum Wars Overall": {
+          "product": 3.67,
+          "avg": 2.58
+        },
+        "Features": {
+          "product": 3.89,
+          "avg": 3.28
+        },
+        "Mopping Performance": {
+          "product": 3,
+          "avg": 2.39
+        },
+        "Obstacle Avoidance": {
+          "product": 4.59,
+          "avg": 3.39
+        },
+        "Pet": {
+          "product": 4.41,
+          "avg": 3.42
+        },
+        "Navigation": {
+          "product": 4.13,
+          "avg": 3.21
+        },
+        "Battery": {
+          "product": 4.03,
+          "avg": 2.56
+        },
+        "Performance": {
+          "product": 3,
+          "avg": 2.39
+        }
+      }
+    },
+    {
+      "name": "Roborock Qrevo Curv",
+      "scores": {
+        "Vacuum Wars Overall": {
+          "product": 3.67,
+          "avg": 2.58
+        },
+        "Features": {
+          "product": 3.9,
+          "avg": 3.28
+        },
+        "Mopping Performance": {
+          "product": 2.85,
+          "avg": 2.39
+        },
+        "Obstacle Avoidance": {
+          "product": 3.54,
+          "avg": 3.39
+        },
+        "Pet": {
+          "product": 4.56,
+          "avg": 3.42
+        },
+        "Navigation": {
+          "product": 3.98,
+          "avg": 3.21
+        },
+        "Battery": {
+          "product": 3.71,
+          "avg": 2.56
+        },
+        "Performance": {
+          "product": 2.85,
+          "avg": 2.39
+        }
+      }
+    },
+    {
+      "name": "Dreame L40s Ultra",
+      "scores": {
+        "Vacuum Wars Overall": {
+          "product": 3.66,
+          "avg": 2.58
+        },
+        "Features": {
+          "product": 3.86,
+          "avg": 3.28
+        },
+        "Mopping Performance": {
+          "product": 3.44,
+          "avg": 2.39
+        },
+        "Obstacle Avoidance": {
+          "product": 1.46,
+          "avg": 3.39
+        },
+        "Pet": {
+          "product": 4.22,
+          "avg": 3.42
+        },
+        "Navigation": {
+          "product": 4.02,
+          "avg": 3.21
+        },
+        "Battery": {
+          "product": 3.46,
+          "avg": 2.56
+        },
+        "Performance": {
+          "product": 3.44,
+          "avg": 2.39
+        }
+      }
+    },
+    {
+      "name": "Mova P10 Pro Ultra",
+      "scores": {
+        "Vacuum Wars Overall": {
+          "product": 3.49,
+          "avg": 2.58
+        },
+        "Features": {
+          "product": 3.74,
+          "avg": 3.28
+        },
+        "Mopping Performance": {
+          "product": 2.49,
+          "avg": 2.39
+        },
+        "Obstacle Avoidance": {
+          "product": 3.96,
+          "avg": 3.39
+        },
+        "Pet": {
+          "product": 4.33,
+          "avg": 3.42
+        },
+        "Navigation": {
+          "product": 4.39,
+          "avg": 3.21
+        },
+        "Battery": {
+          "product": 4.51,
+          "avg": 2.56
+        },
+        "Performance": {
+          "product": 2.49,
+          "avg": 2.39
+        }
+      }
+    }
+  ]
+}

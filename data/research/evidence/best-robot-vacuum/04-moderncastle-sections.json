@@ -1,0 +1,460 @@
+{
+  "sections": {
+    "Cleaning Performance Comparison": "Cleaning performance is one of the most important factors for robot vacuums, with debris removal being of the utmost importance. In addition to testing debris removal, we also check how well the robot manages long and pet hair, cleans along edges and in crevices, and, if available, how well it mops. | CategoryRoborock S8 Pro UltraECOVACS DEEBOT X2 OMNIRoborock Q RevoSamsung Jet Bot AI+Roomba S9+Shark MatrixRoomba i3+ EVORoborock S7Average Robot Vacuum Overall Cleaning Score92.695.692.990.095.191.495.889.389.1 Overall Debris Removed97.995.595.295.899.097.399.096.792.5 Hardwood Overall99.597.499.093.999.099.799.099.097.1 Low Pile Overall97.292.095.797.899.095.399.094.089.7 High Pile Overall96.997.191.095.799.096.999.097.090.3 Long Hair Tangle Avoidance36.710053.343.343.393.346.713.351.8 Pet Hair Removed67.096.090.066.087.043.093.066.075.6 Edge Test10099.099.988.110089.098.797.787.2 Crevice Test10099.710010010010010010099.1 Mop Test92.092.092.0n/an/an/an/a84.088.8 | Across all floor and debris types, none of the vacuums had cleaning results below 95% overall. The robots that struggled the most, albeit not by much, were the ECOVACS DEEBOT X2 OMNI and the Roboorck Q Revo, with the Revo receiving the lowest score of 95.2%. However, all robot vacuums were notably better than our testing average of 92.5% debris removal. | Roborock Q Revo Hardwood Floor Pretest Roborock Q Revo Hardwood Floor Posttest | Long hair performance wasn’t nearly as impressive, the majority of our robots failed to avoid hair tangles. That said, robot vacuums tend to struggle with long hair. On average, robot vacuums we test have 48.2% of the hair tangle in the brushroll. Only the ECOVACS X2 OMNI, the Roborock Q Revo, and the Shark Matrix had better results than average. Even then the Q Revo only barely beat the average. | Again, pet hair performance wasn’t perfect for every robot. The average robot we test removes 75.6% of the pet hair and half of the robots on this list beat the average, with the X2",
+    "Navigation Test Comparison": "Navigation encompasses the robot’s ability to clean on a broad scale without getting stuck, how quickly it can clean, and the effectiveness of its obstacle avoidance technology. | RobotNavigation ScoreCleaning SpeedShoe AvoidedMug AvoidedCord AvoidedPet Waste AvoidedReturn to Base?Fully Cleaned?Get Stuck? Roborock S8 Pro Ultra91.965 min.YesPartialNoYesYesYesNo ECOVACS DEEBOT X2 OMNI90.139 min.NoPartialPartialPartialYesYesNo Roborock Q Revo90.955 min.PartialPartialNoYesYesYesNo Samsung Jet Bot AI+93.7105 min.PartialYesPartialYesYesYesNo Roomba S9+82.455 min.PartialNoNoNoYesYesNo Shark Matrix79.345 min.NoNoNoNoYesYesNo Roomba i3+ EVO77.390 min.NoNoNoNoYesYesNo Roborock S778.270 min.NoNoNoNoYesYesNo | Across the board, all robots cleaned our office and studio space effectively, without getting stuck and returning to base every time. The X2 OMNI was the fastest at 39 minutes while the Samsung JetBot AI+ was the slowest at 105 minutes. | Ecovacs Deebot X2 Omni App Logs Samsung JetBot AI+ SmartThings app cleaning report | The biggest difference between robots is the presence or lack of obstacle avoidance technology and how well it performs. The Roborock S7, i3+ EVO, and Shark Matrix all lack obstacle avoidance technology and completely failed the test. | However, no other robot on this list had perfect performance across the board. The Samsung JetBot Ai+ was the closest to perfection, with 2 partial touches on the cord and shoe. Every other robot had more partial touches, or failed to avoid some objects completely. | ",
+    "Noise Comparison": "To measure how loud a robot is while in operation, we run the device in each power mode on high pile carpet. Using a sound meter, we measure the level of noise generated from about 3’ away. In addition, we measure how loud the self-empty feature is while in operation. | RobotAmbient NoiseMode 1Mode 2Mode 3Mode 4Self-Empty Roborock S8 Pro Ultra40.7 dB64.5 dB66.9 dB70.7 dB74.5 dB82.2 dB ECOVACS DEEBOT X2 OMNI40.7 dB53.0 dB65.5 dB66.0 dB70.4 dB77.4 dB Roborock Q Revo39.3 dB64.5 dB65.1 dB65.3 dB66.6 dB77.6 dB Samsung Jet Bot AI+42.3 dB67.5 dB67.9 dB69.1 dBn/a80.5 dB Roomba S9+40.1 dB66.7 dB69.5 dB72.2 dBn/a76.3 dB Shark Matrix49.3 dB59.7 dB62.4 dB65.1 dBn/a70.7 dB Roomba i3+ EVO39.8 dB65.8 dBn/an/an/a86.0 dB Roborock S741.2 dB66.7 dB69.7 dB70.1 dB72.0 dB86.5 dB Average Robot Vacuum41.1 dB60.7 dB64.1 dB67.0 dB69.1 dB78.5 dB | Across all of the robots highest suction modes, the level of noise is fairly similar. All robots made noise in the 65 – 75 dB range, with the Roborock S8 Pro Ultra being the loudest at 74.5 dB. | The Shark Matrix was the quietest on its highest power mode at 65.1 dB, but the ECOVACS DEEBOT X2 OMNI was the quietest overall at 53.0 dB on its lowest suction power. | ",
+    "Usability Comparison": "Usability ranges for each robot vacuum depending on what features are available to it. Some devices, including the ECOVACS DEEBOT X2 OMNI and Roborock S8 Pro Ultra come with robust docking station that automatically perform maintenance. Others like the Roborock S7 lack the docking station, but have mopping functionality. Multiple robots on this list lack the mopping feature and function only as a vacuum. | Roborock S8 Pro Ultra Charging And Cleaning Bay | The table below shows which features and accessories are included with each vacuum. Please keep in mind that some vacuums have multiple variants that may come with a different set of accessories. | RobotApp ConnectivityMapping FeaturesObstacle AvoidanceBagless DustbinDustbin CapacityAuto-EmptyAuto-WashAuto-Dry Roborock S8 Pro UltraYesYesYesNo10.1 oz. (300 mL)YesYesYes ECOVACS DEEBOT X2 OMNIYesYesYesNo6.1 oz. (180 mLYesYesYes Roborock Q RevoYesYesYesNo11.8 oz. (350 mL)YesYesYes Samsung Jet Bot AI+YesYesYesNo6.8 oz. (200 mL)YesNoNo Roomba S9+YesYesNoNo12.8 oz. (379 mL)YesNoNo Shark MatrixYesYesNoYes6.4 oz. (189 mL)YesNoNo Roomba i3+ EVOYesYesNoNo16.9 oz. (500 mL)YesNoNo Roborock S7YesYesNoNo15.9 oz. (470 mL)Yes; with base station purchaseNoNo | ",
+    "Maintenance Comparison": "Maintenance varies depending on the set of features and the inclusion or lack of a docking station. | RobotEstimated Annual Maintenance CostsAuto-EmptyAuto-WashAuto-Dry Roborock S8 Pro Ultra$25.99YesYesYes ECOVACS DEEBOT X2 OMNI$48.00YesYesYes Roborock Q Revo$45.99YesYesYes Samsung Jet Bot AI+$26.99YesNoNo Roomba S9+$22.99YesNoNo Shark Matrix$19.99YesNoNo Roomba i3+ EVO$16.49YesNoNo Roborock S7$18.98Yes; with base station purchaseNoNo Average Robot Vacuum$23.51n/an/an/a | Robots with docks and mops like the Roborock Q Revo, S8 Pro Ultra, and ECOVACS DEEBOT X2 OMNI require less daily maintenance thanks to the dock. However, the dock itself will require maintenance and the frequency will vary depending on use. In addition, these robots tend to be the most expensive to maintain annually as they require more things to replace. | Roborock Q Revo Dust Bag | On the other hand, robots like the Roomba S9+, i3+ EVO, Samsung JetBot AI+, and Shark Matrix all have the docking station, but lack the mop. This requires a lot less maintenance than the robots with mops, but still costs a bit more than robots without docks thanks to replacement debris bags. The notable exception to this is the Shark Matrix, which has a bagless debris bin. | Roborock S7 mopping tests | The Roborock S7 has mopping functionality, but lacks the docking station. While it is compatible with it, it doesn’t come with it upon initial purchase. This robot will require the most frequent attention but be one of the cheaper options to maintain. | ",
+    "How We Test": "We test and score robot vacuum cleaners using a battery of 13 data-driven tests. Our tests are a mix of objective testing and subjective assessment, taking into consideration cleaning performance, build quality, navigational abilities, usability, and maintenance. | To choose the best robot vacuum, we based our selection on the top-performing / highest-scoring robot vacuums according to our objective testing. These tests analyze the device’s performance across these 5 critical factors. | Additionally, price and value were also taken into consideration. While there are other robot vacuums that could have appeared on our list, we wanted to include the best options available for different price ranges. | Our testing process is detailed and rigorous. The links below have detailed write-ups and graphs to explain our testing process, scoring formulas, and the criteria for how we choose the best robot vacuums. | How We Test & ScoreHow We Test & Score Robot Vacuums | "
+  },
+  "tables": [
+    [
+      [
+        "Test Type",
+        "Test Data"
+      ],
+      [
+        "Overall Debris Tests",
+        "97.9%"
+      ],
+      [
+        "Hardwood Floor Test",
+        "99.5%"
+      ],
+      [
+        "Low Pile Carpet Test",
+        "97.2%"
+      ],
+      [
+        "High Pile Carpet Test",
+        "96.9%"
+      ],
+      [
+        "Long Hair Test",
+        "36.7%"
+      ],
+      [
+        "Pet Hair Test",
+        "67.0%"
+      ],
+      [
+        "Crevice Test",
+        "100%"
+      ],
+      [
+        "Edge Cleaning Test",
+        "100%"
+      ],
+      [
+        "Mop Test",
+        "Excellent"
+      ],
+      [
+        "Cleaning Speed",
+        "65 min."
+      ],
+      [
+        "Obstacle Avoidance",
+        "Partially"
+      ],
+      [
+        "Build Quality Test",
+        "Exceptional"
+      ],
+      [
+        "Noise Test",
+        "75 dB"
+      ]
+    ],
+    [
+      [
+        "Test Type",
+        "Test Data"
+      ],
+      [
+        "Overall Debris Tests",
+        "95.5%"
+      ],
+      [
+        "Hardwood Floor Test",
+        "97.4%"
+      ],
+      [
+        "Low Pile Carpet Test",
+        "92.0%"
+      ],
+      [
+        "High Pile Carpet Test",
+        "97.1%"
+      ],
+      [
+        "Long Hair Test",
+        "100%"
+      ],
+      [
+        "Pet Hair Test",
+        "96.0%"
+      ],
+      [
+        "Crevice Test",
+        "99.7%"
+      ],
+      [
+        "Edge Cleaning Test",
+        "99.0%"
+      ],
+      [
+        "Mop Test",
+        "Excellent"
+      ],
+      [
+        "Cleaning Speed",
+        "39 min."
+      ],
+      [
+        "Obstacle Avoidance",
+        "Partially"
+      ],
+      [
+        "Build Quality Test",
+        "Exceptional"
+      ],
+      [
+        "Noise Test",
+        "70 dB"
+      ]
+    ],
+    [
+      [
+        "Test Type",
+        "Test Data"
+      ],
+      [
+        "Overall Debris Tests",
+        "95.2%"
+      ],
+      [
+        "Hardwood Floor Test",
+        "99.0%"
+      ],
+      [
+        "Low Pile Carpet Test",
+        "95.7%"
+      ],
+      [
+        "High Pile Carpet Test",
+        "91.0%"
+      ],
+      [
+        "Long Hair Test",
+        "53.3%"
+      ],
+      [
+        "Pet Hair Test",
+        "90.0%"
+      ],
+      [
+        "Crevice Test",
+        "100%"
+      ],
+      [
+        "Edge Cleaning Test",
+        "99.9%"
+      ],
+      [
+        "Mop Test",
+        "Excellent"
+      ],
+      [
+        "Cleaning Speed",
+        "55 min."
+      ],
+      [
+        "Obstacle Avoidance",
+        "Partially"
+      ],
+      [
+        "Build Quality Test",
+        "Exceptional"
+      ],
+      [
+        "Noise Test",
+        "67 dB"
+      ]
+    ],
+    [
+      [
+        "Test Type",
+        "Test Data"
+      ],
+      [
+        "Overall Debris Tests",
+        "95.8%"
+      ],
+      [
+        "Hardwood Floor Test",
+        "93.9%"
+      ],
+      [
+        "Low Pile Carpet Test",
+        "97.8%"
+      ],
+      [
+        "High Pile Carpet Test",
+        "95.7%"
+      ],
+      [
+        "Long Hair Test",
+        "43.3%"
+      ],
+      [
+        "Pet Hair Test",
+        "66.0%"
+      ],
+      [
+        "Crevice Test",
+        "100%"
+      ],
+      [
+        "Edge Cleaning Test",
+        "88.1%"
+      ],
+      [
+        "Cleaning Speed",
+        "105 min."
+      ],
+      [
+        "Obstacle Avoidance",
+        "Partially"
+      ],
+      [
+        "Build Quality Test",
+        "Exceptional"
+      ],
+      [
+        "Noise Test",
+        "69 dB"
+      ]
+    ],
+    [
+      [
+        "Test Type",
+        "Test Data"
+      ],
+      [
+        "Overall Debris Tests",
+        "99.0%"
+      ],
+      [
+        "Hardwood Floor Test",
+        "99.0%"
+      ],
+      [
+        "Low Pile Carpet Test",
+        "99.0%"
+      ],
+      [
+        "High Pile Carpet Test",
+        "99.0%"
+      ],
+      [
+        "Long Hair Test",
+        "43.3%"
+      ],
+      [
+        "Pet Hair Test",
+        "87.0%"
+      ],
+      [
+        "Crevice Test",
+        "100%"
+      ],
+      [
+        "Edge Cleaning Test",
+        "100%"
+      ],
+      [
+        "Cleaning Speed",
+        "55 min."
+      ],
+      [
+        "Obstacle Avoidance",
+        "No"
+      ],
+      [
+        "Build Quality Test",
+        "Exceptional"
+      ],
+      [
+        "Noise Test",
+        "72 dB"
+      ]
+    ],
+    [
+      [
+        "Test Type",
+        "Test Data"
+      ],
+      [
+        "Overall Debris Tests",
+        "97.3%"
+      ],
+      [
+        "Hardwood Floor Test",
+        "99.7%"
+      ],
+      [
+        "Low Pile Carpet Test",
+        "95.3%"
+      ],
+      [
+        "High Pile Carpet Test",
+        "96.9%"
+      ],
+      [
+        "Long Hair Test",
+        "93.3%"
+      ],
+      [
+        "Pet Hair Test",
+        "43.0%"
+      ],
+      [
+        "Crevice Test",
+        "100%"
+      ],
+      [
+        "Edge Cleaning Test",
+        "89.0%"
+      ],
+      [
+        "Cleaning Speed",
+        "45 min."
+      ],
+      [
+        "Obstacle Avoidance",
+        "No"
+      ],
+      [
+        "Build Quality Test",
+        "Excellent"
+      ],
+      [
+        "Noise Test",
+        "65 dB"
+      ]
+    ],
+    [
+      [
+        "Test Type",
+        "Test Data"
+      ],
+      [
+        "Overall Debris Tests",
+        "99.0%"
+      ],
+      [
+        "Hardwood Floor Test",
+        "99.0%"
+      ],
+      [
+        "Low Pile Carpet Test",
+        "99.0%"
+      ],
+      [
+        "High Pile Carpet Test",
+        "99.0%"
+      ],
+      [
+        "Long Hair Test",
+        "46.7%"
+      ],
+      [
+        "Pet Hair Test",
+        "93.0%"
+      ],
+      [
+        "Crevice Test",
+        "100%"
+      ],
+      [
+        "Edge Cleaning Test",
+        "98.7%"
+      ],
+      [
+        "Cleaning Speed",
+        "90 min."
+      ],
+      [
+        "Obstacle Avoidance",
+        "No"
+      ],
+      [
+        "Build Quality Test",
+        "Excellent"
+      ],
+      [
+        "Noise Test",
+        "66 dB"
+      ]
+    ],
+    [
+      [
+        "Test Type",
+        "Test Data"
+      ],
+      [
+        "Overall Debris Tests",
+        "96.7%"
+      ],
+      [
+        "Hardwood Floor Test",
+        "99.0%"
+      ],
+      [
+        "Low Pile Carpet Test",
+        "94.0%"
+      ],
+      [
+        "High Pile Carpet Test",
+        "97.0%"
+      ],
+      [
+        "Long Hair Test",
+        "13.3%"
+      ],
+      [
+        "Pet Hair Test",
+        "66.0%"
+      ],
+      [
+        "Crevice Test",
+        "100%"
+      ],
+      [
+        "Edge Cleaning Test",
+        "97.7%"
+      ],
+      [
+        "Mop Test",
+        "Very Good"
+      ],
+      [
+        "Cleaning Speed",
+        "70 min."
+      ],
+      [
+        "Obstacle Avoidance",
+        "No"
+      ],
+      [
+        "Build Quality Test",
+        "Excellent"
+      ],
+      [
+        "Noise Test",
+        "72 dB"
+      ]
+    ]
+  ]
+}
