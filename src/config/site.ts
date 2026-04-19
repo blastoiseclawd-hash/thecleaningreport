@@ -39,6 +39,10 @@ export const siteConfig = {
     appleTouchIcon: "/apple-touch-icon.svg",
   },
 
+  analytics: {
+    googleAnalyticsId: "G-LL7SMELECE",
+  },
+
   affiliatePrograms: {
     amazon: {
       tag: "thecleaningreport-20",

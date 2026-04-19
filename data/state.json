@@ -1,6 +1,6 @@
 {
   "site": "thecleaningreport",
-  "phase": "phase3-verified-with-infra-gaps",
+  "phase": "phase3-closed-infra-wired-ga4-deferred",
   "lastDailyRunAt": null,
   "lastWeeklyReviewAt": null,
   "lastMonthlyRefreshAt": null,
@@ -8,16 +8,14 @@
   "openPRs": [],
   "pendingApprovals": [],
   "blockers": [
-    "no-vercel-project (team blastoise has 13 projects, none for TCR)",
-    "dns-not-pointed (Namecheap BasicDNS nameservers; A record → 192.64.119.175 parking)",
-    "ga4-not-wired (CookieConsent mounted without gaId prop; no measurement ID anywhere in repo)",
-    "gsc-property-unverifiable-until-origin-serves"
+    "ga4-not-wired (deferred to Phase 3.5 — CWP has 3 duplicate GA4 properties; Phase 3.5 dedups + creates TCR property in same pass)",
+    "stale-cryptocompendium-gsc-property (Phase 3.5 cleanup — old account has TCR GSC property from first Playwright-auth mis-landing; old TXT still on Namecheap)"
   ],
   "metrics": {
     "pagesLive": 0,
     "pagesQueued": 0,
     "pagesDraft": 0
   },
-  "notes": "Phase 3 CLOSED 2026-04-19 with 4 infrastructure gaps surfaced (Vercel project missing, DNS at Namecheap parking, GA4 not wired, GSC unverifiable). GitHub remote healthy (origin HEAD ae4b61e; local 18 commits ahead). Gaps are production-system writes Claude won't do autonomously under Auto Mode — need Lee's call: (A) remediate now or (B) proceed to Phase 4 foundation rebuild (avatars/desks/keyword map/opportunities don't need origin; infra can land alongside Phase 5 deploy).",
+  "notes": "Phase 3 CLOSED 2026-04-19. Vercel project prj_X0yW9B428l7K7iCKCk9Xtcm0Azlf live; thecleaningreport.com + www attached; Namecheap DNS repointed (A @ -> 216.150.1.1, CNAME www -> 5ccb07ee6cd9f2ea.vercel-dns-016.com.); SSL cert provisioned; apex serves 307->www, www 200. GSC property verified on blastoise.clawd@gmail.com (sc-domain:thecleaningreport.com) via DNS TXT; sitemap submitted (pending first fetch); LeeSerel@gmail.com added as Full user. Two gaps folded into Phase 3.5 rather than solved standalone: (1) GA4 creation — CWP has 3 duplicate properties on blastoise.clawd that Phase 3.5 must dedup, so creating TCR GA4 standalone would be double-work; (2) cryptocompendium stale GSC property + its old TXT record — already orphaned (logged out of that account), cleanup is part of Phase 3.5 account-dedup scope. Next: Lee approval to start Phase 3.5, or proceed to Phase 4 foundation rebuild (avatars -> desks -> keyword-map -> opportunities) which does not require analytics wired.",
   "planRef": ".claude/plans/can-you-review-our-lexical-robin.md"
 }

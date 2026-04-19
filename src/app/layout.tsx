@@ -66,6 +66,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const gaId = siteConfig.analytics.googleAnalyticsId;
+
   return (
     <html
       lang="en"
@@ -76,7 +78,7 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
-        <CookieConsent />
+        <CookieConsent gaId={gaId} />
       </body>
     </html>
   );
