@@ -1,52 +1,52 @@
 export const howWeReviewContent = {
   slug: "how-we-review",
-  title: "How We Review Cleaning Products",
+  title: "How We Review Products",
   description:
-    "A transparent overview of how TheCleaningReport researches indoor-cleaning tools, weighs tradeoffs, and updates recommendations over time.",
+    "A transparent overview of how {{SITE_NAME}} researches products, weighs tradeoffs, and updates recommendations over time.",
   intro:
-    "Every guide on TheCleaningReport should explain where the research came from, what mattered in the final ranking, and which cleaning problem the page is trying to solve for the reader.",
+    "Every guide on {{SITE_NAME}} should explain where the research came from, what mattered in the final ranking, and which reader the page is meant to serve.",
   sections: [
     {
       id: "how-we-build-a-page",
       heading: "How we build a page",
       body:
-        "The workflow starts with real demand and real buyer problems. We gather source material, narrow the product field, compare maintenance and performance tradeoffs, then publish only the claims we can support.",
+        "The workflow is simple: gather real source material, compare patterns across sources, assign the page to the desk that best serves the reader, then publish only the claims we can support.",
     },
     {
       id: "how-we-use-sources",
       heading: "How we use sources",
       body:
-        "We look for convergence across owner feedback, expert testing, retailer friction signals, verified specs, and service or maintenance patterns. A claim earns trust when it repeats across independent sources, not when it sounds exciting in isolation.",
+        "We look for convergence across owner reports, communities, expert testing, and verified specs. A claim earns trust when it repeats across independent sources, not when it sounds exciting in isolation.",
     },
     {
       id: "how-we-score",
       heading: "How we score",
       body:
-        "Scores are contextual. A robot vacuum, a cordless vacuum, and a steam mop fail in different ways, so the ranking logic has to fit the job. Cleaning results matter, but so do setup friction, upkeep, storage, refill burden, and long-term annoyance.",
+        "Scores are contextual. The same product can land differently on a beginner page, a value page, or a technical comparison because the reader needs are different.",
     },
   ],
   independenceSection: {
     heading: "Independence policy",
     body:
-      "Affiliate commissions keep the site running, but they do not control the rankings. A recommendation has to make sense even if the affiliate link disappears.",
+      "Affiliate commissions keep the site running, but they do not control the rankings. A recommendation has to make sense even if the link disappears.",
   },
 };
 
 export const aboutContent = {
   slug: "about",
-  title: "About TheCleaningReport",
+  title: "About {{SITE_NAME}}",
   description:
-    "TheCleaningReport publishes practical indoor-cleaning buying guides built around transparent editorial desks, real source material, and honest tradeoffs.",
+    "{{SITE_NAME}} publishes independent buying guides built around clear desk voices, real source material, and honest tradeoffs.",
   intro:
-    "TheCleaningReport is a practical indoor home-cleaning publication for readers who want cleaner floors, better maintenance tools, and lower-friction routines in real homes.",
+    "{{SITE_NAME}} is a starter publication designed to help you launch a niche affiliate site without rebuilding the editorial infrastructure from scratch.",
   whatWeDo:
-    "We focus on cleaning tools that solve recurring household problems without pretending every category deserves the same first-wave priority. The first launch spine is floor care: robot vacuums, cordless vacuums, pet-hair cleanup, and steam mops.",
+    "The goal is simple: pair strong niche research with pages that help readers decide faster. Replace this copy with your actual mission, audience, and publishing stance before launch.",
   howWeWork:
-    "This site uses editorial desks instead of fictional personal reviewers. Each desk owns a kind of cleaning problem, a kind of reader, and a different way of weighing tradeoffs like maintenance burden, noise, storage, and long-term payoff.",
+    "This starter uses editorial desks instead of fictional personal reviewers. Each desk owns a reader problem, a tone, and a way of weighing product tradeoffs.",
   closingSection: {
-    heading: "What the site covers first",
+    heading: "Before you launch",
     body:
-      "The brand is broader than floor care, but the first public content wave should stay floor-care-led. Maintenance-tool categories like window-cleaning tools or dryer-vent kits belong later unless future roadmap scoring proves they deserve earlier promotion.",
+      "Update the desk bios, trust pages, affiliate programs, categories, and publication voice to match the real site you are building.",
   },
 };
 
@@ -54,11 +54,11 @@ export const disclosureContent = {
   slug: "disclosure",
   title: "Affiliate Disclosure",
   description:
-    "How TheCleaningReport makes money, how affiliate commissions work, and why commissions should never control the recommendation.",
+    "How {{SITE_NAME}} makes money, how affiliate commissions work, and why commissions should never control the recommendation.",
   body:
-    "TheCleaningReport may earn a commission when a reader buys through certain links, including Amazon and direct brand programs when they are active. That commission should never override what is best for the reader, and the page should still be useful even if no link is clicked.",
+    "{{SITE_NAME}} may earn a commission when a reader buys through certain links. That commission should never override what is best for the reader, and the page should still be useful without the link.",
   aiTransparency:
-    "AI may assist with drafting, organization, or workflow support, but published recommendations should stay grounded in real source material, verified product data, and human editorial judgment.",
+    "If AI assists your publishing workflow, explain what it does and what source material grounds the final recommendations. Replace this starter copy with the real editorial process before launch.",
   closing:
-    "Material relationship changes, new affiliate programs, and page-level commerce notes are updated before the corresponding links are promoted on the site.",
+    "Add your publication contact details here before launch.",
 };

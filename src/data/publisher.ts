@@ -27,6 +27,7 @@ export type Editor = {
   sameAs: string[];
   hasCredential: Credential[];
   bio: string;
+  visibleBio?: string;
   headshot: string;
   jobTitle: string;
 };
@@ -76,6 +77,8 @@ export const editor: Editor = {
   ],
   bio:
     "Lee Serel is the publisher and editor of The Cleaning Report. A New York-licensed CPA, Lee brings an analytical, reader-first approach to home-cleaning gear coverage — insisting on cited owner-report patterns, manufacturer spec sheets, and verifiable community consensus over marketing copy. Editorial desks operate as internal voice frameworks; final editorial sign-off on every guide is Lee's.",
+  visibleBio:
+    "Lee founded The Cleaning Report after watching a household robot vacuum cost more than it saved — constant dock tantrums, hair-tangled brushes, an app that pushed notifications at 2am. The site exists to separate the cleaning tools that actually reduce daily friction from the ones that just move it around. Coverage starts with floor care and expands into broader indoor-cleaning gear. Every pick has to hold up to bin-empty cadence, filter replacement cost, pet-hair handling, and the repair-vs-replace patterns that show up in two-year owner reports.",
   headshot: "/images/authors/lee-serel.png",
   jobTitle: "Publisher & Editor",
 };

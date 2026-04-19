@@ -2,9 +2,7 @@
   "overrides": [
     "src/config/site.ts",
     "src/config/bot-policy.ts",
-    "src/data/authors.ts",
     "src/data/products.ts",
-    "src/data/keyword-map.ts",
     "src/data/publisher.ts",
     "package.json",
     "README.md",
@@ -12,15 +10,14 @@
     "CLAUDE.md"
   ],
   "notes": {
-    "src/config/site.ts": "Per-site branding (name, domain, affiliate tag).",
+    "src/config/site.ts": "Per-site branding (name, domain, affiliate tag, categories, palette).",
     "src/config/bot-policy.ts": "Per-site AI bot policy.",
-    "src/data/authors.ts": "Editorial desk definitions.",
-    "src/data/products.ts": "Site-specific product catalog (includes FrictionScoreAxes).",
-    "src/data/keyword-map.ts": "Site-specific keyword-to-route map.",
+    "src/data/products.ts": "Site-specific product catalog. Includes FrictionScoreAxes — TCR's differentiator vs other sites.",
     "src/data/publisher.ts": "Publisher identity.",
     "package.json": "Site-specific name + possibly scripts.",
-    "README.md": "Per-site README (rewritten Session 3 2026-04-18).",
-    "AGENTS.md": "Site-specific governance (portable section fenced in Track 8e).",
-    "CLAUDE.md": "Compatibility shim pointing at local AGENTS.md."
+    "README.md": "Per-site README.",
+    "AGENTS.md": "Site-specific governance (portable section fenced by Track 8e drift check).",
+    "CLAUDE.md": "Compatibility shim pointing at local AGENTS.md.",
+    "trimmed-2026-04-19": "authors.ts + keyword-map.ts removed from overrides during Phase 1 reset — both files were deleted and will be rebuilt fresh via per-site-avatar-driven model in Phase 4. Re-add to overrides once rebuilt if sync-template needs to skip them."
   }
 }

@@ -7,3 +7,6 @@ dist
 tsconfig.tsbuildinfo
 .env*
 !.env.local.example
+
+# Phase 8 rebuild salvage — pre-reset backup, not shipped
+.salvage/
