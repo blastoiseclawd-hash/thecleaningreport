@@ -33,40 +33,38 @@ Before starting any task, scan the parent repo skills in `.claude/skills/` and f
 
 ## Editorial Desks
 
-`src/data/authors.ts` stores desk profiles, not fictional individual reviewers. Desks emerge from the avatar research — never reverse-engineered to fit existing archetypes (`feedback_desks_emerge_from_avatars`).
+`src/data/authors.ts` carries 3 topical desks + 1 house voice under the portfolio avatar/desk/house-voice architecture (see parent `AGENTS.md` § Content Architecture). Each topical desk has the full 8-field structured schema (emotionalPosture, openingHookRule, signatureTransitions, forbiddenPhrases, vocabularyPrefs, trustSignalAllowlist, sentenceCadenceRule, canonicalVoiceCorpus) + the `canonicalVoiceCorpus` samples that the swap-test was documented against in the file's header comment block.
 
-| Desk | Focus | Planned readers | Status |
-|------|-------|-----------------|--------|
-| **Everyday Cleaning Desk** | Mainstream cordless, handheld, entry-tier upright. Pragmatic ROI voice, CR/GHI trust anchors. | Practical Cordless Buyer; Traditional Upright Vacuum Buyer (backlog); Generic Mop Buyer (backlog) | Pending Phase 4.B rebuild |
-| **Floor Care & Deep-Restoration Desk** | Robot vacuum flagship + carpet cleaner machine. Candid-tradeoff-forward voice, heavy Vacuum Wars / Modern Castle methodology citation. Highest-AOV desk; two $300+ buyer types share it because both are tradeoff-chart-hungry. | Automation-Minded Floor-Care Upgrader; Carpet-Crisis / Deep-Restoration Buyer | Pending Phase 4.B rebuild |
-| **Surface-Specific Deep Clean Desk** | Steam mop + chemical-cleaning bundle (grout / hardwood / stainless). Caution-first / warranty-aware voice; flooring-manufacturer-care-guide citation, EWG/Made Safe references, explicit "what NOT to use" blocks. Longest-form desk. | Surface-Specific Deep Cleaner (primary); Generic Mop Buyer (backlog interim carrier) | Pending Phase 4.B rebuild |
+| Desk | Role | Emotional Posture | Primary avatar(s) | Owned clusters | Exclusive trust lane |
+|------|------|------------------|-------------------|----------------|---------------------|
+| **Everyday Cleaning Desk** | topical-desk | PRAGMATIC REASSURANCE | Practical Floor Keeper + Traditional Upright (backlog) + Generic Mop (backlog) | Cordless Vacuum, Handheld Vacuum, Upright (backlog), Mop (backlog) | Good Housekeeping Institute + Consumer Reports + Wirecutter |
+| **Labor Math Desk** | topical-desk | SKEPTICAL TIME-TRADER | Labor Trader | Robot Vacuum (flagship), premium Cordless, robot/steam hybrid docks | Vacuum Wars methodology (7-inch hair-tangle, anemometer airflow) + Modern Castle 12-debris matrix |
+| **Safe Surface Desk** | topical-desk | CAREFUL EXPERT | Surface Protector + Event-Driven Restorer + Generic Mop interim carrier | Steam Mop, Chemical-Cleaning Bundle (grout/hardwood/stainless/upholstery), Carpet Cleaner Machine | Bona/Shaw/Armstrong flooring manufacturer care guides + EWG Verified / Made Safe + IICRC S100 + VacuumLand comparison threads |
+| **The Cleaning Report** | house-voice | (brand-level, not avatar-specific) | — (cross-cutting) | Homepage, About, /how-we-review, /disclosure, /ai-disclosure, /privacy, /terms, category hub intros | — (house voice doesn't cite per-category authorities; references the method) |
 
-Phase 4.A (avatar research, 2026-04-19) landed [`data/avatar-research.md`](./data/avatar-research.md). Phase 4.B will populate [`src/data/authors.ts`](./src/data/authors.ts) via `build-editorial-desks` with the swap-test gate per plan Phase 4.B.
+Desk-source-of-truth: [`src/data/authors.ts`](./src/data/authors.ts). Swap-test documented in the file's header comment block at creation 2026-04-19.
 
 Desk operating notes:
-- **Everyday Cleaning Desk** owns mainstream cordless, handheld, and budget/lightweight roundups. Anti-jargon, tight tradeoff tables, institutional-testing trust anchors (CR, GHI).
-- **Floor Care & Deep-Restoration Desk** owns the revenue spine — Robot Vacuum (flagship, $6,641/mo P3 floor) + Carpet Cleaner Machine. Shared voice on labor-removal math and event-driven restoration math; diverges on cadence (daily vs event-driven) but holds voice.
-- **Surface-Specific Deep Clean Desk** owns the most *pages* (Steam Mop + 3-4 Chemical-Cleaning Bundle spokes) but least revenue; do NOT weight desk importance by page-count. Caution-first framing is non-negotiable — pH-neutral, manufacturer-approved, warranty-aware.
+- **Everyday Cleaning Desk** owns mainstream cordless + handheld + basic-mop roundups. Anti-jargon, tight tradeoff tables, CR/GHI trust anchors. Forbids Labor Math's methodology language + Safe Surface's warranty/caution language.
+- **Labor Math Desk** owns the revenue spine (Robot Vacuum flagship). Tradeoff-forward, Vacuum-Wars-methodology-citing, maintenance-honest. Forbids Everyday's "you're fine" reassurance + Safe Surface's decision-tree framing.
+- **Safe Surface Desk** owns the most pages once Chemical Bundle spokes spin up. Caution-first, warranty-aware, flooring-manufacturer-care-guide-led. Forbids Everyday's "simple winner" + Labor Math's "week-math" framing.
+- **The Cleaning Report (house voice)** writes the homepage, About, and every trust page. Calm, credible, cross-cutting. Uses `write-as-house-voice` skill. Never borrows a topical desk's posture.
 
-## Customer Avatars (Research-Backed)
+## Customer Avatars (Research-Backed, Jobs-to-Be-Done)
 
-Phase 4.A complete 2026-04-19 in [`data/avatar-research.md`](./data/avatar-research.md). Fresh rewrite scoped to the 7-cluster shortlist — 4 full + 2 backlog-light. Prior 6-full + 3-backlog-light set (2026-04-18) was invalidated when the roadmap narrowed from 10 clusters to 7 and pet-hair vacuum clusters returned to BetterPetPicks per kill-list.
+Phase 4.A complete 2026-04-19 in [`data/avatar-research.md`](./data/avatar-research.md). 4 full job-based cross-cluster avatars + 2 backlog-light. Prior niche-bucket shape (2026-04-19 first pass — "Automation-Minded Floor-Care Upgrader" etc.) rejected by Lee and salvaged to `.salvage/avatar-research-wrong-shape-2026-04-19.md`. Avatars are jobs + emotional states cutting across clusters; never product-category names. Enforced by `check-avatar-shape.js`.
 
-Full avatars (primary voices; cover launch clusters):
-- **Automation-Minded Floor-Care Upgrader**: higher-AOV ($300–$1,500) robot-vacuum buyer who trades money for removed labor. Tech-adjacent but not a tinkerer. Dock-maintenance reality + app-privacy posture are decision-weight factors. Non-pet-primary framing ("pets in the house but not pet-primary") — pet-hair clusters stay with BPP.
-- **Practical Cordless Buyer**: mainstream value-driven shopper ($100–$400), cordless + handheld (folded in as secondary). Reads CR / GHI / Wirecutter + cross-checks one Reddit thread. Weight / bin size / battery-runtime / hair-wrap are the decision axes. Folds the Quick-Clean Handheld supplement behavior.
-- **Surface-Specific Deep Cleaner**: caution-first homeowner (35–60) protecting specific surfaces — engineered hardwood, laminate, natural stone, grout, stainless. Often once-burned; over-researches. Owns Steam Mop + Chemical-Cleaning Bundle. Warranty language and manufacturer-approved endorsements are decision-weight.
-- **Carpet-Crisis / Deep-Restoration Buyer**: event-driven (moved in / stain-crisis / semi-annual refresh) buyer upgrading off Rug Doctor rentals. Dry-time is the #1 differentiator. NON-pet-primary — pet-carpet-cleaning stays with BPP. Owns `best-carpet-cleaner-machine` + Bissell-vs-Rug-Doctor head-to-head.
+Full avatars:
+- **Practical Floor Keeper** — 25-50 shopper wanting one good tool for normal weekly floor care without a research project. Arrives mildly impatient. $100-400 bands. Expresses in Cordless (primary) + Handheld + Mop + budget Robot Vacuum.
+- **Labor Trader** — 30-55 buyer trading money for reclaimed hours; triggered by a life-load shift (new baby, RTO, aging knees). Arrives tired, skeptical of gadget marketing. $500-1500 bands. Expresses in Robot Vacuum (primary) + premium Cordless + robot/steam hybrid docks.
+- **Surface Protector** — 35-60 homeowner protecting engineered hardwood / laminate / stone / grout / stainless. Once-burned; over-researches. $15-150 per product. Expresses in Steam Mop + Chemical Bundle (primary) + Mop + decisions on Carpet Cleaner Machine.
+- **Event-Driven Restorer** — 30-55 triggered buyer (moved in / flood / wine / pre-listing). One-shot research sprint, ROI-aware. NOT pet-primary. $150-600 bands. Expresses in Carpet Cleaner Machine (primary) + Steam Mop + Chemical Bundle.
 
-Backlog-light avatars (deepen on cluster promotion — see policy in avatar-research.md):
-- **Generic Mop Buyer** — backlog for non-steam mop pages; Surface-Specific Deep Cleaner voice carries interim content.
-- **Traditional Upright Vacuum Buyer** — backlog for `best-upright-vacuum`; Practical Cordless voice carries interim content with corded-preference framing.
+Backlog-light avatars (deepen on cluster promotion — see `data/avatar-research.md` § "Backlog-cluster deepening policy"):
+- **Generic Mop Buyer** — backlog for non-steam mop pages; Surface Protector voice carries interim content.
+- **Traditional Upright Vacuum Buyer** — backlog for `best-upright-vacuum`; Practical Floor Keeper voice carries interim content with corded-preference framing.
 
-Important interpretation:
-- `Small-home or apartment cleaner` remains inside Practical Cordless rather than standing alone.
-- First-wave launch candidates map: `best-robot-vacuum` (Automation / Floor Care & Deep-Restoration), `best-cordless-vacuum` (Practical / Everyday Cleaning), `best-carpet-cleaner-machine` (Carpet-Crisis / Floor Care & Deep-Restoration), `best-steam-mop` + `how-to-clean-hardwood-floors` (Surface-Specific / Surface-Specific Deep Clean), `best-handheld-vacuum` (Practical secondary).
-- Pet-Mess Floor Manager avatar was REMOVED in this rewrite — pet-hair clusters returned to BPP. Automation avatar carries any pet-household framing as non-primary.
-- Backlog deepening policy is non-negotiable: any content session on a backlog-promoted slug must extend the relevant avatar to full depth BEFORE `plan-guide-pages` runs. See `plan-guide-pages` skill for the gate and `data/avatar-research.md` § "Backlog-cluster deepening policy" for the procedure.
+Cross-cluster expression matrix + full avatar blocks live in [`data/avatar-research.md`](./data/avatar-research.md). That file is the contract consumed by downstream skills (`build-editorial-desks`, `map-keywords-to-avatars`, `plan-guide-pages`).
 
 ## Content Categories
 
@@ -123,6 +121,7 @@ Before starting any task, scan `.claude/skills/SKILLS-INDEX.md` at the parent re
 8. **AI disclosure** matching the site's actual practice, published on an `/ai-disclosure` route.
 9. **Statistic attribution.** Every numerical claim on YMYL content carries an inline citation or footnote link to a primary source (product-data numbers exempt).
 10. **Visual inspection gate.** Any task touching UI, content, layout, or routing requires dev-server load + real browser check before commit. Audit-pass and build-pass are code-shape checks; neither proves the page looks right.
+11. **Avatar + desk + house-voice architecture.** Every site carries `data/avatar-research.md` (core-job cross-cluster avatars — NOT product-bucket names), `src/data/authors.ts` with topical desks (role: "topical-desk", full 8-field schema) + exactly 1 house voice (role: "house-voice"). Commercial pages use `write-as-editorial-desk` with a `// desk: <id>` first-line comment. Site-level pages (homepage, about, trust) use `write-as-house-voice`. Enforced by `check-avatar-shape.js`, `check-desk-distinctness.js`, `check-house-voice-exists.js`, and the `content-quality-check.js` + `house-voice-boundary-validate.js` hooks.
 
 ## Before marking any task complete
 
