@@ -1,0 +1,40 @@
+{
+  "url": "https://old.reddit.com/r/RobotVacuums/comments/1mg9zjn/mova_v50_no_issues_with_obstacles/",
+  "title": "MOVA V50 NO ISSUES WITH OBSTACLES",
+  "author": "War-Machine-007",
+  "score": "35",
+  "body": "",
+  "comments": [
+    {
+      "author": "SafithDophor",
+      "score": "12",
+      "body": "It looks like it has a jump scare every time it registers the cable"
+    },
+    {
+      "author": "FarConcern2308",
+      "score": "1",
+      "body": "This is what robots with just one RGB camera have to do to gauge the distance to the cable. Those with binocular RGB cameras don’t have this issue if the software is done right as they can do lots of complicated math to gauge the distance like how our eyes gauge the distance to something."
+    },
+    {
+      "author": "SafithDophor",
+      "score": "1",
+      "body": "Thanks for the explanation! I could temporarily only look with one eye due to an issue so I can relate to this poor one eyed robot getting scared when encountering something close suddenly :-)"
+    },
+    {
+      "author": "FarConcern2308",
+      "score": "1",
+      "body": "This is the reason why the Narwal Freo Z ultra navigates very smoothly around obstacles ! I’ll like to see more brands implement binocular RGB cameras as the obstacle avoidance will be much smoother making it seem smarter to us."
+    },
+    {
+      "author": "FarConcern2308",
+      "score": "8",
+      "body": "I haven’t had any issues with its obstacle avoidance after 1000sqm"
+    },
+    {
+      "author": "FarConcern2308",
+      "score": "1",
+      "body": "I tested thin white usb-c cables on my white tile flooring and there were no issues when I turned off the lights (not it’s led light)."
+    }
+  ],
+  "capturedAt": "2026-04-19T23:22:35.842Z"
+}

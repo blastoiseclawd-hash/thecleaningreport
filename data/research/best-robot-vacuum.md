@@ -3,7 +3,7 @@ verified: true
 evidenceFolder: sites/thecleaningreport/data/research/evidence/best-robot-vacuum/
 researchedOn: 2026-04-19
 researchedBy: parent-session (Playwright MCP against live Chrome profile)
-sources: [vacuumwars.com, moderncastle.com, cnet.com, old.reddit.com, amazon.com]
+sources: [vacuumwars.com, moderncastle.com, cnet.com, old.reddit.com, youtube.com, amazon.com]
 deskId: labor-math-desk
 primaryAvatar: labor-trader
 clusterId: robot-vacuum
@@ -164,6 +164,45 @@ Labs test for 2 weeks. Owners live with machines for 18+ months. Tier1 lab rank 
 
 **Labor Math read on the failure modes.** A robot that fails obstacle avoidance on pet waste in a dog household costs its owner MORE labor than it saves (cleaning pet waste out of the brush is longer than the time the vacuum would have saved). Every Final 7 recommendation is explicitly scoped against the Labor Trader avatar's likely household shape — there is no "best overall" that doesn't leak labor against some household configurations.
 
+## Per-product owner-reality threads + independent video coverage
+
+For each Final 6 product, at least one positive-leaning owner thread, one dissent/pain-point thread, and one independent (non-Vacuum-Wars) YouTube reviewer are captured in the evidence folder. This gives the write phase per-product rendering material for "what owners actually say" + "an independent video perspective" without re-citing any tier1 text source twice.
+
+### Mova V50 Ultra Complete
+- **Positive owner (long-form):** u/FarConcern2308, 10,000 ft² cleaned ~8 months — "went from smacking the filter against the trash can every night to cleaning it maybe once every two weeks" (https://old.reddit.com/r/RobotVacuums/comments/1mmdaw4/still_not_perfect_but_my_dog_and_i_think_the_mova/). **Bias disclosure:** the poster received the unit through MOVA's Reddit collaboration program — flagged in thread comments. Weight accordingly.
+- **Positive counter (obstacle avoidance specifically):** "MOVA V50 NO ISSUES WITH OBSTACLES" — 36 points, counter-evidence to the critical-obstacle-failure narrative (https://old.reddit.com/r/RobotVacuums/comments/1mg9zjn/mova_v50_no_issues_with_obstacles/).
+- **Dissent (high-score):** "UPDATE MOVA DO NOT BUY" — 39 points, 50 comments documenting ownership complaints (https://old.reddit.com/r/RobotVacuums/comments/1qtgk71/update_mova_do_not_buy/).
+- **Video reviewer:** Vac Tech — "Mova V50 Ultra Complete Robot Vacuum Review & Dreame X50 Comparison", 8.1K views, Nov 29 2025 (https://www.youtube.com/watch?v=B6pjlzeTSSA). Head-to-head frame mirrors our cross-pub divergence approach.
+
+### Dreame X50 Ultra
+- **Positive owner:** "Why the Dreame x50 is the absolute best robotic vacuum I've ever used!" — 85 points, 51 comments (https://old.reddit.com/r/RobotVacuums/comments/1msy6t5/why_the_dreame_x50_is_the_absolute_best_robotic/). Highest-upvoted positive signal for any Final 6 product.
+- **Dissent:** "Totally underwhelmed by Dreame X50 Ultra - Is this normal?" — 18 points, 42 comments (https://old.reddit.com/r/RobotVacuums/comments/1pm9j2k/totally_underwhelmed_by_dreame_x50_ultra_is_this/). Signals expectation/reality gap.
+- **Video reviewer:** Max Tech — "Dreame X50 Ultra after 4 Months - How This High-End Robot Vacuum Held Up" (https://www.youtube.com/watch?v=XgD_egtHMfs). 4-month long-term frame is exactly what CNET's 2-week lab can't provide.
+
+### Ecovacs Deebot X8 Pro Omni
+- **Specific-failure-mode owner:** "Help! Ecovacs X8 Pro Omni won't dispense water — tank is full and seated correctly" — 7 points, 19 comments (https://old.reddit.com/r/RobotVacuums/comments/1m2xpis/help_ecovacs_x8_pro_omni_wont_dispense_water_tank/). Confirms mop-system reliability issues.
+- **Noise-specific owner:** "ecovacs x8 pro omni loud sound" — 8 points, 12 comments (https://old.reddit.com/r/RobotVacuums/comments/1m52iur/ecovacs_x8_pro_omni_loud_sound/). Direct friction-score signal for the noise axis.
+- **Video reviewer:** CJKnowsTECH — "Surprising Results After 4 Months with ECOVACS DEEBOT X8 PRO OMNI" (https://www.youtube.com/watch?v=6zx5OkMT6A0). 4-month long-term owner frame.
+
+### Yeedi S20 Infinity
+- **Technical-depth dissent:** "Ecovacs X11 Omni / Yeedi S20: Empirical Evidence of Critical Software Logic Bugs (Refill, Battery, & Navigation) – Verified via Precision Scale & Custom 3D-Printed Adapter" — 5 points, 6 comments (https://old.reddit.com/r/RobotVacuums/comments/1s3ovaa/ecovacs_x11_omni_yeedi_s20_empirical_evidence_of/). Owner-built 3D-printed test apparatus documenting software-logic failures. Unusually rigorous for Reddit.
+- **Noise-specific dissent:** "Is this Yeedi S20 Infinity screeching normal?" — 2 points, 27 comments (https://old.reddit.com/r/RobotVacuums/comments/1sd4e05/is_this_yeedi_s20_infinity_screeching_normal/). Mechanical-wear signal.
+- **Video reviewer:** Vacuum Chef — "Yeedi S20 Infinity Review – Does It Finally Compete With the Big Brands?" (https://www.youtube.com/watch?v=WNKicCbFTts). Competitive framing lens.
+
+### Roborock Qrevo CurvX
+- **Dissent:** "Bought a Qrevo CurvX and found the results very unimpressive. Is this normal?" — 11 points, 21 comments (https://old.reddit.com/r/RobotVacuums/comments/1q0jfxj/bought_a_qrevo_curvx_and_found_the_results_very/). Expectation/reality gap documented.
+- **Head-to-head decision:** "If you had to choose between the Roborock QRevo CurvX & Mova V50 ultra, which would be your pick and why?" — 8 points, 47 comments (https://old.reddit.com/r/RobotVacuums/comments/1li1swt/if_you_had_to_choose_between_the_roborock_qrevo/). Useful for the FAQ block.
+- **Video reviewer:** Just A Dad Approved — "Roborock Qrevo CurvX Robot Vacuum & Mop Deep Dive | Real-World Results & How to Keep It Like New" (https://www.youtube.com/watch?v=VTH3X0PwuIQ). Owner-upkeep frame — labor-math relevant.
+
+### Eufy E28
+- **Positive owner (long-form):** "Eufy e28: One month review" — 57 points, 44 comments (https://old.reddit.com/r/RobotVacuums/comments/1pysyut/eufy_e28_one_month_review/). Second-highest positive Reddit signal on this Final 6 list.
+- **Dissent:** "E25/ E28 users beware" — 16 points, 26 comments (https://old.reddit.com/r/RobotVacuums/comments/1pgltx7/e25_e28_users_beware/). Cross-model pattern worth flagging.
+- **Video reviewer:** Vacuum Nerds — "Does the eufy E28 Robot Vacuum Really Live Up To The Hype?" (https://www.youtube.com/watch?v=AaYGng08p0Y). Skeptical framing.
+
+### Reading this section (for Phase 4 write)
+
+The positive + dissent pairing per product gives the editorial write a built-in "when to buy / when not to buy" skeleton. The YouTube cite is a non-Vacuum-Wars triangulation — viewers who would never read CNET may have watched one of these. Render each URL as an outbound citation in the page body so Google's crawler sees the reference graph.
+
 ## Cross-publication divergence (the information-gain synthesis)
 
 | Pick | Vacuum Wars 2026 top 20? | Modern Castle 2026 top 8? | CNET 2026 top 7? |
@@ -183,21 +222,44 @@ We do not cite Wirecutter because it's paywalled (NYT subscription) and our comm
 
 ## Evidence folder
 
-All evidence artifacts live at `sites/thecleaningreport/data/research/evidence/best-robot-vacuum/`:
+All evidence artifacts live at `sites/thecleaningreport/data/research/evidence/best-robot-vacuum/`. 25 artifacts total (3 tier1 text labs + 13 Reddit owner threads + 6 independent YouTube reviewers + 3 supporting screenshots). 37 MB captured.
 
+**Tier1 text labs (6 artifacts):**
 - `01-vacuumwars-top-20-roundup.png` (8.3 MB full-page screenshot — Vacuum Wars 2026 list)
-- `02-vacuumwars-scores.json` (16 KB structured extract — 21 products × 8 dimensions)
-- `03-moderncastle-top-8-roundup.png` (5.7 MB full-page screenshot — Modern Castle 2026 list)
-- `04-moderncastle-sections.json` (15 KB structured extract — cleaning / navigation / noise / usability / maintenance matrices)
-- `05-cnet-best-robot-vacuums.png` (4.1 MB full-page screenshot — CNET 2026 list)
-- `06-cnet-picks.json` (structured extract — 7 picks with CNET score + Pros/Cons + Best-for + Why-we-recommend)
-- `07-reddit-mova-v50-owner-review.json` (Reddit long-form owner review, Mova V50 Ultra, 69 points, 10,000 ft² cleaned)
+- `02-vacuumwars-scores.json` (16 KB — 21 products × 8 dimensions)
+- `03-moderncastle-top-8-roundup.png` (5.7 MB screenshot — Modern Castle 2026 list)
+- `04-moderncastle-sections.json` (15 KB — cleaning / navigation / noise / usability / maintenance matrices)
+- `05-cnet-best-robot-vacuums.png` (4.1 MB screenshot — CNET 2026 list)
+- `06-cnet-picks.json` (22 KB — 7 picks with CNET score + Pros/Cons + Best-for + Why-we-recommend)
+
+**Reddit owner-reality threads (13 artifacts, 2-3 per Final-6 product):**
+- `07-reddit-mova-v50-owner-review.json` — u/FarConcern2308 long-form (10,000 ft²); brand-collab disclosed
+- `08-reddit-mova-v50-do-not-buy-dissent.json` — 39-point dissent thread
+- `09-reddit-mova-v50-no-issues-obstacles-counter.json` — positive counter-evidence
+- `10-reddit-dreame-x50-best-ever-positive.json` — 85-point positive
+- `11-reddit-dreame-x50-underwhelmed-dissent.json` — expectation/reality gap
+- `12-reddit-ecovacs-x8-water-dispense-failure.json` — specific mop-system failure
+- `13-reddit-ecovacs-x8-loud-sound-noise.json` — noise axis signal
+- `14-reddit-yeedi-s20-software-logic-bugs.json` — owner-built 3D-printed test apparatus
+- `15-reddit-yeedi-s20-screeching-noise.json` — mechanical-wear signal
+- `16-reddit-roborock-qrevo-curvx-unimpressive-dissent.json` — expectation/reality gap
+- `17-reddit-roborock-vs-mova-decision.json` — head-to-head decision thread
+- `18-reddit-eufy-e28-one-month-positive.json` — 57-point 1-month review
+- `19-reddit-eufy-e28-beware-dissent.json` — E25/E28 cross-model warning
+
+**Independent YouTube reviewers (6 artifacts, 1 per Final-6 product, non-Vacuum-Wars for source diversity):**
+- `20-youtube-mova-v50-vactech-review.json` — Vac Tech, comparison review
+- `21-youtube-dreame-x50-maxtech-4-month-review.json` — Max Tech, 4-month long-term frame
+- `22-youtube-ecovacs-x8-cjknows-4-month-review.json` — CJKnowsTECH, 4-month long-term
+- `23-youtube-yeedi-s20-vacuumchef-review.json` — Vacuum Chef, competitive framing
+- `24-youtube-roborock-qrevo-justadad-deep-dive.json` — Just A Dad Approved, owner-upkeep frame
+- `25-youtube-eufy-e28-vacuumnerds-review.json` — Vacuum Nerds, skeptical framing
 
 RTINGS evidence captured in the first pass was deleted 2026-04-19 per Lee directive on paywalled sources. CNET substituted as tier1 #3.
 
 ## Next phase unblock
 
-This doc has `verified: true` and 7 evidence artifacts (≥3 with extension png/jpg/json, ≥1 >50KB). `check-research-verified.js` should pass. Phase 3 scrape (scrape-amazon-products skill) is unblocked for the Final 6 products above.
+This doc has `verified: true` and 25 evidence artifacts (tier1 text labs + Reddit owner threads × 2-3 per product + independent YouTube × 1 per product + supporting screenshots). `check-research-verified.js` passes. Phase 3 scrape complete. **Phase 4 write** is unblocked for the Final 6 products.
 
 Final 6 Amazon ASINs (sweep-confirmed 2026-04-19):
 1. Mova V50 Ultra Complete — **B0F3WQTM9Q** ($699.00 at sweep)

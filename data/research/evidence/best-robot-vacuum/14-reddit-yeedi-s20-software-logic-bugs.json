@@ -1,0 +1,35 @@
+{
+  "url": "https://old.reddit.com/r/RobotVacuums/comments/1s3ovaa/ecovacs_x11_omni_yeedi_s20_empirical_evidence_of/",
+  "title": "Ecovacs X11 Omni / Yeedi S20: Empirical Evidence of Critical Software Logic Bugs (Refill, Battery, & Navigation) – Verified via Precision Scale & Custom 3D-Printed Adapter",
+  "author": "Miserable_Land_84",
+  "score": "5",
+  "body": "Hi everyone,\n\nI’m sharing my deep-dive analysis of the Ecovacs X11 Omni (and its hardware twin, the Yeedi S20/M14 series – a well-known industry relation). After just one week of testing and being fed generic support replies (\"clean your sensors\"), I decided to treat this like a reverse-engineering project. Using a high-precision digital scale and a custom 3D-printed pressure adapter, I can now prove that the hardware is 100% capable, but the firmware logic is fundamentally broken.\n\nMy Methodology (Excluding Hardware Failure)\n\nTo eliminate \"feelings\" or \"guesses,\" I used a two-step verification:\n\nHydraulic Verification: I designed a custom 3D-printed adapter for a syringe to manually fill the internal tank. I can reliably inject exactly 110 ml until it triggers a controlled overflow. This proves the internal valves and hoses are not blocked.\n\nPrecision Scale Tracking: I weighed the robot before and after cycles, accounting for mop saturation (by removing/pre-soaking them) to isolate the internal tank's net water weight.\n\nThe \"Smart Refill\" Failure & The 10-Minute Masking Trick\n\nThe Findings: Despite what support claims, the robot does not reliably refill during every mop wash. It seems to fill only at the very beginning of a task if the mops have been air-drying for a while. During mid-cycle washes, the refill is completely hit-or-miss.\nThe Lack of Feedback: There is no \"Refill Successful\" message in the app. Users are left guessing if the tank is actually being used.\nThe Support Strategy: Support often recommends setting the mop-wash interval to 10 minutes. This is a masking tactic! By returning to the station so frequently, the mops stay wet from the washing process itself, hiding the fact that the internal tank is never used.\nThe Flow Rate Test: You can verify this bug easily: If changing the \"Water Flow Rate\" in the app has no visible influence on the dampness of your floor, your internal tank is dry. The setting becomes a placebo because there is no water to distribute.\nThe Floor Challenge: This makes mopping on another floor (without the station) a nightmare. You have to \"trick\" it into a full refill by starting a dummy task at the station first.\nSafety Risk: Dirty Water Tank \"Blindness\"\n\nThe system correctly detects if the tank is present, but completely ignores the \"Full\" status of the internal magnetic float. The robot continues to pump dirty water even when full, leading to overflows on your floor and risking water ingress into the vacuum motor.\n",
+  "comments": [
+    {
+      "author": "HillarysFloppyChode",
+      "score": "1",
+      "body": "OP, this is all good, but I wouldn’t assume it means the hardware is capable. Speaking as software person, this sounds like Ecovacs is using software tricks to cover up known faulty hardware.\n\nTo me it sounds like Ecovacs cut corners by not placing a water level sensor in the clean water tank, which is why it doesn’t have a “refill successful” (although nor does my Eufy, but I can hear it refilling) message and why you can control the flow rate without it actually doing anything. The base station clean water pump potentially has flaw that causes it to fail to refill - maybe it’s overheating be"
+    },
+    {
+      "author": "Miserable_Land_84",
+      "score": "1",
+      "body": "Crucial Update: The \"Trigger\" Logic for Start-of-Task Refills\n\nObservation: The full 110ml refill at the start of a task is not guaranteed. It only occurs when the firmware deems it necessary, specifically when the mops are dry (e.g., after an air-drying cycle).\nThe Audio Proof: In the English voice output, the robot explicitly states \"Refilling the mop\" (or similar) when this specific routine is triggered.\nThe Logic Gap: If the mops are already damp (e.g., you just finished a room or did a manual wash), the robot often skips the internal tank refill entirely, even if the internal reservoir is"
+    },
+    {
+      "author": "SpruceMoosey",
+      "score": "1",
+      "body": "Couldn't be bothere, I tried an X11 pro omni and it was by far, the worst robot I have even used. Not worth your time mate. Just send it back for a full refund."
+    },
+    {
+      "author": "Miserable_Land_84",
+      "score": "2",
+      "body": "I totally get the frustration – out of the box, it’s a mess. But as a tech enthusiast, I’m not just sending it back quietly. I want to expose the specific logic flaws first. I actually want this robot to work because the hardware concepts are brilliant:\n\nSustainability: The Cyclone system is a game-changer for reducing bag and filter waste.\nHygiene: The concept of the robot constantly refreshing its water via the internal tank is superior to just dragging a damp cloth.\nPerformance: The carpet boost and pet hair extraction are top-tier.\nCharging: The Fast Charging function is a huge plus.\n\n\nI’m"
+    },
+    {
+      "author": "SpruceMoosey",
+      "score": "1",
+      "body": "Fight the powa brother(or sister). I have returned 9k worth of robovacs since the start of 2024 myself, all brands. We all must fight this Enshittification process in our own ways!\n\n/07"
+    }
+  ],
+  "capturedAt": "2026-04-19T23:24:44.795Z"
+}

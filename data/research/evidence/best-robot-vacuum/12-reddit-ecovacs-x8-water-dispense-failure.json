@@ -1,0 +1,40 @@
+{
+  "url": "https://old.reddit.com/r/RobotVacuums/comments/1m2xpis/help_ecovacs_x8_pro_omni_wont_dispense_water_tank/",
+  "title": "Help! Ecovacs X8 Pro Omni won’t dispense water — tank is full and seated correctly",
+  "author": "Creative-Regular6799",
+  "score": "7",
+  "body": "Hey everyone, I recently bought the Ecovacs X8 Pro Omni, and while the vacuuming and mapping work great, I’m having a frustrating issue with the water system.\n\nThe robot keeps showing an error saying the clean water tank is not installed properly or that there’s not enough water — but I’ve triple-checked: the tank is completely full and installed snugly.\n\nI’ve watched all the support videos and even cleaned the water inlet tube, but it’s all brand new and spotless. Still, no water is pumped into the mop, and it stays dry during cleaning. I’ve tried reseating the tank, power cycling, and cleaning all connectors — nothing seems to help.\n\nIs anyone else experiencing this issue? Is it a sensor problem? A defect? Is there something I’m missing before I contact support or ask for a refund?\n\nAny ideas or fixes would be super appreciated 🙏",
+  "comments": [
+    {
+      "author": "OfficeMore9524",
+      "score": "3",
+      "body": "I had this recently with the X10 - ended up returning it and swapping for a S1 Pro. I checked all the lines etc and decided in the end that the pump must have failed."
+    },
+    {
+      "author": "VrtlBrown",
+      "score": "3",
+      "body": "Don’t know about the water issue but the top cover of the bot is on upside down"
+    },
+    {
+      "author": "Creative-Regular6799",
+      "score": "3",
+      "body": "Yeah saw that now lol thanks, so weird"
+    },
+    {
+      "author": "p_p11p_p",
+      "score": "3",
+      "body": "Happened with mine, same model. What I did was push/put water through the inputs and outputs with a syringe a bunch of times, also changed the cleaning mop cycle to use the maximum amount of water and kept asking the station to do it. Eventually something unclogged and it started filling the robot with water.\n\nIt's a shame that the insides of hte robot and stations are not easily acessible at all and you can't fix this things easily."
+    },
+    {
+      "author": "Creative-Regular6799",
+      "score": "1",
+      "body": "So this is the scenario you suggest?: - remove the clean water tank - fill a syringe with water, tight seal it around the entrance of where the water is supposed to flow - ask it to go for a mopping clean - now it says that there is not enough water - it briefly activates the pump then stops, which takes the water in from the syringe. - stop the mopping and start over\n\nIf this is the scenario then I did it for at least 5 times. Do you suggest to keep trying/this is not the scenario you describe?"
+    },
+    {
+      "author": "p_p11p_p",
+      "score": "2",
+      "body": "Hey!\n\nNo, I filled the syringe with water and pushed it a dozen times first from the water exit at the point the water tank connects to the station, and then at the point the station outputs the water to the robot. Just multiple cycles of filling -> empting syringe into the water entry/exit\n\nAfter that just like 20 runs of mop washing with the water usage set to max (the mop washing water usage, not the cleaning water usage) and eventually it unclogged.\n\nDoes your station manages to wash the mop? The water exit is different for filling the robot and for washing mop, so if the mop washes then t"
+    }
+  ],
+  "capturedAt": "2026-04-19T23:24:01.848Z"
+}
