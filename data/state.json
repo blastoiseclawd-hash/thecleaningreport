@@ -1,18 +1,23 @@
 {
   "site": "thecleaningreport",
-  "phase": "phase2-niche-confirmed",
+  "phase": "phase3-verified-with-infra-gaps",
   "lastDailyRunAt": null,
   "lastWeeklyReviewAt": null,
   "lastMonthlyRefreshAt": null,
   "nextQueueItemId": null,
   "openPRs": [],
   "pendingApprovals": [],
-  "blockers": [],
+  "blockers": [
+    "no-vercel-project (team blastoise has 13 projects, none for TCR)",
+    "dns-not-pointed (Namecheap BasicDNS nameservers; A record → 192.64.119.175 parking)",
+    "ga4-not-wired (CookieConsent mounted without gaId prop; no measurement ID anywhere in repo)",
+    "gsc-property-unverifiable-until-origin-serves"
+  ],
   "metrics": {
     "pagesLive": 0,
     "pagesQueued": 0,
     "pagesDraft": 0
   },
-  "notes": "Phase 2 CLOSED 2026-04-19. Cleaning-niche confirmed. 7-cluster shortlist at data/cluster-shortlist.md (flagships: robot vacuum / cordless vacuum [sub-niche carve] / mop; supports: handheld vacuum / steam mop / carpet cleaner machine / chemical-cleaning bundle). Pass-3 SERP + volume-history fired on top 3 EXCELLENT candidates. BPP collision excludes pet-hair. MCP budget usage 2.0% this phase (3,006 units). Next: Phase 3 infrastructure verification OR jump to Phase 4 per Lee.",
+  "notes": "Phase 3 CLOSED 2026-04-19 with 4 infrastructure gaps surfaced (Vercel project missing, DNS at Namecheap parking, GA4 not wired, GSC unverifiable). GitHub remote healthy (origin HEAD ae4b61e; local 18 commits ahead). Gaps are production-system writes Claude won't do autonomously under Auto Mode — need Lee's call: (A) remediate now or (B) proceed to Phase 4 foundation rebuild (avatars/desks/keyword map/opportunities don't need origin; infra can land alongside Phase 5 deploy).",
   "planRef": ".claude/plans/can-you-review-our-lexical-robin.md"
 }
