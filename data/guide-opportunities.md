@@ -106,7 +106,7 @@ Ordering rule per `generate-guide-opportunities` Step 3.1: interleave support ar
 - Position 23: 1M
 - Position 24: 1L
 
-Money (including hubs): 14 · Support: 6 · Comparison: 2 · Linkable: 3 · **14:8 ≈ 1.75:1 money-to-(support+comparison)** — inside the 2:1 guardrail. Hubs front-load by design because early authority compounds.
+Money (including hubs): 13 · Support: 6 · Comparison: 2 · Linkable: 3 · **13:8 ≈ 1.625:1 money-to-(support+comparison)** — inside the 2:1 guardrail. Hubs front-load by design because early authority compounds.
 
 ---
 
@@ -124,7 +124,7 @@ Per `generate-guide-opportunities` Step 3.1: target ≥1 support page per 2 mone
 | Chemical Bundle | 3 (hardwood-cleaner, grout-cleaner, stainless-cleaner) | 2 (how-to-clean-hardwood-floors, how-to-clean-grout) | 1.5:1 | ✓ (tight) |
 | Decision-support | — | 1 (cleaning-tool-by-surface-decision-tree linkable) | — | cross-cluster |
 
-**Site total.** 14 money guides ÷ 8 support/comparison = 1.75:1. Pass.
+**Site total.** 13 money guides ÷ 8 support/comparison = 1.625:1. Pass.
 
 **Cordless support gap flagged.** Cordless hub + 3 spokes has 0 direct support pages. Mitigation: Practical Floor Keeper voice leans on short-form mini-guides inside the hub (filter-cost-over-3-years, stairs-and-ceiling-fan test). If Phase 7 saturation reveals reader-question gaps, promote from backlog → `how-to-clean-a-cordless-vacuum-filter` (hook: Recurring concerns: 'Battery degrading in year 2 — what's the replacement cost?').
 
