@@ -403,6 +403,10 @@ export function HubPage({
               .sort((a, b) => (reviews[b.slug]?.reviewerScore ?? 0) - (reviews[a.slug]?.reviewerScore ?? 0))
               .map((row) => {
               const review = reviews[row.slug];
+              const rowProduct = orderedProducts.find((p) => p.id === row.slug);
+              const rowOfferLink = rowProduct
+                ? getProductOfferLink(rowProduct, siteConfig.affiliatePrograms.amazon.tag)
+                : null;
               return (
                 <article key={row.slug} className="sand-panel p-5">
                   <div className="flex items-start justify-between gap-4">
@@ -433,6 +437,16 @@ export function HubPage({
                       </div>
                     ))}
                   </dl>
+                  {rowOfferLink && (
+                    <a
+                      href={rowOfferLink.url}
+                      target="_blank"
+                      rel={getCommerceLinkRel(rowOfferLink)}
+                      className="button-primary mt-5 w-full"
+                    >
+                      Check price on {rowOfferLink.retailer}
+                    </a>
+                  )}
                 </article>
               );
             })}
@@ -444,13 +458,14 @@ export function HubPage({
               <table className="w-full table-fixed text-left">
                 <thead className="border-b border-[#dbd7ce] bg-[#f7f6f0]">
                   <tr>
-                    <th className="w-[13%] px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#697560]">Pick</th>
-                    <th className="w-[20%] px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#697560]">Product</th>
-                    <th className="w-[8%] px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#697560]">Score</th>
+                    <th className="w-[12%] px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#697560]">Pick</th>
+                    <th className="w-[18%] px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#697560]">Product</th>
+                    <th className="w-[7%] px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#697560]">Score</th>
                     <th className="w-[9%] px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#697560]">Price</th>
                     {comparisonColumns.filter(c => c.key !== "badge" && c.key !== "name" && c.key !== "price" && c.key !== "slug").map(col => (
                       <th key={col.key} className="px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#697560]">{col.label}</th>
                     ))}
+                    <th className="w-[14%] px-4 py-4 text-right text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#697560]">Check price</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -458,6 +473,10 @@ export function HubPage({
                     .sort((a, b) => (reviews[b.slug]?.reviewerScore ?? 0) - (reviews[a.slug]?.reviewerScore ?? 0))
                     .map((row, index) => {
                     const review = reviews[row.slug];
+                    const rowProduct = orderedProducts.find((p) => p.id === row.slug);
+                    const rowOfferLink = rowProduct
+                      ? getProductOfferLink(rowProduct, siteConfig.affiliatePrograms.amazon.tag)
+                      : null;
                     return (
                       <tr key={row.slug} className={index % 2 === 0 ? "bg-[#fffefb]" : "bg-[#f7f6f0]"}>
                         <td className="px-4 py-5 text-sm font-semibold text-[#667361]">{row.badge}</td>
@@ -473,6 +492,20 @@ export function HubPage({
                         {comparisonColumns.filter(c => c.key !== "badge" && c.key !== "name" && c.key !== "price" && c.key !== "slug").map(col => (
                           <td key={col.key} className="px-4 py-5 text-[0.95rem] text-[#4f5b64]">{row[col.key] ?? "—"}</td>
                         ))}
+                        <td className="px-4 py-5 text-right">
+                          {rowOfferLink ? (
+                            <a
+                              href={rowOfferLink.url}
+                              target="_blank"
+                              rel={getCommerceLinkRel(rowOfferLink)}
+                              className="inline-flex items-center justify-center rounded-sm bg-[#23150f] px-4 py-2 text-[0.85rem] font-semibold text-[#f7f4ee] transition hover:bg-[#3a251a]"
+                            >
+                              Check price
+                            </a>
+                          ) : (
+                            <span className="text-[0.85rem] text-[#9a8a7a]">—</span>
+                          )}
+                        </td>
                       </tr>
                     );
                   })}
@@ -522,6 +555,30 @@ export function HubPage({
                         {displayNames[product.id] || product.name}
                       </h3>
 
+                      <div className="mt-5 sand-panel p-5">
+                        <div>
+                          <p className="text-[0.7rem] font-semibold uppercase tracking-[0.22em] text-[#8a674e]">Current price</p>
+                          <p className="mt-1 font-[family-name:var(--font-heading-family)] text-[2.2rem] font-semibold text-[#23150f]">
+                            {priceDisplay(product)}
+                          </p>
+                        </div>
+
+                        {offerLink ? (
+                          <a
+                            href={offerLink.url}
+                            target="_blank"
+                            rel={getCommerceLinkRel(offerLink)}
+                            className="button-primary mt-4 w-full"
+                          >
+                            Check price on {offerLink.retailer}
+                          </a>
+                        ) : (
+                          <span className="mt-4 inline-flex w-full items-center justify-center rounded-sm border border-dashed border-[#ccb8a4] px-4 py-3 text-sm text-[#5e3d2d]">
+                            Retail links unavailable
+                          </span>
+                        )}
+                      </div>
+
                       <div className="mt-6">
                         <ProductImageGallery
                           images={product.images}
@@ -532,16 +589,7 @@ export function HubPage({
                       </div>
 
                       <div className="mt-6 sand-panel p-5">
-                        <div className="flex items-end justify-between gap-4 border-b border-[#e2d3c4] pb-4">
-                          <div>
-                            <p className="text-[0.7rem] font-semibold uppercase tracking-[0.22em] text-[#8a674e]">Current price</p>
-                            <p className="mt-1 font-[family-name:var(--font-heading-family)] text-[2.2rem] font-semibold text-[#23150f]">
-                              {priceDisplay(product)}
-                            </p>
-                          </div>
-                        </div>
-
-                        <dl className="mt-5 space-y-3">
+                        <dl className="space-y-3">
                           {Object.entries(specs).map(([label, value]) => (
                             <div key={label} className="flex items-start justify-between gap-4 border-b border-[#efe4d8] pb-3 last:border-b-0 last:pb-0">
                               <dt className="text-[0.75rem] font-semibold uppercase tracking-[0.18em] text-[#8a674e]">{label}</dt>
@@ -549,23 +597,6 @@ export function HubPage({
                             </div>
                           ))}
                         </dl>
-
-                        <div className="mt-6">
-                          {offerLink ? (
-                            <a
-                              href={offerLink.url}
-                              target="_blank"
-                              rel={getCommerceLinkRel(offerLink)}
-                              className="button-primary w-full"
-                            >
-                              Check price on {offerLink.retailer}
-                            </a>
-                          ) : (
-                            <span className="inline-flex w-full items-center justify-center rounded-sm border border-dashed border-[#ccb8a4] px-4 py-3 text-sm text-[#5e3d2d]">
-                              Retail links unavailable
-                            </span>
-                          )}
-                        </div>
                       </div>
                     </aside>
 
