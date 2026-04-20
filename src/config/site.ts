@@ -82,7 +82,10 @@ export const siteConfig = {
     "When you buy through our links, we may earn a commission at no extra cost to you. That never changes what we recommend.",
 
   nav: {
-    main: [] as Array<{ label: string; href: string }>,
+    main: [
+      { label: "Best Robot Vacuums", href: "/best-robot-vacuum" },
+      { label: "About", href: "/about" },
+    ] as Array<{ label: string; href: string }>,
     footer: [
       { label: "About", href: "/about" },
       { label: "How We Review", href: "/how-we-review" },
