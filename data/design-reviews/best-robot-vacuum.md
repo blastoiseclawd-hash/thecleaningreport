@@ -1,8 +1,10 @@
 ---
 slug: best-robot-vacuum
-reviewed: 2026-04-19
+reviewed: 2026-04-20
 reviewer: Claude (self-review)
-passFolder: sites/thecleaningreport/data/design-reviews/2026-04-19-best-robot-vacuum-pass1/
+passFolders:
+  - sites/thecleaningreport/data/design-reviews/2026-04-19-best-robot-vacuum-pass1/
+  - sites/thecleaningreport/data/design-reviews/2026-04-20-best-robot-vacuum-pass3/
 gate: PASS
 ---
 
@@ -74,3 +76,44 @@ Pass folder: `sites/thecleaningreport/data/design-reviews/2026-04-19-best-robot-
 - `mobile-faq.png` — collapsed FAQ list
 - `mobile-faq-expanded.png` — expanded FAQ answer with inline markdown links
 - `mobile-footer.png` — trust links + FTC disclosure + publisher attribution
+
+---
+
+# Pass 3 — substance-to-avatar + plain-language transitions (2026-04-20)
+
+Pass folder: `sites/thecleaningreport/data/design-reviews/2026-04-20-best-robot-vacuum-pass3/`
+
+Follow-up visual check after the 2026-04-19 substance-to-avatar rewrite + the 2026-04-20 author-bio em-dash fix. Verifies that the changes actually render in browser as designed.
+
+## What changed since Pass 1
+
+- **9-field desk schema.** `authors.ts` extended Author type with `avatarJobsToAnswer` field populated on all 3 topical desks. Enforcement via new `avatar-substance-check.js` hook.
+- **Full review-body rewrite.** 6 review bodies now lead with labor-math substance: time saved per week / lifespan window / maintenance cadence / where-it-collapses. Zero lab percentages (65.14%, 47.54%, etc. all gone). Zero em-dashes in body text.
+- **Plain-language section headers.** `signatureTransitions` rewritten after Lee flagged insider jargon ("Start with the dock, not the suction spec"). Final: "What this takes off your week." / "Where this stops working." / "What you have to do to keep it running." / "What owners see at month six." / "The tradeoff that breaks this for some homes."
+- **Methodology demoted.** Moved to bottom-of-page, wrapped in collapsed `<details>` with muted summary "How we ranked these (expand for methodology)". Anchor-navigable for E-E-A-T signal, not a prominent mid-page feature.
+- **Per-review card order swapped.** `hub-page.tsx` renders `skipThisIf` BEFORE the `ownerCites / videoCite` box. Final order: body → Skip this one if → What owners + independent reviewers say → Editor verdict + pros/cons.
+- **Author bio + audience em-dashes stripped.** 4 em-dashes caught in `authors.ts` `bio` / `audience` fields that render in the methodology section (content-quality-check hook only targets `src/data/content/*.ts`, so authors.ts bypassed the zero-tolerance check). Fixed manually 2026-04-20.
+- **Firmware phrasing.** "Needed three tries before one installed cleanly" replaces the idiomatic "failed three times before taking" (captured as `feedback_explicit_over_idiomatic.md`).
+
+## Gate: PASS
+
+All 6 dimensions from Pass 1 retained. Substance now matches voice.
+
+## Screenshots (Pass 3)
+
+- `desktop-above-fold.png` — hero + Top Pick card. Title "The 6 Best Robot Vacuums of 2026, Ranked by Labor Math." Buy-this language reads as labor-math: "roughly 40 minutes a week of floor-care time." No em-dashes, no lab percentages, no outlet names in body.
+- `desktop-full-page.png` — full-page scroll reference post-rewrite (no mid-page methodology block).
+- `desktop-review-card-order.png` — Dreame X50 Ultra review body showing plain-language section headers: "What this takes off your week." → "What owners see at month six." → "What you have to do to keep it running." → "The tradeoff that breaks this for some homes." Each section answers an avatarJobsToAnswer concretely. `[3]` anchor citations visible.
+- `desktop-skip-this-one-if.png` — the new card order in one frame. Body paragraph → **SKIP THIS ONE IF** card (muted rose, one-sentence "skip it" rule) → **WHAT OWNERS + INDEPENDENT REVIEWERS SAY** card (cream, positive thread + dissent thread + long-term video) → **EDITOR VERDICT + OUR SCORE + WHAT WE LIKE** starting below. Exactly the order Lee specified.
+- `desktop-skip-then-owners.png` — scrolled slightly past to confirm Editor Verdict + pros/cons render below the reviewer box.
+- `desktop-methodology-collapsed.png` — bottom-of-page with collapsed "▶ How we ranked these (expand for methodology)" summary between FAQ and the author/sources footer. Muted visual weight.
+- `desktop-sources-footer.png` — muted `<ol>` source list with 3 numbered entries (Vacuum Wars / Modern Castle / CNET) matching the `[N]` anchors in body prose. Outlet names appear here only, never in body.
+- `desktop-author-sources.png` — full footer context with review-policy + about-desk + affiliate-disclosure internal links.
+- `mobile-above-fold.png` — 390x844 hero. Labor-math framing reads clearly on narrow viewport.
+- `mobile-full-page.png` — full scroll reference on mobile.
+
+## Remaining items (carry to Phase 8)
+
+- `avatar-substance-check.js` hook is warn-only. Promote to block after 2-3 more content pages validate the keyword lexicon.
+- `content-quality-check.js` em-dash zero-tolerance should extend to `src/data/authors.ts` (would have caught the 4 em-dashes in bio/audience fields fixed manually in this pass). Backlog register row.
+- Lab-report-speak lexicon in `avatar-substance-check.js` is Labor-Math-specific. Extend when Safe Surface + Everyday Cleaning desks get their first pages.

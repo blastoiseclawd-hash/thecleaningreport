@@ -24,9 +24,9 @@ Fallback evidence sources used:
 
 | Status | Count |
 |--------|-------|
-| LIVE | 0 |
+| LIVE | 1 |
 | CONTENT READY | 0 |
-| NOT BUILT | 24 |
+| NOT BUILT | 23 |
 | SKIP | 12 |
 | **Total** | **36** |
 
@@ -60,7 +60,7 @@ Ordering rule per `generate-guide-opportunities` Step 3.1: interleave support ar
 
 | # | Guide | Page Type | Primary Keyword | Vol | KD | Score | Desk | Status |
 |---|---|---|---|---|---|---|---|---|
-| 1 | best-robot-vacuum | money-guide | best robot vacuum | 52000 | 4 | 98 | Labor Math Desk | NOT BUILT |
+| 1 | best-robot-vacuum | money-guide | best robot vacuum | 52000 | 4 | 98 | Labor Math Desk | LIVE |
 | 2 | best-cordless-vacuum | money-guide | best cordless vacuum | 41000 | 2 | 95 | Everyday Cleaning Desk | NOT BUILT |
 | 3 | best-carpet-cleaner-machine | money-guide | best carpet cleaner machine | 4800 | 6 | 80 | Safe Surface Desk | NOT BUILT |
 | 4 | best-mop | money-guide | best mop | 19000 | 1 | 92 | Everyday Cleaning Desk | NOT BUILT |

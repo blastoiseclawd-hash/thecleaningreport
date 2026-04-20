@@ -102,7 +102,7 @@ export const authors: Author[] = [
     name: "Everyday Cleaning Desk",
     title: "Practical picks for normal weekly floor care",
     bio: "TheCleaningReport's mainstream-reader desk. Reviews mid-priced cordless vacuums, handheld supplements, and basic non-steam mops for renters, apartment dwellers, and everyday homeowners who want a sensible winner without a research project.",
-    audience: "Practical Floor Keepers — the 25-50 shopper who wants one good tool for weekly floor care, checks CR + Good Housekeeping + one Reddit thread, and decides in 1-2 sessions.",
+    audience: "Practical Floor Keepers: the 25-50 shopper who wants one good tool for weekly floor care, checks CR + Good Housekeeping + one Reddit thread, and decides in 1-2 sessions.",
     avatar: "/images/authors/everyday-cleaning-desk.png",
     expertise: [
       "mid-tier cordless vacuums",
@@ -192,8 +192,8 @@ export const authors: Author[] = [
     role: "topical-desk",
     name: "Labor Math Desk",
     title: "Premium picks that actually remove labor from your week",
-    bio: "TheCleaningReport's tradeoff-forward desk. Reviews robot vacuums, premium cordless sticks, and robot/steam hybrid docks for buyers willing to spend $500-1500 to reclaim time — if the maintenance math actually works.",
-    audience: "Labor Traders — the 30-55 buyer trading money for reclaimed hours, triggered by a life-load shift (new baby, RTO, aging knees), wary of gadgets that become a second chore.",
+    bio: "TheCleaningReport's tradeoff-forward desk. Reviews robot vacuums, premium cordless sticks, and robot/steam hybrid docks for buyers willing to spend $500-1500 to reclaim time, when the maintenance math actually works.",
+    audience: "Labor Traders: the 30-55 buyer trading money for reclaimed hours, triggered by a life-load shift (new baby, RTO, aging knees), wary of gadgets that become a second chore.",
     avatar: "/images/authors/labor-math-desk.png",
     expertise: [
       "robot vacuums + dock reliability",
@@ -353,7 +353,7 @@ export const authors: Author[] = [
     name: "Safe Surface Desk",
     title: "Caution-first picks for sunk-cost surfaces + triggered deep cleans",
     bio: "TheCleaningReport's warranty-aware desk. Reviews steam mops, chemical-cleaning bundles (grout, hardwood, stainless, upholstery), and carpet cleaner machines for buyers protecting specific surfaces or handling an event-driven deep clean.",
-    audience: "Surface Protectors (35-60 homeowners with engineered hardwood / laminate / stone / grout / stainless) + Event-Driven Deep Cleaners (triggered by move-in, flood, stain crisis, pre-listing prep — upgrading off Rug Doctor rentals).",
+    audience: "Surface Protectors (35-60 homeowners with engineered hardwood / laminate / stone / grout / stainless) + Event-Driven Deep Cleaners (triggered by move-in, flood, stain crisis, pre-listing prep; upgrading off Rug Doctor rentals).",
     avatar: "/images/authors/safe-surface-desk.png",
     expertise: [
       "steam mop flooring-warranty decision trees",
@@ -450,7 +450,7 @@ export const authors: Author[] = [
     role: "house-voice",
     name: "The Cleaning Report",
     title: "Independent indoor cleaning reviews",
-    bio: "TheCleaningReport is an independent indoor-cleaning review publication under editor Lee Serel, CPA. Three editorial desks cover the distinct decisions readers face — everyday floor care, labor-removal premium picks, and surface-safe deep cleaning.",
+    bio: "TheCleaningReport is an independent indoor-cleaning review publication under editor Lee Serel, CPA. Three editorial desks cover the distinct decisions readers face: everyday floor care, labor-removal premium picks, and surface-safe deep cleaning.",
     audience: "Every reader who lands on the site. Homepage + trust pages + category hubs use this voice before routing to a desk.",
     avatar: "/images/authors/the-cleaning-report-mark.png",
     expertise: [
