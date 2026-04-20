@@ -127,8 +127,8 @@ export const siteConfig = {
       href: "/best-carpet-cleaner-machine",
       eyebrow: "Carpet Cleaners",
       description:
-        "Event-driven picks for move-in, pet accidents, and pre-listing prep, plus a rent-vs-buy calculator for deep-clean households.",
-      available: false,
+        "Rent-vs-buy math leads before the product list. Five home machines ranked by dry-time with IICRC S100 cadence and CRI Seal of Approval anchors.",
+      available: true,
     },
   ] as Array<{
     title: string;
@@ -180,6 +180,13 @@ export const siteConfig = {
       eyebrow: "Support",
       description: "Flooring-safe routine built around manufacturer warranty terms.",
       available: false,
+    },
+    {
+      title: "Best Carpet Cleaner Machine",
+      href: "/best-carpet-cleaner-machine",
+      eyebrow: "Safe Surface",
+      description: "Rent-vs-buy math leads; dry-time is the differentiator.",
+      available: true,
     },
   ] as Array<{
     title: string;

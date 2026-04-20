@@ -1,0 +1,69 @@
+{
+  "scrapedAt": "2026-04-20T23:02:00Z",
+  "method": "Playwright MCP browser_evaluate",
+  "products": [
+    {
+      "rank": 1,
+      "slug": "hoover-smartwash-plus-fh52000",
+      "title": "Hoover SmartWash+ Automatic Carpet Cleaner Machine",
+      "asin": "B07DTKXTXV",
+      "price": "$249.99",
+      "rating": 4.4,
+      "reviewCount": 21136,
+      "url": "https://www.amazon.com/dp/B07DTKXTXV",
+      "imageCount": 7,
+      "keySpecs": "Auto-mix / Auto-dry motion sensing; FlexForce PowerBrushes; HeatForce drying tech; 1 gal tank"
+    },
+    {
+      "rank": 2,
+      "slug": "bissell-big-green-professional-86t3",
+      "title": "BISSELL Big Green Professional Carpet Cleaner (86T3)",
+      "asin": "B00450U6CS",
+      "price": "$429.00",
+      "rating": 4.7,
+      "reviewCount": 16491,
+      "url": "https://www.amazon.com/dp/B00450U6CS",
+      "imageCount": 7,
+      "keySpecs": "1.75 gal tank; 12-amp motor; XL DirtLifter PowerBrush; cleans on forward and backward pass; includes BISSELL PRO MAX Formula"
+    },
+    {
+      "rank": 3,
+      "slug": "rug-doctor-mighty-pro-x3",
+      "title": "Rug Doctor Mighty Pro X3 Commercial Carpet Cleaner",
+      "asin": "B086TRNXGK",
+      "price": "$534.83",
+      "rating": 4.5,
+      "reviewCount": 1269,
+      "url": "https://www.amazon.com/dp/B086TRNXGK",
+      "imageCount": 7,
+      "keySpecs": "One-pass cleaning system; Triple Action Vibrating Brush; enhanced vacuum motor; commercial-grade extraction; home + industrial use",
+      "pivotNote": "Original Final 5 slot was Rug Doctor FlexClean 93146 (~$299); FlexClean not available on Amazon US as of 2026-04-20. Mighty Pro X3 is the canonical rent-branded home machine on Amazon + is the commercial-grade parallel to the Rug Doctor you'd rent at a hardware store. Maintains the rent-vs-buy anchor role. Pet-framed title but page body strips pet framing."
+    },
+    {
+      "rank": 4,
+      "slug": "tineco-carpet-one-smart",
+      "title": "Tineco CARPET ONE Smart Carpet Cleaner Machine",
+      "asin": "B09NMZ7GX3",
+      "price": "$349.00",
+      "rating": 3.8,
+      "reviewCount": 680,
+      "url": "https://www.amazon.com/dp/B09NMZ7GX3",
+      "imageCount": 7,
+      "keySpecs": "130 AW suction / 1300W motor; HeatedWash (104°F); DRY-ONLY mode with 167°F wind; iLoop smart dust sensor; LED display",
+      "ratingNote": "3.8 aggregate with 680 reviews is lower than peers in the Final 5. This is surfaced honestly in the review body's cons block + decision tree. Lab triangulation (Bob Vila + CR + Spruce all list this product) outweighs the aggregate-owner-rating gap for editorial pick purposes; readers should make the final call."
+    },
+    {
+      "rank": 5,
+      "slug": "bissell-little-green-1400b",
+      "title": "BISSELL Little Green Multi-Purpose Portable Carpet and Upholstery Cleaner (1400B)",
+      "asin": "B0016HF5GK",
+      "price": "$99.99",
+      "rating": 4.5,
+      "reviewCount": 92791,
+      "url": "https://www.amazon.com/dp/B0016HF5GK",
+      "imageCount": 7,
+      "keySpecs": "Portable spot cleaner; 48oz clean water tank; specialty tools for car + upholstery + stairs; Wirecutter TOP PICK",
+      "priceNote": "$99.99 sits below the stated $150-600 avatar band floor. Justified inclusion because (a) Wirecutter TOP PICK + 92,791 Amazon reviews at 4.5 anchor this as THE portable spot-cleaner reference, (b) the rent-vs-buy math block explicitly uses the sub-$150 portable price point as the 'buy instead of renting' branch of the decision tree."
+    }
+  ]
+}

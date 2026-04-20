@@ -530,7 +530,7 @@ export const pageTargets: PageTarget[] = [
     clusterId: "cleaning-support",
     buildOrder: 12,
     buildPriorityScore: 80.7,
-    buildStatus: "NOT BUILT",
+    buildStatus: "LIVE",
     primaryKeyword: "best carpet cleaner machine",
     primaryVolume: 4000,
     primaryKd: 3,

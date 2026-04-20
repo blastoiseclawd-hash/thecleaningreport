@@ -1,0 +1,127 @@
+{
+  "collected": "2026-04-20",
+  "role": "Phase 2 Research evidence — cross-lab triangulation for /best-carpet-cleaner-machine",
+  "labs_queried": [
+    {
+      "label": "Bob Vila",
+      "url": "https://www.bobvila.com/articles/best-carpet-cleaner/",
+      "tier": "tier2_editorial",
+      "access_method": "WebFetch",
+      "picks_captured": 7
+    },
+    {
+      "label": "Consumer Reports",
+      "url": "https://www.consumerreports.org/appliances/carpet-cleaners/",
+      "tier": "tier1_methodology",
+      "access_method": "Playwright MCP (WebFetch blocked)",
+      "picks_captured": 12
+    },
+    {
+      "label": "NYT Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-portable-carpet-and-upholstery-cleaner/",
+      "tier": "tier1_methodology",
+      "access_method": "Playwright MCP",
+      "picks_captured": 2,
+      "note": "Wirecutter scope is portable-spot-cleaner only; no full-size roundup. Useful for Little Green 1400B cross-validation + flagging that tier1 labs segment portable from full-size."
+    },
+    {
+      "label": "The Spruce",
+      "url": "https://www.thespruce.com/best-carpet-cleaners-to-buy-4107087",
+      "tier": "tier2_editorial",
+      "access_method": "Playwright MCP",
+      "picks_captured": 7
+    }
+  ],
+  "tier1_divergence_table": [
+    {
+      "pick": "Hoover SmartWash class (FH52000 / FH62000 / ONEPWR)",
+      "bobvila": "Best Overall (FH52000)",
+      "consumerreports": "Listed: FH62000 Pet XL",
+      "spruce": "Listed: ONEPWR cordless",
+      "wirecutter": "out of scope (portable only)",
+      "triangulation_score": "3 of 4",
+      "note": "Strongest default pick. Three tier1/tier2 labs list the SmartWash family. Canonical SKU for main Amazon listing as of 2026-04-20 = FH52000 PlusAdvanced. Non-pet framing preserved."
+    },
+    {
+      "pick": "Bissell Big Green (86T3 / 3288)",
+      "bobvila": "Best Deep Cleaner (3288 Pet Pro)",
+      "consumerreports": "Listed: 3288 Pet Pro",
+      "spruce": "not listed",
+      "wirecutter": "out of scope",
+      "triangulation_score": "2 of 4",
+      "note": "Iconic $250-class Big Green AOV anchor per opp-row. Base-SKU 86T3 is the non-pet original; 3288 is the Pet Pro refresh. If 86T3 discontinued on Amazon, use 3288 with pet framing stripped from body (opp-row rule: no pet-mess framing — BPP lane)."
+    },
+    {
+      "pick": "Bissell Little Green 1400B",
+      "bobvila": "Best Spot Cleaner",
+      "consumerreports": "not explicitly listed",
+      "spruce": "Listed (standalone section)",
+      "wirecutter": "TOP PICK (portable roundup)",
+      "triangulation_score": "3 of 4",
+      "note": "Dominant spot-cleaner / rent-alternative. Wirecutter top pick is a strong signal in this segment."
+    },
+    {
+      "pick": "Rug Doctor FlexClean / TruDeep 93168",
+      "bobvila": "not listed",
+      "consumerreports": "Listed: TruDeep 93168",
+      "spruce": "Pet Portable Spot Cleaner listed",
+      "wirecutter": "not listed",
+      "triangulation_score": "1.5 of 4",
+      "note": "Semi-thin triangulation on the home-purchase SKU but Rug Doctor IS the rent-brand benchmark for the rent-vs-buy math framing the page must lead with. Including the Rug Doctor FlexClean is legitimate as rent-anchor even if tier1-lab signal is lighter — the page framing requires it."
+    },
+    {
+      "pick": "Tineco Carpet One Cruiser",
+      "bobvila": "Best Smart",
+      "consumerreports": "Listed",
+      "spruce": "Listed (fast-drying section)",
+      "wirecutter": "out of scope",
+      "triangulation_score": "3 of 4",
+      "note": "Premium/smart upgrade. Fast-dry tech (PowerDry) + cord-free operation. $500-600 class — stretches but stays within $150-600 avatar band."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "sku": "Shark CarpetXpert HairPro EX301",
+      "reason": "Bob Vila labeled Best for Pets; CR lists. Pet-mess-framed across all labs. Including it on this page would force pet framing in the body — opp-row rule explicitly bars pet-mess framing (BPP lane). Pivot to non-pet picks."
+    },
+    {
+      "sku": "Hoover PowerDash FH50700 / FH50704 Pet+",
+      "reason": "Bob Vila Best Bang-for-Buck + CR list the Pet+ SKU. Under $150 band (cheaper than avatar band floor). Useful budget callout in the buying guide but not needed in Final 5 once Bissell Little Green covers the lower-price end."
+    },
+    {
+      "sku": "Kenmore RevitaLite Pet",
+      "reason": "Bob Vila Best-for-Stairs only (1 of 4 labs). Pet-framed. Low distribution."
+    },
+    {
+      "sku": "Bissell TurboClean 3939 / Pet XL 3746",
+      "reason": "CR only (1 of 4). Mid-tier; overlaps with Hoover PowerDash slot."
+    },
+    {
+      "sku": "Bissell Revolution HydroSteam 4120",
+      "reason": "CR only (1 of 4). Heat-steam variant; complicates the 'dry-time as THE differentiator' page framing because heat-steam has different dry dynamics."
+    }
+  ],
+  "primary_authority_sources_added": [
+    {
+      "label": "IICRC S100 Standard for Professional Cleaning of Textile Floor Coverings",
+      "url": "https://iicrc.org/iicrc-s100-a-standard-for-professional-cleaning-of-textile-floor-coverings/",
+      "tier": "tier_primary",
+      "role": "Authority citation — 12-month cadence recommendation + over-wetting risk language used in body's 'when to call a pro instead' block."
+    },
+    {
+      "label": "Carpet & Rug Institute (CRI) Seal of Approval program",
+      "url": "https://carpet-rug.org/testing-seal-of-approval/",
+      "tier": "tier_primary",
+      "role": "Authority citation — Seal of Approval Deep Cleaning Extractor certification used to validate Bissell Big Green + Hoover SmartWash category claims."
+    },
+    {
+      "label": "VacuumLand carpet-cleaner subforum",
+      "url": "https://www.vacuumland.org/",
+      "tier": "tier3_community",
+      "role": "Owner-sentiment + long-term-durability signal for the Big Green class per opp-row exclusive-trust directive."
+    }
+  ],
+  "pivot_notes": [
+    "No pivot. All 5 Final picks held stable through Phase 2. Pivot risk would be at Phase 3 scrape if any SKU returns Amazon-discontinued; backfill SKU mapping documented in the research doc's Final 5 table notes column."
+  ]
+}
