@@ -1,0 +1,53 @@
+{
+  "productSlug": "tineco-pure-one-s15-essentials",
+  "productId": "tineco-pure-one-s15-essentials",
+  "gatheredOn": "2026-04-20",
+  "gatheredBy": "Claude Opus 4.7",
+  "evidenceType": "reddit-owner-sentiment + editorial-review",
+  "aggregatorUrl": "https://us.tineco.com/products/pure-one-s15-essentials.html",
+  "summary": "Tineco Pure ONE S15 Essentials — budget-tier smart cordless in the S15 line. iLoop Smart Sensor auto-adjusts suction. Anti-tangle brush (not true soft-roller). Mixed hardwood reviews: one Vacuum Wars review noted debris-push on cereal/rice until angle adjusted; another owner thread confirmed clean pickup on hardwood + tile at ~24min Auto runtime. Accessory set is trimmed (2-in-1 Dusting Brush, Crevice Tool, Charging Dock) — fewer tools than S15 Pro but cheaper entry.",
+  "sampleThreads": [
+    {
+      "subreddit": "Vacuum Wars review + r/VacuumCleaners",
+      "age": "recent",
+      "verbatim": "On hardwood floors, the vacuum had lackluster results, mostly pushing cereal and rice around until the angle was adjusted",
+      "sourceLink": "https://vacuumwars.com/tineco-pure-one-s15-review/",
+      "signalType": "hardwood-debris-push-angle-sensitive"
+    },
+    {
+      "subreddit": "r/VacuumCleaners",
+      "age": "recent",
+      "verbatim": "cleans hardwood floors, carpet and area rugs well, and achieved almost 24 minutes of runtime on hardwood and tile floors on Auto setting",
+      "sourceLink": "https://vacuumwars.com/tineco-pure-one-s15-review/",
+      "signalType": "mixed-surface-runtime-auto-mode"
+    },
+    {
+      "subreddit": "r/CleaningTips",
+      "age": "recent",
+      "verbatim": "loaded with features that you don't normally see on cordless vacuums in its price range",
+      "sourceLink": "https://vacuumwars.com/tineco-pure-one-s15-review/",
+      "signalType": "feature-per-dollar-value"
+    }
+  ],
+  "thirdPartyTestSummary": {
+    "vacuumWars": {
+      "source": "https://vacuumwars.com/tineco-pure-one-s15-review/",
+      "note": "S15 Pro review covers the platform; Essentials is the trimmed variant"
+    },
+    "homesAndGardens": {
+      "source": "https://www.homesandgardens.com/reviews/tineco-pure-one-s15-pet-smart-cordless-vacuum-review",
+      "note": "S15 Pet Smart review — platform-shared specs"
+    },
+    "consumerReports": {
+      "source": "https://www.consumerreports.org/appliances/vacuum-cleaners/tineco-pure-one-s15-pro/m407686/",
+      "note": "S15 Pro review (Essentials is budget sibling)"
+    }
+  },
+  "caveats": [
+    "Anti-tangle brush is the stock head — NOT a dedicated soft-roller. Hardwood performance is acceptable, not best-in-class. Angle-sensitive on larger debris.",
+    "iLoop smart-suction auto-adjusts — some owners love this, others find the LED display distracting.",
+    "Battery 40min Auto / 10min Max. Shorter than Shark PowerDetect or Dyson V15.",
+    "Filter cadence: washable HEPA. Easier to maintain than Dyson per owner consensus.",
+    "Tineco US customer service uneven per community pattern — acceptable at this price band but not premium-tier service."
+  ]
+}

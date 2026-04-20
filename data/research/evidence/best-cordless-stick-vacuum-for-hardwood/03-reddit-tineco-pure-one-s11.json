@@ -1,0 +1,52 @@
+{
+  "productSlug": "tineco-pure-one-s11",
+  "productId": "tineco-pure-one-s11",
+  "gatheredOn": "2026-04-20",
+  "gatheredBy": "Claude Opus 4.7",
+  "evidenceType": "reddit-owner-sentiment + variant-nuance-flag",
+  "aggregatorUrl": "https://redditrecs.com/vacuum-cleaner/model/tineco-pure-one-s11/",
+  "summary": "Tineco Pure One S11 — critical variant nuance flagged: the Tango variant has a soft roller head specifically for hardwood; the standard S11 is carpet-tuned and gets mixed hardwood reviews (debris-push pattern on first pass). iLoop smart-suction sensor auto-adjusts. Battery life 25-30 min on hardwood in smart mode. Overall aggregate 90.1/100 consumer rating. Best value pick in sub-$400 band when hardwood is primary.",
+  "sampleThreads": [
+    {
+      "subreddit": "r/CleaningTips",
+      "age": "~2 months ago (2026-02)",
+      "verbatim": "For hardwood and rugs, it's a dream.",
+      "sourceLink": "https://redditrecs.com/vacuum-cleaner/model/tineco-pure-one-s11/",
+      "signalType": "hardwood-primary-satisfaction"
+    },
+    {
+      "subreddit": "r/VacuumCleaners",
+      "age": "~7 months ago (2025-09)",
+      "verbatim": "the tineco outperformed the samsung jet 75 in hardfloor...debris pickup",
+      "sourceLink": "https://redditrecs.com/vacuum-cleaner/model/tineco-pure-one-s11/",
+      "signalType": "direct-comparison-hardwood"
+    },
+    {
+      "subreddit": "r/VacuumCleaners",
+      "age": "~4 months ago (2025-12)",
+      "verbatim": "cleans hardwood and small rugs well — 25-30 minute battery lasting through typical hardwood cleaning sessions",
+      "sourceLink": "https://redditrecs.com/vacuum-cleaner/model/tineco-pure-one-s11/",
+      "signalType": "real-runtime-hardwood"
+    },
+    {
+      "subreddit": "r/VacuumCleaners",
+      "age": "~9 months ago (2025-07)",
+      "verbatim": "Use this one at a clients house and I really like it.",
+      "sourceLink": "https://redditrecs.com/vacuum-cleaner/model/tineco-pure-one-s11/",
+      "signalType": "professional-cleaner-use"
+    }
+  ],
+  "thirdPartyTestSummary": {
+    "vacuumWars": "Reviewed; debris-push problem flagged on standard S11 model for hard floors. Tango variant has soft roller and fixes this.",
+    "rtings": "Full review — mixed hardwood performance on standard S11; variant selection matters.",
+    "consumerReports": "Reviewed in the S11 lineup; variant-dependent hardwood score.",
+    "techgearLab": "Tested standard S11; debris-skim issue confirmed on hard floors."
+  },
+  "caveats": [
+    "CRITICAL: recommend Tango variant specifically if hardwood is primary. Standard S11 pushes debris forward on hard floors instead of picking up first-pass.",
+    "iLoop sensor auto-adjusts suction — owners either love this (battery efficiency) or dislike it (unpredictable).",
+    "Battery life 25-30 min on hardwood real-use; shorter than Dyson V12 / Shark Stratos.",
+    "Easier to maintain than Dyson (cheaper washable filters, simpler dustbin mechanism).",
+    "Tineco brand recognition lower than Shark / Dyson — mid-size US presence, customer service responsiveness uneven."
+  ]
+}

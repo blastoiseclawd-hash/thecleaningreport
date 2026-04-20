@@ -9,10 +9,10 @@
 
 | Status | Count |
 |--------|-------|
-| LIVE | 4 |
+| LIVE | 5 |
 | CONTENT READY | 0 |
 | IN PROGRESS | 0 |
-| NOT BUILT | 346 |
+| NOT BUILT | 345 |
 | SKIP | 9 |
 | **Total** | **359** |
 
@@ -8865,7 +8865,7 @@
 | 195 | best-handheld-vacuum-for-home | Best Handheld Vacuum For Home | money-guide | use-case-roundup | buy | best handheld vacuum for home | 100 | 0 | 100 | 52.5 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
 | 196 | how-to-clean-stainless-steel-stove-top | Best Cleaner For Stainless Steel Cooktop | support-guide | troubleshooting-fix | learn | best cleaner for stainless steel cooktop | 50 | 0 | 450 | 52.4 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
 | 197 | best-vacuum-for-hardwood-floors | Best Vacuum For Hardwood Floors | money-guide | feature-roundup | buy | best vacuum for hardwood floors | 3600 | 7 | 3600 | 52.4 | needs-serp-check | ordered-backlog | labor-math-desk | Labor Trader | NOT BUILT |
-| 198 | best-cordless-stick-vacuum-for-hardwood | Best Cordless Stick Vacuums for Hardwood Floors (2026) | money-guide | feature-roundup | buy | best cordless stick vacuum for hardwood | 900 | 2 | 900 | 52.3 | fallback-evidence | cleaning-support | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 198 | best-cordless-stick-vacuum-for-hardwood | Best Cordless Stick Vacuum for Hardwood Floors 2026 | money-guide | feature-roundup | buy | best cordless stick vacuum for hardwood | 900 | 2 | 900 | 52.3 | fallback-evidence | cleaning-support | everyday-cleaning-desk | Practical Floor Keeper | LIVE |
 | 199 | best-lightweight-cordless-vacuum | Best Lightweight Cordless Vacuums (2026): For Stairs, Apartments, and Upper Floors | money-guide | feature-roundup | buy | best lightweight cordless vacuum | 800 | 2 | 800 | 52.3 | fallback-evidence | cleaning-support | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
 | 200 | best-cordless-vacuum-at-walmart | Best Cordless Vacuum At Walmart | money-guide | flagship-roundup | buy | best cordless vacuum at walmart | 50 | 0 | 20 | 52.2 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
 | 201 | robot-vacuum-deals | Best Deal On Robot Vacuum | money-guide | flagship-roundup | buy | best deal on robot vacuum | 90 | 11 | 1800 | 52.2 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |

@@ -1,0 +1,59 @@
+{
+  "productSlug": "shark-powerdetect-clean-empty-ip3251",
+  "productId": "shark-powerdetect-clean-empty-ip3251",
+  "gatheredOn": "2026-04-20",
+  "gatheredBy": "Claude Opus 4.7",
+  "evidenceType": "reddit-owner-sentiment + tier1-editorial",
+  "aggregatorUrl": "https://redditrecs.com/vacuum-cleaner/model/shark-powerdetect-clean-and-empty-cordless-ip3251/",
+  "summary": "Shark PowerDetect Clean & Empty Cordless IP3251 — the cordless stick version with auto-empty dock. Reddit owners report strong hardwood performance via the brush-roller + soft-roller head design. 2,500-3,000 sqft real runtime on hard floors per one owner. Auto-detect edge + heavier-dust sensing mentioned as better-than-expected. Durability caveat: 8-month suction drop reported by one owner. Hair does get stuck at roller and needs periodic clearing.",
+  "sampleThreads": [
+    {
+      "subreddit": "r/VacuumCleaners",
+      "age": "~recent",
+      "verbatim": "works great on hard flooring due to its brush roller design instead of only bristle rollers, and it's great for hair with minimal tangling",
+      "sourceLink": "https://redditrecs.com/vacuum-cleaner/model/shark-powerdetect-clean-and-empty-cordless-ip3251/",
+      "signalType": "hardwood-roller-performance"
+    },
+    {
+      "subreddit": "r/VacuumCleaners",
+      "age": "~recent",
+      "verbatim": "battery is good enough for at least 2,500-3,000 sq ft of hard flooring in one charge, and the auto detect for edge detection and heavier dust works better than expected",
+      "sourceLink": "https://redditrecs.com/vacuum-cleaner/model/shark-powerdetect-clean-and-empty-cordless-ip3251/",
+      "signalType": "runtime-real-use"
+    },
+    {
+      "subreddit": "r/VacuumCleaners",
+      "age": "~recent",
+      "verbatim": "switched from considering a Dyson to the Shark PowerDetect, finding it cheaper with its own docking station and works really well on hardwood",
+      "sourceLink": "https://redditrecs.com/vacuum-cleaner/model/shark-powerdetect-clean-and-empty-cordless-ip3251/",
+      "signalType": "dyson-alternative-hardwood"
+    },
+    {
+      "subreddit": "r/VacuumCleaners",
+      "age": "~recent",
+      "verbatim": "great for the first 8 months but then barely sucked anything up, piling dog hair on both carpet and hardwood floors",
+      "sourceLink": "https://redditrecs.com/vacuum-cleaner/model/shark-powerdetect-clean-and-empty-cordless-ip3251/",
+      "signalType": "durability-concern-8-month"
+    }
+  ],
+  "thirdPartyTestSummary": {
+    "vacuumWars": {
+      "source": "https://vacuumwars.com/is-the-shark-powerdetect-clean-and-empty-any-good/",
+      "note": "Exceptional value and performance verdict; soft front roller + brushroll head"
+    },
+    "rtings": {
+      "source": "https://www.rtings.com/vacuum/reviews/shark/powerdetect-cordless",
+      "note": "Full review of sibling IP1251 (non-dock variant); confirms head design"
+    },
+    "techAdvisor": {
+      "source": "https://www.techadvisor.com/article/2597400/shark-powerdetect-clean-empty-cordless-pet-vacuum-review.html",
+      "note": "Bulky but brilliant verdict"
+    }
+  },
+  "caveats": [
+    "Auto-empty dock is the differentiator — adds convenience and cost. Dock bags replace every 2-3 months.",
+    "Hair occasionally gets stuck at roller and needs periodic clearing (true across all cordless sticks with brushrolls, but noted here).",
+    "8-month suction-drop pattern surfaced in at least one owner thread — filter cleaning cadence matters (monthly minimum).",
+    "Bulky handle makes handheld mode less comfortable than lighter Dyson V8 or V12 equivalents."
+  ]
+}

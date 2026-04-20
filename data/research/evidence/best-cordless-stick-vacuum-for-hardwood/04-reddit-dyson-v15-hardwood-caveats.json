@@ -1,0 +1,63 @@
+{
+  "productSlug": "dyson-v15-detect",
+  "productId": "dyson-v15-detect",
+  "gatheredOn": "2026-04-20",
+  "gatheredBy": "Claude Opus 4.7",
+  "evidenceType": "reddit-owner-sentiment + hardwood-scratch-caveat",
+  "aggregatorUrl": "https://redditrecs.com/vacuum-cleaner/model/dyson-v15-detect/",
+  "summary": "Dyson V15 Detect — flagship pick with HONEST HARDWOOD CAVEAT: Laser Slim Fluffy head sits very close to hardwood, beveled-edge contact noted by multiple owners on solid hickory + site-finished hardwood. Flagship performance but not scratch-free on all finish types. Additionally, Reddit reports durability issues (dust bin cracking, wand breaking, power cyclone failure post-warranty). For Practical Floor Keeper avatar: this is the aspirational pick with tradeoff-honest framing, NOT the recommended buy unless budget allows for the compromise.",
+  "sampleThreads": [
+    {
+      "subreddit": "r/dyson + r/VacuumCleaners",
+      "age": "mixed ~3-18 months",
+      "verbatim": "the laser fluffy brush sits very close to hardwood floors, and the laser side sometimes scrapes the beveled edges as it moves back and forth",
+      "sourceLink": "https://redditrecs.com/vacuum-cleaner/model/dyson-v15-detect/",
+      "signalType": "hardwood-scratch-risk-beveled-edge"
+    },
+    {
+      "subreddit": "r/dyson",
+      "age": "estimated ~12 months",
+      "verbatim": "the fluffy brush was not gentle on my less than 2-year-old solid hickory wood floors",
+      "sourceLink": "https://redditrecs.com/vacuum-cleaner/model/dyson-v15-detect/",
+      "signalType": "hardwood-damage-solid-hickory"
+    },
+    {
+      "subreddit": "r/dyson",
+      "age": "~6-18 months",
+      "verbatim": "v15 has been great for a couple years so far",
+      "sourceLink": "https://redditrecs.com/vacuum-cleaner/model/dyson-v15-detect/",
+      "signalType": "positive-long-term-counterpoint"
+    },
+    {
+      "subreddit": "r/dyson",
+      "age": "mixed",
+      "verbatim": "multiple part failures, dust bin breaking 3 times, wand breaking 3 times, red clip button breaking 4 times",
+      "sourceLink": "https://redditrecs.com/vacuum-cleaner/model/dyson-v15-detect/",
+      "signalType": "durability-concern-pattern"
+    },
+    {
+      "subreddit": "r/dyson",
+      "age": "mixed",
+      "verbatim": "my V15 died just outside of warranty, $150 cyclone unit replacement to fix",
+      "sourceLink": "https://redditrecs.com/vacuum-cleaner/model/dyson-v15-detect/",
+      "signalType": "post-warranty-repair-cost"
+    }
+  ],
+  "thirdPartyTestSummary": {
+    "vacuumWars": {
+      "score": "4.77/5",
+      "source": "https://vacuumwars.com/dyson-v15-detect-review/",
+      "note": "Class-leading 124-inch sealed suction, laser dust detection, removable battery"
+    },
+    "techgearLab": "Top scores on bare floor + fine dust reveal. Soft roller confirmed.",
+    "rtings": "Flagship pick for hardwood; Fluffy Optic head notes noted.",
+    "cleanMySpace": "Two-year review from Melissa Maker — mixed durability verdict."
+  },
+  "caveats": [
+    "CRITICAL HARDWOOD CAVEAT: Laser Slim Fluffy brush bar can contact beveled edges on site-finished / prefinished solid hardwood and leave wear marks. Less of an issue on engineered hardwood with tight-fit seams. Recommend a test-run in a low-visibility corner before committing.",
+    "3-year durability concern pattern: dust bin, wand, and cyclone unit all flagged by multiple owners post-warranty. Repair cost ~$150 out-of-warranty cyclone replacement.",
+    "Price $749-849 retail puts it at the top of Practical Floor Keeper aspirational band — this is the 'Dyson tax' the avatar questions.",
+    "Battery replacement $80-150 at year 3+ (Dyson-proprietary).",
+    "For pure hardwood households with engineered or newer polyurethane-finished floors, the scratch risk is minimal. For older solid hardwood with beveled edges or site-finished floors (~10+ years old), the V12 Detect Slim or Shark Stratos are safer picks at lower price."
+  ]
+}

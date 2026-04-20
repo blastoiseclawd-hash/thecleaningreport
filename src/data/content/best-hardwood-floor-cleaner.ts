@@ -626,6 +626,7 @@ If your search keyword is a DIY homemade recipe ("best homemade hardwood floor c
   },
   relatedLinks: [
     { href: "/how-to-clean-hardwood-floors", title: "How to Clean Hardwood Floors (Without Voiding the Warranty)" },
+    { href: "/best-cordless-stick-vacuum-for-hardwood", title: "Best Cordless Stick Vacuum for Hardwood Floors 2026" },
     { href: "/best-robot-vacuum", title: "The 6 Best Robot Vacuums of 2026" },
     { href: "/best-cordless-vacuum", title: "The 5 Best Cordless Vacuums of 2026" },
     { href: "/how-we-review", title: "How We Review Cleaning Tools" },

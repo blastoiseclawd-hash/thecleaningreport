@@ -1,0 +1,50 @@
+{
+  "productSlug": "dyson-v12-detect-slim",
+  "productId": "dyson-v12-detect-slim",
+  "gatheredOn": "2026-04-20",
+  "gatheredBy": "Claude Opus 4.7",
+  "evidenceType": "reddit-owner-sentiment + tier2-editorial",
+  "aggregatorUrl": "https://redditrecs.com/vacuum-cleaner/model/dyson-v12-detect-slim/",
+  "summary": "Dyson V12 Detect Slim — owner sentiment confirms Laser Slim Fluffy soft-roller as genuinely effective on hardwood (green-laser dust reveal is not marketing theater). 3.2lb weight flags as distinguishing feature vs V15's 6.8lb. Runtime 60min Eco on hard floors matches label; drops to ~20min in Boost. Key negative: higher retail than Shark equivalents for similar hardwood-specific performance.",
+  "sampleThreads": [
+    {
+      "subreddit": "r/dyson",
+      "age": "estimated ~6-12 months",
+      "verbatim": "the V12 Detect Slim is suitable for smaller spaces, has 60 minutes run time, adaptive cleaning which changes suction according to how dirty an area is, the green light is brilliant and really does light up the dust",
+      "sourceLink": "https://redditrecs.com/vacuum-cleaner/model/dyson-v12-detect-slim/",
+      "signalType": "hardwood-laser-slim-fluffy-validation"
+    },
+    {
+      "subreddit": "r/VacuumCleaners",
+      "age": "estimated ~6-12 months",
+      "verbatim": "I can get everywhere done and still have battery left",
+      "sourceLink": "https://redditrecs.com/vacuum-cleaner/model/dyson-v12-detect-slim/",
+      "signalType": "runtime-reality-larger-home"
+    },
+    {
+      "subreddit": "r/dyson",
+      "age": "estimated ~6-12 months",
+      "verbatim": "able to detect the difference and alter power, works well on all floor types",
+      "sourceLink": "https://redditrecs.com/vacuum-cleaner/model/dyson-v12-detect-slim/",
+      "signalType": "auto-suction-adjustment"
+    }
+  ],
+  "thirdPartyTestSummary": {
+    "vacuumWars": {
+      "score": "4.42/5",
+      "source": "https://vacuumwars.com/dyson-v12-detect-slim-review/"
+    },
+    "modernCastle": {
+      "testFocus": "6 objective tests including hardwood",
+      "source": "https://moderncastle.com/vacuum-cleaners/dyson-v12-detect-slim-review/"
+    },
+    "techgearLab": "Tested & rated; soft-roller hardwood performance confirmed.",
+    "rtings": "4.42/5 — lightweight at 3.2lb with laser-equipped soft roller. Shorter battery (60 min Eco) than V15."
+  },
+  "caveats": [
+    "60-minute runtime is Eco only on hard floors. Boost mode drops to ~15-20 min.",
+    "Battery replacement (proprietary Dyson) runs $80-130 year 3+; repair economy flagged on Reddit as durability concern.",
+    "Dustbin smaller than V15 (0.35L vs 0.77L); hardwood-only households won't fill it, mixed-surface households will.",
+    "Priced ~$150 above Shark Stratos for similar hardwood-specific performance; the differentiator is weight + laser reveal."
+  ]
+}

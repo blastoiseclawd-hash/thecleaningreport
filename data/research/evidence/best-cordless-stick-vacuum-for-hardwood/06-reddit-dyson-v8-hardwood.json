@@ -1,0 +1,55 @@
+{
+  "productSlug": "dyson-v8-absolute",
+  "productId": "dyson-v8-absolute",
+  "gatheredOn": "2026-04-20",
+  "gatheredBy": "Claude Opus 4.7",
+  "evidenceType": "reddit-owner-sentiment + long-term-ownership",
+  "aggregatorUrl": "https://redditrecs.com/vacuum-cleaner/model/dyson-v8-absolute/",
+  "summary": "Dyson V8 — the budget Dyson with the longest ownership track record on Reddit. Owners report 4, 6, 8-year functional ownership. The V8 Absolute variant INCLUDES the Fluffy soft-roller head; standard V8 does not. For hardwood-primary households, the Absolute or Fluffy variant is the correct pick. Standard head can push larger debris. Dark hardwood scratch caveat: some owners report the STICK-BODY (not the head) scrapes dark hardwood when set down.",
+  "sampleThreads": [
+    {
+      "subreddit": "r/dyson",
+      "age": "multi-year",
+      "verbatim": "I have had a Dyson V8 Total Clean with all accessories for 8 years, upgraded the battery last year, change all filters every 6 months, and it still works perfectly",
+      "sourceLink": "https://redditrecs.com/vacuum-cleaner/model/dyson-v8-absolute/",
+      "signalType": "long-term-8-year-ownership"
+    },
+    {
+      "subreddit": "r/dyson",
+      "age": "~4-year",
+      "verbatim": "I've had the V8 Slim for almost 4 years and it's still going strong",
+      "sourceLink": "https://redditrecs.com/vacuum-cleaner/model/dyson-v8-slim-fluffyplus/",
+      "signalType": "long-term-4-year-durability"
+    },
+    {
+      "subreddit": "r/dyson",
+      "age": "recent",
+      "verbatim": "V8 with the Fluffy head is a solid pick with no beater bar, making it good for hard floors. use the fluffy head on the floors and the regular motorhead on carpets and area rugs",
+      "sourceLink": "https://redditrecs.com/vacuum-cleaner/series/dyson-v8-series/",
+      "signalType": "fluffy-head-hardwood-confirmation"
+    },
+    {
+      "subreddit": "r/dyson",
+      "age": "recent",
+      "verbatim": "the standard cleaning head can struggle on hardwood, sometimes pushing larger debris rather than picking it up — the V8 Absolute version with the soft roller head is much better suited for hard floors",
+      "sourceLink": "https://redditrecs.com/vacuum-cleaner/series/dyson-v8-series/",
+      "signalType": "variant-selection-critical"
+    }
+  ],
+  "thirdPartyTestSummary": {
+    "techgearLab": {
+      "source": "https://www.techgearlab.com/reviews/floor-cleaning/cordless-stick-vacuum/dyson-v8",
+      "note": "Tested & rated — solid performer at budget Dyson tier"
+    },
+    "dyson": {
+      "source": "https://www.dyson.com/vacuum-cleaners/cordless/v8",
+      "note": "Manufacturer spec confirms head configuration by variant"
+    }
+  },
+  "caveats": [
+    "CRITICAL VARIANT NUANCE: V8 Absolute ships with Fluffy soft-roller head; standard V8 ships only with Motorbar. For hardwood-primary, buy the Absolute or verify the Fluffy head is included.",
+    "Dark-hardwood scratch caveat: some owners report the STICK-BODY scrapes dark hardwood when laying it down — treat as a handling concern, not a head problem.",
+    "40-minute runtime on Eco, drops to ~7 min on Max. Shorter than V15/V12 premium tier.",
+    "Battery replacement at year 3-5 is common per long-term owner posts; cost ~$80-130. Ownership math still favorable at 6-8 year lifespan per multiple Reddit threads."
+  ]
+}

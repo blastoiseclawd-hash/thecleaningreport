@@ -1,0 +1,61 @@
+{
+  "productSlug": "shark-stratos-cordless-IZ862H",
+  "productId": "shark-stratos-cordless-iz862h",
+  "gatheredOn": "2026-04-20",
+  "gatheredBy": "Claude Opus 4.7",
+  "evidenceType": "reddit-owner-sentiment",
+  "aggregatorUrl": "https://redditrecs.com/vacuum-cleaner/model/shark-stratos-cordless/",
+  "summary": "Shark Stratos Cordless (IZ862H) — Reddit owner sentiment on hardwood floor performance. Consistent theme: DuoClean dual-roller (soft front roller + brushroll back) handles hardwood without scatter, also handles area rugs / pet hair without tangle. Top-heavy balance noted as fatigue point on longer cleans. Runtime advertised 60min hits closer to 30-40min real-use on hard floors with iQ mode.",
+  "sampleThreads": [
+    {
+      "subreddit": "r/VacuumCleaners",
+      "age": "~7 months ago (2025-09)",
+      "verbatim": "The soft roller is great on hardwood so it doesn't kick stuff around, and the brushroll actually handles fur really well without getting clogged.",
+      "sourceLink": "https://redditrecs.com/vacuum-cleaner/model/shark-stratos-cordless/",
+      "signalType": "hardwood-soft-roller-performance"
+    },
+    {
+      "subreddit": "r/VacuumCleaners",
+      "age": "~9 months ago (2025-07)",
+      "verbatim": "It's great on tile and rugs, has strong suction, and handles heavy shedders really well.",
+      "sourceLink": "https://redditrecs.com/vacuum-cleaner/model/shark-stratos-cordless/",
+      "signalType": "cross-surface-performance"
+    },
+    {
+      "subreddit": "r/egopowerplus",
+      "age": "~9 months ago (2025-07)",
+      "verbatim": "I bought a Shark IZ862H and it's been the best vacuum I've ever had.",
+      "sourceLink": "https://redditrecs.com/vacuum-cleaner/model/shark-stratos-cordless/",
+      "signalType": "long-term-owner-satisfaction"
+    },
+    {
+      "subreddit": "r/VacuumCleaners",
+      "age": "~4 months ago (2025-12)",
+      "verbatim": "the Shark Stratos has been really good for me on carpet/tile. I use it almost everyday.",
+      "sourceLink": "https://redditrecs.com/vacuum-cleaner/model/shark-stratos-cordless/",
+      "signalType": "daily-use-reliability"
+    },
+    {
+      "subreddit": "r/VacuumCleaners",
+      "age": "~4 months ago (2025-12)",
+      "verbatim": "the dual-roller system picks up Cheerios and fine dust equally well",
+      "sourceLink": "https://redditrecs.com/vacuum-cleaner/model/shark-stratos-cordless/",
+      "signalType": "mixed-debris-performance"
+    }
+  ],
+  "thirdPartyTestSummary": {
+    "vacuumWars": {
+      "score": "4.20/5",
+      "award": "Best Cordless Vacuum for Hard Floors & Carpets 2025",
+      "source": "https://vacuumwars.com/shark-stratos-named-2025s-best-cordless-vacuum-for-both-hard-floors-and-carpets/"
+    },
+    "techgearLab": "Independent review confirms hard-floor performance via soft front-roller.",
+    "consumerReports": "PowerDetect variant (same DuoClean head) rated stellar on bare floors, ideal for kitchens/bathrooms/hardwood."
+  },
+  "caveats": [
+    "Advertised 60-minute runtime applies to ECO mode on hard floors with minimal dirt detection. iQ / Boost modes drop runtime substantially.",
+    "Top-heavy handle (motor placement) creates hand/wrist fatigue noted in longer sessions (~20 min continuous).",
+    "Battery is Shark-proprietary ~$100 replacement at year 2-3; cheaper than Dyson's but not cross-brand.",
+    "Filter maintenance: foam + HEPA every 3 months per manufacturer."
+  ]
+}
