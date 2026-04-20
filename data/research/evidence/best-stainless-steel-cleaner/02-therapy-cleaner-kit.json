@@ -1,0 +1,49 @@
+{
+  "slug": "best-stainless-steel-cleaner",
+  "candidate": "Therapy Stainless Steel Cleaner and Polish",
+  "asin": "B078J4H5FX",
+  "capturedOn": "2026-04-20",
+  "capturedBy": "Claude Opus 4.7 via Playwright MCP + WebFetch",
+  "claims": [
+    {
+      "claim": "4.6 stars across 21,144 Amazon reviews on canonical listing B078J4H5FX as of 2026-04-20",
+      "evidenceUrl": "https://www.amazon.com/dp/B078J4H5FX",
+      "snippet": "4.6 out of 5 (21,144) — #productTitle + #acrCustomerReviewText extracted 2026-04-20"
+    },
+    {
+      "claim": "Retail price $24.95 as of 2026-04-20",
+      "evidenceUrl": "https://www.amazon.com/dp/B078J4H5FX",
+      "snippet": ".a-price .a-offscreen = $24.95"
+    },
+    {
+      "claim": "Listing confirms 100% USDA Biobased product claim",
+      "evidenceUrl": "https://www.amazon.com/dp/B078J4H5FX",
+      "snippet": "Title: 'Therapy Stainless Steel Cleaner and Polish 100% USDA Biobased, Fingerprint and Residue Remover, Lavender Essential Oil Scent'"
+    },
+    {
+      "claim": "Reviewed.com names Therapy Stainless Steel Cleaner Kit 'Best Plant-Based / Editor's Choice' in 2026 roundup",
+      "evidenceUrl": "https://www.reviewed.com/home-outdoors/best-right-now/best-stainless-steel-polishes-spray-wipe-powder",
+      "snippet": "'100% USDA-certified biobased product' with coconut oil formula; 'Free of petroleum solvents; safe around pets and kids; not explicitly food-safe'"
+    },
+    {
+      "claim": "Bob Vila names Therapy 'Best Overall' in stainless steel cleaner roundup",
+      "evidenceUrl": "https://www.bobvila.com/articles/best-stainless-steel-cleaners/",
+      "snippet": "'All-natural coconut oil formula; includes microfiber cloth; lavender scent; effective for daily cleaning but not suited for cleaning baked-on or cooked-on debris'"
+    },
+    {
+      "claim": "This Old House names Therapy 'Best Plant-Based Cleaner'",
+      "evidenceUrl": "https://www.thisoldhouse.com/kitchens/best-stainless-steel-cleaner",
+      "snippet": "'Environmentally friendly option... Leaves protective barrier against fingerprints and dust; Solvent-free, pH-neutral formula'"
+    },
+    {
+      "claim": "Reviewed notes 'some users report leaky nozzles' — known pain-point",
+      "evidenceUrl": "https://www.reviewed.com/home-outdoors/best-right-now/best-stainless-steel-polishes-spray-wipe-powder",
+      "snippet": "'some users report leaky nozzles'"
+    },
+    {
+      "claim": "10 hi-res gallery images present on canonical listing",
+      "evidenceUrl": "https://www.amazon.com/dp/B078J4H5FX",
+      "snippet": "hiRes extraction returned 10 image URLs"
+    }
+  ]
+}

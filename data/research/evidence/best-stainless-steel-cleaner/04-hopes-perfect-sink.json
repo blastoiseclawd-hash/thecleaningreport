@@ -1,0 +1,49 @@
+{
+  "slug": "best-stainless-steel-cleaner",
+  "candidate": "HOPE'S Perfect Sink Cleaner and Polish",
+  "asin": "B001B47034",
+  "capturedOn": "2026-04-20",
+  "capturedBy": "Claude Opus 4.7 via Playwright MCP + WebFetch",
+  "claims": [
+    {
+      "claim": "4.3 stars across 18,766 Amazon reviews on canonical listing B001B47034 as of 2026-04-20",
+      "evidenceUrl": "https://www.amazon.com/dp/B001B47034",
+      "snippet": "4.3 out of 5 (18,766) — #productTitle + #acrCustomerReviewText extracted 2026-04-20"
+    },
+    {
+      "claim": "Retail price $11.00 for 8.5 fl oz as of 2026-04-20",
+      "evidenceUrl": "https://www.amazon.com/dp/B001B47034",
+      "snippet": ".a-price .a-offscreen = $11.00; Title specifies '8.5 Fl Oz'"
+    },
+    {
+      "claim": "This Old House names Hope's Perfect Sink 'Best For Sinks'",
+      "evidenceUrl": "https://www.thisoldhouse.com/kitchens/best-stainless-steel-cleaner",
+      "snippet": "Stephanie Minasian-Koncewicz: 'Water-repellent formula that removes rust stains and water spots; Dual cleaning and polishing action'"
+    },
+    {
+      "claim": "Bob Vila names Hope's Perfect Sink 'Best For Sinks'",
+      "evidenceUrl": "https://www.bobvila.com/articles/best-stainless-steel-cleaners/",
+      "snippet": "'Creates invisible water-repellent barrier; highly fingerprint resistant; unsuitable for mirror finishes'"
+    },
+    {
+      "claim": "Explicit manufacturer compatibility claim: 'Cast Iron, Corian, Composite, Acrylic' surfaces named alongside stainless",
+      "evidenceUrl": "https://www.amazon.com/dp/B001B47034",
+      "snippet": "Title: 'Restorative, Removes Stains, Cast Iron, Corian, Composite, Acrylic, 8.5 Fl Oz'"
+    },
+    {
+      "claim": "Bob Vila testing flags 'unsuitable for mirror finishes' — compatibility restriction",
+      "evidenceUrl": "https://www.bobvila.com/articles/best-stainless-steel-cleaners/",
+      "snippet": "'unsuitable for mirror finishes' — critical for Surface Protector decision tree"
+    },
+    {
+      "claim": "This Old House customer-review note: 'Pleasant scent and effective stain removal; requires significant product quantity'",
+      "evidenceUrl": "https://www.thisoldhouse.com/kitchens/best-stainless-steel-cleaner",
+      "snippet": "'Pleasant scent and effective stain removal; requires significant product quantity'"
+    },
+    {
+      "claim": "10 hi-res gallery images present on canonical listing",
+      "evidenceUrl": "https://www.amazon.com/dp/B001B47034",
+      "snippet": "hiRes extraction returned 10 image URLs"
+    }
+  ]
+}

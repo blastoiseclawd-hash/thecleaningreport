@@ -1,0 +1,49 @@
+{
+  "slug": "best-stainless-steel-cleaner",
+  "candidate": "Magic Stainless Steel Cleaner Aerosol",
+  "asin": "B00827UD9G",
+  "capturedOn": "2026-04-20",
+  "capturedBy": "Claude Opus 4.7 via Playwright MCP + WebFetch",
+  "claims": [
+    {
+      "claim": "4.5 stars across 8,546 Amazon reviews on canonical listing B00827UD9G as of 2026-04-20",
+      "evidenceUrl": "https://www.amazon.com/dp/B00827UD9G",
+      "snippet": "4.5 out of 5 (8,546) — #productTitle + #acrCustomerReviewText extracted 2026-04-20"
+    },
+    {
+      "claim": "Retail price $15.56 for 17 oz aerosol as of 2026-04-20",
+      "evidenceUrl": "https://www.amazon.com/dp/B00827UD9G",
+      "snippet": ".a-price .a-offscreen = $15.56; Title: '17 Ounce'"
+    },
+    {
+      "claim": "Listing multi-appliance framing: Refrigerator Dishwasher Oven Grill",
+      "evidenceUrl": "https://www.amazon.com/dp/B00827UD9G",
+      "snippet": "Title: 'Removes Fingerprints Residue Water Marks and Grease From Appliances - Refrigerator Dishwasher Oven Grill etc'"
+    },
+    {
+      "claim": "Bob Vila names Magic 'Honorable Mention' with appliance + stovetop testing",
+      "evidenceUrl": "https://www.bobvila.com/articles/best-stainless-steel-cleaners/",
+      "snippet": "'Affordable; minimal residue; slightly darkens surfaces; works best on darker metals; Tested on appliances and stovetops for grease and debris removal'"
+    },
+    {
+      "claim": "Bob Vila flags 'slightly darkens surfaces; works best on darker metals' — compatibility caveat",
+      "evidenceUrl": "https://www.bobvila.com/articles/best-stainless-steel-cleaners/",
+      "snippet": "'slightly darkens surfaces; works best on darker metals' — critical for finish-type decision tree"
+    },
+    {
+      "claim": "Aerosol format (vs. pump spray) noted for low-residue buildup on cleanup",
+      "evidenceUrl": "https://www.bobvila.com/articles/best-stainless-steel-cleaners/",
+      "snippet": "'Affordable; minimal residue'"
+    },
+    {
+      "claim": "Under-$16 price band — entry-level / budget slot in Final 5 lineup",
+      "evidenceUrl": "https://www.amazon.com/dp/B00827UD9G",
+      "snippet": "$15.56 list price is lowest per-bottle in the Final 5 among multi-surface appliance sprays"
+    },
+    {
+      "claim": "10 hi-res gallery images present on canonical listing",
+      "evidenceUrl": "https://www.amazon.com/dp/B00827UD9G",
+      "snippet": "hiRes extraction returned 10 image URLs"
+    }
+  ]
+}

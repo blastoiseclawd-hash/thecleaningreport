@@ -1,0 +1,49 @@
+{
+  "slug": "best-stainless-steel-cleaner",
+  "candidate": "Weiman Stainless Steel Cleaner & Polish",
+  "asin": "B00JLHNQ90",
+  "capturedOn": "2026-04-20",
+  "capturedBy": "Claude Opus 4.7 via Playwright MCP + WebFetch",
+  "claims": [
+    {
+      "claim": "4.7 stars across 18,056 Amazon reviews on canonical listing B00JLHNQ90 as of 2026-04-20",
+      "evidenceUrl": "https://www.amazon.com/dp/B00JLHNQ90",
+      "snippet": "4.7 out of 5 (18,056) — #productTitle + #acrCustomerReviewText extracted 2026-04-20"
+    },
+    {
+      "claim": "Retail price $19.98 (2-pack) as of 2026-04-20",
+      "evidenceUrl": "https://www.amazon.com/dp/B00JLHNQ90",
+      "snippet": ".a-price .a-offscreen = $19.98"
+    },
+    {
+      "claim": "Reviewed.com names Weiman Stainless Steel Cleaner & Polish 'Best Overall / Editor's Choice' in Jan 2026 roundup",
+      "evidenceUrl": "https://www.reviewed.com/home-outdoors/best-right-now/best-stainless-steel-polishes-spray-wipe-powder",
+      "snippet": "'leaves a brilliant shine and, thanks to the mineral oil in the formula, a protective coat that repels fingerprints for weeks' — David Kender, Editor in Chief, published 2026-01-20"
+    },
+    {
+      "claim": "Bob Vila names Weiman 'Best Fingerprint-Resistant' in stainless steel cleaner roundup",
+      "evidenceUrl": "https://www.bobvila.com/articles/best-stainless-steel-cleaners/",
+      "snippet": "'Supreme fingerprint resistance; easy application; strong talc scent' — Timothy Dale + Debbie Wolfe"
+    },
+    {
+      "claim": "Listing title covers brushed stainless appliances, chrome, and grills (multi-surface framing)",
+      "evidenceUrl": "https://www.amazon.com/dp/B00JLHNQ90",
+      "snippet": "Title: 'Anti Fingerprint Spray... Safe for Metal Polish, Chrome, Appliances, Sinks & Grills'"
+    },
+    {
+      "claim": "Reviewed notes mineral-oil formula 'can feel greasy on hands' (balance pain-point)",
+      "evidenceUrl": "https://www.reviewed.com/home-outdoors/best-right-now/best-stainless-steel-polishes-spray-wipe-powder",
+      "snippet": "'effective on smudges and grease; requires buffing with the grain; has mineral oil base that can feel greasy on hands'"
+    },
+    {
+      "claim": "This Old House notes Weiman wipes variant is 'pH-neutral solution that works on all types of stainless steel surfaces'",
+      "evidenceUrl": "https://www.thisoldhouse.com/kitchens/best-stainless-steel-cleaner",
+      "snippet": "Stephanie Minasian-Koncewicz, updated 06/19/2025: 'pH-neutral solution that works on all types of stainless steel surfaces'"
+    },
+    {
+      "claim": "10 hi-res gallery images present on canonical listing (>3 image gate passed)",
+      "evidenceUrl": "https://www.amazon.com/dp/B00JLHNQ90",
+      "snippet": "hiRes extraction returned 10 image URLs from 71H6WsC6U8L through 613a3EwcR7L"
+    }
+  ]
+}

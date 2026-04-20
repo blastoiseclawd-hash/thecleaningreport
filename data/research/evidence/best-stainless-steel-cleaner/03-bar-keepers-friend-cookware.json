@@ -1,0 +1,49 @@
+{
+  "slug": "best-stainless-steel-cleaner",
+  "candidate": "Bar Keepers Friend Superior Cookware Cleanser & Polish",
+  "asin": "B000V6YLNA",
+  "capturedOn": "2026-04-20",
+  "capturedBy": "Claude Opus 4.7 via Playwright MCP + WebFetch",
+  "claims": [
+    {
+      "claim": "4.6 stars across 9,968 Amazon reviews on canonical listing B000V6YLNA as of 2026-04-20",
+      "evidenceUrl": "https://www.amazon.com/dp/B000V6YLNA",
+      "snippet": "4.6 out of 5 (9,968) — #productTitle + #acrCustomerReviewText extracted 2026-04-20"
+    },
+    {
+      "claim": "Retail price $8.97 for 12 oz powder as of 2026-04-20",
+      "evidenceUrl": "https://www.amazon.com/dp/B000V6YLNA",
+      "snippet": ".a-price .a-offscreen = $8.97; Title: '12-Ounces | 1-Unit'"
+    },
+    {
+      "claim": "Reviewed names Bar Keepers Friend Cleanser 'Best for Pots and Pans / Editor's Choice'",
+      "evidenceUrl": "https://www.reviewed.com/home-outdoors/best-right-now/best-stainless-steel-polishes-spray-wipe-powder",
+      "snippet": "'over 100 years old, time-tested, and beloved... Mildly abrasive formula; ideal for cookware; can scratch coated appliance surfaces; requires careful application'"
+    },
+    {
+      "claim": "Bob Vila names Bar Keepers Friend Superior Cookware Cleanser 'Best for Cookware'",
+      "evidenceUrl": "https://www.bobvila.com/articles/best-stainless-steel-cleaners/",
+      "snippet": "'Natural ingredients; easily removed grease and rust stains; abrasive (unsuitable for soft surfaces)'"
+    },
+    {
+      "claim": "Reviewed explicitly flags powder abrasiveness as risk for appliance exteriors",
+      "evidenceUrl": "https://www.reviewed.com/home-outdoors/best-right-now/best-stainless-steel-polishes-spray-wipe-powder",
+      "snippet": "'can scratch coated appliance surfaces' — Surface Protector dealbreaker pattern"
+    },
+    {
+      "claim": "Listing format: 12-ounce bottle of powder, single-unit canonical SKU (not bundle)",
+      "evidenceUrl": "https://www.amazon.com/dp/B000V6YLNA",
+      "snippet": "'Bar Keepers Friend Superior Cookware Cleanser & Polish | 12-Ounces | 1-Unit'"
+    },
+    {
+      "claim": "Bob Vila testing notes 'removed grease and rust stains' on aluminum + stainless cookware",
+      "evidenceUrl": "https://www.bobvila.com/articles/best-stainless-steel-cleaners/",
+      "snippet": "'Tested on aluminum and stainless steel cookware for grease and rust stain removal'"
+    },
+    {
+      "claim": "3 hi-res gallery images (thin gallery — flagged for possible products-validate WARN)",
+      "evidenceUrl": "https://www.amazon.com/dp/B000V6YLNA",
+      "snippet": "hiRes extraction returned 3 image URLs: 81Yfj95aJ5L, 817bwM7854L, 81ns-ec89kL"
+    }
+  ]
+}

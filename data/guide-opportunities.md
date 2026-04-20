@@ -9,10 +9,10 @@
 
 | Status | Count |
 |--------|-------|
-| LIVE | 6 |
+| LIVE | 7 |
 | CONTENT READY | 0 |
 | IN PROGRESS | 0 |
-| NOT BUILT | 343 |
+| NOT BUILT | 342 |
 | SKIP | 10 |
 | **Total** | **359** |
 
@@ -8673,6 +8673,7 @@
 | 3 | how-to-clean-hardwood-floors | How to Clean Hardwood Floors (Without Voiding the Warranty) | support-guide | maintenance-cleaning | maintain | how to clean hardwood floors | 18000 | 12 | 18000 | 63.6 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | LIVE |
 | 4 | best-hardwood-floor-cleaner | Best Hardwood Floor Cleaners (2026): Manufacturer-Approved Picks | support-guide | troubleshooting-fix | learn | best hardwood floor cleaner | 4400 | 9 | 9800 | 66.6 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | LIVE |
 | 17 | best-grout-cleaner | Best Grout Cleaners (2026): Color-Safe, Sealer-Safe Picks | support-guide | troubleshooting-fix | learn | best grout cleaner | 8800 | 1 | 2800 | 67.5 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | LIVE |
+| 19 | best-stainless-steel-cleaner | Best Stainless Steel Cleaners (2026): Streak-Free Without the Abrasives | support-guide | troubleshooting-fix | learn | best stainless steel cleaner | 2900 | 1 | 3500 | 66.8 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | LIVE |
 | 198 | best-cordless-stick-vacuum-for-hardwood | Best Cordless Stick Vacuum for Hardwood Floors 2026 | money-guide | feature-roundup | buy | best cordless stick vacuum for hardwood | 900 | 2 | 900 | 52.3 | fallback-evidence | cleaning-support | everyday-cleaning-desk | Practical Floor Keeper | LIVE |
 | 5 | best-mop-for-hardwood-floors | Best Steam Mop For Tile Floors | money-guide | feature-roundup | buy | best steam mop for tile floors | 450 | 2 | 16000 | 75.6 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
 | 7 | what-is-the-most-powerful-handheld-vacuum | What Is The Most Powerful Handheld Vacuum | support-guide | glossary-explainer | learn | what is the most powerful handheld vacuum | 50 | 5 | 17000 | 64.3 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
@@ -8686,7 +8687,6 @@
 | 15 | best-robot-vacuum-for-pet-hair | Best Robot Vacuum For Dog Hair | money-guide | use-case-roundup | buy | best robot vacuum for dog hair | 1100 | 17 | 16000 | 69.4 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
 | 16 | shark-cordless-vacuum | Best Shark Cordless Stick Vacuum? | money-guide | brand-roundup | buy | best shark cordless stick vacuum? | 150 | 8 | 35000 | 68.7 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
 | 18 | robot-vacuum-for-hardwood-floors | Best Robot Vacuums for Hardwood Floors (2026) | money-guide | feature-roundup | buy | best robot vacuum for hardwood | 1800 | 2 | 1800 | 66.8 | fallback-evidence | cleaning-support | labor-math-desk | Labor Trader | NOT BUILT |
-| 19 | best-stainless-steel-cleaner | Best Stainless Steel Cleaners (2026): Streak-Free Without the Abrasives | support-guide | troubleshooting-fix | learn | best stainless steel cleaner | 2900 | 1 | 3500 | 66.8 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
 | 20 | grout-cleaner | Best Homemade Grout Cleaner For Mold | money-guide | use-case-roundup | buy | best homemade grout cleaner for mold | 0 | 2 | 16000 | 66.7 | fallback-evidence | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
 | 21 | what-to-clean-stainless-steel-with | What To Clean Stainless Steel With | support-guide | troubleshooting-fix | learn | what to clean stainless steel with | 700 | 1 | 12000 | 66.7 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
 | 22 | robot-vacuum | Best Floor Robot Vacuum | money-guide | flagship-roundup | buy | best floor robot vacuum | 150 | 4 | 48000 | 66.5 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
