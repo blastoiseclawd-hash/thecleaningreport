@@ -1,0 +1,49 @@
+{
+  "product": "Goo Gone Grout & Tile Cleaner",
+  "sku": "B07KQGD5JH",
+  "capturedOn": "2026-04-20",
+  "capturedBy": "Claude Opus 4.7 via WebSearch + published reviews",
+  "evidenceType": "third-party-certification-and-sentiment",
+  "keyClaims": [
+    {
+      "claim": "EPA Safer Choice certified: 'contains chemical ingredients that are safer for human health and the environment than alternatives'",
+      "sourceUrl": "https://googone.com/grout-cleaner",
+      "sourceType": "manufacturer-primary"
+    },
+    {
+      "claim": "EPA Safer Choice program listing: certification verified on the manufacturer program registry",
+      "sourceUrl": "https://www.epa.gov/saferchoice",
+      "sourceType": "regulatory-primary"
+    },
+    {
+      "claim": "EWG Cleaner Rating: listed on EWG Guide to Healthy Cleaning",
+      "sourceUrl": "https://www.ewg.org/cleaners/products/6486-GooGoneGroutTileCleaner/",
+      "sourceType": "third-party-safety"
+    },
+    {
+      "claim": "pH neutral — 'will NOT damage stone or corrode metals'",
+      "sourceUrl": "https://googone.com/grout-cleaner",
+      "sourceType": "manufacturer-primary"
+    },
+    {
+      "claim": "Consumer Reports positioning: 'Goo Gone Grout & Tile Cleaner stood out for being pretty effective, easy to use, and not overly smelly'",
+      "sourceUrl": "https://www.consumerreports.org/home-garden/cleaning/best-grout-cleaners-a1155771157/",
+      "sourceType": "tier1-methodology"
+    },
+    {
+      "claim": "This Old House 2026 positioning: 'safe for tile, ceramic, and porcelain, but you should not use it on marble and limestone surfaces'; 'many users say they don't have to scrub it'",
+      "sourceUrl": "https://thisoldhouse.com/bathrooms/best-grout-cleaners",
+      "sourceType": "tier2-editorial"
+    },
+    {
+      "claim": "Reviews mixed on effectiveness: 'cleaner worked great on tile, it made only a small difference to the grout' in one independent test",
+      "sourceUrl": "https://www.homedit.com/cleaning/grout-cleaners/goo-gone-grout-and-tile-cleaner-review/",
+      "sourceType": "editorial-independent"
+    },
+    {
+      "claim": "Amazon listing: 'Removes Tough Stains Dirt Caused by Mold Mildew Soap Scum and Hard Water Staining - Safe on Tile Ceramic Porcelain'",
+      "sourceUrl": "https://www.amazon.com/Goo-Gone-Grout-Tile-Cleaner/dp/B07KQGD5JH",
+      "sourceType": "primary-retailer"
+    }
+  ]
+}

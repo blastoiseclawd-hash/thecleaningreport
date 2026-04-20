@@ -1,0 +1,50 @@
+{
+  "product": "Clorox Plus Tilex Mold & Mildew Remover",
+  "sku": "B085LTCJCY",
+  "alternateSkus": ["B00P6NYX54", "B00CAO6CM4"],
+  "capturedOn": "2026-04-20",
+  "capturedBy": "Claude Opus 4.7 via WebSearch + published reviews",
+  "evidenceType": "biological-stain-specialist-with-colored-grout-warning",
+  "keyClaims": [
+    {
+      "claim": "Sodium hypochlorite (chlorine bleach) active ingredient at ~1-5% concentration with surfactants; kills 99.9% of common household bacteria per Clorox",
+      "sourceUrl": "https://www.clorox.com/products/clorox-plus-tilex-mold-mildew-remover/",
+      "sourceType": "manufacturer-primary"
+    },
+    {
+      "claim": "Colored-grout WARNING: 'Colored grout may lighten unevenly. Always test an inconspicuous area first if you are unsure about compatibility.'",
+      "sourceUrl": "https://www.mnmoldcompany.com/bleach-vs-tilex-which-is-better-for-mold-removal/",
+      "sourceType": "editorial-independent"
+    },
+    {
+      "claim": "Chlorine-bleach-on-grout general caveat: 'if your grout is colored, bleach can strip away the pigment, leaving it faded or uneven'",
+      "sourceUrl": "https://bringitoncleaner.com/blogs/others/how-to-clean-shower-tiles",
+      "sourceType": "editorial-independent"
+    },
+    {
+      "claim": "Home Depot reviews (3,500+): 'highly effective in removing mold and mildew with minimal scrubbing required'",
+      "sourceUrl": "https://www.homedepot.com/p/reviews/Clorox-Plus-Tilex-32-oz-Mold-and-Mildew-Remover-and-Stain-Cleaner-with-Bleach-Spray-4460001234/203219253/1",
+      "sourceType": "primary-retailer"
+    },
+    {
+      "claim": "Walmart reviews: 'This is the only product that removed the mold and mildew from the grout in some showers, and it worked where other products failed'",
+      "sourceUrl": "https://www.walmart.com/reviews/product/14898381",
+      "sourceType": "primary-retailer"
+    },
+    {
+      "claim": "Usage pattern: spray, let soak ~5 minutes, light scrub as needed, rinse",
+      "sourceUrl": "https://www.clorox.com/products/clorox-plus-tilex-mold-mildew-remover/",
+      "sourceType": "manufacturer-primary"
+    },
+    {
+      "claim": "Strong-bleach-smell caveat: 'use in a well-ventilated area and wear gloves'",
+      "sourceUrl": "https://www.clorox.com/products/clorox-plus-tilex-mold-mildew-remover/",
+      "sourceType": "manufacturer-primary"
+    },
+    {
+      "claim": "Safe surfaces: 'glazed and unglazed ceramic tile, grout, vinyl, fiberglass, and plastic'",
+      "sourceUrl": "https://www.clorox.com/products/clorox-plus-tilex-mold-mildew-remover/",
+      "sourceType": "manufacturer-primary"
+    }
+  ]
+}

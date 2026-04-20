@@ -1,0 +1,49 @@
+{
+  "product": "Black Diamond Ultimate Grout Cleaner",
+  "sku": "B00PO6HXNM",
+  "capturedOn": "2026-04-20",
+  "capturedBy": "Claude Opus 4.7 via WebSearch + published reviews",
+  "evidenceType": "owner-sentiment-and-editorial-consensus",
+  "keyClaims": [
+    {
+      "claim": "Acid-free formula — safe for colored grout, natural stone (marble, granite, travertine), ceramic, porcelain",
+      "sourceUrl": "https://bdstoneworks.com/products/ultimate-grout-cleaner",
+      "sourceType": "manufacturer-primary"
+    },
+    {
+      "claim": "Top-ranked acid-free pick by This Old House (2026 Review): 'professional strength, acid-free cleaner that includes a grout brush and is safe for colored grout and natural stone surfaces such as ceramic, marble, and granite'",
+      "sourceUrl": "https://thisoldhouse.com/bathrooms/best-grout-cleaners",
+      "sourceType": "tier2-editorial"
+    },
+    {
+      "claim": "Bob Vila runner-up ranking: 'works very quickly and requires minimal scrubbing, and it whitened almost as much as Soft Scrub without containing bleach. However, Bob Vila found its smell fairly strong'",
+      "sourceUrl": "https://www.bobvila.com/articles/best-grout-cleaner/",
+      "sourceType": "tier2-editorial"
+    },
+    {
+      "claim": "HGTV 2026 review: 'fast-acting spray that works on dirt, grease, grime, soap scum and food spills without bleaching agents, and requires only a couple of minutes of sitting time before scrubbing'",
+      "sourceUrl": "https://www.hgtv.com/shopping/product-reviews/best-grout-cleaners",
+      "sourceType": "tier2-editorial"
+    },
+    {
+      "claim": "Consumer Reports evaluation: tested among 7 grout cleaners (April 2026 update)",
+      "sourceUrl": "https://www.consumerreports.org/home-garden/cleaning/best-grout-cleaners-a1155771157/",
+      "sourceType": "tier1-methodology"
+    },
+    {
+      "claim": "Owner reports: 'restored her 10-year-old grout to its original color'; 'restored dingy pearl gray grout back to its original color'; 'difference it made was almost hard to believe'",
+      "sourceUrl": "https://thisoldhouse.com/bathrooms/best-grout-cleaners",
+      "sourceType": "tier2-editorial-aggregated"
+    },
+    {
+      "claim": "Caveats noted in reviews: dirtier grout may require multiple applications; cleaning solution can irritate skin (gloves recommended); smell fairly strong",
+      "sourceUrl": "https://www.bobvila.com/articles/best-grout-cleaner/",
+      "sourceType": "tier2-editorial"
+    },
+    {
+      "claim": "Amazon: 4-star rating, 10,000+ reviews as of 2026-04",
+      "sourceUrl": "https://www.amazon.com/Black-Diamond-Stoneworks-Ultimate-Solution/dp/B00PO6HXNM",
+      "sourceType": "primary-retailer"
+    }
+  ]
+}

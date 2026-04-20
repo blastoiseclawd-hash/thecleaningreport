@@ -1,0 +1,50 @@
+{
+  "product": "Clean-eez Grout-Eez Heavy-Duty Grout Cleaner",
+  "sku": "B072F57XRT",
+  "alternateSkus": ["B08R7XCZC5", "B0721NFGC4"],
+  "capturedOn": "2026-04-20",
+  "capturedBy": "Claude Opus 4.7 via WebSearch + published reviews",
+  "evidenceType": "owner-sentiment-and-editorial-consensus",
+  "keyClaims": [
+    {
+      "claim": "Consumer Reports top pick for deep cleaning: 'deep cleaning power, durability, and the ability to restore the appearance of both your grout and tile, even saying it will also make your tiles sparkle'",
+      "sourceUrl": "https://www.consumerreports.org/home-garden/cleaning/best-grout-cleaners-a1155771157/",
+      "sourceType": "tier1-methodology"
+    },
+    {
+      "claim": "This Old House 2026 Review: 'acid-based formula with a thick gel consistency that requires little scrubbing and is easy to rinse'",
+      "sourceUrl": "https://thisoldhouse.com/bathrooms/best-grout-cleaners",
+      "sourceType": "tier2-editorial"
+    },
+    {
+      "claim": "Manufacturer position: 'safe for colored grout'; trusted by over 1 million homeowners per Clean-eez",
+      "sourceUrl": "https://clean-eez.com/products/grout-eez",
+      "sourceType": "manufacturer-primary"
+    },
+    {
+      "claim": "Amazon listing: 'Safe for Colored Grout - Not for Natural Stone'",
+      "sourceUrl": "https://www.amazon.com/Grout-Eez-Heavy-Duty-Cleaner-Destroys-Clean-eez/dp/B08R7XCZC5",
+      "sourceType": "primary-retailer"
+    },
+    {
+      "claim": "Amazon: 4-star rating, ~11,000 reviews per This Old House aggregation citation",
+      "sourceUrl": "https://thisoldhouse.com/bathrooms/best-grout-cleaners",
+      "sourceType": "tier2-editorial-aggregated"
+    },
+    {
+      "claim": "Owner caveat — not for natural stone: 'The contents of cleaner does have acid in it, which can potentially cause damage to certain tile surfaces. The company warns against using it on natural stone like marble or travertine, as the acid content can etch the surface'",
+      "sourceUrl": "https://engineerfix.com/grout-eez-reviews-does-it-really-work-on-grout/",
+      "sourceType": "independent-review"
+    },
+    {
+      "claim": "Positive owner sentiment: 'better than bleach, better than softscrub, really nothing has cleaned the way this product has'; effective on heavily soiled grout not cleaned in years",
+      "sourceUrl": "https://engineerfix.com/grout-eez-reviews-does-it-really-work-on-grout/",
+      "sourceType": "independent-review"
+    },
+    {
+      "claim": "Negative owner sentiment: some users report cleaner left etching on ceramic floor; mixed results on manufacturer's 'effortless' claim (users report significant scrubbing still required)",
+      "sourceUrl": "https://engineerfix.com/grout-eez-reviews-does-it-really-work-on-grout/",
+      "sourceType": "independent-review"
+    }
+  ]
+}

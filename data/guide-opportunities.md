@@ -9,18 +9,18 @@
 
 | Status | Count |
 |--------|-------|
-| LIVE | 5 |
+| LIVE | 6 |
 | CONTENT READY | 0 |
 | IN PROGRESS | 0 |
-| NOT BUILT | 345 |
-| SKIP | 9 |
+| NOT BUILT | 343 |
+| SKIP | 10 |
 | **Total** | **359** |
 
 ## Coverage + Freshness
 
 | Metric | Value |
 |--------|-------|
-| Active ordered backlog | 350 |
+| Active ordered backlog | 349 |
 | Target range | 300-350 |
 | Coverage gap to minimum | 0 |
 | Oldest evidence bundle age (days) | 1038 |
@@ -8672,8 +8672,9 @@
 | 2 | best-cordless-vacuum | The 5 Best Cordless Vacuums of 2026 | money-guide | flagship-roundup | buy | best cordless vacuum | 51000 | 24 | 68000 | 69.8 | export-backed | cleaning-support | everyday-cleaning-desk | Practical Floor Keeper | LIVE |
 | 3 | how-to-clean-hardwood-floors | How to Clean Hardwood Floors (Without Voiding the Warranty) | support-guide | maintenance-cleaning | maintain | how to clean hardwood floors | 18000 | 12 | 18000 | 63.6 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | LIVE |
 | 4 | best-hardwood-floor-cleaner | Best Hardwood Floor Cleaners (2026): Manufacturer-Approved Picks | support-guide | troubleshooting-fix | learn | best hardwood floor cleaner | 4400 | 9 | 9800 | 66.6 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | LIVE |
+| 17 | best-grout-cleaner | Best Grout Cleaners (2026): Color-Safe, Sealer-Safe Picks | support-guide | troubleshooting-fix | learn | best grout cleaner | 8800 | 1 | 2800 | 67.5 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | LIVE |
+| 198 | best-cordless-stick-vacuum-for-hardwood | Best Cordless Stick Vacuum for Hardwood Floors 2026 | money-guide | feature-roundup | buy | best cordless stick vacuum for hardwood | 900 | 2 | 900 | 52.3 | fallback-evidence | cleaning-support | everyday-cleaning-desk | Practical Floor Keeper | LIVE |
 | 5 | best-mop-for-hardwood-floors | Best Steam Mop For Tile Floors | money-guide | feature-roundup | buy | best steam mop for tile floors | 450 | 2 | 16000 | 75.6 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 6 | best-tile-and-grout-cleaner | Best Grout Cleaner For Floors? | money-guide | use-case-roundup | buy | best grout cleaner for floors? | 8800 | 2 | 6100 | 71.4 | fallback-evidence | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
 | 7 | what-is-the-most-powerful-handheld-vacuum | What Is The Most Powerful Handheld Vacuum | support-guide | glossary-explainer | learn | what is the most powerful handheld vacuum | 50 | 5 | 17000 | 64.3 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
 | 8 | robot-vacuum-and-mop | Best Robot Vacuum And Mop Combo | money-guide | flagship-roundup | buy | best robot vacuum and mop combo | 1800 | 8 | 19000 | 70.9 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
 | 9 | best-mop-for-tile-floors | Best Mop For Tile Floors | money-guide | use-case-roundup | buy | best mop for tile floors | 2200 | 1 | 2500 | 69.6 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
@@ -8684,7 +8685,6 @@
 | 14 | best-mop | Best Mops for Everyday Home Cleaning (2026) | money-guide | flagship-roundup | buy | best mop | 11000 | 2 | 14000 | 72.8 | export-backed | cleaning-support | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
 | 15 | best-robot-vacuum-for-pet-hair | Best Robot Vacuum For Dog Hair | money-guide | use-case-roundup | buy | best robot vacuum for dog hair | 1100 | 17 | 16000 | 69.4 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
 | 16 | shark-cordless-vacuum | Best Shark Cordless Stick Vacuum? | money-guide | brand-roundup | buy | best shark cordless stick vacuum? | 150 | 8 | 35000 | 68.7 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 17 | best-grout-cleaner | Best Grout Cleaners (2026): Color-Safe, Sealer-Safe Picks | support-guide | troubleshooting-fix | learn | best grout cleaner | 8800 | 1 | 2800 | 67.5 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
 | 18 | robot-vacuum-for-hardwood-floors | Best Robot Vacuums for Hardwood Floors (2026) | money-guide | feature-roundup | buy | best robot vacuum for hardwood | 1800 | 2 | 1800 | 66.8 | fallback-evidence | cleaning-support | labor-math-desk | Labor Trader | NOT BUILT |
 | 19 | best-stainless-steel-cleaner | Best Stainless Steel Cleaners (2026): Streak-Free Without the Abrasives | support-guide | troubleshooting-fix | learn | best stainless steel cleaner | 2900 | 1 | 3500 | 66.8 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
 | 20 | grout-cleaner | Best Homemade Grout Cleaner For Mold | money-guide | use-case-roundup | buy | best homemade grout cleaner for mold | 0 | 2 | 16000 | 66.7 | fallback-evidence | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
@@ -8865,7 +8865,6 @@
 | 195 | best-handheld-vacuum-for-home | Best Handheld Vacuum For Home | money-guide | use-case-roundup | buy | best handheld vacuum for home | 100 | 0 | 100 | 52.5 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
 | 196 | how-to-clean-stainless-steel-stove-top | Best Cleaner For Stainless Steel Cooktop | support-guide | troubleshooting-fix | learn | best cleaner for stainless steel cooktop | 50 | 0 | 450 | 52.4 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
 | 197 | best-vacuum-for-hardwood-floors | Best Vacuum For Hardwood Floors | money-guide | feature-roundup | buy | best vacuum for hardwood floors | 3600 | 7 | 3600 | 52.4 | needs-serp-check | ordered-backlog | labor-math-desk | Labor Trader | NOT BUILT |
-| 198 | best-cordless-stick-vacuum-for-hardwood | Best Cordless Stick Vacuum for Hardwood Floors 2026 | money-guide | feature-roundup | buy | best cordless stick vacuum for hardwood | 900 | 2 | 900 | 52.3 | fallback-evidence | cleaning-support | everyday-cleaning-desk | Practical Floor Keeper | LIVE |
 | 199 | best-lightweight-cordless-vacuum | Best Lightweight Cordless Vacuums (2026): For Stairs, Apartments, and Upper Floors | money-guide | feature-roundup | buy | best lightweight cordless vacuum | 800 | 2 | 800 | 52.3 | fallback-evidence | cleaning-support | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
 | 200 | best-cordless-vacuum-at-walmart | Best Cordless Vacuum At Walmart | money-guide | flagship-roundup | buy | best cordless vacuum at walmart | 50 | 0 | 20 | 52.2 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
 | 201 | robot-vacuum-deals | Best Deal On Robot Vacuum | money-guide | flagship-roundup | buy | best deal on robot vacuum | 90 | 11 | 1800 | 52.2 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
@@ -9025,9 +9024,9 @@
 |---------|------:|------:|--------:|-----------:|---------:|------------:|
 | cleaning-support | 34 | 14 | 15 | 3 | 2 | 1 |
 | mops-and-handhelds | 107 | 99 | 6 | 2 | 0 | 5 |
-| cleaning-chemicals | 22 | 21 | 1 | 0 | 0 | 6 |
 | cordless-vacuums | 51 | 49 | 2 | 0 | 0 | 7 |
 | robot-vacuums | 115 | 113 | 2 | 0 | 0 | 8 |
+| cleaning-chemicals | 21 | 20 | 1 | 0 | 0 | 20 |
 | carpet-cleaners | 13 | 13 | 0 | 0 | 0 | 31 |
 | ordered-backlog | 8 | 7 | 1 | 0 | 0 | 48 |
 
@@ -9036,6 +9035,7 @@
 | Guide | Primary Keyword | Notes |
 |-------|-----------------|-------|
 | best-cordless-vacuum-cleaner-for-pet-hair | best cordless vacuum cleaner for pet hair | Ahrefs-discovered candidate \| Auto-skipped by roadmap v2 cross-site overlap guard (secondary-keyword collision). |
+| best-tile-and-grout-cleaner | best grout cleaner for floors? | Ahrefs-discovered candidate |
 | best-cordless-vacuum-for-pet-hair | best cordless vacuum pet hair | Ahrefs-discovered candidate \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision). |
 | best-handheld-vacuum-for-cat-litter | best handheld vacuum for cat litter | Ahrefs-discovered candidate \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision, primary-keyword collision). |
 | best-handheld-vacuum-for-pet-hair-on-stairs | best handheld vacuum for pet hair on stairs | Ahrefs-discovered candidate \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision, primary-keyword collision). |

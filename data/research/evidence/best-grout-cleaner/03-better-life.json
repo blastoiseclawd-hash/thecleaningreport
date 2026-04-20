@@ -1,0 +1,49 @@
+{
+  "product": "Better Life Natural Tub & Tile Cleaner (Tea Tree & Eucalyptus)",
+  "sku": "B07L4H21T6",
+  "capturedOn": "2026-04-20",
+  "capturedBy": "Claude Opus 4.7 via WebSearch + published reviews",
+  "evidenceType": "non-toxic-positioning-and-sentiment",
+  "keyClaims": [
+    {
+      "claim": "Consumer Reports recommendation: 'best grout cleaner overall goes to this non-toxic tub and tile cleaner from Better Life, which was not only effective but pleasant to use, and was recommended for refreshing grout and for everyday maintenance of tubs and tiles'",
+      "sourceUrl": "https://www.consumerreports.org/home-garden/cleaning/best-grout-cleaners-a1155771157/",
+      "sourceType": "tier1-methodology"
+    },
+    {
+      "claim": "This Old House 2026 Review positioning: 'eco-friendly cleaner includes natural ingredients such as coconut, corn, and citrus'",
+      "sourceUrl": "https://thisoldhouse.com/bathrooms/best-grout-cleaners",
+      "sourceType": "tier2-editorial"
+    },
+    {
+      "claim": "Plant-based formula — free of artificial dyes, alcohol, synthetic fragrances, sulfates, petrochemicals, phthalates; contains eucalyptus leaf, peppermint, lime, and lemongrass oils",
+      "sourceUrl": "https://www.1and1life.com/reviews/better-life-natural-tub-and-tile-cleaner/",
+      "sourceType": "editorial-independent"
+    },
+    {
+      "claim": "Gimme the Good Stuff endorsement: listed among non-toxic cleaning products for households with kids or pets",
+      "sourceUrl": "https://gimmethegoodstuff.org/store/better-life-tub-tile-cleaner/",
+      "sourceType": "independent-safety-review"
+    },
+    {
+      "claim": "Amazon reviews: 'earning over 10,000 perfect five-star ratings' per editorial aggregation; noted 'scent is nice and not overwhelming'",
+      "sourceUrl": "https://safehouseholdcleaning.com/review-better-life-tub-tile-cleaner/",
+      "sourceType": "editorial-aggregated"
+    },
+    {
+      "claim": "Performance caveat: 'might not be as effective for heavy-duty cleaning unless you're willing to spray and scrub multiple times'; 'known to leave streaks and be slippery'",
+      "sourceUrl": "https://safehouseholdcleaning.com/review-better-life-tub-tile-cleaner/",
+      "sourceType": "editorial-independent"
+    },
+    {
+      "claim": "Amazon listing: 'Tea Tree Bathtub & Shower Cleaner Spray for Glass and Tile - Foaming Mold and Mildew Remover for Tub Works on Hard Water Stains - 32oz'",
+      "sourceUrl": "https://www.amazon.com/Better-Life-Natural-Cleaner-Eucalyptus/dp/B07L4H21T6",
+      "sourceType": "primary-retailer"
+    },
+    {
+      "claim": "Founder positioning: 'family owned, and was founded in 2008 by dads Tim and Kevin who saw their toddlers crawling in dust and dreamed of cleaners safe for kids'",
+      "sourceUrl": "https://betterlifecleaner.net/",
+      "sourceType": "manufacturer-primary"
+    }
+  ]
+}
