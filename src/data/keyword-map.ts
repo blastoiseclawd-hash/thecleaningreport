@@ -533,7 +533,7 @@ export const pageTargets: PageTarget[] = [
     clusterId: "cleaning-support",
     buildOrder: 10,
     buildPriorityScore: 83.2,
-    buildStatus: "NOT BUILT",
+    buildStatus: "LIVE",
     primaryKeyword: "best handheld vacuum",
     primaryVolume: 17000,
     primaryKd: 2,

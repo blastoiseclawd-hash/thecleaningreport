@@ -1,0 +1,136 @@
+{
+  "slug": "best-handheld-vacuum",
+  "capturedOn": "2026-04-20",
+  "capturedBy": "Claude Opus 4.7 via WebFetch + Playwright MCP",
+  "tier1Sources": [
+    {
+      "source": "CNET",
+      "url": "https://www.cnet.com/home/kitchen-and-household/best-handheld-vacuum/",
+      "reviewer": "John Carlsen",
+      "updated": "2026-02-26",
+      "methodology": "13 vacuums tested over one week; weighed debris before/after each pass across tile + upholstery + vinyl + high-pile carpet; battery runtime + airflow + noise measured in lab",
+      "picks": [
+        {
+          "category": "Best Overall",
+          "product": "Worx 20V Power Share Cube Vac",
+          "price": 94,
+          "batteryMin": 21.4,
+          "weightLbs": 3.0,
+          "binMl": 207,
+          "maxDba": 84.6,
+          "maxCfm": 12.0,
+          "note": "Highest average performance score tied with Shark UltraCyclone Pet Pro"
+        },
+        {
+          "category": "Best for Pet Hair",
+          "product": "Bissell Pet Hair Eraser",
+          "price": 82,
+          "batteryMin": 20.9,
+          "weightLbs": 3.0,
+          "binMl": 700,
+          "maxDba": 85.1,
+          "maxCfm": 10.9,
+          "note": "Largest dust bin in lineup; 92% combination cleaning test"
+        },
+        {
+          "category": "Best Splurge",
+          "product": "Dyson Car+Boat",
+          "price": 206,
+          "batteryMin": 44.5,
+          "weightLbs": 4.2,
+          "binMl": 530,
+          "maxDba": 113.7,
+          "maxCfm": 18.2,
+          "note": "Longest battery + highest airflow; perfect scores in combination cleaning"
+        },
+        {
+          "category": "Best Budget",
+          "product": "Black & Decker Dustbuster Blast",
+          "price": 44,
+          "batteryMin": 16.6,
+          "weightLbs": 2.4,
+          "binMl": 290,
+          "maxDba": 113.4,
+          "maxCfm": 15.2
+        },
+        {
+          "category": "Best Compact",
+          "product": "Fanttik Slim V8 Apex",
+          "price": 66,
+          "batteryMin": 40.5,
+          "weightLbs": 1.1,
+          "binMl": 120,
+          "maxDba": 88.7,
+          "maxCfm": 8.9,
+          "note": "USB-C charging; 40 min runtime second only to Dyson"
+        }
+      ],
+      "alsoTested": [
+        {"product": "Black & Decker Dustbuster PowerConnect", "price": 80, "batteryMin": 20.0, "weightLbs": 4.1, "binMl": 500},
+        {"product": "DeWalt 20-Volt Max", "price": 99, "batteryMin": 7.4, "weightLbs": 3.3, "binMl": 700, "note": "battery + charger sold separately"},
+        {"product": "Dyson V8", "price": 350, "batteryMin": 36.9, "weightLbs": 5.58, "note": "stick vacuum included for reference"},
+        {"product": "Ryobi One+ 18V Cordless Performance", "price": 94, "batteryMin": 14.1, "weightLbs": 2.3, "binMl": 662},
+        {"product": "Ryobi One+ 18V Powered Brush", "price": 120, "batteryMin": 14.0, "weightLbs": 2.6, "binMl": 639},
+        {"product": "Shark Cyclone Pet", "price": 60, "batteryMin": 13.0, "weightLbs": 1.5, "binMl": 500},
+        {"product": "Shark UltraCyclone Pet Pro", "price": 90, "batteryMin": 13.3, "weightLbs": 2.8, "binMl": 425, "note": "tied with Worx for best cleaning performance"},
+        {"product": "Shark WandVac Power Pet", "price": 130, "batteryMin": 30.5, "weightLbs": 1.5, "binMl": 95}
+      ]
+    },
+    {
+      "source": "Modern Castle",
+      "url": "https://moderncastle.com/vacuum-cleaners/best-cordless-handheld-vacuums/",
+      "reviewer": "Derek Hales",
+      "updated": "2024-03-13",
+      "methodology": "13-test battery with real-home cleaning performance scores on hardwoods + low-pile + high-pile carpet",
+      "picks": [
+        {"category": "Best Overall", "product": "Dyson V7 Trigger", "batteryMin": 30, "suctionAw": 110, "overallPickup": "96%", "note": "May be discontinued as of 2025"},
+        {"category": "Best Budget", "product": "AirKii", "batteryMin": 40, "wetDry": true, "note": "Amazon-seeded brand"},
+        {"category": "Best for Pets", "product": "Shark Pet Perfect 2", "batteryMin": 30, "note": "replacement battery as expensive as the vacuum"},
+        {"category": "Best for Pet Hair", "product": "Bissell Pet Hair Eraser cordless", "batteryMin": 15, "overallPickup": "96%", "hardwoodPickup": "96%", "lowPilePickup": "98%", "highPilePickup": "94%"},
+        {"category": "Best for Stairs", "product": "Black & Decker 16V", "batteryMin": 15, "hardwoodPickup": "98%", "lowPilePickup": "98%", "highPilePickup": "96%"},
+        {"category": "Best Wet/Dry", "product": "Novete", "batteryMin": 30, "overallPickup": "99%", "note": "Amazon-seeded brand"},
+        {"category": "Best Corded Pet", "product": "Bissell Pet Hair Eraser corded", "lowPilePickup": "97%", "highPilePickup": "98%", "hardwoodPickup": "86%"},
+        {"category": "Best Budget Corded", "product": "Dirt Devil Scorpion QuickFlip", "overallPickup": "97%"}
+      ]
+    },
+    {
+      "source": "Reviewed.com",
+      "url": "https://www.reviewed.com/vacuums/best-right-now/the-best-handheld-vacuums",
+      "reviewer": "Jonathan Chan, Senior Manager of Lab Operations",
+      "methodology": "Weight/measurements, battery life (24hr charge before/after), dirt pickup performance, real-world pet hair removal from upholstery, attachment ease, hand-balance evaluation",
+      "picks": [
+        {"rank": 1, "product": "Bissell Pet Hair Eraser 2390", "price": "$89.99-$108.97", "batteryMin": "14-19", "weightLbs": 3.0, "binOz": 24, "dirtPickup": "94%", "note": "Best Overall"},
+        {"rank": 2, "product": "Black & Decker CHV1410L", "category": "Best Value", "batteryMin": 10, "weightLbs": 2.6, "binOz": 20, "dirtPickup": "80%"},
+        {"rank": 3, "product": "Shark UltraCyclone Pet Pro+ CH951", "price": 99.99, "batteryMin": 15, "weightLbs": 2.7, "binOz": 14, "dirtPickup": "87%"},
+        {"rank": 4, "product": "Black & Decker Dustbuster HHVI315JO42", "price": 48.87, "batteryMin": 10, "weightLbs": 2.0, "binOz": 20, "dirtPickup": "79%"},
+        {"rank": 5, "product": "Black & Decker Dustbuster Quickclean HNV215BW52", "price": 39.99, "batteryMin": 10, "weightLbs": 1.5, "binOz": 10, "dirtPickup": "60%", "note": "wet/dry capability"},
+        {"rank": 6, "product": "Hoover OnePWR BH57005", "price": "$109", "batteryMin": 15, "weightLbs": 3.3, "binOz": 14, "dirtPickup": "88%", "note": "separate removable battery"},
+        {"rank": 7, "product": "Shark Wandvac WV201", "price": 129.99, "batteryMin": 9, "weightLbs": 1.3, "binOz": 2.5, "dirtPickup": "87%", "note": "lightest tested"},
+        {"rank": 8, "product": "Black & Decker Dustbuster AdvancedClean+ HHVK515J00", "price": 99.99, "batteryMin": 15, "weightLbs": 2.5, "binOz": 25, "note": "Second-best dirt pickup"},
+        {"rank": 9, "product": "Bissell Aeroslim 29869", "batteryMin": 14, "weightLbs": 1.3, "binOz": 3.5, "dirtPickup": "83%", "note": "USB charging"}
+      ]
+    },
+    {
+      "source": "Bob Vila",
+      "url": "https://www.bobvila.com/reviews/best-handheld-vacuums/",
+      "reviewer": "Anne Holub",
+      "picks": [
+        {"category": "Best Overall", "product": "Black+Decker HHVK515J00FF Dustbuster", "airWatts": 35, "binMl": 750, "batteryMin": "30-35", "weightLbs": 3.5, "note": "20V battery"},
+        {"category": "Best Bang for the Buck", "product": "Dirt Devil Scorpion Quick Flip Corded", "motor": "7A", "cordFt": 16, "weightLbs": 3.8},
+        {"category": "Best Nozzle", "product": "Black+Decker CHV1410L Dustbuster", "airWatts": 15.2, "weightLbs": 3.5, "note": "180-degree rotating nozzle"},
+        {"category": "Best for Pet Owners", "product": "Bissell Pet Hair Eraser Cordless", "binMl": 700, "weightLbs": 3.0, "note": "motorized pet brush"},
+        {"category": "Best Versatility", "product": "Proscenic P11 Lite", "batteryMin": "35+ eco, 5 max", "weightLbs": 2.9, "note": "converts to stick vacuum"}
+      ],
+      "notRecommended": ["Makita XLC02R1B", "Black+Decker BDH2020FL", "VacLife VL188-N"]
+    }
+  ],
+  "tier3CommunitySignal": {
+    "source": "r/VacuumCleaners",
+    "representativeThread": {
+      "title": "The vacuum you ACTUALLY USE matters more than how advanced it is",
+      "url": "https://www.reddit.com/r/VacuumCleaners/comments/1pkm217/the_vacuum_you_actually_use_matters_more_than_how/",
+      "ownerInsight": "A small handheld vacuum that's nearby ends up doing most of the real work — crumbs in corners, desk dust, tight gaps. Not because it's better, but because it's easy.",
+      "relevantTo": "Practical Floor Keeper secondary/supplement-to-cordless positioning — the core thesis of the page"
+    }
+  }
+}

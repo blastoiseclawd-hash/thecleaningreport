@@ -1,0 +1,144 @@
+{
+  "slug": "best-handheld-vacuum",
+  "scrapedOn": "2026-04-20",
+  "scrapedBy": "Claude Opus 4.7 via Playwright MCP browser_navigate + browser_evaluate on amazon.com",
+  "tag": "thecleaningreport-20",
+  "products": [
+    {
+      "slot": 1,
+      "asin": "B07CB6RBSP",
+      "title": "Bissell Pet Hair Eraser Cordless Hand Vacuum, Lithium Ion, Home, Auto, and Pet Vacuum, Easy-Empty Dirt Bin, Upholstery Tool, Brush Tool, and Crevice Tool Included, 2390A",
+      "brand": "Bissell",
+      "model": "2390A",
+      "price": "$89.99",
+      "rating": 4.6,
+      "reviewCount": 37761,
+      "features": [
+        "Motorized brush tool for embedded pet hair",
+        "14V lithium-ion battery",
+        "Easy-empty dirt bin",
+        "Upholstery + crevice + motorized pet brush tools",
+        "Triple-level filtration",
+        "Every purchase supports BISSELL Pet Foundation"
+      ],
+      "galleryMainImage": "https://m.media-amazon.com/images/I/61a8E6BPJxL._AC_SX425_.jpg",
+      "galleryAdditional": [
+        "https://m.media-amazon.com/images/I/41nGO4XLkqL._AC_US100_.jpg",
+        "https://m.media-amazon.com/images/I/41wQx2TD+XL._AC_US100_.jpg",
+        "https://m.media-amazon.com/images/I/415O1Z8kW7L._AC_US100_.jpg",
+        "https://m.media-amazon.com/images/I/5132aIaiwZL._AC_US100_.jpg",
+        "https://m.media-amazon.com/images/I/41BzPnMPEoL._AC_US100_.jpg",
+        "https://m.media-amazon.com/images/I/41Q4Z4-ZKAL._AC_US100_.jpg"
+      ]
+    },
+    {
+      "slot": 2,
+      "asin": "B08559H8W2",
+      "title": "Shark UltraCyclone Pet Pro Plus Cordless Hand Vacuum, Powerful Suction, Handheld Vacuum for Car & Home, Pet Power Brush, Crevice Tool, Scrubbing Brush, XL Dust Cup, Black, CH951",
+      "brand": "Shark",
+      "model": "CH951",
+      "price": "$99.99",
+      "rating": 4.3,
+      "reviewCount": 11615,
+      "features": [
+        "4-in-1 versatility with 3 premium cleaning tools",
+        "Two ultra-powerful cyclonic air streams",
+        "Cordless convenience for spot cleaning",
+        "2.8 lbs lightweight design",
+        "CleanTouch Dirt Ejector for hands-free emptying",
+        "Crevice + Scrubbing + Self-Cleaning Pet Power Brush included"
+      ],
+      "galleryMainImage": "https://m.media-amazon.com/images/I/71RZ0xA0fmL._AC_SX425_.jpg",
+      "galleryAdditional": [
+        "https://m.media-amazon.com/images/I/41lrx5UKGBL._AC_US100_.jpg",
+        "https://m.media-amazon.com/images/I/51Hh3UkGHtL._AC_US100_.jpg",
+        "https://m.media-amazon.com/images/I/41fTjQrWWiL._AC_US100_.jpg",
+        "https://m.media-amazon.com/images/I/51f591jVX9L._AC_US100_.jpg",
+        "https://m.media-amazon.com/images/I/51RBDJEIflL._AC_US100_.jpg",
+        "https://m.media-amazon.com/images/I/51PRoGdI1nL._AC_US100_.jpg"
+      ]
+    },
+    {
+      "slot": 3,
+      "asin": "B085T48S7K",
+      "title": "WORX WX030L 20V Power Share Cordless Cube Vac Compact Vacuum, Black",
+      "brand": "Worx",
+      "model": "WX030L",
+      "price": "$99.00",
+      "rating": 4.3,
+      "reviewCount": 3323,
+      "features": [
+        "20V Power Share platform compatible with other Worx tools",
+        "2 speeds (low + high)",
+        "Retractable hose extends up to 4 ft",
+        "Perfectly square 3 lb design stores anywhere",
+        "HEPA filter, removable",
+        "One-touch empty, 7oz dry debris capacity"
+      ],
+      "galleryMainImage": "https://m.media-amazon.com/images/I/51HIbTJdPaL._AC_SX425_.jpg",
+      "galleryAdditional": [
+        "https://m.media-amazon.com/images/I/410taraVerL._AC_US100_.jpg",
+        "https://m.media-amazon.com/images/I/51h0GnDT-TL._AC_US100_.jpg",
+        "https://m.media-amazon.com/images/I/51rReTtVFQL._AC_US100_.jpg",
+        "https://m.media-amazon.com/images/I/514A51l4GzL._AC_US100_.jpg",
+        "https://m.media-amazon.com/images/I/41BuqvD3F8L._AC_US100_.jpg",
+        "https://m.media-amazon.com/images/I/41zRQpnodlL._AC_US100_.jpg"
+      ]
+    },
+    {
+      "slot": 4,
+      "asin": "B07R89PJY6",
+      "title": "BLACK+DECKER dustbuster furbuster Pet Hair Vacuum with Motorized Pet Hair Brush, Handheld Vacuum Cordless for Home and Car, Rechargeable, Portable, Powerful Suction, AdvancedClean (HHVK515JP07)",
+      "brand": "Black+Decker",
+      "model": "HHVK515JP07",
+      "price": "$99.00",
+      "rating": 4.2,
+      "reviewCount": 13503,
+      "features": [
+        "20V MAX lithium-ion battery",
+        "POWERBOOST mode for tough messes",
+        "Built-in XL extendable crevice tool",
+        "Anti-tangle motorized pet brush with rubber bristles",
+        "One-touch easy-empty dust bowl",
+        "Washable pre-filter + filter",
+        "2-year limited warranty"
+      ],
+      "galleryMainImage": "https://m.media-amazon.com/images/I/71Vj8Mek5OL._AC_SX425_.jpg",
+      "galleryAdditional": [
+        "https://m.media-amazon.com/images/I/41b7y7kmY6L._AC_US100_.jpg",
+        "https://m.media-amazon.com/images/I/51ulTk1f4oL._AC_US100_.jpg",
+        "https://m.media-amazon.com/images/I/41khAtGfdfL._AC_US100_.jpg",
+        "https://m.media-amazon.com/images/I/51N2Qp3nBrL._AC_US100_.jpg",
+        "https://m.media-amazon.com/images/I/51ccCadW+iL._AC_US100_.jpg",
+        "https://m.media-amazon.com/images/I/51aVR8on7eL._AC_US100_.jpg"
+      ]
+    },
+    {
+      "slot": 5,
+      "asin": "B0F45QZ1ZB",
+      "title": "Shark WANDVAC Power PET Cordless Hand Vac, Ultra-Lightweight & Portable with Powerful Suction & Boost Mode, NEW FurFins Tool & Duster Crevice Tool, Designed for Car & Pet Homes, White, WV410WH",
+      "brand": "Shark",
+      "model": "WV410WH",
+      "price": "$129.99",
+      "rating": 4.1,
+      "reviewCount": 724,
+      "features": [
+        "1.5 lbs ultra-lightweight",
+        "Up to 35 minutes runtime in ECO Mode",
+        "BOOST mode for tough messes",
+        "FurFins Tool with non-tangle hair grip fins",
+        "Duster Crevice Tool",
+        "Sleek charging dock with dual onboard accessory storage"
+      ],
+      "galleryMainImage": "https://m.media-amazon.com/images/I/61GSfNfQHyL._AC_SX425_.jpg",
+      "galleryAdditional": [
+        "https://m.media-amazon.com/images/I/41uQ2pwVW+L._AC_US100_.jpg",
+        "https://m.media-amazon.com/images/I/51fv8pDHuZL._AC_US100_.jpg",
+        "https://m.media-amazon.com/images/I/41Pm2FDwzdL._AC_US100_.jpg",
+        "https://m.media-amazon.com/images/I/41bdfvw8WQL._AC_US100_.jpg",
+        "https://m.media-amazon.com/images/I/51SCLz760jL._AC_US100_.jpg",
+        "https://m.media-amazon.com/images/I/41-Ic5wYiLL._AC_US100_.jpg"
+      ]
+    }
+  ]
+}
