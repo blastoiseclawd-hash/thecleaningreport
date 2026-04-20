@@ -159,6 +159,7 @@ export const howToCleanHardwoodFloorsContent = {
   relatedLinksBlurb:
     "The method above assumes you have a soft-head vacuum, a flat microfiber mop, and a pH-neutral cleaner. The guides below cover the product picks that meet those criteria.",
   relatedLinks: [
+    { href: "/best-hardwood-floor-cleaner", title: "Best Hardwood Floor Cleaners (2026): Manufacturer-Approved Picks" },
     { href: "/best-robot-vacuum", title: "Best Robot Vacuums (2026)" },
     { href: "/best-cordless-vacuum", title: "The 5 Best Cordless Vacuums of 2026" },
   ],

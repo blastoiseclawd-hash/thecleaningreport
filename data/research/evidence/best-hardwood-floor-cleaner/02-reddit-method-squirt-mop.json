@@ -1,0 +1,33 @@
+{
+  "source": "Google SERP site:reddit.com",
+  "query": "site:reddit.com \"method squirt mop\" hardwood residue OR sticky",
+  "captured_at": "2026-04-20",
+  "tool": "mcp__playwright__browser_evaluate",
+  "key_findings": [
+    {
+      "thread": "Evaluate Method Squirt Mop Cleaner — Does It Actually Work on Floors",
+      "subreddit": "r/ProductCheckpoint",
+      "url": "https://www.reddit.com/r/ProductCheckpoint/comments/1n1jdd1/evaluate_method_squirt_mop_cleaner_does_it/",
+      "age": "7 months",
+      "snippet": "'Doesn't leave streaks or sticky residue behind. Non-toxic formula.'",
+      "pattern": "Positive owner review — no residue concern in this case"
+    },
+    {
+      "thread": "What is the best way (and products) to clean a hardwood floor",
+      "subreddit": "r/CleaningTips",
+      "url": "https://www.reddit.com/r/CleaningTips/comments/1f7kmkz/what_is_the_best_way_and_products_to_clean_a/",
+      "comments": "20+",
+      "snippet": "'I really like Method Squirt mop floor cleaner and if I remember it's cat safe.'",
+      "pattern": "Pet-safe positioning — aligns with Surface Protector's pet/kid concerns"
+    },
+    {
+      "thread": "Is white vinegar safe for cleaning hardwood floors?",
+      "subreddit": "r/CleaningTips",
+      "url": "https://www.reddit.com/r/CleaningTips/comments/dernjk/is_white_vinegar_safe_for_use_in_cleaning/",
+      "age": "6 years",
+      "snippet": "'I totally would recommend the Method to anybody looking to clean wood floors.' Top answer also warns off vinegar: 'I have hardwood that was sealed with water-based stuff. I will never use vinegar again.'",
+      "pattern": "Method alternative to vinegar — community validates Safe Surface Desk's vinegar-avoidance stance"
+    }
+  ],
+  "synthesis": "Method Squirt + Mop has positive owner sentiment — non-toxic + pet-safe positioning aligns with Surface Protector avatar. Mixed reports on residue exist in Bob Vila review (cons column) but the active Reddit signal from owners says 'no streaks or residue' in practice."
+}

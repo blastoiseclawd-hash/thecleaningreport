@@ -1,0 +1,54 @@
+{
+  "source": "Google SERP site:reddit.com",
+  "query": "site:reddit.com \"murphy oil soap\" hardwood warranty OR void OR residue OR buildup",
+  "captured_at": "2026-04-20",
+  "tool": "mcp__playwright__browser_evaluate",
+  "key_findings": [
+    {
+      "thread": "Dulled after cleaning",
+      "subreddit": "r/HardWoodFloors",
+      "url": "https://www.reddit.com/r/HardWoodFloors/comments/1n0e54r/dulled_after_cleaning/",
+      "age": "7 months",
+      "comments": "20+",
+      "snippet": "'Murphy's oil soap... has no nourishing properties and can and does leave residue which only...'",
+      "pattern": "Residue confirmation — Murphy leaves long-term buildup"
+    },
+    {
+      "thread": "Heard horror stories about hardwood floor cleaners leaving residue",
+      "subreddit": "r/HardWoodFloors",
+      "url": "https://www.reddit.com/r/HardWoodFloors/comments/1hzb1ll/heard_horror_stories_about_hardwood_floor/",
+      "age": "1 year",
+      "comments": 5,
+      "snippet": "'Don't use Murphy's Oil soap, or any off brand floor cleaner.'",
+      "pattern": "Direct contraindication from community — Murphy blanket-avoided"
+    },
+    {
+      "thread": "My hardwood floor is ruined after cleaning",
+      "subreddit": "r/CleaningTips",
+      "url": "https://www.reddit.com/r/CleaningTips/comments/1ks8akl/my_hardwood_floor_is_ruined_after_cleaning_please/",
+      "age": "11 months",
+      "comments": "270+",
+      "snippet": "'That cloudy stain is frustrating... Murphy Oil Soap can sometimes leave a residue, especially on polyurethane-finished floors.'",
+      "pattern": "Polyurethane-specific damage — matches Safe Surface Desk's polyurethane-compatibility concern"
+    },
+    {
+      "thread": "Murphys Oil Soap",
+      "subreddit": "r/HardWoodFloors",
+      "url": "https://www.reddit.com/r/HardWoodFloors/comments/rb44c9/murphys_oil_soap/",
+      "age": "4 years",
+      "comments": "40+",
+      "snippet": "'Yea Murphys oil leaves a residue/film on your floor and keeps you from [refinishing in future]'",
+      "pattern": "Refinishing-blocker concern — Murphy residue interferes with future sand-and-refinish"
+    },
+    {
+      "thread": "Removing Murphy's Oil Soap Residue?",
+      "subreddit": "r/HardWoodFloors",
+      "url": "https://www.reddit.com/r/HardWoodFloors/comments/17gc55s/removing_murphys_oil_soap_residue/",
+      "age": "2 years",
+      "comments": 6,
+      "snippet": "Entire thread devoted to removing Murphy residue. 'Look in the archives of this sub. Supposedly Bona and Basic Coating both have a cleaner that [removes residue].'",
+      "pattern": "Residue-remediation traffic — Murphy creates a cleanup problem that becomes its own support query"
+    }
+  ],
+  "synthesis": "Murphy Oil Soap is the canonical DON'T recommendation for hardwood floor cleaner. Community-consistent pattern: long-term residue/film especially on polyurethane, refinishing interference, active remediation threads. Safe Surface Desk includes Murphy explicitly in its 'what to avoid' list."
+}

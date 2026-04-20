@@ -1,0 +1,41 @@
+{
+  "source": "Google SERP site:reddit.com",
+  "query": "site:reddit.com \"shaw r2x\" OR \"shaw floor cleaner\" hardwood manufacturer",
+  "captured_at": "2026-04-20",
+  "tool": "mcp__playwright__browser_evaluate",
+  "key_findings": [
+    {
+      "thread": "If this easily fixed?!?",
+      "subreddit": "r/HardWoodFloors",
+      "url": "https://www.reddit.com/r/HardWoodFloors/comments/1flfyy9/if_this_easily_fixed/",
+      "comments": "70+",
+      "snippet": "'Shaw R2X Hard Flooring Cleaner has worked for me with my hardwood floors.'",
+      "pattern": "Positive owner endorsement for Shaw R2X on hardwood"
+    },
+    {
+      "thread": "How to deep clean wood floors",
+      "subreddit": "r/CleaningTips",
+      "url": "https://www.reddit.com/r/CleaningTips/comments/1frsayd/how_to_deep_clean_wood_floors/",
+      "comments": 7,
+      "snippet": "'Shaw floor cleaner must have a high alcohol content because it never freezes in my kit.' Top answer: 'Every wood floor has a manufacturer recommended cleaner. It's never Dawn, vinegar, Method or...'",
+      "pattern": "Manufacturer-approved framing validated by community — echoes Safe Surface Desk's warranty-first posture"
+    },
+    {
+      "thread": "Help with flooring company issue",
+      "subreddit": "r/Flooring",
+      "url": "https://www.reddit.com/r/Flooring/comments/1iu8h3n/help_with_flooring_company_issue/",
+      "comments": 4,
+      "snippet": "'We are pretty anal about taking care of the floors, when we wash them we only use shaw r2x by misting it and using a [microfiber].'",
+      "pattern": "Careful-owner usage pattern — misting application with microfiber (matches Surface Protector methodology)"
+    },
+    {
+      "thread": "What do you use to mop LVP?",
+      "subreddit": "r/Home",
+      "url": "https://www.reddit.com/r/Home/comments/148kfzn/what_do_you_use_to_mop_lvp/",
+      "comments": "20+",
+      "snippet": "'you can't go wrong with the Shaw R2x hard surface cleaner. The only stuff I've found that doesn't streak like...'",
+      "pattern": "Cross-surface owner validation — works on LVP + hardwood, no streak"
+    }
+  ],
+  "synthesis": "Shaw R2X has strong community validation as a manufacturer-brand cleaner. Owners pick it explicitly for careful-care use cases. Top-comment thread validates the broader 'manufacturer-recommended cleaner' framing that anchors Safe Surface Desk voice."
+}
