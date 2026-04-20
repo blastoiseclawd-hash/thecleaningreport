@@ -1,0 +1,18 @@
+{
+  "source": "YouTube via Google SERP",
+  "captured_at": "2026-04-20",
+  "video": {
+    "title": "Shark Stratos Review: 18 Months Later - Worth it?",
+    "url": "https://www.youtube.com/watch?v=QJQbr_OZZUU",
+    "chapters": [
+      {"time": "00:00", "label": "Introducing the Shark Stratos iz400uk"},
+      {"time": "01:29", "label": "Testing the pickup"},
+      {"time": "01:40", "label": "Using the attachment"},
+      {"time": "02:06", "label": "A full overview after 18 months"},
+      {"time": "05:38", "label": "Using as a handheld"},
+      {"time": "06:27", "label": "Issue with the emptying system"},
+      {"time": "07:05", "label": "Vacuum in use round the house"}
+    ],
+    "pattern": "Independent 18-month long-term review with explicit failure-mode timestamp (emptying system)"
+  }
+}

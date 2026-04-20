@@ -1,246 +1,85 @@
-# TheCleaningReport — Guide Opportunities Roadmap
+# Guide Opportunities — TheCleaningReport
 
-**Generated:** 2026-04-19 (Phase 4.D of `.claude/plans/can-you-review-our-lexical-robin.md`).
-
-**Source mode.** Browser-fallback. Live Ahrefs MCP was not re-queried for this pass — Phase 2's cluster shortlist (`data/cluster-shortlist.md`) already consumed ~3,006 MCP units (3× serp-overview + 3× volume-history) and stays within the 20% acceptance ceiling. Volume/KD numbers for spoke + support rows are conservative estimates from the aggregate cluster data in the shortlist + typical spoke-tier ratios. Pre-Phase-5 refinement queues:
-
-- 12-month volume history per flagship primary (`mcp__ahrefs__keywords-explorer-volume-history`, ~30 units).
-- SERP overview on top 3 money spokes if DR class is ambiguous (`mcp__ahrefs__serp-overview`, ~952 units per).
-- US-share sanity on flagships (`mcp__ahrefs__keywords-explorer-volume-by-country`, ~30 units).
-
-Fallback evidence sources used:
-
-- `data/cluster-shortlist.md` (7 clusters, revenue-lens scored).
-- `data/ahrefs-exports/` round-2 Matching + Suggestions CSVs for cleaning seeds (41 CSVs relevant to the shortlist).
-- `data/avatar-research.md` (4 full + 2 backlog-light avatars + cross-cluster expression matrix).
-- `src/data/authors.ts` (3 topical desks + 1 house voice).
-- `src/data/keyword-map.ts` (Phase 4.C — 24 mapped page targets).
-
-**Scope.** First-wave launch roadmap covering the 7-cluster shortlist. Master roadmap beyond 24 pages is Phase 9+ territory — we add backlog rows below only where the shortlist data supports them, not to hit a 100-row target.
-
----
+*Regenerated 2026-04-20 by the portfolio-wide roadmap system (`data/portfolio-roadmap-policy.json` v1).*
+*Profile: `affiliate-review-balanced`. Ordered backlog is now the source of truth; site-specific ranking lives in shared config + local evidence, not one-off markdown formulas.*
 
 ## Summary
 
 | Status | Count |
 |--------|-------|
-| LIVE | 1 |
+| LIVE | 2 |
 | CONTENT READY | 0 |
-| NOT BUILT | 23 |
-| SKIP | 12 |
-| **Total** | **36** |
+| IN PROGRESS | 0 |
+| NOT BUILT | 31 |
+| SKIP | 0 |
+| **Total** | **33** |
 
-Status key per `generate-guide-opportunities` skill + `guide-opps-validate` hook.
+## Backlog Coverage
 
----
+| Metric | Value |
+|--------|-------|
+| Active ordered backlog | 33 |
+| Target range | 300-350 |
+| Coverage gap to minimum | 267 |
 
-## Linkable Assets
+## Linkable Asset Snapshot
 
-*Discovered 2026-04-19 per `identify-linkable-assets` rubric applied to TCR's cluster shortlist. Scores are the 0-12 asset-score rubric (NOT the volume-weighted score below). 1-in-10 cadence per `build-guide-pipeline` lines 182-227.*
+*Assets are merged into the ordered backlog below. This snapshot is kept for fast operator reference and legacy cadence workflows.*
 
-| # | Asset Score (0-12) | Pattern | Zone | Build hrs | Desk | Status | Title |
-|---|---|---|---|---|---|---|---|
-| 1 | 10 | lookup | 1 | 10 | Labor Math Desk | NOT BUILT | Robot Vacuum Comparison Tool: 2026 Head-to-Head Specs + Maintenance Reality (slug: `robot-vacuum-comparison-tool`) |
-| 2 | 9 | annual-state-of | 1 | 8 | Safe Surface Desk | NOT BUILT | Rent or Buy a Carpet Cleaner? The Actual Break-Even Math 2026 (slug: `carpet-cleaner-rent-vs-buy-calculator`) |
-| 3 | 9 | diagram | 1 | 12 | Safe Surface Desk | NOT BUILT | Cleaning-Tool-by-Surface Decision Tree: What's Safe on Each Floor 2026 (slug: `cleaning-tool-by-surface-decision-tree`) |
+| Order | Guide | Pattern | Priority Score | Desk | Status | Title |
+|------:|-------|---------|---------------:|------|--------|-------|
+| 12 | robot-vacuum-comparison-tool | data-study | 63.7 | labor-math-desk | NOT BUILT | Robot Vacuum Comparison Tool: 2026 Head-to-Head Specs + Maintenance Reality |
+| 15 | carpet-cleaner-rent-vs-buy-calculator | data-study | 63.7 | safe-surface-desk | NOT BUILT | Rent or Buy a Carpet Cleaner? The Actual Break-Even Math (2026) |
+| 18 | cleaning-tool-by-surface-decision-tree | data-study | 63.7 | safe-surface-desk | NOT BUILT | Cleaning-Tool-by-Surface Decision Tree: What's Safe on Each Floor (2026) |
+| 21 |  | --------- | 51.7 | ------ | NOT BUILT | ------- |
 
-All three target unique outreach angles:
+## Ordered Backlog
 
-- **#1 (lookup)** — r/RobotVacuums + r/HomeImprovement subreddit links + vacuum-enthusiast bloggers. Authority anchor: Vacuum Wars hair-tangle methodology referenced directly.
-- **#2 (annual-state-of)** — home-improvement bloggers + r/HomeImprovement + personal-finance "is it worth it" posts. Calculator format embeds easily.
-- **#3 (diagram)** — flooring-manufacturer forums + Houzz + Bona + Shaw + Armstrong educational pages (candidates for earned link). Embeddable PNG + HTML.
+| # | Guide | Title | Page Type | Content Shape | Intent | Primary Keyword | Vol | KD | TP | Priority Score | Cluster | Desk | Primary Avatar | Status |
+|---|-------|-------|-----------|---------------|--------|-----------------|-----|----|----|----------------|---------|------|----------------|--------|
+| 1 | best-robot-vacuum | Best Robot Vacuums (2026): Labor-Math-First Picks | money-guide | flagship-roundup | buy | best robot vacuum | 52000 | 4 | 52000 | 89 | cleaning-support | labor-math-desk | Labor Trader | LIVE |
+| 2 | best-cordless-vacuum | The 5 Best Cordless Vacuums of 2026 | money-guide | flagship-roundup | buy | best cordless vacuum | 51000 | 24 | 68000 | 81.8 | cleaning-support | everyday-cleaning-desk | Practical Floor Keeper | LIVE |
+| 3 | best-hardwood-floor-cleaner | Best Hardwood Floor Cleaners (2026): Manufacturer-Approved Picks | support-guide | troubleshooting-fix | learn | best hardwood floor cleaner | 9900 | 9 | 9900 | 78.2 | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 4 | best-grout-cleaner | Best Grout Cleaners (2026): Color-Safe, Sealer-Safe Picks | support-guide | troubleshooting-fix | learn | best grout cleaner | 8100 | 10 | 8100 | 78.2 | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 5 | best-stainless-steel-cleaner | Best Stainless Steel Cleaners (2026): Streak-Free Without the Abrasives | support-guide | troubleshooting-fix | learn | best stainless steel cleaner | 6600 | 11 | 6600 | 78.2 | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 6 | best-cordless-stick-vacuum-for-hardwood | Best Cordless Stick Vacuums for Hardwood Floors (2026) | money-guide | feature-roundup | buy | best cordless stick vacuum for hardwood | 900 | 2 | 900 | 78.2 | cleaning-support | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 7 | best-lightweight-cordless-vacuum | Best Lightweight Cordless Vacuums (2026): For Stairs, Apartments, and Upper Floors | money-guide | feature-roundup | buy | best lightweight cordless vacuum | 800 | 2 | 800 | 78.2 | cleaning-support | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 8 | bissell-big-green-vs-rug-doctor | Bissell Big Green vs Rug Doctor: The Actual Buy-or-Rent Decision | comparison | brand-vs-brand | decide | bissell big green vs rug doctor | 900 | 5 | 900 | 75.8 | cleaning-support | safe-surface-desk | Event-Driven Restorer | NOT BUILT |
+| 9 | best-carpet-cleaner-machine | Best Carpet Cleaner Machines (2026): Rent-or-Buy Math + Head-to-Head Picks | money-guide | flagship-roundup | buy | best carpet cleaner machine | 4800 | 6 | 4800 | 77 | cleaning-support | safe-surface-desk | Event-Driven Restorer | NOT BUILT |
+| 10 | best-upright-vacuum | Best Upright Vacuum | money-guide | flagship-roundup | buy | best upright vacuum | 9500 | 8 | 9500 | 76.9 | ordered-backlog | labor-math-desk | Labor Trader | NOT BUILT |
+| 11 | how-to-clean-a-cordless-vacuum-filter | How To Clean Cordless Vacuum Filter | support-guide | maintenance-cleaning | maintain | how to clean cordless vacuum filter | 900 | 6 | 900 | 68.5 | ordered-backlog | labor-math-desk | Labor Trader | NOT BUILT |
+| 12 | robot-vacuum-comparison-tool | Robot Vacuum Comparison Tool: 2026 Head-to-Head Specs + Maintenance Reality | linkable-asset | lookup | learn | robot vacuum comparison tool | 600 | 5 | 600 | 63.7 | cleaning-support | labor-math-desk | Labor Trader | NOT BUILT |
+| 13 | best-vacuum-for-stairs | Best Vacuum For Stairs | money-guide | use-case-roundup | buy | best vacuum for stairs | 2400 | 5 | 2400 | 75.7 | ordered-backlog | labor-math-desk | Labor Trader | NOT BUILT |
+| 14 | best-vacuum-for-hardwood-floors | Best Vacuum For Hardwood Floors | money-guide | feature-roundup | buy | best vacuum for hardwood floors | 3600 | 7 | 3600 | 74.5 | ordered-backlog | labor-math-desk | Labor Trader | NOT BUILT |
+| 15 | carpet-cleaner-rent-vs-buy-calculator | Rent or Buy a Carpet Cleaner? The Actual Break-Even Math (2026) | linkable-asset | data-study | learn | carpet cleaner rent vs buy calculator | 400 | 4 | 400 | 63.7 | cleaning-support | safe-surface-desk | Event-Driven Restorer | NOT BUILT |
+| 16 | best-spin-mop | Best Spin Mop | money-guide | flagship-roundup | buy | best spin mop | 2300 | 3 | 2300 | 74.5 | ordered-backlog | labor-math-desk | Labor Trader | NOT BUILT |
+| 17 | best-bagless-vacuum | Best Bagless Vacuum | money-guide | flagship-roundup | buy | best bagless vacuum | 3700 | 7 | 3700 | 72.1 | ordered-backlog | labor-math-desk | Labor Trader | NOT BUILT |
+| 18 | cleaning-tool-by-surface-decision-tree | Cleaning-Tool-by-Surface Decision Tree: What's Safe on Each Floor (2026) | linkable-asset | diagram | learn | cleaning tool by surface decision tree | 300 | 8 | 300 | 63.7 | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 19 | best-canister-vacuum | Best Canister Vacuum | money-guide | flagship-roundup | buy | best canister vacuum | 3100 | 7 | 3100 | 72.1 | ordered-backlog | labor-math-desk | Labor Trader | NOT BUILT |
+| 20 | best-spray-mop | Best Spray Mop | money-guide | flagship-roundup | buy | best spray mop | 1800 | 4 | 1800 | 72.1 | ordered-backlog | labor-math-desk | Labor Trader | NOT BUILT |
+| 21 |  | ------- | linkable-asset | --------- | learn |  | 0 | 0 | 0 | 51.7 | linkable-assets | ------ |  | NOT BUILT |
+| 22 | best-mop | Best Mops for Everyday Home Cleaning (2026) | money-guide | flagship-roundup | buy | best mop | 19000 | 1 | 19000 | 86.6 | cleaning-support | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 23 | best-steam-mop | Best Steam Mops (2026): Floor-Type-First Picks (Read the Warranty First) | money-guide | feature-roundup | buy | best steam mop | 6600 | 3 | 6600 | 86.6 | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 24 | how-to-clean-grout | How to Clean Grout (Without Bleaching the Color Out) | support-guide | maintenance-cleaning | maintain | how to clean grout | 22000 | 14 | 22000 | 85.4 | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 25 | best-robot-vacuum-under-500 | Best Robot Vacuums Under $500 (2026): Where the Time-Math Still Works | money-guide | budget-roundup | buy | best robot vacuum under 500 | 2900 | 3 | 2900 | 85.4 | cleaning-support | labor-math-desk | Labor Trader | NOT BUILT |
+| 26 | best-cordless-vacuum-under-200 | Best Cordless Vacuums Under $200 (2026): What's Worth Keeping at This Price | money-guide | budget-roundup | buy | best cordless vacuum under 200 | 2200 | 1 | 2200 | 85.4 | cleaning-support | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 27 | how-to-clean-hardwood-floors | How to Clean Hardwood Floors (Without Voiding the Warranty) | support-guide | maintenance-cleaning | maintain | how to clean hardwood floors | 18000 | 12 | 18000 | 81.8 | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 28 | best-robot-vacuum-with-mop | Best Robot Vacuum + Mop Combos (2026): When Two Tools Should Be One | money-guide | feature-roundup | buy | best robot vacuum with mop | 2400 | 3 | 2400 | 81.8 | cleaning-support | labor-math-desk | Labor Trader | NOT BUILT |
+| 29 | best-robot-vacuum-for-hardwood | Best Robot Vacuums for Hardwood Floors (2026) | money-guide | feature-roundup | buy | best robot vacuum for hardwood | 1800 | 2 | 1800 | 81.8 | cleaning-support | labor-math-desk | Labor Trader | NOT BUILT |
+| 30 | can-you-use-a-steam-mop-on-engineered-hardwood | Can You Use a Steam Mop on Engineered Hardwood? (The Honest Answer) | support-guide | compatibility-safety | decide | can you use a steam mop on engineered hardwood | 2400 | 7 | 2400 | 80.6 | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 31 | best-robot-vacuum-self-empty | Best Self-Emptying Robot Vacuums (2026): When the Dock Earns Its Keep | money-guide | feature-roundup | buy | best robot vacuum self empty | 1500 | 3 | 1500 | 81.8 | cleaning-support | labor-math-desk | Labor Trader | NOT BUILT |
+| 32 | best-handheld-vacuum | Best Handheld Vacuums (2026): For Stairs, Cars, and Couch Crumbs | money-guide | flagship-roundup | buy | best handheld vacuum | 4300 | 1 | 4300 | 79.4 | cleaning-support | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 33 | roborock-vs-eufy | Roborock vs Eufy: Which Robot Vacuum Brand Actually Fits Your House | comparison | brand-vs-brand | decide | roborock vs eufy | 1200 | 4 | 1200 | 79.4 | cleaning-support | labor-math-desk | Labor Trader | NOT BUILT |
 
-Outreach sequencing lives in `earn-links-with-linkable-assets` per asset after build.
+## Cluster Summary
 
----
+| Cluster | Total | Money | Support | Comparison | Linkable | First Order |
+|---------|------:|------:|--------:|-----------:|---------:|------------:|
+| cleaning-support | 24 | 13 | 6 | 2 | 3 | 1 |
+| ordered-backlog | 8 | 7 | 1 | 0 | 0 | 10 |
+| linkable-assets | 1 | 0 | 0 | 0 | 1 | 21 |
 
-## Build Queue (ordered by priority + support-cadence rhythm)
+## Skipped Overlaps
 
-Ordering rule per `generate-guide-opportunities` Step 3.1: interleave support around money guides at roughly 2:1. 4 hubs front-loaded (priority 1), spokes + support interleaved (priority 2-3), linkable assets built opportunistically between money spokes.
+No explicit SKIP rows are currently tracked for this site.
 
-| # | Guide | Page Type | Primary Keyword | Vol | KD | Score | Desk | Status |
-|---|---|---|---|---|---|---|---|---|
-| 1 | best-robot-vacuum | money-guide | best robot vacuum | 52000 | 4 | 98 | Labor Math Desk | LIVE |
-| 2 | best-cordless-vacuum | money-guide | best cordless vacuum | 41000 | 2 | 95 | Everyday Cleaning Desk | NOT BUILT |
-| 3 | best-carpet-cleaner-machine | money-guide | best carpet cleaner machine | 4800 | 6 | 80 | Safe Surface Desk | NOT BUILT |
-| 4 | best-mop | money-guide | best mop | 19000 | 1 | 92 | Everyday Cleaning Desk | NOT BUILT |
-| 5 | how-to-clean-hardwood-floors | support-guide | how to clean hardwood floors | 18000 | 12 | 75 | Safe Surface Desk | NOT BUILT |
-| 6 | best-steam-mop | money-guide | best steam mop | 6600 | 3 | 85 | Safe Surface Desk | NOT BUILT |
-| 7 | best-robot-vacuum-under-500 | money-guide | best robot vacuum under 500 | 2900 | 3 | 78 | Labor Math Desk | NOT BUILT |
-| 8 | how-to-clean-grout | support-guide | how to clean grout | 22000 | 14 | 73 | Safe Surface Desk | NOT BUILT |
-| 9 | best-robot-vacuum-for-hardwood | money-guide | best robot vacuum for hardwood | 1800 | 2 | 76 | Labor Math Desk | NOT BUILT |
-| 10 | robot-vacuum-comparison-tool | linkable-asset | robot vacuum comparison | 600 | 5 | — | Labor Math Desk | NOT BUILT |
-| 11 | best-handheld-vacuum | money-guide | best handheld vacuum | 4300 | 1 | 82 | Everyday Cleaning Desk | NOT BUILT |
-| 12 | best-cordless-vacuum-under-200 | money-guide | best cordless vacuum under 200 | 2200 | 1 | 81 | Everyday Cleaning Desk | NOT BUILT |
-| 13 | can-you-use-a-steam-mop-on-engineered-hardwood | support-guide | can you use a steam mop on engineered hardwood | 2400 | 7 | 68 | Safe Surface Desk | NOT BUILT |
-| 14 | best-robot-vacuum-self-empty | money-guide | best robot vacuum self empty | 1500 | 3 | 74 | Labor Math Desk | NOT BUILT |
-| 15 | best-hardwood-floor-cleaner | support-guide | best hardwood floor cleaner | 9900 | 9 | 72 | Safe Surface Desk | NOT BUILT |
-| 16 | best-robot-vacuum-with-mop | money-guide | best robot vacuum with mop | 2400 | 3 | 76 | Labor Math Desk | NOT BUILT |
-| 17 | bissell-big-green-vs-rug-doctor | comparison | bissell big green vs rug doctor | 900 | 5 | 70 | Safe Surface Desk | NOT BUILT |
-| 18 | carpet-cleaner-rent-vs-buy-calculator | linkable-asset | carpet cleaner rent vs buy | 400 | 4 | — | Safe Surface Desk | NOT BUILT |
-| 19 | best-cordless-stick-vacuum-for-hardwood | money-guide | best cordless stick vacuum for hardwood | 900 | 2 | 72 | Everyday Cleaning Desk | NOT BUILT |
-| 20 | best-grout-cleaner | support-guide | best grout cleaner | 8100 | 10 | 69 | Safe Surface Desk | NOT BUILT |
-| 21 | roborock-vs-eufy | comparison | roborock vs eufy | 1200 | 4 | 71 | Labor Math Desk | NOT BUILT |
-| 22 | best-stainless-steel-cleaner | support-guide | best stainless steel cleaner | 6600 | 11 | 66 | Safe Surface Desk | NOT BUILT |
-| 23 | best-lightweight-cordless-vacuum | money-guide | best lightweight cordless vacuum | 800 | 2 | 70 | Everyday Cleaning Desk | NOT BUILT |
-| 24 | cleaning-tool-by-surface-decision-tree | linkable-asset | what floor cleaner is safe for hardwood | 300 | 8 | — | Safe Surface Desk | NOT BUILT |
-
-**Rhythm check.** Money vs support interleave:
-- Positions 1-4 (hubs): 4M
-- Position 5: 1S
-- Position 6-7: 2M
-- Position 8: 1S
-- Position 9: 1M
-- Position 10: 1L (linkable)
-- Positions 11-12: 2M
-- Position 13: 1S
-- Position 14: 1M
-- Position 15: 1S
-- Position 16: 1M
-- Position 17: 1C (comparison)
-- Position 18: 1L
-- Position 19: 1M
-- Position 20: 1S
-- Position 21: 1C
-- Position 22: 1S
-- Position 23: 1M
-- Position 24: 1L
-
-Money (including hubs): 13 · Support: 6 · Comparison: 2 · Linkable: 3 · **13:8 ≈ 1.625:1 money-to-(support+comparison)** — inside the 2:1 guardrail. Hubs front-load by design because early authority compounds.
-
----
-
-## Support Coverage Audit
-
-Per `generate-guide-opportunities` Step 3.1: target ≥1 support page per 2 money guides at site + cluster level.
-
-| Cluster | Money (hub + spokes) | Support + Comparison | Ratio | Pass 2:1? |
-|---------|----------------------|---------------------|-------|-----------|
-| Robot Vacuum | 5 (hub + 4 spokes) | 2 (roborock-vs-eufy, robot-vacuum-comparison-tool) | 2.5:1 | ✓ (tight) |
-| Cordless Vacuum | 4 (hub + 3 spokes) | 0 direct (handheld is adjacent money spoke) | — | ⚠ intentional |
-| Carpet Cleaner | 1 (hub) | 2 (bissell-vs-rugdoctor, rent-vs-buy calculator) | 0.5:1 | ✓ over-supported |
-| Mop | 1 (hub) | 3 (steam-mop spoke + can-you-use + handheld assist) | 0.3:1 | ✓ over-supported |
-| Steam Mop | 1 (spoke) | 1 (can-you-use-a-steam-mop-on-engineered-hardwood) | 1:1 | ✓ |
-| Chemical Bundle | 3 (hardwood-cleaner, grout-cleaner, stainless-cleaner) | 2 (how-to-clean-hardwood-floors, how-to-clean-grout) | 1.5:1 | ✓ (tight) |
-| Decision-support | — | 1 (cleaning-tool-by-surface-decision-tree linkable) | — | cross-cluster |
-
-**Site total.** 13 money guides ÷ 8 support/comparison = 1.625:1. Pass.
-
-**Cordless support gap flagged.** Cordless hub + 3 spokes has 0 direct support pages. Mitigation: Practical Floor Keeper voice leans on short-form mini-guides inside the hub (filter-cost-over-3-years, stairs-and-ceiling-fan test). If Phase 7 saturation reveals reader-question gaps, promote from backlog → `how-to-clean-a-cordless-vacuum-filter` (hook: Recurring concerns: 'Battery degrading in year 2 — what's the replacement cost?').
-
----
-
-## Cluster breakdowns
-
-### Robot Vacuum cluster (Labor Math Desk · Labor Trader)
-
-| # | Guide | Page Type | Primary Keyword | Vol | KD | Status |
-|---|---|---|---|---|---|---|
-| 1 | best-robot-vacuum | money-guide | best robot vacuum | 52000 | 4 | NOT BUILT |
-| 2 | best-robot-vacuum-under-500 | money-guide | best robot vacuum under 500 | 2900 | 3 | NOT BUILT |
-| 3 | best-robot-vacuum-for-hardwood | money-guide | best robot vacuum for hardwood | 1800 | 2 | NOT BUILT |
-| 4 | best-robot-vacuum-self-empty | money-guide | best robot vacuum self empty | 1500 | 3 | NOT BUILT |
-| 5 | best-robot-vacuum-with-mop | money-guide | best robot vacuum with mop | 2400 | 3 | NOT BUILT |
-| 6 | roborock-vs-eufy | comparison | roborock vs eufy | 1200 | 4 | NOT BUILT |
-| 7 | robot-vacuum-comparison-tool | linkable-asset | robot vacuum comparison | 600 | 5 | NOT BUILT |
-
-### Cordless Vacuum cluster (Everyday Cleaning Desk · Practical Floor Keeper)
-
-| # | Guide | Page Type | Primary Keyword | Vol | KD | Status |
-|---|---|---|---|---|---|---|
-| 1 | best-cordless-vacuum | money-guide | best cordless vacuum | 41000 | 2 | NOT BUILT |
-| 2 | best-cordless-vacuum-under-200 | money-guide | best cordless vacuum under 200 | 2200 | 1 | NOT BUILT |
-| 3 | best-cordless-stick-vacuum-for-hardwood | money-guide | best cordless stick vacuum for hardwood | 900 | 2 | NOT BUILT |
-| 4 | best-lightweight-cordless-vacuum | money-guide | best lightweight cordless vacuum | 800 | 2 | NOT BUILT |
-
-### Handheld + Mop clusters (Everyday Cleaning Desk · Practical Floor Keeper + Generic Mop Buyer interim)
-
-| # | Guide | Page Type | Primary Keyword | Vol | KD | Status |
-|---|---|---|---|---|---|---|
-| 1 | best-mop | money-guide | best mop | 19000 | 1 | NOT BUILT |
-| 2 | best-handheld-vacuum | money-guide | best handheld vacuum | 4300 | 1 | NOT BUILT |
-
-### Carpet Cleaner cluster (Safe Surface Desk · Event-Driven Restorer)
-
-| # | Guide | Page Type | Primary Keyword | Vol | KD | Status |
-|---|---|---|---|---|---|---|
-| 1 | best-carpet-cleaner-machine | money-guide | best carpet cleaner machine | 4800 | 6 | NOT BUILT |
-| 2 | bissell-big-green-vs-rug-doctor | comparison | bissell big green vs rug doctor | 900 | 5 | NOT BUILT |
-| 3 | carpet-cleaner-rent-vs-buy-calculator | linkable-asset | carpet cleaner rent vs buy | 400 | 4 | NOT BUILT |
-
-### Steam Mop + Chemical Bundle (Safe Surface Desk · Surface Protector)
-
-| # | Guide | Page Type | Primary Keyword | Vol | KD | Status |
-|---|---|---|---|---|---|---|
-| 1 | best-steam-mop | money-guide | best steam mop | 6600 | 3 | NOT BUILT |
-| 2 | can-you-use-a-steam-mop-on-engineered-hardwood | support-guide | can you use a steam mop on engineered hardwood | 2400 | 7 | NOT BUILT |
-| 3 | how-to-clean-hardwood-floors | support-guide | how to clean hardwood floors | 18000 | 12 | NOT BUILT |
-| 4 | how-to-clean-grout | support-guide | how to clean grout | 22000 | 14 | NOT BUILT |
-| 5 | best-hardwood-floor-cleaner | support-guide | best hardwood floor cleaner | 9900 | 9 | NOT BUILT |
-| 6 | best-grout-cleaner | support-guide | best grout cleaner | 8100 | 10 | NOT BUILT |
-| 7 | best-stainless-steel-cleaner | support-guide | best stainless steel cleaner | 6600 | 11 | NOT BUILT |
-| 8 | cleaning-tool-by-surface-decision-tree | linkable-asset | what floor cleaner is safe for hardwood | 300 | 8 | NOT BUILT |
-
----
-
-## Backlog (deeper candidates — promote with avatar deepening)
-
-Rows here are validated by shortlist data but NOT queued for first-wave build. Promoting to Build Queue requires the relevant backlog-light avatar to reach full-depth per `avatar-research.md` § Backlog-cluster deepening policy.
-
-| # | Guide | Page Type | Primary Keyword | Vol | KD | Blocker | Status |
-|---|---|---|---|---|---|---|---|
-| B1 | best-upright-vacuum | money-guide | best upright vacuum | 9500 | 8 | Traditional Upright Vacuum Buyer avatar must deepen first | NOT BUILT |
-| B2 | best-spin-mop | money-guide | best spin mop | 2300 | 3 | Generic Mop Buyer avatar must deepen first | NOT BUILT |
-| B3 | best-spray-mop | money-guide | best spray mop | 1800 | 4 | Generic Mop Buyer avatar must deepen first | NOT BUILT |
-| B4 | best-vacuum-for-hardwood-floors | money-guide | best vacuum for hardwood floors | 3600 | 7 | intent overlap risk with best-cordless-stick-vacuum-for-hardwood — serp-overview before build | NOT BUILT |
-| B5 | best-canister-vacuum | money-guide | best canister vacuum | 3100 | 7 | thin avatar coverage — Traditional Upright secondary | NOT BUILT |
-| B6 | how-to-clean-a-cordless-vacuum-filter | support-guide | how to clean cordless vacuum filter | 900 | 6 | promote if cordless cluster needs support post-launch | NOT BUILT |
-| B7 | best-vacuum-for-stairs | money-guide | best vacuum for stairs | 2400 | 5 | intent overlap with best-handheld-vacuum — check SERP distinctness | NOT BUILT |
-| B8 | best-bagless-vacuum | money-guide | best bagless vacuum | 3700 | 7 | broad intent + no avatar-specific job — low signal | NOT BUILT |
-
-B1–B8 are in `Backlog`, not in the `Summary` counts — they don't ship in Wave 1.
-
----
-
-## Skipped overlaps
-
-Rows excluded from TCR's roadmap. Each has a cited reason traceable to the overlap check, kill list, or avatar-research.
-
-| # | Guide | Primary Keyword | Reason | Status |
-|---|---|---|---|---|
-| S1 | best-robot-vacuum-for-pet-hair | best robot vacuum for pet hair | SKIP — BPP cluster per `check-keyword-overlap.js` HIGH collision + "pet-hair stays with BPP" in plan | SKIP |
-| S2 | best-vacuum-for-pet-hair | best vacuum for pet hair | SKIP — BPP primary per overlap check | SKIP |
-| S3 | best-cordless-vacuum-for-pet-hair | best cordless vacuum for pet hair | SKIP — BPP primary per overlap check | SKIP |
-| S4 | best-vacuum-for-dog-hair | best vacuum for dog hair | SKIP — covered on BPP's best-vacuum-for-pet-hair (pet-primary avatar not TCR's lane) | SKIP |
-| S5 | best-hepa-vacuum-for-allergies | best hepa vacuum for allergies | SKIP — shortlist excluded 42/SKIP (BPP-adjacent allergies modifier ⇒ pet-dander territory) | SKIP |
-| S6 | best-ultrasonic-cleaner | best ultrasonic cleaner | SKIP — shortlist excluded (off-niche jewelry/dental) | SKIP |
-| S7 | best-robotic-pool-cleaner | best robotic pool cleaner | SKIP — shortlist excluded (pool-adjacent drift + thin winners) | SKIP |
-| S8 | best-car-cleaning-kit | best car cleaning kit | SKIP — shortlist excluded (automotive drift) | SKIP |
-| S9 | best-gutter-cleaning-tool | best gutter cleaning tool | SKIP — shortlist excluded (outdoor cleaning drift) | SKIP |
-| S10 | best-window-cleaning-tool | best window cleaning tool | SKIP — shortlist excluded (outdoor drift + low volume) | SKIP |
-| S11 | best-pressure-washer-surface-cleaner | best pressure washer surface cleaner | SKIP — shortlist excluded (outdoor drift) | SKIP |
-| S12 | best-vacuum-sealer | best vacuum sealer | SKIP — shortlist excluded (kitchen/storage — not cleaning) | SKIP |
-
----
-
-## Traffic-speed notes + sequencing logic
-
-- **Hubs first (priority 1).** All 4 hubs lead because internal-link equity flows from hub → spoke. Building a spoke before its hub wastes early link juice.
-- **Labor Math cluster compresses quickly.** 5 spokes + 1 comparison + 1 linkable all under Labor Trader + single desk; voice stays tight. Sequence Labor-Math-heavy in the middle of the queue (positions 7-16) to let the flagship rank first.
-- **Safe Surface support-heavy.** 6 chemical-bundle + decision-support pages feed internal-link authority into Steam Mop + Carpet Cleaner money pages. Over-supporting intentional per `generate-guide-opportunities` rhythm rule.
-- **Cordless's FORTRESS risk.** `best-cordless-vacuum` bare head SERP is DR 68+ dominated per shortlist row 2. Don't wait for it to rank before shipping spokes — carve sub-niches in parallel (`under-200`, `for-hardwood`, `lightweight`). Those spokes can rank first; the hub picks up traffic via internal-link + long-tail capture.
-- **Linkable assets interleaved.** Positions 10, 18, 24 — one per ~10 non-linkable pages per `build-guide-pipeline` cadence rule.
-
----
-
-## Phase 5 baseline-3 recommendation (from this queue)
-
-Plan requires: 1 flagship money + 1 distinct-desk money + 1 non-linkable support.
-
-- **Flagship:** #1 `best-robot-vacuum` (Labor Math Desk, Labor Trader).
-- **Distinct-desk money:** #3 `best-carpet-cleaner-machine` (Safe Surface Desk, Event-Driven Restorer) — different desk + different avatar + different commercial cluster than flagship.
-- **Support:** #5 `how-to-clean-hardwood-floors` (Safe Surface Desk, Surface Protector) — exercises decision-tree voice + Bona/Shaw/Armstrong authority citations early.
-
-Alt if Lee wants a third DESK exercised in Phase 5: swap support to `best-handheld-vacuum` (Everyday Cleaning Desk, Practical Floor Keeper) — lifts Practical Floor Keeper voice into baseline-3 but loses the support/money ratio demonstration.
-
-Phase 4.D closes. Lee approval required before Phase 5.A kicks off.

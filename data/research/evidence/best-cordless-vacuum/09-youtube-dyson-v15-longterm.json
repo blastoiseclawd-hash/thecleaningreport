@@ -1,0 +1,11 @@
+{
+  "source": "YouTube via Google SERP",
+  "captured_at": "2026-04-20",
+  "videos": [
+    {"title": "Dyson V15 One Year Later Review: All the Pros & Cons", "url": "https://www.youtube.com/watch?v=fitjGV21X4E"},
+    {"title": "A Two-Year Review of the Dyson V15 Detect: Melissa Maker's", "url": "https://www.youtube.com/watch?v=UfTmTMKKVfU", "creator": "Melissa Maker (Clean My Space) — independent cleaning channel, NOT VW/MC"},
+    {"title": "Dyson V15 After 18 Months!", "url": "https://www.youtube.com/watch?v=8FF1RH4GNQg"},
+    {"title": "Dyson V15 Detect Plus – Still Going STRONG After 2 Years!", "url": "https://www.youtube.com/watch?v=zR-yiqjJWHc", "pattern": "Positive 2-year owner update"},
+    {"title": "Stop! Don't Buy a Used Dyson V15 Until You See This!", "url": "https://www.youtube.com/watch?v=SYWsKCpLNIU", "pattern": "Used-buyer caution video — battery/wear concerns"}
+  ]
+}

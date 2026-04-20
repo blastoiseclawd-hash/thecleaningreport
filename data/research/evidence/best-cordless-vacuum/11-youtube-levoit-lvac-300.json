@@ -1,0 +1,10 @@
+{
+  "source": "YouTube via Google SERP",
+  "captured_at": "2026-04-20",
+  "videos": [
+    {"title": "Levoit LVAC-300 PET Cordless Vacuum: Is It Worth It? (Real)", "url": "https://www.youtube.com/watch?v=_qV76XPhvmE"},
+    {"title": "Levoit LVAC-300 Cordless Vacuum Review - The BEST Value", "url": "https://www.youtube.com/watch?v=JqiLL7ARFwY", "pattern": "Best-value framing"},
+    {"title": "Levoit LVAC-300 vs LVAC-200: Which One Should You Buy?", "url": "https://www.youtube.com/watch?v=FH-QMsyJwpk", "pattern": "Within-Levoit comparison"},
+    {"title": "Levoit Lvac 300 Vacuum - 0% Wrap, 100% Clean", "url": "https://www.youtube.com/watch?v=SGvqq_8Plto", "pattern": "Brushroll hair-wrap test result"}
+  ]
+}

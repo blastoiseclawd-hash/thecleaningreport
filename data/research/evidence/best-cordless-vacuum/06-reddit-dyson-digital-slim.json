@@ -1,0 +1,29 @@
+{
+  "source": "Google SERP site:reddit.com",
+  "query": "site:reddit.com \"Dyson Digital Slim\" long term OR \"months\" OR \"year\"",
+  "captured_at": "2026-04-20",
+  "key_findings": [
+    {
+      "thread": "Dyson product life span - 3/4 years",
+      "subreddit": "r/dyson",
+      "url": "https://www.reddit.com/r/dyson/comments/1hhnzgf/dyson_product_life_span_34_years/",
+      "snippet": "Now, I'm looking at my... it's going to die soon. 192 months versus 4 months?",
+      "pattern": "Dyson 3-4 year lifespan dissent thread (cross-applies to Digital Slim)"
+    },
+    {
+      "thread": "Dyson Digital Slim Cordless Vacuum, Iron/Nickel $250",
+      "subreddit": "r/VacuumCleaners",
+      "comments": 24,
+      "url": "https://www.reddit.com/r/VacuumCleaners/comments/1gje27i/dyson_digital_slim_cordless_vacuum_ironnickel_250/",
+      "snippet": "after 3 months would you... look at other affordable options? Been using a Dyson V15... and it's been amazing.",
+      "pattern": "Sale-price thread + 3-month owner check-in (positive) + V15 upgrade comparison"
+    },
+    {
+      "thread": "Recommendations",
+      "subreddit": "r/dyson",
+      "url": "https://www.reddit.com/r/dyson/comments/1i524ww/recommendations/",
+      "snippet": "My Dyson Digital Slim stick... I vacuumed around the toilet.",
+      "pattern": "Owner anecdote — Digital Slim used in tight spaces (toilet area) confirming maneuverability"
+    }
+  ]
+}

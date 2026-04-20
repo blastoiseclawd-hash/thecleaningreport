@@ -1,0 +1,34 @@
+{
+  "source": "Google SERP site:reddit.com",
+  "query": "site:reddit.com \"Dyson V15 Detect\" long term OR \"1 year\" OR \"6 month\"",
+  "captured_at": "2026-04-20",
+  "key_findings": [
+    {
+      "thread": "How long did your Dyson v15 last?",
+      "subreddit": "r/dyson",
+      "url": "https://www.reddit.com/r/dyson/comments/1l3lbbv/how_long_did_your_dyson_v15_last/",
+      "snippet": "1 year and 8 months — degrading so they die fast",
+      "pattern": "Battery degradation at ~20mo of normal use"
+    },
+    {
+      "thread": "PSA: V15 and planned obsolescence",
+      "subreddit": "r/dyson",
+      "url": "https://www.reddit.com/r/dyson/comments/1qp55oy/psa_v15_and_planned_obsolescence/",
+      "snippet": "Our Dyson V15 Detect Absolute... 2 years of normal usage",
+      "pattern": "2-year lifespan dissent — owner-reported planned obsolescence concern"
+    },
+    {
+      "thread": "So I was gifted a Dyson v15 detect and this is my honest...",
+      "subreddit": "r/dyson",
+      "url": "https://www.reddit.com/r/dyson/comments/18wxwkz/so_i_was_gifted_a_dyson_v15_detect_and_this_is_my/",
+      "pattern": "Independent honest-review thread (gifted owner = no purchase-justification bias)"
+    },
+    {
+      "thread": "Is it still worth paying $560 for the v15 Detect at Costco",
+      "subreddit": "r/dyson",
+      "url": "https://www.reddit.com/r/dyson/comments/1m00bwo/is_it_still_worth_paying_560_for_the_v15_detect/",
+      "snippet": "They market it as being... of some of the boards.",
+      "pattern": "Price/value calculus — $560 Costco vs MSRP question, repair-board concern"
+    }
+  ]
+}

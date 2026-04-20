@@ -1,0 +1,28 @@
+{
+  "source": "Google SERP site:reddit.com",
+  "query": "site:reddit.com \"Levoit LVAC-300\" OR \"Levoit cordless vacuum\" review OR \"months\"",
+  "captured_at": "2026-04-20",
+  "key_findings": [
+    {
+      "thread": "Levoit 300 vs Dyson",
+      "subreddit": "r/VacuumCleaners",
+      "url": "https://www.reddit.com/r/VacuumCleaners/comments/1o2ry97/levoit_300_vs_dyson/",
+      "snippet": "I have Levoit Lvac 300... all dirt even from carpets... VS Dyson 1 year review.",
+      "pattern": "Direct head-to-head positive — picks all dirt from carpets vs Dyson"
+    },
+    {
+      "thread": "LEVOIT Cordless Vacuum Review: My Inner Clean Freak's",
+      "subreddit": "r/carverscave",
+      "url": "https://www.reddit.com/r/carverscave/comments/1f00dib/levoit_cordless_vacuum_review_my_inner_clean/",
+      "snippet": "I turn to the LEVOIT... just another overpriced dust collector?",
+      "pattern": "Independent owner long-form review"
+    },
+    {
+      "thread": "Can you help me find a vacuum cleaner that's moderately",
+      "subreddit": "r/VacuumCleaners",
+      "url": "https://www.reddit.com/r/VacuumCleaners/comments/1mv4s9d/can_you_help_me_find_a_vacuum_cleaner_thats/",
+      "snippet": "Levoit LVAC 300 cordless $269... the time, bit the dust",
+      "pattern": "Mixed/negative — owner reports unit died (need full thread for context)"
+    }
+  ]
+}

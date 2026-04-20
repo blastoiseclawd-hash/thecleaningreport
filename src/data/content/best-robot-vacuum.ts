@@ -667,6 +667,7 @@ What you have to do to keep it running. Dustbin weekly. Dock empty biweekly. Car
     ],
   },
   relatedLinks: [
+    { href: "/best-cordless-vacuum", title: "The 5 Best Cordless Vacuums of 2026" },
     { href: "/how-we-review", title: "How we review (the full methodology)" },
     { href: "/about", title: "About The Cleaning Report + editorial desks" },
     { href: "/disclosure", title: "Affiliate disclosure" },

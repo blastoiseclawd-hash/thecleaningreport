@@ -1,0 +1,34 @@
+{
+  "source": "Google SERP site:reddit.com",
+  "query": "site:reddit.com \"Shark PowerDetect\" OR \"Shark Clean & Empty\" long term OR \"months\"",
+  "captured_at": "2026-04-20",
+  "key_findings": [
+    {
+      "thread": "Shark PowerDetect Clean & Empty",
+      "subreddit": "r/VacuumCleaners",
+      "url": "https://www.reddit.com/r/VacuumCleaners/comments/1g2fij7/shark_powerdetect_clean_empty/",
+      "snippet": "Shark PowerDetect Clean & Empty Vacuum Review. Hey do you mind giving... yall after a few months?",
+      "pattern": "Owner Q&A thread asking for multi-month update reports"
+    },
+    {
+      "thread": "is Shark Power Detect Cordless good?",
+      "subreddit": "r/VacuumCleaners",
+      "comments": 40,
+      "url": "https://www.reddit.com/r/VacuumCleaners/comments/1mj6a14/is_shark_power_detect_cordless_good/",
+      "snippet": "I'm doing my research a... How To Take Apart The Shark PowerDetect Cordless Vacuum Stick",
+      "pattern": "40-comment research thread + maintenance disassembly question"
+    },
+    {
+      "thread": "Hate My Central Vacuum. Thinking about buying Shark...",
+      "subreddit": "r/VacuumCleaners",
+      "url": "https://www.reddit.com/r/VacuumCleaners/comments/1ns704p/hate_my_central_vacuum_thinking_about_buying/",
+      "pattern": "Switcher thread — central vacuum to PowerDetect"
+    },
+    {
+      "thread": "Shark powerdetect review",
+      "subreddit": "r/RobotVacuums",
+      "url": "https://www.reddit.com/r/RobotVacuums/comments/1gm57hr/shark_powerdetect_review/",
+      "pattern": "Cross-posted to RobotVacuums subreddit"
+    }
+  ]
+}

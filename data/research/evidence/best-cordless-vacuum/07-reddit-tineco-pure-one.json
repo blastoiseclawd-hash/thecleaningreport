@@ -1,0 +1,35 @@
+{
+  "source": "Google SERP site:reddit.com",
+  "query": "site:reddit.com \"Tineco Pure One\" OR \"Tineco FurFree\" long term OR \"months\"",
+  "captured_at": "2026-04-20",
+  "key_findings": [
+    {
+      "thread": "Opinion on Tineco stick vacuums after 2 years of use",
+      "subreddit": "r/VacuumCleaners",
+      "url": "https://www.reddit.com/r/VacuumCleaners/comments/1oxk6ra/opinion_on_tineco_stick_vacuums_after_2_years_of/",
+      "snippet": "About 6 months later she... this bit at her suggestion.",
+      "pattern": "2-year ownership thread (full retrospective)"
+    },
+    {
+      "thread": "Tineco pure one station or pure one station 5",
+      "subreddit": "r/VacuumCleaners",
+      "url": "https://www.reddit.com/r/VacuumCleaners/comments/1ht3yrz/tineco_pure_one_station_or_pure_one_station_5/",
+      "snippet": "The main unit kept failing... Germany mentioning the same issue.",
+      "pattern": "DOCUMENTED HARDWARE FAILURE — main unit failures, multi-region (US + Germany) reports"
+    },
+    {
+      "thread": "Does anyone have experience with Tineco vacuums?",
+      "subreddit": "r/BuyItForLife",
+      "comments": 12,
+      "url": "https://www.reddit.com/r/BuyItForLife/comments/1padt5p/does_anyone_have_experience_with_tineco_vacuums/",
+      "pattern": "BIFL-subreddit brand question — durability lens"
+    },
+    {
+      "thread": "What's a good charageable vacuum cleaner that lasts long?",
+      "subreddit": "r/BuyItForLife",
+      "url": "https://www.reddit.com/r/BuyItForLife/comments/16823dt/whats_a_good_charageable_vacuum_cleaner_that/",
+      "snippet": "I recently purchased a tineco... a fraction of the cost. I'd recommend it based on... of months I've owned it.",
+      "pattern": "Positive owner endorsement — value vs Dyson framing"
+    }
+  ]
+}

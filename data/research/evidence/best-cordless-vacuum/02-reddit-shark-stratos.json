@@ -1,0 +1,38 @@
+{
+  "source": "Google SERP site:reddit.com",
+  "query": "site:reddit.com \"Shark Stratos\" cordless long term OR \"6 months\"",
+  "captured_at": "2026-04-20",
+  "tool": "mcp__playwright__browser_evaluate",
+  "key_findings": [
+    {
+      "thread": "Shark Stratos Cordless Battery Issues",
+      "subreddit": "r/VacuumCleaners",
+      "url": "https://www.reddit.com/r/VacuumCleaners/comments/191tomz/shark_stratos_cordless_battery_issues/",
+      "snippet": "Shark Stratos Cordless Battery Issues. IQ in May of 2023. It's always sold out whenever... been looking for 6 months.",
+      "pattern": "Battery degradation + replacement availability problem"
+    },
+    {
+      "thread": "Shark Stratos Cordless",
+      "subreddit": "r/VacuumCleaners",
+      "url": "https://www.reddit.com/r/VacuumCleaners/comments/1842048/shark_stratos_cordless/",
+      "snippet": "Exhaust filter needs washing every... a year depending on usage",
+      "pattern": "Maintenance cadence — annual filter wash"
+    },
+    {
+      "thread": "From Dyson to Shark Stratos AZ3002, or no?",
+      "subreddit": "r/VacuumCleaners",
+      "url": "https://www.reddit.com/r/VacuumCleaners/comments/1greoa2/from_dyson_to_shark_stratos_az3002_or_no/",
+      "comments": 14,
+      "snippet": "Should I steer clear of... any and all multi-year warranties?",
+      "pattern": "Switching consideration vs Dyson — warranty concern"
+    },
+    {
+      "thread": "New Shark Stratos",
+      "subreddit": "r/VacuumCleaners",
+      "url": "https://www.reddit.com/r/VacuumCleaners/comments/vb0jgk/new_shark_stratos/",
+      "comments": 53,
+      "snippet": "still have 90%+ suction/takes 2 years now under heavy use. 6 months at which point...",
+      "pattern": "Long-term suction retention positive — 90%+ after 2yrs heavy use"
+    }
+  ]
+}

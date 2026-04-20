@@ -84,6 +84,7 @@ export const siteConfig = {
   nav: {
     main: [
       { label: "Best Robot Vacuums", href: "/best-robot-vacuum" },
+      { label: "Best Cordless Vacuums", href: "/best-cordless-vacuum" },
       { label: "About", href: "/about" },
     ] as Array<{ label: string; href: string }>,
     footer: [
