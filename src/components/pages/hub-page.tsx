@@ -555,30 +555,6 @@ export function HubPage({
                         {displayNames[product.id] || product.name}
                       </h3>
 
-                      <div className="mt-5 sand-panel p-5">
-                        <div>
-                          <p className="text-[0.7rem] font-semibold uppercase tracking-[0.22em] text-[#8a674e]">Current price</p>
-                          <p className="mt-1 font-[family-name:var(--font-heading-family)] text-[2.2rem] font-semibold text-[#23150f]">
-                            {priceDisplay(product)}
-                          </p>
-                        </div>
-
-                        {offerLink ? (
-                          <a
-                            href={offerLink.url}
-                            target="_blank"
-                            rel={getCommerceLinkRel(offerLink)}
-                            className="button-primary mt-4 w-full"
-                          >
-                            Check price on {offerLink.retailer}
-                          </a>
-                        ) : (
-                          <span className="mt-4 inline-flex w-full items-center justify-center rounded-sm border border-dashed border-[#ccb8a4] px-4 py-3 text-sm text-[#5e3d2d]">
-                            Retail links unavailable
-                          </span>
-                        )}
-                      </div>
-
                       <div className="mt-6">
                         <ProductImageGallery
                           images={product.images}
@@ -586,6 +562,31 @@ export function HubPage({
                           frameClassName="min-h-[19rem]"
                           imageSizes="(min-width: 1280px) 320px, 100vw"
                         />
+                      </div>
+
+                      <div className="mt-6 sand-panel p-5">
+                        <div className="flex items-end justify-between gap-4">
+                          <div>
+                            <p className="text-[0.7rem] font-semibold uppercase tracking-[0.22em] text-[#8a674e]">Current price</p>
+                            <p className="mt-1 font-[family-name:var(--font-heading-family)] text-[2rem] font-semibold leading-none text-[#23150f]">
+                              {priceDisplay(product)}
+                            </p>
+                          </div>
+                          {offerLink ? (
+                            <a
+                              href={offerLink.url}
+                              target="_blank"
+                              rel={getCommerceLinkRel(offerLink)}
+                              className="inline-flex shrink-0 items-center justify-center rounded-sm bg-[#23150f] px-4 py-2.5 text-[0.85rem] font-semibold text-[#f7f4ee] transition hover:bg-[#3a251a]"
+                            >
+                              Check price
+                            </a>
+                          ) : (
+                            <span className="inline-flex shrink-0 items-center justify-center rounded-sm border border-dashed border-[#ccb8a4] px-3 py-2 text-[0.8rem] text-[#5e3d2d]">
+                              Links unavailable
+                            </span>
+                          )}
+                        </div>
                       </div>
 
                       <div className="mt-6 sand-panel p-5">
