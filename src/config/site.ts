@@ -93,7 +93,40 @@ export const siteConfig = {
     ],
   },
 
-  featuredCoverage: [] as Array<{
+  featuredCoverage: [
+    {
+      title: "The 6 Best Robot Vacuums of 2026",
+      href: "/best-robot-vacuum",
+      eyebrow: "Robot Vacuums",
+      description:
+        "Ranked by labor math: time saved per week, lifespan, maintenance cadence, and where the math breaks for specific households.",
+      available: true,
+    },
+    {
+      title: "Best Cordless Vacuums for 2026",
+      href: "/best-cordless-vacuum",
+      eyebrow: "Cordless Vacuums",
+      description:
+        "Mid-priced cordless sticks and handhelds for mainstream floor care, scored on battery life and filter-replacement cost.",
+      available: false,
+    },
+    {
+      title: "Best Steam Mops for 2026",
+      href: "/best-steam-mop",
+      eyebrow: "Steam Mops",
+      description:
+        "Flooring-safe picks for engineered hardwood, laminate, stone, and grout, with dry-time and pad-cost tradeoffs called out.",
+      available: false,
+    },
+    {
+      title: "Best Carpet Cleaner Machines for 2026",
+      href: "/best-carpet-cleaner-machine",
+      eyebrow: "Carpet Cleaners",
+      description:
+        "Event-driven picks for move-in, pet accidents, and pre-listing prep, plus a rent-vs-buy calculator for deep-clean households.",
+      available: false,
+    },
+  ] as Array<{
     title: string;
     href: string;
     eyebrow: string;
@@ -101,7 +134,50 @@ export const siteConfig = {
     available: boolean;
   }>,
 
-  launchGuides: [] as Array<{
+  launchGuides: [
+    {
+      title: "The 6 Best Robot Vacuums of 2026",
+      href: "/best-robot-vacuum",
+      eyebrow: "Flagship",
+      description: "Ranked by labor math. Dock reliability and firmware cadence do most of the work.",
+      available: true,
+    },
+    {
+      title: "Best Cordless Vacuum",
+      href: "/best-cordless-vacuum",
+      eyebrow: "Everyday",
+      description: "Mid-priced cordless picks for normal weekly floor care.",
+      available: false,
+    },
+    {
+      title: "Best Mop",
+      href: "/best-mop",
+      eyebrow: "Everyday",
+      description: "Basic non-steam picks for renters and apartment dwellers.",
+      available: false,
+    },
+    {
+      title: "Best Steam Mop",
+      href: "/best-steam-mop",
+      eyebrow: "Safe Surface",
+      description: "Flooring-aware steam picks for engineered hardwood and laminate.",
+      available: false,
+    },
+    {
+      title: "Best Handheld Vacuum",
+      href: "/best-handheld-vacuum",
+      eyebrow: "Everyday",
+      description: "Stair-friendly handheld picks for quick cleanups.",
+      available: false,
+    },
+    {
+      title: "How to Clean Hardwood Floors",
+      href: "/how-to-clean-hardwood-floors",
+      eyebrow: "Support",
+      description: "Flooring-safe routine built around manufacturer warranty terms.",
+      available: false,
+    },
+  ] as Array<{
     title: string;
     href: string;
     eyebrow: string;
