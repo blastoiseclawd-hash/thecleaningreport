@@ -1,0 +1,144 @@
+{
+  "scrapedAt": "2026-04-20",
+  "scrapedBy": "Claude Opus 4.7 (1M) via Playwright MCP",
+  "products": [
+    {
+      "slot": "DEFAULT PICK",
+      "id": "bissell-powerfresh-1940a",
+      "asin": "B0091YYUAM",
+      "title": "BISSELL Steam Mop 1940A PowerFresh Floor Steam Cleaner for Hard Wood & Tile with Natural Sanitization, Easy Scrubber, Variable Steam, 12\" Cleaning Path",
+      "displayName": "Bissell PowerFresh Steam Mop 1940A",
+      "brand": "Bissell",
+      "price": "$99.99",
+      "rating": "4.3",
+      "reviewCount": 48143,
+      "images": [
+        "https://m.media-amazon.com/images/I/61hmQ7xtZLL.jpg",
+        "https://m.media-amazon.com/images/I/31hYaJ0iPDL.jpg",
+        "https://m.media-amazon.com/images/I/41tKc7ghJLL.jpg",
+        "https://m.media-amazon.com/images/I/41RpMZDn7HL.jpg",
+        "https://m.media-amazon.com/images/I/410TY64INaL.jpg",
+        "https://m.media-amazon.com/images/I/41pDPDg6+0L.jpg",
+        "https://m.media-amazon.com/images/I/516fABsHsFL.jpg"
+      ],
+      "keySpecs": {
+        "steamSettings": 3,
+        "cordLengthFt": 23,
+        "cleaningPathInch": 12,
+        "heatUpSec": 30,
+        "sanitization": "99.9% germs/bacteria/viruses when used as directed",
+        "surfaceCompat": "Sealed hardwood, tile/ceramic, granite, marble"
+      }
+    },
+    {
+      "slot": "TOUGH MESSES / PREMIUM",
+      "id": "bissell-powerfresh-deluxe-1806",
+      "asin": "B01G7CE334",
+      "title": "Bissell PowerFresh Deluxe 1806 Steam Mop for Tile, Hardwood & Sealed Floors w/Built-in SpotBoost Brush, Fast 30-Second Warm-Up, Variable Steam Levels, Fresh Scent Discs Compatible",
+      "displayName": "Bissell PowerFresh Deluxe 1806",
+      "brand": "Bissell",
+      "price": "$114.99",
+      "rating": "4.3",
+      "reviewCount": 19462,
+      "images": [
+        "https://m.media-amazon.com/images/I/419ctwpVmSL.jpg",
+        "https://m.media-amazon.com/images/I/41hMX5pIz8L.jpg",
+        "https://m.media-amazon.com/images/I/51XzNExj1EL.jpg",
+        "https://m.media-amazon.com/images/I/41p+3-m66FL.jpg",
+        "https://m.media-amazon.com/images/I/51LgvhuaUNL.jpg",
+        "https://m.media-amazon.com/images/I/51Ka4Ccm5TL.jpg"
+      ],
+      "keySpecs": {
+        "steamSettings": 2,
+        "cordLengthFt": 25,
+        "cleaningPathInch": 12,
+        "heatUpSec": 30,
+        "scrubber": "Built-in On-Board SpotBoost Brush (differentiator vs 1940A)",
+        "surfaceCompat": "Sealed tile, hardwood, sealed floors"
+      }
+    },
+    {
+      "slot": "BUDGET / LIGHTWEIGHT",
+      "id": "shark-steam-pocket-mop-s3501",
+      "asin": "B0028MB3HM",
+      "title": "Shark Steam Pocket Mop with 2 Washable Double-sided Pads, Steam Sanitization, Swivel Steering, Lightweight, Steam Cleaner for Sealed Hard Floors, Hardwood, Marble, Tile, Purple, S3501",
+      "displayName": "Shark Steam Pocket Mop S3501",
+      "brand": "Shark",
+      "price": "$63.99",
+      "rating": "4.4",
+      "reviewCount": 43726,
+      "images": [
+        "https://m.media-amazon.com/images/I/31l4zwxqHwL.jpg",
+        "https://m.media-amazon.com/images/I/41+ZReukNvL.jpg",
+        "https://m.media-amazon.com/images/I/51v3OW6FcsL.jpg",
+        "https://m.media-amazon.com/images/I/51XJiuK4U4L.jpg",
+        "https://m.media-amazon.com/images/I/41jSQh8qNdL.jpg",
+        "https://m.media-amazon.com/images/I/41glis0wgiL.jpg"
+      ],
+      "keySpecs": {
+        "weightLb": "Under 5",
+        "heatUpSec": 30,
+        "padType": "Double-sided microfiber Dirt Grip",
+        "sanitization": "99.9% common household bacteria, water only",
+        "surfaceCompat": "All sealed hard floors incl. hardwood, marble, tile, stone, laminate, vinyl"
+      }
+    },
+    {
+      "slot": "MULTI-SURFACE / HANDHELD 3-IN-1",
+      "id": "bissell-powerfresh-slim-2075a",
+      "asin": "B073X4THX6",
+      "title": "BISSELL PowerFresh Slim 3-in-1 Steam Mop & Handheld Steamer, Extension Wand, On-Board Tool Kit, Multi-Surface Cleaner for Sealed Hard Floors 2075A",
+      "displayName": "Bissell PowerFresh Slim 3-in-1 2075A",
+      "brand": "Bissell",
+      "price": "$179.95",
+      "rating": "4.3",
+      "reviewCount": 15526,
+      "images": [
+        "https://m.media-amazon.com/images/I/41qCZE2Tz3L.jpg",
+        "https://m.media-amazon.com/images/I/51pG1Hypx8L.jpg",
+        "https://m.media-amazon.com/images/I/41AfOwsBwJL.jpg",
+        "https://m.media-amazon.com/images/I/41yNbL0dNDL.jpg",
+        "https://m.media-amazon.com/images/I/51-KIFVzD5L.jpg",
+        "https://m.media-amazon.com/images/I/41w+Lms-kvL.jpg"
+      ],
+      "keySpecs": {
+        "modes": "3-in-1: upright mop + extended-reach + handheld steamer",
+        "steamTempF": 275,
+        "cordLengthFt": 25,
+        "tools": "9 tools incl. grout, scraper, brushes, flat surface, clothing steamer",
+        "sanitization": "99.9% germs, bacteria, viruses incl. Coronavirus + Influenza"
+      }
+    },
+    {
+      "slot": "HYBRID / SKIP-PRE-VACUUM",
+      "id": "bissell-powerfresh-vac-and-steam-2747a",
+      "asin": "B07V39K883",
+      "title": "Bissell PowerFresh Vac & Steam All-in-One Vacuum and Steam Mop, 2747A",
+      "displayName": "Bissell PowerFresh Vac & Steam 2747A",
+      "brand": "Bissell",
+      "price": "$199.99",
+      "rating": "4.3",
+      "reviewCount": 10406,
+      "images": [
+        "https://m.media-amazon.com/images/I/31ACwzyOWIL.jpg",
+        "https://m.media-amazon.com/images/I/51ZueWju0UL.jpg",
+        "https://m.media-amazon.com/images/I/511xXRjbvnL.jpg",
+        "https://m.media-amazon.com/images/I/41Qf3nOWlqL.jpg",
+        "https://m.media-amazon.com/images/I/515DKTMlIJL.jpg",
+        "https://m.media-amazon.com/images/I/51kgUS4G+zL.jpg"
+      ],
+      "keySpecs": {
+        "combo": "Vacuum + steam simultaneously (one pass)",
+        "controls": "Easy Touch Digital (vacuum / steam / both)",
+        "vacuum": "Cyclonic vacuum captures dirt + debris",
+        "sanitization": "99.9% germs/bacteria via steam"
+      }
+    }
+  ],
+  "pivotFromResearchDoc": {
+    "planned": "Shark Genius Steam Pocket Mop System (3-of-4 triangulation)",
+    "actual": "Bissell PowerFresh Deluxe 1806 (Reviewed.com pure-steam pick)",
+    "reason": "Shark Genius appears discontinued on Amazon US 2026-04-20 — search returns 0 exact matches, only the H2O X5 line (Thane-branded, not Shark). Per build-guide-pipeline Phase 3 availability gate: dropped Shark Genius, backfilled with Bissell Deluxe which has independent Reviewed.com tier1 signal + SpotBoost Brush differentiator vs the 1940A default pick.",
+    "brandConcentration": "4 Bissell + 1 Shark. Acknowledged skew but reflects real market consensus — Bissell + Shark dominate the pure-steam-mop category per all 4 tier1 labs. No 3rd brand (Hoover / PurSteam / etc.) had sufficient Amazon-availability + cross-lab signal to earn a Final slot."
+  }
+}

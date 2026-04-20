@@ -1,0 +1,65 @@
+{
+  "capturedAt": "2026-04-20",
+  "capturedBy": "Claude Opus 4.7 via Playwright MCP",
+  "tier1Sources": [
+    {
+      "source": "Modern Castle",
+      "url": "https://moderncastle.com/mops/",
+      "author": "Derek Hales",
+      "methodology": "Real-world testing, objective analysis",
+      "steamMopPicks": [
+        {"name": "Hoover Twin Tank Steam Mop", "score": "96%", "url": "https://moderncastle.com/mops/hoover-steam-mop-review/"},
+        {"name": "Bissell PowerFresh Steam Mop", "score": "94%", "url": "https://moderncastle.com/mops/bissell-powerfresh-review/"},
+        {"name": "Shark Genius Steam Mop", "score": "94%", "url": "https://moderncastle.com/mops/shark-genius-steam-mop-review/"},
+        {"name": "Shark Steam Pocket Mop", "score": "93%", "url": "https://moderncastle.com/mops/shark-steam-pocket-mop-review/"},
+        {"name": "Comfyer Vapor Steam Mop", "score": "89%", "url": "https://moderncastle.com/mops/comfyer-vapor-steam-mop-review/"},
+        {"name": "Dirt Devil Versa Steam Mop", "score": "83%", "url": "https://moderncastle.com/mops/dirt-devil-versa-steam-mop-review/"},
+        {"name": "Light & Easy Steam Mop", "score": "83%", "url": "https://moderncastle.com/mops/light-and-easy-steam-mop-review/"}
+      ]
+    },
+    {
+      "source": "Bob Vila",
+      "url": "https://www.bobvila.com/reviews/best-steam-mops-2025/",
+      "author": "Katie Barton + Debbie Wolfe + Tiffany Lewis + Paul Rankin",
+      "methodology": "5 weeks of testing 7 top-rated steam mops; dried-on-food challenge; everyday mess cleanup",
+      "editorialClaim": "Most steam mops are safe for use on ceramic tile, grout, sealed wood floors, linoleum, or laminate floors. However, shoppers will want to check the flooring manufacturer's care instructions. If the flooring is fragile, heavy-duty cleaning from steam mops may do more harm than good. The extreme temperature and moisture from steam cleaners could warp the wood, including hardwood floors and engineered wood flooring.",
+      "picks": [
+        {"badge": "Best Overall", "name": "Bissell PowerFresh Scrubbing & Sanitizing Steam Mop (Model 1940)", "claim": "Kills 99% germs and bacteria. Three steam settings. 23-foot power cord. Swivel steering. Low-profile mophead maneuvers under cabinets. Flip-down scrubber for grout."},
+        {"badge": "Best Bang For The Buck", "name": "PurSteam 10-in-1 Steam Mop Cleaner", "claim": "30-second preheat. 11.5-ounce reservoir. 20-25 minutes cleaning on lowest setting. Powered through stuck-on messes better than any other model tested. Cord is 15.9 feet (short)."},
+        {"badge": "Best With Vacuum", "name": "Bissell PowerFresh Vac & Steam", "claim": "2-in-1 model. Cyclonic vacuum picked up dog hair and grit while steam sanitized. Dry tank keeps debris separate from moisture."},
+        {"badge": "Best for Tough Messes", "name": "Shark Genius Steam Pocket Mop System", "claim": "Double-sided pads with touch-free release (no damp-pad handling). Three steam settings plus steam blast. Picked up dried pasta sauce that other mops left behind."},
+        {"badge": "Best for Tile", "name": "Bissell PowerFresh Slim 3-in-1 Steam Mop", "claim": "Heats up in 30 seconds. Three steam settings. Swivel head. Built-in scrubber."},
+        {"badge": "Best for Pet Owners", "name": "Bissell PowerFresh Pet Lift-Off 2-in-1 Steam Mop", "claim": "Detachable handheld steamer for spot messes."},
+        {"badge": "Best with Handheld Steamer", "name": "Bissell PowerSteamer Heavy Duty 3-in-1", "claim": "Handheld attachment + upright mop in one."}
+      ]
+    },
+    {
+      "source": "Reviewed.com",
+      "url": "https://www.reviewed.com/cleaning/best-right-now/best-steam-mops",
+      "note": "Lab-category covers steam mops + vacuum-mop hybrids (Tineco S7/S9 included). Pure-steam-mop pick: Bissell Deluxe Scrubbing & Sanitizing",
+      "picks": [
+        {"badge": "Top Pick (category includes hybrid)", "name": "Tineco Floor One S9 Artist Steam", "note": "Wet-dry vacuum with steam. NOT a pure steam mop."},
+        {"badge": "Runner-Up (category includes hybrid)", "name": "Tineco Floor One S7 Steam", "note": "Wet-dry vacuum with steam."},
+        {"badge": "Pure Steam Mop Pick", "name": "Bissell Deluxe Scrubbing & Sanitizing Steam Mop", "claim": "Heats up fast, sanitizes sealed floors without chemicals"}
+      ]
+    },
+    {
+      "source": "Good Housekeeping Institute (via search synthesis; direct URL unindexed)",
+      "url": "https://www.goodhousekeeping.com/appliances/cleaning-products/",
+      "picks": [
+        {"badge": "Top", "name": "Kenmore S200 Series SM2060", "claim": "Excels at cleaning messes + high steam output. Built-in scrubber tool."},
+        {"badge": "Top", "name": "Shark SteamSpot S2001", "claim": "Strong pick for pet/kid households."},
+        {"badge": "Top", "name": "Bissell PowerFresh Slim", "claim": "30-second heat-up. Three steam settings. Swivel head + built-in scrubber."},
+        {"badge": "#1 Professional Grade", "name": "Euroflex Vapour", "claim": "Ranked #1 professional grade. Streak-free. Floors dry in seconds."},
+        {"badge": "Budget", "name": "Steam & Go Housekeeper 10-in-1 SAG806D", "claim": "Detachable handheld steamer."}
+      ]
+    }
+  ],
+  "crossLabTriangulation": {
+    "4-of-4": ["Bissell PowerFresh 1940 (Bob Vila #1 Overall, MC 94%, GHI PowerFresh Slim variant, implied across lineups)"],
+    "3-of-4": ["Shark Genius Steam Pocket Mop System (Bob Vila, MC 94%, GHI implied via Shark SteamSpot family)", "Bissell PowerFresh Slim 3-in-1 (Bob Vila, GHI, related to 1940 family)"],
+    "2-of-4": ["Hoover Twin Tank Steam Mop (MC 96% top score, Modern Castle category leader — exceptional single-lab signal)", "Shark Steam Pocket Mop S3501 (MC 93%, Reviewed.com category cite)"],
+    "1-of-4": ["PurSteam 10-in-1 (Bob Vila best-bang-for-buck)", "Bissell PowerFresh Vac & Steam (Bob Vila best-with-vacuum)", "Bissell Deluxe Scrubbing (Reviewed.com pure-pick)", "Euroflex Vapour (GHI #1 professional)", "Kenmore S200 SM2060 (GHI)", "Comfyer Vapor (MC 89%)", "Dirt Devil Versa (MC 83%)", "Light & Easy (MC 83%)"],
+    "vacuum-mop-hybrid (different category, reference only)": ["Tineco Floor One S9 Artist Steam", "Tineco Floor One S7 Steam"]
+  }
+}

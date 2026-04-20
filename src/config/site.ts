@@ -119,8 +119,8 @@ export const siteConfig = {
       href: "/best-steam-mop",
       eyebrow: "Steam Mops",
       description:
-        "Flooring-safe picks for engineered hardwood, laminate, stone, and grout, with dry-time and pad-cost tradeoffs called out.",
-      available: false,
+        "Flooring-safe picks for sealed tile, grout, and sealed hardwood, with an honest warranty routing for engineered hardwood and laminate households.",
+      available: true,
     },
     {
       title: "Best Carpet Cleaner Machines for 2026",
@@ -164,8 +164,8 @@ export const siteConfig = {
       title: "Best Steam Mop",
       href: "/best-steam-mop",
       eyebrow: "Safe Surface",
-      description: "Flooring-aware steam picks for engineered hardwood and laminate.",
-      available: false,
+      description: "Warranty-first steam picks for sealed tile, grout, and sealed hardwood.",
+      available: true,
     },
     {
       title: "Best Handheld Vacuum",
