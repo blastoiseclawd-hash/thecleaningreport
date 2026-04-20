@@ -15,7 +15,7 @@
 - [x] Keyword map created from researched avatars
 - [x] Master roadmap and launch slice generated
 - [x] At least 3 manual launch pages are planned from the scored roadmap
-- [ ] First 3 manual launch pages are built and reviewed
+- [x] First 3 manual launch pages are built and reviewed
 
 ## After first public launch
 

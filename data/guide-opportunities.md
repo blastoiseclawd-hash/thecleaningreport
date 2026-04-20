@@ -7,10 +7,10 @@
 
 | Status | Count |
 |--------|-------|
-| LIVE | 2 |
+| LIVE | 3 |
 | CONTENT READY | 0 |
 | IN PROGRESS | 0 |
-| NOT BUILT | 30 |
+| NOT BUILT | 29 |
 | SKIP | 0 |
 | **Total** | **32** |
 
@@ -59,7 +59,7 @@
 | 21 | how-to-clean-grout | How to Clean Grout (Without Bleaching the Color Out) | support-guide | maintenance-cleaning | maintain | how to clean grout | 22000 | 14 | 22000 | 85.4 | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
 | 22 | best-mop | Best Mops for Everyday Home Cleaning (2026) | money-guide | flagship-roundup | buy | best mop | 19000 | 1 | 19000 | 86.6 | cleaning-support | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
 | 23 | best-steam-mop | Best Steam Mops (2026): Floor-Type-First Picks (Read the Warranty First) | money-guide | feature-roundup | buy | best steam mop | 6600 | 3 | 6600 | 86.6 | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
-| 24 | how-to-clean-hardwood-floors | How to Clean Hardwood Floors (Without Voiding the Warranty) | support-guide | maintenance-cleaning | maintain | how to clean hardwood floors | 18000 | 12 | 18000 | 81.8 | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 24 | how-to-clean-hardwood-floors | How to Clean Hardwood Floors (Without Voiding the Warranty) | support-guide | maintenance-cleaning | maintain | how to clean hardwood floors | 18000 | 12 | 18000 | 81.8 | cleaning-support | safe-surface-desk | Surface Protector | LIVE |
 | 25 | best-robot-vacuum-under-500 | Best Robot Vacuums Under $500 (2026): Where the Time-Math Still Works | money-guide | budget-roundup | buy | best robot vacuum under 500 | 2900 | 3 | 2900 | 85.4 | cleaning-support | labor-math-desk | Labor Trader | NOT BUILT |
 | 26 | best-cordless-vacuum-under-200 | Best Cordless Vacuums Under $200 (2026): What's Worth Keeping at This Price | money-guide | budget-roundup | buy | best cordless vacuum under 200 | 2200 | 1 | 2200 | 85.4 | cleaning-support | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
 | 27 | can-you-use-a-steam-mop-on-engineered-hardwood | Can You Use a Steam Mop on Engineered Hardwood? (The Honest Answer) | support-guide | compatibility-safety | decide | can you use a steam mop on engineered hardwood | 2400 | 7 | 2400 | 80.6 | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |

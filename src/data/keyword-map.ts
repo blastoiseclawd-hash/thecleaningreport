@@ -553,7 +553,7 @@ export const pageTargets: PageTarget[] = [
     clusterId: "cleaning-support",
     buildOrder: 24,
     buildPriorityScore: 81.8,
-    buildStatus: "NOT BUILT",
+    buildStatus: "LIVE",
     primaryKeyword: "how to clean hardwood floors",
     primaryVolume: 18000,
     primaryKd: 12,
