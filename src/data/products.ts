@@ -10,7 +10,7 @@ export interface AffiliateLink {
   priority: number;
 }
 
-// TCR-exclusive signature — 0-5 scale per axis, 0 = worst friction, 5 = best.
+// TCR-exclusive signature. 0-5 scale per axis, 0 = worst friction, 5 = best.
 // Default axes are TCR-standard; individual pages may override via content
 // data `frictionAxes` if a category does not use one of the five (e.g. a
 // cordless vacuum has no dock axis).
@@ -61,8 +61,8 @@ export function buildAmazonLink(asin: string, tag = "thecleaningreport-20"): str
 
 export function getAffiliateLinksByPriority(product: Product): AffiliateLink[] {
   return [...product.affiliateLinks]
-    .filter((link) => Boolean(link.url))
-    .sort((a, b) => a.priority - b.priority);
+   .filter((link) => Boolean(link.url))
+   .sort((a, b) => a.priority - b.priority);
 }
 
 export function getPreferredAffiliateLink(product: Product): AffiliateLink | null {
@@ -117,7 +117,7 @@ export function priceDisplay(product: Product): string {
 }
 
 // Scraping-stage product entries. Editorial pros/cons/verdict live in
-// src/data/content/*.ts — these fields here are lean placeholders from
+// src/data/content/*.ts. These fields here are lean placeholders from
 // Amazon scrape data (2026-04-19). FrictionScoreAxes (TCR signature)
 // are initial estimates derived from the research doc evidence; editorial
 // may adjust per-page as direct-test data lands.
@@ -162,10 +162,10 @@ export const products: Product[] = [
       "Firmware update path has failed for some owners",
       "Battery life runs shorter than spec in real-home tests",
     ],
-    verdict: "Placeholder — editorial review in /best-robot-vacuum content file.",
+    verdict: "Placeholder, editorial review in /best-robot-vacuum content file.",
     authorSlug: "labor-math-desk",
     affiliateLinks: [
-      { retailer: "Amazon", url: buildAmazonLink("B0F3WQTM9Q"), tag: "thecleaningreport-20", priority: 1 },
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B0F3WQTM9Q?tag=thecleaningreport-20", tag: "thecleaningreport-20", priority: 1 },
     ],
     lastUpdated: "2026-04-19",
     updateNotes: "Initial scrape + validation 2026-04-19 (Playwright MCP).",
@@ -210,12 +210,12 @@ export const products: Product[] = [
     ],
     cons: [
       "Full retail sits near the top of the Labor Trader price band",
-      "Uses ~20% battery per 182.8 sq-ft room — mid-cycle recharge in larger homes",
+      "Uses ~20% battery per 182.8 sq-ft room, mid-cycle recharge in larger homes",
     ],
-    verdict: "Placeholder — editorial review in /best-robot-vacuum content file.",
+    verdict: "Placeholder, editorial review in /best-robot-vacuum content file.",
     authorSlug: "labor-math-desk",
     affiliateLinks: [
-      { retailer: "Amazon", url: buildAmazonLink("B0DP2KP5P8"), tag: "thecleaningreport-20", priority: 1 },
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B0DP2KP5P8?tag=thecleaningreport-20", tag: "thecleaningreport-20", priority: 1 },
     ],
     lastUpdated: "2026-04-19",
     updateNotes: "Initial scrape + validation 2026-04-19 (Playwright MCP).",
@@ -255,17 +255,17 @@ export const products: Product[] = [
       "Brush": "ZeroTangle 2.0",
     },
     pros: [
-      "Instant self-washing roller mop — no inter-cycle dirt spread",
+      "Instant self-washing roller mop, no inter-cycle dirt spread",
       "Strong hardwood pickup and zero pet-hair left in brush-roll during lab tests",
     ],
     cons: [
-      "Obstacle-avoidance test: simulated pet waste stuck in main brush (CNET)",
-      "Midpile carpet pickup ranges 10-36% across runs — inconsistent",
+      "Obstacle-avoidance test: simulated pet waste stuck in main brush (lab-tested)",
+      "Midpile carpet pickup ranges 10-36% across runs, inconsistent",
     ],
-    verdict: "Placeholder — editorial review in /best-robot-vacuum content file.",
+    verdict: "Placeholder, editorial review in /best-robot-vacuum content file.",
     authorSlug: "labor-math-desk",
     affiliateLinks: [
-      { retailer: "Amazon", url: buildAmazonLink("B0DR8NJMCJ"), tag: "thecleaningreport-20", priority: 1 },
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B0DR8NJMCJ?tag=thecleaningreport-20", tag: "thecleaningreport-20", priority: 1 },
     ],
     lastUpdated: "2026-04-19",
     updateNotes: "Initial scrape + validation 2026-04-19 (Playwright MCP).",
@@ -300,22 +300,22 @@ export const products: Product[] = [
     thumbnailUrl: "https://m.media-amazon.com/images/I/71KmHW48zzL._AC_SL1500_.jpg",
     specs: {
       "Suction": "19,500 Pa (38 CFM airflow)",
-      "Base station": "Bagless OmniCyclone — no replacement bags",
+      "Base station": "Bagless OmniCyclone, no replacement bags",
       "Mop": "OZMO Roller 2.0 self-washing, hot mop wash + heat dry",
       "Navigation": "AIVI 3D",
     },
     pros: [
       "Bagless OmniCyclone station eliminates disposable-bag operating cost",
-      "94.89% hardwood sand pickup in CNET lab + zero pet hair left in dustbin",
+      "94.89% hardwood sand pickup in independent lab testing + zero pet hair left in dustbin",
     ],
     cons: [
       "Struggles on midpile carpet (23.19% sand pickup)",
       "Failed to trigger carpet suction-boost accurately in lab tests",
     ],
-    verdict: "Placeholder — editorial review in /best-robot-vacuum content file.",
+    verdict: "Placeholder, editorial review in /best-robot-vacuum content file.",
     authorSlug: "labor-math-desk",
     affiliateLinks: [
-      { retailer: "Amazon", url: buildAmazonLink("B0FKSMWJHM"), tag: "thecleaningreport-20", priority: 1 },
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B0FKSMWJHM?tag=thecleaningreport-20", tag: "thecleaningreport-20", priority: 1 },
     ],
     lastUpdated: "2026-04-19",
     updateNotes: "Initial scrape + validation 2026-04-19 (Playwright MCP).",
@@ -350,7 +350,7 @@ export const products: Product[] = [
     thumbnailUrl: "https://m.media-amazon.com/images/I/51GvwytZMFL._AC_SL1500_.jpg",
     specs: {
       "Suction": "22,000 Pa HyperForce",
-      "Profile": "3.14 in (80 mm) — slimmest Roborock",
+      "Profile": "3.14 in (80 mm), slimmest Roborock",
       "Mop wash": "80°C hot water + drying",
       "Chassis": "AdaptiLift + Zero-Tangling",
     },
@@ -359,13 +359,13 @@ export const products: Product[] = [
       "Roborock's mature app + navigation stack (MC Q Revo lineage scored 90.9 navigation)",
     ],
     cons: [
-      "Long-hair tangle-avoidance at 53.3% in Modern Castle testing — below Shark Matrix (93.3%)",
+      "Long-hair tangle-avoidance at 53.3% in independent lab testing, below Shark Matrix (93.3%)",
       "Not a pick for long-hair households",
     ],
-    verdict: "Placeholder — editorial review in /best-robot-vacuum content file.",
+    verdict: "Placeholder, editorial review in /best-robot-vacuum content file.",
     authorSlug: "labor-math-desk",
     affiliateLinks: [
-      { retailer: "Amazon", url: buildAmazonLink("B0DX1DQKMD"), tag: "thecleaningreport-20", priority: 1 },
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B0DX1DQKMD?tag=thecleaningreport-20", tag: "thecleaningreport-20", priority: 1 },
     ],
     lastUpdated: "2026-04-19",
     updateNotes: "Initial scrape + validation 2026-04-19 (Playwright MCP).",
@@ -405,17 +405,17 @@ export const products: Product[] = [
       "Brush": "Zero-tangling, corner-to-edge",
     },
     pros: [
-      "Excellent obstacle avoidance (5 of 6 avoided in CNET test)",
+      "Excellent obstacle avoidance (5 of 6 avoided in lab testing)",
       "Only roundup robot vacuum with an integrated portable carpet deep-cleaner",
     ],
     cons: [
       "Average overall pickup (44.49% across flooring types)",
-      "Lowest room coverage in CNET's current batch (70.03%) — misses spots between passes",
+      "Lowest room coverage in the 2026 lab batch (70.03%), misses spots between passes",
     ],
-    verdict: "Placeholder — editorial review in /best-robot-vacuum content file.",
+    verdict: "Placeholder, editorial review in /best-robot-vacuum content file.",
     authorSlug: "labor-math-desk",
     affiliateLinks: [
-      { retailer: "Amazon", url: buildAmazonLink("B0FK2JCM6K"), tag: "thecleaningreport-20", priority: 1 },
+      { retailer: "Amazon", url: "https://www.amazon.com/dp/B0FK2JCM6K?tag=thecleaningreport-20", tag: "thecleaningreport-20", priority: 1 },
     ],
     lastUpdated: "2026-04-19",
     updateNotes: "Initial scrape + validation 2026-04-19 (Playwright MCP).",

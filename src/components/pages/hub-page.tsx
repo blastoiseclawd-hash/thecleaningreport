@@ -12,16 +12,86 @@ import { ProductImageGallery } from "@/components/product/product-image-gallery"
 import { DirectAnswer } from "@/components/content/direct-answer";
 import { articleSchema, breadcrumbSchema, faqSchema, productSchema, JsonLd } from "@/lib/schema";
 import { siteConfig } from "@/config/site";
+import { RichText, RichInline } from "@/lib/rich-text";
+
+// Per-product inline citation cluster. Renders in the review aside, under the pros/cons.
+export interface HubReviewCite {
+  label: string; // e.g. "Positive owner (10,000 ft\u00b2)" or "Dissent (39-pt thread)"
+  text: string;  // one-sentence pull — supports [text](url) + **bold** inline
+  biasNote?: string; // optional disclosure (brand-collab, sample unit, etc.)
+}
 
 // Generic content shape that all hub content files share
 interface HubReview {
   heading: string;
   reviewerScore: number;
   scoreDiffReason: string;
-  body: string;
+  body: string; // supports [text](url) + **bold**
   pros: string[];
   cons: string[];
-  verdict: string;
+  verdict: string; // supports [text](url) + **bold**
+  skipThisIf?: string; // per-product "when not to buy" framing; supports inline markdown
+  ownerCites?: HubReviewCite[]; // positive + dissent owner references; each text supports inline markdown
+  videoCite?: HubReviewCite; // independent non-tier1 YouTube reference
+}
+
+// Methodology weights table block
+export interface HubMethodologyWeight {
+  dimension: string;
+  weight: string;   // e.g. "35%"
+  sourceType: string;
+}
+
+export interface HubMethodology {
+  title: string;
+  preamble: string; // supports inline markdown; paragraph-split on \n\n
+  weights: HubMethodologyWeight[];
+  footnote?: string;
+}
+
+// "Failure modes at 6 months+" table
+export interface HubFailureMode {
+  pattern: string;
+  products: string; // inline markdown OK (usually plain)
+  source: string;   // inline markdown — URL should be linkable
+}
+
+export interface HubFailureModesBlock {
+  title: string;
+  preamble: string;
+  rows: HubFailureMode[];
+  synthesis?: string;
+}
+
+// Cross-publication divergence
+export interface HubDivergenceRow {
+  pick: string;
+  // one string per lab column; use "\u2014" (em dash) or short code for "not included"
+  labResults: string[];
+}
+
+export interface HubDivergenceBlock {
+  title: string;
+  preamble: string;
+  labs: string[]; // column headers, e.g. ["Vacuum Wars 2026", "Modern Castle 2026", "CNET 2026"]
+  rows: HubDivergenceRow[];
+  synthesis?: string;
+}
+
+// Sources / methodology footer
+export interface HubSourceEntry {
+  // Numeric id renders as the footnote number. Body prose uses `[N]` anchors
+  // that link to `#source-N` on this list.
+  id: number;
+  label: string; // outlet name + short context, e.g. "Vacuum Wars — 2026 robot vacuum rating panel"
+  url: string;
+}
+
+export interface HubSourcesFooter {
+  title: string;
+  body: string; // supports inline markdown; paragraph-split on \n\n
+  labs?: string[]; // lab descriptions named on this page (muted bullet list)
+  sources?: HubSourceEntry[]; // numbered footnote sources referenced by body prose
 }
 
 interface HubComparisonRow {
@@ -77,6 +147,16 @@ interface HubPageProps {
   // FAQs
   faqs?: HubFaq[];
 
+  // Rendered-HTML contract extensions (money pages)
+  methodology?: HubMethodology;
+  failureModes?: HubFailureModesBlock;
+  divergence?: HubDivergenceBlock;
+  sourcesFooter?: HubSourcesFooter;
+  whenNotToBuy?: {
+    title: string;
+    body: string; // inline markdown; paragraph-split on \n\n
+  };
+
   // Related links
   relatedLinks?: { href: string; title: string }[];
 
@@ -105,6 +185,11 @@ export function HubPage({
   reviews,
   buyingGuide,
   faqs,
+  methodology,
+  failureModes,
+  divergence,
+  sourcesFooter,
+  whenNotToBuy,
   relatedLinks,
   breadcrumbLabel,
   lastUpdatedNote,
@@ -183,7 +268,7 @@ export function HubPage({
                 text={quickAnswer}
                 className="mt-7 max-w-3xl text-[1.2rem] leading-9 text-[#dae4de] sm:text-[1.28rem]"
               >
-                {quickAnswer}
+                <RichInline text={quickAnswer} />
               </DirectAnswer>
 
               <div className="mt-8 flex flex-wrap items-center gap-x-5 gap-y-2 text-[0.96rem] text-[#c3d0cb]">
@@ -246,7 +331,7 @@ export function HubPage({
                     {displayNames[topProduct.id] || topProduct.name}
                   </h2>
                   <p className="mt-4 text-[1rem] leading-8 text-[#46525b]">
-                    {reviews[topProduct.id]?.verdict?.split(".").slice(0, 2).join(".") + "."}
+                    <RichInline text={reviews[topProduct.id]?.verdict ?? ""} />
                   </p>
 
                   <div className="mt-6">
@@ -281,7 +366,11 @@ export function HubPage({
             {[
               { label: "Top pick", href: `#review-${[...orderedProducts].filter(p => reviews[p.id]).sort((a, b) => (reviews[b.id]?.reviewerScore ?? 0) - (reviews[a.id]?.reviewerScore ?? 0))[0]?.slug}` },
               ...(hasComparisonTable ? [{ label: "Comparison table", href: "#comparison-table" }] : []),
+              ...(methodology ? [{ label: "How we ranked", href: "#how-we-ranked" }] : []),
               { label: "Full reviews", href: "#full-reviews" },
+              ...(failureModes ? [{ label: "Failure modes at 6mo+", href: "#failure-modes" }] : []),
+              ...(divergence ? [{ label: "Where labs disagree", href: "#divergence" }] : []),
+              ...(whenNotToBuy ? [{ label: "When not to buy", href: "#when-not-to-buy" }] : []),
               ...(buyingGuide ? [{ label: "Buying advice", href: "#buying-advice" }] : []),
               ...(faqs ? [{ label: "FAQ", href: "#faq" }] : []),
             ].map(({ label, href }) => (
@@ -486,18 +575,61 @@ export function HubPage({
                         {content.heading}
                       </h2>
 
-                      <div className="mt-6 space-y-5 text-[1.08rem] leading-8 text-[#35231a]">
-                        {content.body.split("\n\n").map((paragraph) => (
-                          <p key={paragraph}>{paragraph}</p>
-                        ))}
-                      </div>
+                      <RichText
+                        text={content.body}
+                        className="mt-6 space-y-5 text-[1.08rem] leading-8 text-[#35231a]"
+                      />
+
+                      {content.skipThisIf && (
+                        <div className="mt-8 rounded-sm border border-[#ecc9c8] bg-[#fff6f5] p-6">
+                          <p className="eyebrow text-[#9f3430]">Skip this one if</p>
+                          <p className="mt-3 text-[1rem] leading-8 text-[#5b2e2b]">
+                            <RichInline text={content.skipThisIf} />
+                          </p>
+                        </div>
+                      )}
+
+                      {(content.ownerCites && content.ownerCites.length > 0) || content.videoCite ? (
+                        <div className="mt-6 rounded-sm border border-[#e2d3c4] bg-[#fbf6ec] p-6">
+                          <p className="eyebrow text-[#8a674e]">What owners + independent reviewers say</p>
+                          <ul className="mt-4 space-y-4">
+                            {content.ownerCites?.map((cite, i) => (
+                              <li key={`oc-${i}`} className="text-[0.98rem] leading-7 text-[#35231a]">
+                                <span className="mr-2 text-[0.72rem] font-semibold uppercase tracking-[0.18em] text-[#8a674e]">
+                                  {cite.label}
+                                </span>
+                                <span>
+                                  <RichInline text={cite.text} />
+                                </span>
+                                {cite.biasNote && (
+                                  <span className="mt-1 block text-[0.88rem] italic text-[#6b5649]">
+                                    <RichInline text={cite.biasNote} />
+                                  </span>
+                                )}
+                              </li>
+                            ))}
+                            {content.videoCite && (
+                              <li className="text-[0.98rem] leading-7 text-[#35231a]">
+                                <span className="mr-2 text-[0.72rem] font-semibold uppercase tracking-[0.18em] text-[#8a674e]">
+                                  {content.videoCite.label}
+                                </span>
+                                <span>
+                                  <RichInline text={content.videoCite.text} />
+                                </span>
+                              </li>
+                            )}
+                          </ul>
+                        </div>
+                      ) : null}
 
                       <div className="mt-8 grid gap-5 lg:grid-cols-[1.08fr_0.92fr]">
                         <blockquote className="sand-panel p-6">
                           <div className="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
                             <div className="max-w-2xl">
                               <p className="eyebrow">Editor verdict</p>
-                              <p className="mt-4 text-[1.08rem] leading-8 text-[#35231a]">{content.verdict}</p>
+                              <p className="mt-4 text-[1.08rem] leading-8 text-[#35231a]">
+                                <RichInline text={content.verdict} />
+                              </p>
                             </div>
                             <div className="sm:min-w-[120px]">
                               <div className="rounded-sm border border-[#e1d2c3] bg-[#fffdf9] px-4 py-3">
@@ -518,7 +650,7 @@ export function HubPage({
                               {content.pros.map((pro) => (
                                 <li key={pro} className="flex items-start gap-3 text-[0.98rem] leading-8 text-[#244131]">
                                   <span className="mt-3 h-2 w-2 shrink-0 rounded-full bg-[#2f6842]" />
-                                  <span>{pro}</span>
+                                  <span><RichInline text={pro} /></span>
                                 </li>
                               ))}
                             </ul>
@@ -529,7 +661,7 @@ export function HubPage({
                               {content.cons.map((con) => (
                                 <li key={con} className="flex items-start gap-3 text-[0.98rem] leading-8 text-[#5b2e2b]">
                                   <span className="mt-3 h-2 w-2 shrink-0 rounded-full bg-[#b64542]" />
-                                  <span>{con}</span>
+                                  <span><RichInline text={con} /></span>
                                 </li>
                               ))}
                             </ul>
@@ -544,6 +676,134 @@ export function HubPage({
           </div>
         </div>
       </section>
+
+      {/* Failure modes at 6 months+ */}
+      {failureModes && (
+        <section id="failure-modes" className="section-space-sm bg-[#f3f2ec]">
+          <div className="site-shell">
+            <div className="max-w-3xl">
+              <span className="editorial-rule">Failure modes at 6 months+</span>
+              <h2 className="mt-6 font-[family-name:var(--font-heading-family)] text-[2.6rem] font-semibold leading-[0.98] text-[#23150f] sm:text-[3.1rem]">
+                {failureModes.title}
+              </h2>
+              <RichText
+                text={failureModes.preamble}
+                className="mt-6 space-y-5 text-[1.04rem] leading-8 text-[#42515b]"
+              />
+            </div>
+
+            <div className="mt-10 sand-panel overflow-hidden">
+              <table className="w-full text-left">
+                <thead className="border-b border-[#dbd7ce] bg-[#f7f6f0]">
+                  <tr>
+                    <th className="px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#697560]">Failure pattern</th>
+                    <th className="px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#697560]">Products affected</th>
+                    <th className="px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#697560]">Source</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {failureModes.rows.map((row, i) => (
+                    <tr key={row.pattern} className={i % 2 === 0 ? "bg-[#fffefb]" : "bg-[#f7f6f0]"}>
+                      <td className="px-4 py-4 align-top text-[0.98rem] font-semibold text-[#23150f]">
+                        <RichInline text={row.pattern} />
+                      </td>
+                      <td className="px-4 py-4 align-top text-[0.96rem] text-[#4f5b64]">
+                        <RichInline text={row.products} />
+                      </td>
+                      <td className="px-4 py-4 align-top text-[0.96rem] text-[#4f5b64]">
+                        <RichInline text={row.source} />
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+
+            {failureModes.synthesis && (
+              <div className="mt-8 max-w-3xl">
+                <RichText
+                  text={failureModes.synthesis}
+                  className="space-y-5 text-[1.04rem] leading-8 text-[#42515b]"
+                />
+              </div>
+            )}
+          </div>
+        </section>
+      )}
+
+      {/* Cross-publication divergence */}
+      {divergence && (
+        <section id="divergence" className="section-space-sm bg-[#fffdf9]">
+          <div className="site-shell">
+            <div className="max-w-3xl">
+              <span className="editorial-rule">Where the independent reviews disagree</span>
+              <h2 className="mt-6 font-[family-name:var(--font-heading-family)] text-[2.6rem] font-semibold leading-[0.98] text-[#23150f] sm:text-[3.1rem]">
+                {divergence.title}
+              </h2>
+              <RichText
+                text={divergence.preamble}
+                className="mt-6 space-y-5 text-[1.04rem] leading-8 text-[#42515b]"
+              />
+            </div>
+
+            <div className="mt-10 sand-panel overflow-hidden">
+              <table className="w-full text-left">
+                <thead className="border-b border-[#dbd7ce] bg-[#f7f6f0]">
+                  <tr>
+                    <th className="px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#697560]">Pick</th>
+                    {divergence.labs.map((lab) => (
+                      <th key={lab} className="px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#697560]">
+                        {lab}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {divergence.rows.map((row, i) => (
+                    <tr key={row.pick} className={i % 2 === 0 ? "bg-[#fffefb]" : "bg-[#f7f6f0]"}>
+                      <td className="px-4 py-4 align-top text-[0.98rem] font-semibold text-[#23150f]">
+                        <RichInline text={row.pick} />
+                      </td>
+                      {row.labResults.map((result, j) => (
+                        <td key={j} className="px-4 py-4 align-top text-[0.96rem] text-[#4f5b64]">
+                          <RichInline text={result} />
+                        </td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+
+            {divergence.synthesis && (
+              <div className="mt-8 max-w-3xl">
+                <RichText
+                  text={divergence.synthesis}
+                  className="space-y-5 text-[1.04rem] leading-8 text-[#42515b]"
+                />
+              </div>
+            )}
+          </div>
+        </section>
+      )}
+
+      {/* When not to buy (category-level) */}
+      {whenNotToBuy && (
+        <section id="when-not-to-buy" className="section-space-sm bg-[#fff6f5]">
+          <div className="site-shell">
+            <div className="max-w-3xl">
+              <span className="editorial-rule text-[#9f3430] before:bg-[#b64542]">When not to buy</span>
+              <h2 className="mt-6 font-[family-name:var(--font-heading-family)] text-[2.6rem] font-semibold leading-[0.98] text-[#5b2e2b] sm:text-[3rem]">
+                {whenNotToBuy.title}
+              </h2>
+              <RichText
+                text={whenNotToBuy.body}
+                className="mt-6 space-y-5 text-[1.06rem] leading-8 text-[#5b2e2b]"
+              />
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Buying advice */}
       {buyingGuide && (
@@ -565,7 +825,9 @@ export function HubPage({
                       <h3 className="font-[family-name:var(--font-heading-family)] text-[2rem] font-semibold leading-[1.02] text-[#23150f]">
                         {item.heading}
                       </h3>
-                      <p className="mt-4 text-[1.05rem] leading-8 text-[#4f3b31]">{item.body}</p>
+                      <p className="mt-4 text-[1.05rem] leading-8 text-[#4f3b31]">
+                        <RichInline text={item.body} />
+                      </p>
                     </div>
                   </article>
                 ))}
@@ -602,11 +864,67 @@ export function HubPage({
                         <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                       </svg>
                     </summary>
-                    <div className="pb-5 text-[1rem] leading-8 text-[#46525b]">{faq.answer}</div>
+                    <div className="pb-5 text-[1rem] leading-8 text-[#46525b]">
+                      <RichInline text={faq.answer} />
+                    </div>
                   </details>
                 ))}
               </div>
             </div>
+          </div>
+        </section>
+      )}
+
+      {/* How we ranked (methodology) — demoted 2026-04-19. Muted styling,
+          collapsed <details> by default. Anchor-navigable from jump links +
+          sources footer for readers who want the detail, but not visually
+          prominent. Avatar-first: most readers never need this. */}
+      {methodology && (
+        <section id="how-we-ranked" className="bg-[#f7f6f0] py-10">
+          <div className="site-shell">
+            <details className="max-w-4xl rounded-sm border border-[#e4e0d5] bg-[#fffefb] px-6 py-5">
+              <summary className="cursor-pointer text-[0.95rem] font-semibold text-[#6b7068] hover:text-[#23150f] [&::-webkit-details-marker]:hidden">
+                How we ranked these (expand for methodology)
+              </summary>
+              <div className="mt-5 border-t border-[#e9e4d6] pt-5">
+                <p className="text-[0.8rem] font-semibold uppercase tracking-[0.2em] text-[#6b7068]">
+                  {methodology.title}
+                </p>
+                <RichText
+                  text={methodology.preamble}
+                  className="mt-3 space-y-3 text-[0.95rem] leading-7 text-[#5a6560]"
+                />
+
+                <table className="mt-5 w-full text-left">
+                  <thead className="border-b border-[#e4e0d5]">
+                    <tr>
+                      <th className="py-2 text-[0.68rem] font-semibold uppercase tracking-[0.2em] text-[#6b7068]">Dimension</th>
+                      <th className="py-2 text-[0.68rem] font-semibold uppercase tracking-[0.2em] text-[#6b7068]">Weight</th>
+                      <th className="py-2 text-[0.68rem] font-semibold uppercase tracking-[0.2em] text-[#6b7068]">Source type</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {methodology.weights.map((w) => (
+                      <tr key={w.dimension} className="border-b border-[#efe9dd]">
+                        <td className="py-2 text-[0.88rem] text-[#4f5b64]">
+                          <RichInline text={w.dimension} />
+                        </td>
+                        <td className="py-2 text-[0.88rem] text-[#4f5b64]">{w.weight}</td>
+                        <td className="py-2 text-[0.88rem] text-[#6b7068]">
+                          <RichInline text={w.sourceType} />
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+
+                {methodology.footnote && (
+                  <p className="mt-4 text-[0.85rem] italic leading-6 text-[#6b7068]">
+                    <RichInline text={methodology.footnote} />
+                  </p>
+                )}
+              </div>
+            </details>
           </div>
         </section>
       )}
@@ -616,13 +934,52 @@ export function HubPage({
         <div className="site-shell">
           <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
             <div className="max-w-xl">
-              <span className="editorial-rule text-[#b8c7b2] before:bg-[#8ea087]">Behind this guide</span>
+              <span className="editorial-rule text-[#b8c7b2] before:bg-[#8ea087]">
+                {sourcesFooter ? "Sources + methodology" : "Behind this guide"}
+              </span>
               <h2 className="mt-6 font-[family-name:var(--font-heading-family)] text-[2.6rem] font-semibold leading-[0.98] text-[#f5faf7] sm:text-[3rem]">
-                If every affiliate link vanished, the ranking should still hold up.
+                {sourcesFooter?.title ?? "If every affiliate link vanished, the ranking should still hold up."}
               </h2>
-              <p className="mt-5 text-[1.04rem] leading-8 text-[#c6d2cd]">
-                That is the test. You should be able to use this page, pick the right machine, and leave without clicking a single button if you want to.
-              </p>
+              {sourcesFooter ? (
+                <>
+                  <RichText
+                    text={sourcesFooter.body}
+                    className="mt-5 space-y-4 text-[1.02rem] leading-8 text-[#c6d2cd]"
+                  />
+                  {sourcesFooter.labs && sourcesFooter.labs.length > 0 && (
+                    <ul className="mt-5 space-y-2 text-[0.98rem] leading-7 text-[#c6d2cd]">
+                      {sourcesFooter.labs.map((lab) => (
+                        <li key={lab}>
+                          <RichInline text={lab} />
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                  {sourcesFooter.sources && sourcesFooter.sources.length > 0 && (
+                    <ol className="mt-8 space-y-2 text-[0.9rem] leading-6 text-[#95a5a0]">
+                      {sourcesFooter.sources.map((source) => (
+                        <li key={source.id} id={`source-${source.id}`} className="flex gap-3">
+                          <span className="min-w-[1.75rem] text-right font-mono tabular-nums text-[#7d8c87]">
+                            {source.id}.
+                          </span>
+                          <a
+                            href={source.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-[#a4b3ad] underline underline-offset-2 hover:text-white"
+                          >
+                            {source.label}
+                          </a>
+                        </li>
+                      ))}
+                    </ol>
+                  )}
+                </>
+              ) : (
+                <p className="mt-5 text-[1.04rem] leading-8 text-[#c6d2cd]">
+                  That is the test. You should be able to use this page, pick the right machine, and leave without clicking a single button if you want to.
+                </p>
+              )}
               <ul className="mt-7 space-y-3">
                 <li>
                   <Link href="/how-we-review" className="text-[1rem] font-semibold text-[#cbd8c5] hover:text-white">

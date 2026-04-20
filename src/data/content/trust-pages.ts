@@ -16,7 +16,7 @@ export const howWeReviewContent = {
       id: "how-we-use-sources",
       heading: "How we use sources",
       body:
-        "We look for convergence across owner reports, communities, expert testing, and verified specs. A claim earns trust when it repeats across independent sources, not when it sounds exciting in isolation.",
+        "We look for agreement across owner reports, communities, expert testing, and verified specs. A claim earns trust when it repeats across independent sources, not when it sounds exciting in isolation.",
     },
     {
       id: "how-we-score",

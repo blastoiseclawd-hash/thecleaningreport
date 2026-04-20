@@ -96,7 +96,7 @@ export default function AboutPage() {
           </div>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link href="/how-we-review" className="button-primary">
-              Review the methodology
+              Read how we review
             </Link>
             <Link href="/disclosure" className="button-secondary">
               Read the disclosure
