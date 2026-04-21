@@ -1101,7 +1101,7 @@ export const pageTargets: PageTarget[] = [
     clusterId: "cleaning-support",
     buildOrder: 40,
     buildPriorityScore: 63.5,
-    buildStatus: "NOT BUILT",
+    buildStatus: "LIVE",
     primaryKeyword: "best way to mop vinyl floors",
     primaryVolume: 150,
     primaryKd: 0,

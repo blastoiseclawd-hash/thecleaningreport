@@ -1,0 +1,84 @@
+{
+  "researchedOn": "2026-04-21",
+  "researchMethod": "WebFetch + WebSearch (allowed-domain filter)",
+  "fetchLog": [
+    {
+      "source": "bobvila.com",
+      "url": "https://www.bobvila.com/articles/how-to-clean-vinyl-flooring/",
+      "status": "200-fetched",
+      "keyExtracts": [
+        "Sweep regularly: best strategy is flat dust mop daily if feasible",
+        "pH neutral cleaner without abrasive, ammonia, or bleach",
+        "Run vacuum with rotating brush turned off (brushes can damage vinyl)",
+        "Forbidden: steam cleaning, wax polishes, bleach, ammonia, abrasive cleaners, steel wool, wet string mops on planks",
+        "Stain removal: baking soda paste, liquid dish soap, rubbing alcohol for lipstick/dye/ink, mineral spirits for crayon/paint, acetone nail polish remover for stubborn stains"
+      ]
+    },
+    {
+      "source": "bobvila.com",
+      "url": "https://www.bobvila.com/articles/best-mop-for-vinyl-floors/",
+      "status": "200-fetched",
+      "keyExtracts": [
+        "Tested 8 mops across categories",
+        "Best overall: Rubbermaid Reveal Microfiber Spray Mop",
+        "Best flat: Microfiber Wholesale 18-Inch system",
+        "Microfiber is popular because it's durable, affordable, and easy to clean",
+        "Steam mops explicit warning: high heat and moisture can cause damage if seams or adhesives are breached"
+      ]
+    },
+    {
+      "source": "familyhandyman.com",
+      "url": "https://www.familyhandyman.com/article/how-to-clean-vinyl-floors/",
+      "status": "200-fetched",
+      "keyExtracts": [
+        "DIY: 1 gallon water + 1 cup apple cider vinegar + drop dish soap",
+        "Commercial: Armstrong Once 'n Done Resilient and Ceramic No-Rinse, Bruce NoWax, Mop & Glo Multi-Surface",
+        "Don't use vacuum with beater bar (damages vinyl)",
+        "Don't allow excess water to infiltrate seams (affects tile stickiness, causes corners to curl)",
+        "For scuffs: WD-40 or jojoba oil with soft-bristle brush"
+      ]
+    },
+    {
+      "source": "costco.shawfloors.com (Shaw manufacturer mirror)",
+      "url": "https://costco.shawfloors.com/flooring/how-to/vinyl-how-to-s/care-maintenance/how-to-clean-resilient-vinyl-flooring",
+      "status": "200-fetched",
+      "keyExtracts": [
+        "Approved: Shaw R2X Hard Surfaces Flooring Cleaner",
+        "Forbidden: harsh chemicals, steam, vacuums with beater bars or brushes",
+        "Process: sweep floors regularly to remove loose dirt and grit",
+        "Spills: wipe up as soon as possible",
+        "General: spray cleaner on floor and use dry mop",
+        "Spills: Shaw R2X + dry white cloth, no rinsing necessary"
+      ]
+    }
+  ],
+  "triangulationSummary": {
+    "noSteamMops": {
+      "sources": ["Bob Vila (explicit)", "Shaw Floors (manufacturer forbidden)", "Bob Vila best-mop roundup (explicit)"],
+      "primaryReason": "Heat + moisture combination breaches seams and adhesive on LVP; warranty-voiding on most manufacturers"
+    },
+    "phNeutralCleaner": {
+      "sources": ["Bob Vila (pH neutral, no ammonia/bleach/abrasive)", "Shaw Floors (neutral-pH cleaner)"],
+      "primaryReason": "Non-neutral cleaners degrade wear layer or strip protective coatings"
+    },
+    "noBeaterBarVacuum": {
+      "sources": ["Bob Vila (rotating brush off)", "Family Handyman (no beater bar)", "Shaw Floors (forbidden)"],
+      "primaryReason": "Beater bar bristles scratch and scuff LVP surface"
+    },
+    "noWaxPolish": {
+      "sources": ["Bob Vila (film buildup)", "Shaw Floors (harsh chemicals / not approved)"],
+      "primaryReason": "Wax leaves accumulating film that yellows and traps dirt; not compatible with modern LVP wear layer"
+    },
+    "dampNotWet": {
+      "sources": ["Bob Vila (damp mop best)", "Family Handyman (wring thoroughly, excess water damages seams)", "Shaw Floors (dry mop after spray)"],
+      "primaryReason": "Standing water wicks into plank seams, causes curl and adhesive failure"
+    },
+    "sourceDivergence": {
+      "vinegarOnVinyl": {
+        "forSide": ["Family Handyman (1 cup ACV + dish soap DIY solution)"],
+        "againstSide": ["Bob Vila (no acidic cleaners implied by pH-neutral rule)", "Shaw Floors (avoid harsh chemicals)"],
+        "resolution": "Diluted vinegar is sometimes tolerable on LVP wear layer but on sheet vinyl or older installs it risks the adhesive at seams. Safe editorial stance: skip vinegar, default to pH-neutral manufacturer-approved cleaner."
+      }
+    }
+  }
+}

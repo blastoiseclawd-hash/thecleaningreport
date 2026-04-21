@@ -163,6 +163,7 @@ export const howToCleanHardwoodFloorsContent = {
     { href: "/best-cordless-stick-vacuum-for-hardwood", title: "Best Cordless Stick Vacuum for Hardwood Floors 2026" },
     { href: "/best-robot-vacuum", title: "Best Robot Vacuums (2026)" },
     { href: "/best-cordless-vacuum", title: "The 5 Best Cordless Vacuums of 2026" },
+    { href: "/how-to-clean-vinyl-floors", title: "How to Clean Vinyl Floors (if what you thought was wood is actually LVP)" },
   ],
 
   sourcesFooter: [
