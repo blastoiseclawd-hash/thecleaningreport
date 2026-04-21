@@ -1,12 +1,51 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import { siteConfig } from "@/config/site";
 
 export function Header() {
   const [openMenu, setOpenMenu] = useState<string | null>(null);
+  const navRef = useRef<HTMLElement | null>(null);
+  const closeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const cancelClose = () => {
+    if (closeTimerRef.current) {
+      clearTimeout(closeTimerRef.current);
+      closeTimerRef.current = null;
+    }
+  };
+
+  const scheduleClose = () => {
+    cancelClose();
+    closeTimerRef.current = setTimeout(() => setOpenMenu(null), 120);
+  };
+
+  const openNow = (label: string) => {
+    cancelClose();
+    setOpenMenu(label);
+  };
+
+  useEffect(() => {
+    if (!openMenu) return;
+    const handleDocClick = (e: MouseEvent) => {
+      if (navRef.current && !navRef.current.contains(e.target as Node)) {
+        setOpenMenu(null);
+      }
+    };
+    const handleKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setOpenMenu(null);
+    };
+    document.addEventListener("mousedown", handleDocClick);
+    document.addEventListener("keydown", handleKey);
+    return () => {
+      document.removeEventListener("mousedown", handleDocClick);
+      document.removeEventListener("keydown", handleKey);
+    };
+  }, [openMenu]);
+
+  useEffect(() => () => cancelClose(), []);
 
   return (
     <header className="sticky top-0 z-50 border-b border-[#d8d4cc] bg-[rgba(247,244,238,0.94)] backdrop-blur-md">
@@ -24,7 +63,10 @@ export function Header() {
           </Link>
 
           {siteConfig.nav.main.length > 0 && (
-            <nav className="flex flex-wrap items-center gap-x-6 gap-y-2">
+            <nav
+              ref={navRef}
+              className="flex flex-wrap items-center gap-x-6 gap-y-2"
+            >
               {siteConfig.nav.main.map((item, index) => {
                 const hasChildren = Boolean(item.children && item.children.length > 0);
                 const isOpen = openMenu === item.label;
@@ -46,8 +88,8 @@ export function Header() {
                   <div
                     key={item.label}
                     className="relative"
-                    onMouseEnter={() => setOpenMenu(item.label)}
-                    onMouseLeave={() => setOpenMenu(null)}
+                    onMouseEnter={() => openNow(item.label)}
+                    onMouseLeave={scheduleClose}
                   >
                     <button
                       type="button"
@@ -62,17 +104,23 @@ export function Header() {
                       </span>
                     </button>
                     {isOpen && item.children && (
-                      <div className={`absolute top-full z-[60] mt-2 min-w-[15rem] rounded-md border border-[#d8d4cc] bg-[#f7f4ee] py-2 shadow-lg ${alignRight ? "right-0" : "left-0"}`}>
-                        {item.children.map((child) => (
-                          <Link
-                            key={child.href}
-                            href={child.href}
-                            onClick={() => setOpenMenu(null)}
-                            className="block px-4 py-2 text-[0.95rem] text-[#4c5760] hover:bg-[#ece8df] hover:text-[#182028]"
-                          >
-                            {child.label}
-                          </Link>
-                        ))}
+                      <div
+                        className={`absolute top-full z-[100] ${alignRight ? "right-0" : "left-0"}`}
+                        onMouseEnter={cancelClose}
+                        onMouseLeave={scheduleClose}
+                      >
+                        <div className="mt-2 min-w-[15rem] rounded-md border-2 border-[#23150f] bg-white py-2 shadow-[0_20px_50px_rgba(16,32,39,0.35)]">
+                          {item.children.map((child) => (
+                            <Link
+                              key={child.href}
+                              href={child.href}
+                              onClick={() => setOpenMenu(null)}
+                              className="block px-4 py-2 text-[0.95rem] font-medium text-[#23150f] hover:bg-[#2D6B73] hover:text-white"
+                            >
+                              {child.label}
+                            </Link>
+                          ))}
+                        </div>
                       </div>
                     )}
                   </div>
