@@ -620,7 +620,9 @@ And if your search keyword is "best cordless vacuum 2025" or "best cordless vacu
   },
   relatedLinks: [
     { href: "/best-cordless-stick-vacuum-for-hardwood", title: "Best Cordless Stick Vacuum for Hardwood Floors 2026" },
+    { href: "/best-handheld-vacuum", title: "Best Handheld Vacuums 2026: Picks by Use Case" },
     { href: "/best-robot-vacuum", title: "The 6 Best Robot Vacuums of 2026" },
+    { href: "/what-is-the-most-powerful-handheld-vacuum", title: "What Is the Most Powerful Handheld Vacuum? (Airflow Explained)" },
     { href: "/how-to-clean-hardwood-floors", title: "How to Clean Hardwood Floors (Without Voiding the Warranty)" },
     { href: "/how-we-review", title: "How We Review Cleaning Tools" },
   ],

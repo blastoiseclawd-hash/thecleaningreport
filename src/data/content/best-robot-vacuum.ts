@@ -668,6 +668,8 @@ What you have to do to keep it running. Dustbin weekly. Dock empty biweekly. Car
   },
   relatedLinks: [
     { href: "/best-cordless-vacuum", title: "The 5 Best Cordless Vacuums of 2026" },
+    { href: "/best-handheld-vacuum", title: "Best Handheld Vacuums 2026: Picks by Use Case" },
+    { href: "/what-is-the-most-powerful-handheld-vacuum", title: "What Is the Most Powerful Handheld Vacuum? (Airflow Explained)" },
     { href: "/how-to-clean-hardwood-floors", title: "How to Clean Hardwood Floors (Without Voiding the Warranty)" },
     { href: "/how-we-review", title: "How we review (the full methodology)" },
     { href: "/about", title: "About The Cleaning Report + editorial desks" },
