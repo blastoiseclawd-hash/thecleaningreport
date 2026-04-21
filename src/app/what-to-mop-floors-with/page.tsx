@@ -21,6 +21,7 @@ export default function Page() {
       publishedDate={whatToMopFloorsWithContent.publishedDate}
       modifiedDate={whatToMopFloorsWithContent.modifiedDate}
       intro={whatToMopFloorsWithContent.intro}
+      heroImage={whatToMopFloorsWithContent.heroImage}
       editorialLabel={whatToMopFloorsWithContent.editorialLabel}
       author={author}
       sections={whatToMopFloorsWithContent.sections}

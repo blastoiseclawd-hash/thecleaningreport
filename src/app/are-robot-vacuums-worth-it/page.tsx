@@ -21,6 +21,7 @@ export default function Page() {
       publishedDate={areRobotVacuumsWorthItContent.publishedDate}
       modifiedDate={areRobotVacuumsWorthItContent.modifiedDate}
       intro={areRobotVacuumsWorthItContent.intro}
+      heroImage={areRobotVacuumsWorthItContent.heroImage}
       editorialLabel={areRobotVacuumsWorthItContent.editorialLabel}
       author={author}
       sections={areRobotVacuumsWorthItContent.sections}
