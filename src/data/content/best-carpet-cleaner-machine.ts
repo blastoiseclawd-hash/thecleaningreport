@@ -671,6 +671,7 @@ You have pets and the contamination has soaked through to the subfloor. Home car
     { href: "/best-steam-mop", title: "Best Steam Mop (for hard floors in homes without wall-to-wall carpet)" },
     { href: "/best-hardwood-floor-cleaner", title: "Best Hardwood Floor Cleaner (the chemical alternative for sealed hardwood)" },
     { href: "/best-grout-cleaner", title: "Best Grout Cleaner (for the tile-adjacent areas outside the carpet)" },
+    { href: "/how-to-clean-grout", title: "How to Clean Grout (restoration sequence for the tile between carpeted rooms)" },
     { href: "/best-stainless-steel-cleaner", title: "Best Stainless Steel Cleaner (for the kitchen appliances outside the carpet)" },
     { href: "/how-we-review", title: "How We Review (methodology + source policy)" },
   ],

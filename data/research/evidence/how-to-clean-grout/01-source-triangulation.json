@@ -1,0 +1,121 @@
+{
+  "capturedBy": "claude",
+  "capturedAt": "2026-04-20",
+  "slug": "how-to-clean-grout",
+  "note": "Source triangulation for /how-to-clean-grout. Each source accessed via WebFetch or WebSearch on 2026-04-20. Quoted snippets are direct lifts from the source page (short-quotation editorial use).",
+  "sources": [
+    {
+      "name": "Bob Vila",
+      "tier": "tier2_editorial",
+      "url": "https://www.bobvila.com/articles/how-to-clean-grout/",
+      "keyClaims": [
+        "8-step escalation order: water + nylon brush -> vinegar + water (sealed only) -> baking soda + vinegar -> hydrogen peroxide -> oxygen bleach -> commercial cleaner -> steam -> chlorine bleach (last resort)",
+        "Vinegar only on SEALED grout; unsealed cement-based grout can be damaged by acids",
+        "Steel-wool and hard steel brushes damage tile + strip sealant",
+        "Chlorine bleach erodes grout with long-term use"
+      ],
+      "quotedSnippets": [
+        "If you've tried any or all of the above methods before you apply chlorine bleach, be sure to rinse the surface completely before proceeding with any chlorine bleach products. This is especially true of vinegar, because traces of vinegar mixed with bleach will emit a toxic gas into the air.",
+        "Baking soda alone works for unsealed surfaces",
+        "Vinegar should only be used on sealed grout"
+      ]
+    },
+    {
+      "name": "This Old House",
+      "tier": "tier2_editorial",
+      "url": "https://www.thisoldhouse.com/cleaning/how-to-clean-grout",
+      "keyClaims": [
+        "Escalation: mildest solution first -> commercial cleaners -> professional contractor",
+        "Do NOT use chlorine bleach on grout: discolors grout over time and causes deterioration",
+        "Acid-based cleaners unsafe for marble and limestone",
+        "Wait 24 hours after cleaning before applying sealer",
+        "Steam loosens dirt before chemical treatment but requires ventilation"
+      ],
+      "quotedSnippets": [
+        "Grout is a porous substance, and grout-filled joints can easily collect dirt.",
+        "Always begin with the mildest solution when you first start cleaning grout.",
+        "You should not use bleach to clean grout...it discolors grout over time.",
+        "Sealing grout is necessary for deep cleaning but not quite as important for lighter cleaning.",
+        "Clean your grout regularly and seal it after deep cleaning for sparkling tiles."
+      ]
+    },
+    {
+      "name": "Family Handyman",
+      "tier": "tier2_editorial",
+      "url": "https://www.familyhandyman.com/list/how-to-clean-grout-with-household-cleaning-products/",
+      "keyClaims": [
+        "Escalation: water + stiff brush -> 50/50 water + vinegar -> baking soda paste -> hydrogen peroxide -> heavy-duty bleach (last)",
+        "Metal-bristled brushes strip sealant, damage grout, scratch tile",
+        "Toxic-chemical handling requires ventilation"
+      ],
+      "quotedSnippets": [
+        "Avoid brushes with metal bristles since those could strip away any sealant, damage the grout and scratch the tile.",
+        "If plain water no longer keeps your grout clean, then it's time to add vinegar.",
+        "If you've tried all these solutions and still find yourself with unsightly grout, it's time to move to the next level.",
+        "Be sure that you handle any toxic chemicals with care and ventilate your workspace the best you can."
+      ]
+    },
+    {
+      "name": "Tile Council of North America (TCNA)",
+      "tier": "tier_primary",
+      "url": "https://tcnatile.com/resource-center/faq/cleaning-grout/",
+      "note": "TCNA is the trade body for US tile manufacturers + installers. Primary-source authority on tile/grout chemistry. NOT currently in data/trusted-sources.json tier_primary list; belongs there. Flagged for trusted-sources addition.",
+      "keyClaims": [
+        "Cement-based grout should be cleaned with ALKALINE cleaners (Spic and Span, Mr. Clean), NOT acidic",
+        "Acid cleaners dissolve cement in grout; grout manufacturers do NOT recommend acids; regrouting may be needed",
+        "Do NOT use oil or wax-based cleaners (Murphy's Oil Soap, Pine-Sol): residue builds in porous grout",
+        "Enzyme-based cleaners (laundry pre-soak type) are effective",
+        "Cementitious grout SHOULD be sealed; epoxy grout is virtually stain-proof without additional sealing"
+      ],
+      "quotedSnippets": [
+        "it is better to clean grout with an alkaline cleaner (Spic and Span, Mr. Clean, etc.) than an acid based cleaner.",
+        "do not clean with oil or wax based cleaners (Murphy's Oil soap, Pine Sol, etc.).",
+        "it is not recommended by the grout manufacturers – needing to regrout is sometimes the result."
+      ]
+    },
+    {
+      "name": "Consumer Reports",
+      "tier": "tier1_methodology",
+      "url": "https://www.consumerreports.org/home-garden/cleaning/best-grout-cleaners-a1155771157/",
+      "keyClaims": [
+        "CR tested 7 grout cleaners at home, following label instructions",
+        "Tested: performance + ease of use + odor + abrasiveness",
+        "Two tested products carry EPA Safer Choice labels",
+        "Full product rankings gated behind membership; summary-level signal accessible"
+      ],
+      "quotedSnippets": [
+        "We tried all the cleaners on the grout in our homes, following the instructions on the labels",
+        "A few months ago, I tried a grout cleaner I randomly plucked off the shelf at Home Depot, and it did next to nothing."
+      ]
+    },
+    {
+      "name": "IICRC Tip Sheet: Tile, Stone, and Grout",
+      "tier": "tier_primary",
+      "url": "https://iicrc.org/wp-content/uploads/2023/01/Tip-Sheet-Tile-Stone-and-Grout.pdf",
+      "note": "Primary-source consumer tip sheet from IICRC (industry certification body for cleaning + restoration). PDF binary not text-extractable via WebFetch — cited as URL-anchor for professional-credential authority but without inline quoted snippet. Hook should permit URL-only citation when source is authoritative PDF.",
+      "keyClaims": [
+        "IICRC S220 (not S100) is the hard-surface standard; S100 covers carpet/textile",
+        "Consumer tip sheet is general guidance; industry standards behind paywall"
+      ],
+      "quotedSnippets": []
+    }
+  ],
+  "contradictions": [
+    {
+      "topic": "Vinegar on grout",
+      "positions": "Bob Vila: allowed on SEALED grout only. TCNA: avoid acids — they dissolve cement. This Old House: acid-based unsafe for marble/limestone. Family Handyman: 50/50 water+vinegar listed as step 2.",
+      "editorialResolution": "Page will recommend AVOIDING routine vinegar use on grout. TCNA is the primary-source authority (industry trade body) and its guidance against acids outweighs the editorial tier-2 baseline. Vinegar moves to a 'what NOT to use' callout rather than a promoted step. Aligns with Safe Surface Desk warranty-first posture."
+    },
+    {
+      "topic": "Chlorine bleach",
+      "positions": "Bob Vila: last-resort-only. This Old House: DO NOT USE (erodes grout). Family Handyman: heavy-duty option with ventilation caveat.",
+      "editorialResolution": "Chlorine bleach moves to 'what NOT to use' callout, with a narrow exception: visible mold that survives oxygen bleach. TOH's direct prohibition combined with the grout-erosion mechanism justifies demoting it below oxygen bleach."
+    },
+    {
+      "topic": "pH for cement grout",
+      "positions": "TCNA: alkaline (explicit). CR + Bob Vila: mostly silent on pH. Stone-safe cleaners (Miracle Sealants): pH-neutral for natural stone.",
+      "editorialResolution": "Page angle: ALKALINE for cement grout, pH-NEUTRAL for natural-stone tile. Two-axis decision: grout chemistry vs surrounding-tile chemistry. This is the differentiator most how-to guides miss."
+    }
+  ],
+  "postAvailabilityNotes": "IICRC PDF not text-extractable — cited as URL-anchor with no inline quote. TCNA not in data/trusted-sources.json tier_primary; needs adding as a portfolio-level fix (same family of fix we'd recommend for future tile/grout pages on other sites)."
+}

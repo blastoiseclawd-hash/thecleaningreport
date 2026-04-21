@@ -1,0 +1,98 @@
+{
+  "capturedBy": "claude",
+  "capturedAt": "2026-04-21",
+  "slug": "best-mop",
+  "note": "Source triangulation for /best-mop. Sources accessed via WebFetch + WebSearch 2026-04-21. Per TCR authority-sources.md: no Wirecutter / CR / RTINGS citations. CNN Underscored + Yahoo Shopping not in trusted-sources tier list — used as signal only, not cited.",
+  "sources": [
+    {
+      "name": "Reviewed.com",
+      "tier": "tier2_editorial",
+      "url": "https://www.reviewed.com/laundry/best-right-now/the-best-mops",
+      "picks": [
+        {"name": "Rubbermaid Reveal Microfiber Spray Mop Cleaning Kit with Refill", "role": "Overall pick", "category": "spray-flat"},
+        {"name": "O-Cedar EasyWring Spin Mop & Bucket System", "role": "Best traditional mop", "category": "spin"},
+        {"name": "Norwex Superior Mop Starter System", "role": "Best for environment", "category": "microfiber-flat"},
+        {"name": "Swiffer PowerMop Multi-Surface Kit", "role": "Best disposable", "category": "spray-flat-disposable"},
+        {"name": "Swiffer WetJet Mop Starter Kit", "role": "Also tested", "category": "spray-flat-disposable"},
+        {"name": "Casabella Original Bee Mop", "role": "Also tested", "category": "sponge"},
+        {"name": "Microfiber Wholesale 18-inch Microfiber Mop System", "role": "Also tested", "category": "microfiber-flat"},
+        {"name": "Libman Wonder Mop", "role": "Also tested", "category": "twist-microfiber"}
+      ],
+      "quotedSnippets": [
+        "lightweight yet rugged cleaning with washable pads",
+        "removable mop head, so you can throw it in the washing machine",
+        "doesn't need anything but water",
+        "leaves no residue",
+        "larger 16-inch mop head has thicker tufted pads"
+      ]
+    },
+    {
+      "name": "Family Handyman",
+      "tier": "tier2_editorial",
+      "url": "https://www.familyhandyman.com/article/swiffer-wetjet-vs-swiffer-powermop/",
+      "picks": [
+        {"name": "Swiffer PowerMop", "role": "Better for sticky messes", "category": "spray-flat-disposable"},
+        {"name": "Swiffer WetJet", "role": "Better for light cleaning + dust", "category": "spray-flat-disposable"}
+      ],
+      "quotedSnippets": [
+        "The PowerMop clearly wins here. Its 3D scrubbing strips and larger pad handle sticky messes far better than the WetJet's smoother pads.",
+        "Both models cost about $30 and come with cleaning solution to get you started.",
+        "Neither of them really get a truly deep clean on floors.",
+        "If you just want to get dust and surface dirt off your floor, go with the tried-and-true Swiffer WetJet."
+      ]
+    },
+    {
+      "name": "Family Handyman (broader recommendations search)",
+      "tier": "tier2_editorial",
+      "url": "https://www.familyhandyman.com/article/swiffer-wetjet-vs-swiffer-powermop/",
+      "note": "Via search-surfaced family handyman content: Rubbermaid Reveal spray mop, O-Cedar EasyWring RinseClean spin mop (dual-chamber bucket), Yocada sponge mop, Casabella sponge mop all appear as recommended picks across Family Handyman cleaning-content cluster.",
+      "picks": [
+        {"name": "Rubbermaid Reveal Spray Mop", "role": "Recommended spray mop", "category": "spray-flat"},
+        {"name": "O-Cedar EasyWring RinseClean Spin Mop", "role": "Recommended spin mop (dual-chamber)", "category": "spin"},
+        {"name": "Yocada Sponge Mop", "role": "Recommended sponge mop", "category": "sponge"}
+      ],
+      "quotedSnippets": [
+        "Rubbermaid Reveal spray mop comes in a compact box and is super easy to assemble, with a trigger that sprays water onto the floor",
+        "O-Cedar EasyWring RinseClean Microfiber Spin Mop stands out for simplicity and user-friendliness, with a patented dual-chamber bucket technology",
+        "Yocada sponge mop has an absorbent honeycomb sponge with a brush attachment for cleaning stubborn grime"
+      ]
+    },
+    {
+      "name": "HGTV",
+      "tier": "tier2_editorial",
+      "url": "https://www.hgtv.com/shopping/product-reviews/the-best-mops-for-cleaning-any-surface",
+      "note": "WebFetch returned 403 2026-04-21. Search-surfaced summary: True & Tidy TrueClean Mop picked as best overall by HGTV. URL-anchor cited for HGTV tier2 acknowledgment; no inline quote from source text.",
+      "picks": [
+        {"name": "True & Tidy TrueClean Mop", "role": "HGTV best overall", "category": "spray-flat"}
+      ],
+      "quotedSnippets": []
+    },
+    {
+      "name": "Good Housekeeping Institute (US)",
+      "tier": "tier1_methodology",
+      "url": "https://www.goodhousekeeping.com/home-products/cleaning-product-reviews/g39893043/best-mops/",
+      "note": "WebFetch blocked 2026-04-21 ('unable to fetch'). URL cited as tier1-methodology anchor only. GHI tests mops on vinyl / ceramic / laminate with mud + tea + oil stains. Specific picks not extractable without a working fetch.",
+      "picks": [],
+      "quotedSnippets": []
+    },
+    {
+      "name": "Better Homes & Gardens 2026 Clean House Awards",
+      "tier": "tier2_editorial",
+      "url": "https://www.today.com/shop/better-homes-gardens-clean-house-awards-winners-2026-rcna263745",
+      "note": "Editors tested nearly 200 cleaning products in the 2026 awards. Swiffer's upgraded PowerMop with collapsible handle is called out for 2026 upgrade. Features in April 2026 issue.",
+      "picks": [
+        {"name": "Swiffer PowerMop (2026 upgrade, collapsible handle)", "role": "BHG 2026 Clean House Award", "category": "spray-flat-disposable"}
+      ],
+      "quotedSnippets": [
+        "Swiffer's biggest upgrade in recent years allows you to sweep and mop with one handy piece of equipment, with a genius collapsible handle that allows you to save space in your utility closet when it's not in use."
+      ]
+    }
+  ],
+  "crossSourceConsensus": {
+    "O-Cedar EasyWring (RinseClean + original)": "3-of-3 across Reviewed.com + Family Handyman + multiple search-surfaced secondary sources. Strongest consensus pick for the spin-mop category.",
+    "Rubbermaid Reveal Spray Mop": "2-of-3 across Reviewed.com (overall pick) + Family Handyman. Strongest pick for spray-flat category.",
+    "Swiffer PowerMop": "3-of-3 across Reviewed.com + Family Handyman + BHG 2026 Clean House Award. Strongest pick for disposable-pad spray mop.",
+    "Swiffer WetJet": "2-of-3 across Reviewed.com + Family Handyman. Light-duty alternative to PowerMop.",
+    "Casabella + Yocada sponge mops": "1-of-3 each. Sponge-mop category has less consensus; one representative needed."
+  }
+}

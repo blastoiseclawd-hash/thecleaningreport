@@ -630,6 +630,7 @@ If your search keyword is "best grout cleaner for pet urine," your best match ma
     ],
   },
   relatedLinks: [
+    { href: "/how-to-clean-grout", title: "How to Clean Grout Without Damaging the Tile or Sealant" },
     { href: "/best-hardwood-floor-cleaner", title: "Best Hardwood Floor Cleaners 2026: Warranty-Safe Picks" },
     { href: "/best-stainless-steel-cleaner", title: "Best Stainless Steel Cleaners 2026: Finish-Safe Picks" },
     { href: "/how-to-clean-hardwood-floors", title: "How to Clean Hardwood Floors (Without Voiding the Warranty)" },

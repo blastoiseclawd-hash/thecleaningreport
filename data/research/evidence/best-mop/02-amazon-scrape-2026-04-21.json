@@ -1,0 +1,118 @@
+{
+  "capturedBy": "claude",
+  "capturedAt": "2026-04-21",
+  "slug": "best-mop",
+  "scrapeMethod": "Playwright MCP browser_navigate + browser_evaluate on amazon.com (no CDP scraper — same pattern as /best-carpet-cleaner-machine 2026-04-20)",
+  "pivot": "Swiffer PowerMop Multi-Surface Kit (Final pick #3 in first-draft research doc) was not directly stocked by Amazon — only third-party refill pads show under the search. Swiffer WetJet Starter Kit likewise absent. P&G's Swiffer brand primarily sells via retail grocery / Walmart / Target rather than Amazon. Per research-doc pivot rules, dropped the disposable-pad category from the Final lineup entirely. Final = 4 picks covering 3 form factors (spray-flat reusable, spin-dual-chamber, sponge, twist-microfiber). A 'disposable-pad alternatives' callout in the when-not-to-buy section references the Swiffer family generically without a direct Amazon link.",
+  "products": [
+    {
+      "asin": "B003YHF4AC",
+      "slug": "rubbermaid-reveal-spray-mop",
+      "title": "Rubbermaid Reveal Spray Mop, Bundles: 1 Mop, 1 Multi-Surface Microfiber Pads, 1 Refillable Bottles (2856049)",
+      "brand": "Rubbermaid",
+      "model": "Reveal 2856049",
+      "category": "spray-flat-reusable",
+      "price": "$36.76",
+      "rating": "4.4 out of 5",
+      "reviewCount": "2,092",
+      "bullets": [
+        "Safe to use on all floor types including hardwood, vinyl, laminate and tile",
+        "Microfiber cleaning pad picks up 50% more dirt and dust per swipe than traditional mops",
+        "Non-scratch scrubber for stubborn spots",
+        "22 oz. refillable bottle allows you to mix your own solution"
+      ],
+      "images": [
+        "https://m.media-amazon.com/images/I/51zp+LwvPeL.jpg",
+        "https://m.media-amazon.com/images/I/31YLlXn70mL.jpg",
+        "https://m.media-amazon.com/images/I/31B1u0JkTCL.jpg",
+        "https://m.media-amazon.com/images/I/51eBLH6SVBL.jpg",
+        "https://m.media-amazon.com/images/I/51R5+Ql0ZfL.jpg"
+      ],
+      "affiliateUrl": "https://www.amazon.com/dp/B003YHF4AC?tag=thecleaningreport-20"
+    },
+    {
+      "asin": "B08ZB8PQR6",
+      "slug": "o-cedar-easywring-rinseclean-spin-mop",
+      "title": "O-Cedar EasyWring RinseClean Microfiber Spin Mop & Bucket Floor Cleaning System with 3 Extra Refills, Plastic, Grey",
+      "brand": "O-Cedar",
+      "model": "EasyWring RinseClean",
+      "category": "spin-dual-chamber",
+      "price": "$82.99",
+      "rating": "4.4 out of 5 stars",
+      "reviewCount": "62,298",
+      "bullets": [
+        "CLEAN WITH CLEAN WATER: Lets you clean your floors with clean water from start to finish. Never mop with dirty water again.",
+        "Removes dirt, grime and over 99% of bacteria with just water. Built-in foot pedal lets you spin the water out of your mop and into the bucket.",
+        "BIG COST SAVINGS: Save up to four times as much on your cleaning costs every year vs using the leading brand disposable spray mop.",
+        "MACHINE WASHABLE: RinseClean's Microfiber Mop Heads can be easily removed after mopping, and are machine washable and replaced after repeated use.",
+        "SAFE ON ALL HARD FLOORS: including finished hardwood, wood, laminate, tile, vinyl and more"
+      ],
+      "images": [
+        "https://m.media-amazon.com/images/I/91G1AddQrbL.jpg",
+        "https://m.media-amazon.com/images/I/51dmyOxtYqL.jpg",
+        "https://m.media-amazon.com/images/I/51tGSahcV-L.jpg",
+        "https://m.media-amazon.com/images/I/41Hy8onYlaL.jpg",
+        "https://m.media-amazon.com/images/I/41SV0Ze-ndL.jpg",
+        "https://m.media-amazon.com/images/I/41Q-5qJlptL.jpg",
+        "https://m.media-amazon.com/images/I/51pE6yiAORL.jpg"
+      ],
+      "affiliateUrl": "https://www.amazon.com/dp/B08ZB8PQR6?tag=thecleaningreport-20"
+    },
+    {
+      "asin": "B08225B4QF",
+      "slug": "yocada-sponge-mop",
+      "title": "Yocada Sponge Mop Home Commercial Use Tile Floor Bathroom Garage Cleaning Total 2 Sponge Heads NOT 3 Telescopic Handle Squeegee",
+      "brand": "Yocada",
+      "model": "Sponge Mop with Squeegee (2 heads)",
+      "category": "sponge-honeycomb",
+      "price": "$24.69",
+      "rating": "4.3 out of 5 stars",
+      "reviewCount": "8,384",
+      "bullets": [
+        "Honeycombed sponge design is more absorbent, easier to dry and stronger breathability",
+        "Adjustable iron pole: handle can be adjusted from 42.5 inch to 52 inch",
+        "Water squeegee helps clean dirt and water in an easier and faster way",
+        "Sponge section can be easily removed and installed for thorough cleaning or storage",
+        "Ships with 2 sponge heads in total (one installed, one spare)"
+      ],
+      "images": [
+        "https://m.media-amazon.com/images/I/71GeQ58vugL.jpg",
+        "https://m.media-amazon.com/images/I/41NYz1BnU5L.jpg",
+        "https://m.media-amazon.com/images/I/51vt5WJBt3L.jpg",
+        "https://m.media-amazon.com/images/I/41-mSFOtCHL.jpg",
+        "https://m.media-amazon.com/images/I/51NF+ytItyL.jpg",
+        "https://m.media-amazon.com/images/I/51XMRoD9RNL.jpg",
+        "https://m.media-amazon.com/images/I/413uHHWDLiL.jpg"
+      ],
+      "affiliateUrl": "https://www.amazon.com/dp/B08225B4QF?tag=thecleaningreport-20"
+    },
+    {
+      "asin": "B07DG9C33K",
+      "slug": "libman-wonder-mop-plus-3-refills",
+      "title": "Libman Wonder Mop Plus 3 Refills, Self-Wringing, Absorbent, Microfiber Floor Mop for Household Multi-Surface Cleaning, 3 Machine Washable Replacement Heads",
+      "brand": "Libman",
+      "model": "Wonder Mop (Plus 3 Refills)",
+      "category": "twist-microfiber-budget",
+      "price": "$16.99",
+      "rating": "4.7 out of 5 stars",
+      "reviewCount": "12,764",
+      "bullets": [
+        "DEEP CLEANING WONDER: Microfiber GripStrips lift up to 20% more dirt from floors than standard microfiber; highly absorbent.",
+        "SELF WRING MECHANISM: Built-in wringer squeezes out water, lets you control moisture level and avoid touching dirty water.",
+        "SAFE MULTI-SURFACE: Good on vinyl, linoleum, wood, laminate, marble, stone, and ceramic tile.",
+        "MACHINE WASHABLE MOP HEAD: Machine washable up to 50 times; hang or air dry; remove, wash, reinstall.",
+        "INCLUDES 3 REFILLS: Extra-strong steel handle with 62-inch reach."
+      ],
+      "images": [
+        "https://m.media-amazon.com/images/I/81phF0LCdlL.jpg",
+        "https://m.media-amazon.com/images/I/51qf1vyNi5L.jpg",
+        "https://m.media-amazon.com/images/I/51CDu9t5ngL.jpg",
+        "https://m.media-amazon.com/images/I/51UxiYYh7qL.jpg",
+        "https://m.media-amazon.com/images/I/51-XxbD+BFL.jpg",
+        "https://m.media-amazon.com/images/I/51JK3ZZNaHL.jpg",
+        "https://m.media-amazon.com/images/I/51OP8DFoWpL.jpg"
+      ],
+      "affiliateUrl": "https://www.amazon.com/dp/B07DG9C33K?tag=thecleaningreport-20"
+    }
+  ]
+}

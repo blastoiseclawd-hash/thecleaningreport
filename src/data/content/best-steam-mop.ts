@@ -659,6 +659,7 @@ You want one tool for both floor AND carpet deep cleaning. Steam mops are sealed
   relatedLinks: [
     { href: "/best-hardwood-floor-cleaner", title: "Best Hardwood Floor Cleaner (the safer alternative for engineered hardwood)" },
     { href: "/how-to-clean-hardwood-floors", title: "How to Clean Hardwood Floors (technique for warranty-protected finishes)" },
+    { href: "/how-to-clean-grout", title: "How to Clean Grout (mild-first restoration sequence that pairs with steam)" },
     { href: "/best-grout-cleaner", title: "Best Grout Cleaner (chemical alternative for heavy grout buildup)" },
     { href: "/best-cordless-vacuum", title: "Best Cordless Vacuum (the pre-mop sweep tool, unless you buy the Vac & Steam)" },
     { href: "/how-we-review", title: "How We Review (methodology + source policy)" },

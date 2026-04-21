@@ -83,8 +83,15 @@ export const siteConfig = {
 
   nav: {
     main: [
-      { label: "Best Robot Vacuums", href: "/best-robot-vacuum" },
-      { label: "Best Cordless Vacuums", href: "/best-cordless-vacuum" },
+      { label: "Robot Vacuums", href: "/best-robot-vacuum" },
+      { label: "Cordless Vacuums", href: "/best-cordless-vacuum" },
+      { label: "Handheld Vacuums", href: "/best-handheld-vacuum" },
+      { label: "Mops", href: "/best-mop" },
+      { label: "Steam Mops", href: "/best-steam-mop" },
+      { label: "Carpet Cleaners", href: "/best-carpet-cleaner-machine" },
+      { label: "Hardwood Cleaners", href: "/best-hardwood-floor-cleaner" },
+      { label: "Grout Cleaners", href: "/best-grout-cleaner" },
+      { label: "Stainless Cleaners", href: "/best-stainless-steel-cleaner" },
       { label: "About", href: "/about" },
     ] as Array<{ label: string; href: string }>,
     footer: [
