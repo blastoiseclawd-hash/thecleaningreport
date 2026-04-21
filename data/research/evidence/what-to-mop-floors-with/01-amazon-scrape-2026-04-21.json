@@ -1,0 +1,67 @@
+{
+  "searchQuery": "bona hardwood floor cleaner",
+  "searchUrl": "https://www.amazon.com/s?k=bona+hardwood+floor+cleaner",
+  "scrapedAt": "2026-04-21T10:41:42Z",
+  "method": "Playwright MCP mcp__playwright__browser_evaluate on s-search-result elements",
+  "results": [
+    {
+      "rank": 1,
+      "asin": "B000ARPVIY",
+      "title": "Bona Hardwood Floor Cleaner Refill (unscented)",
+      "price": 19.97,
+      "rating": 4.7,
+      "url": "https://www.amazon.com/Bona-Hardwood-Unscented-Residue-Free-Cleaning/dp/B000ARPVIY"
+    },
+    {
+      "rank": 2,
+      "asin": "B09QFHPPZD",
+      "title": "Tineco (machine, not a cleaning solution — filtered out)",
+      "price": 299.0,
+      "rating": 4.1,
+      "note": "Out of scope — product page for a vacuum/mop, not a cleaning solution"
+    },
+    {
+      "rank": 3,
+      "asin": "B07DNHFRQN",
+      "title": "Weiman Hardwood Floor Cleaner",
+      "price": 26.98,
+      "rating": 4.7,
+      "note": "Candidate for sealed-hardwood routing row"
+    },
+    {
+      "rank": 4,
+      "asin": "B00KS70ARS",
+      "title": "Rejuvenate Hardwood Floor Cleaner (or similar)",
+      "price": 21.88,
+      "rating": 4.6,
+      "note": "Candidate for sealed-hardwood routing row"
+    },
+    {
+      "rank": 5,
+      "asin": "B00CKXDHCS",
+      "title": "Rejuvenate (larger size or kit)",
+      "price": 52.98,
+      "rating": 4.6,
+      "note": "Variant of row 4"
+    },
+    {
+      "rank": 6,
+      "asin": "B0019BGM60",
+      "title": "Bona Hardwood Floor Cleaner Spray (ready-to-use)",
+      "price": 8.97,
+      "rating": 4.7,
+      "url": "https://www.amazon.com/Bona-Hardwood-Floor-Cleaner-Spray/dp/B0019BGM60"
+    }
+  ],
+  "gapsForNextSession": [
+    "Need review counts per ASIN (not captured in this quick scrape)",
+    "Need Bona Stone/Tile/Laminate ASIN (separate SKU)",
+    "Need Bona Pro Series / oil-soap-finished floor ASIN",
+    "Need Method Squirt+Mop Wood ASIN + pricing",
+    "Need Mrs Meyer's Multi-Surface Concentrate ASIN (for sealed tile)",
+    "Need Granite Gold / StoneTech Revitalizer ASIN (for natural stone)",
+    "Need Murphy Oil Soap ASIN (for the 'not on engineered' callout — don't feature as pick)",
+    "Need Armstrong Once 'n Done or alternative vinyl/LVT cleaner ASIN",
+    "Need Bona Power Plus Deep Cleaner ASIN (for heavy-soil use case)"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "sourceUrl": "https://woodfloors.org/maintenance/",
+  "sourceDomain": "woodfloors.org",
+  "sourceTier": "tier_primary (National Wood Flooring Association)",
+  "fetchedAt": "2026-04-21T10:37:00Z",
+  "method": "WebFetch",
+  "keyClaims": [
+    {
+      "claim": "Do not use wet mops or steam mops on wood floors",
+      "exactQuote": "Don't use wet mops or steam mops, which will damage the finish and the wood over long periods of time",
+      "usage": "Page's what-not-to-use block for hardwood + engineered-hardwood rows"
+    },
+    {
+      "claim": "Use a cleaner specifically formulated for the floor's finish",
+      "exactQuote": "Use a cleaner made specifically for the finish on the floor, which is something your flooring professional can provide or recommend",
+      "usage": "Anchors the 'buy a cleaner labeled for your finish' rule; supports the Bona recommendation since Bona is the most commonly recommended NWFA-compatible cleaner"
+    },
+    {
+      "claim": "Routine cleaning = sweeping, dust mopping, or vacuuming on bare-floor setting",
+      "exactQuote": "sweeping, dust mopping, or vacuuming using the bare floor setting",
+      "usage": "Cadence anchor for the maintenance routine section"
+    },
+    {
+      "claim": "Spills should be cleaned with a dry or slightly damp cloth immediately",
+      "exactQuote": "Clean spills immediately with a dry or slightly damp cloth",
+      "usage": "Spill-response routing"
+    }
+  ],
+  "notes": "Primary-source authority for hardwood care guidance. Used as anchor for page's do-not-use (steam, wet mop) and finish-specific-cleaner callouts. Does NOT name specific brand products (directs to flooring professionals for specific brand recommendation) — we pair this with Bona's manufacturer pages for brand-specific guidance."
+}

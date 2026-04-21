@@ -9,12 +9,12 @@
 
 | Status | Count |
 |--------|-------|
-| LIVE | 8 |
+| LIVE | 10 |
 | CONTENT READY | 0 |
 | IN PROGRESS | 0 |
-| NOT BUILT | 342 |
-| SKIP | 47 |
-| **Total** | **397** |
+| NOT BUILT | 340 |
+| SKIP | 45 |
+| **Total** | **395** |
 
 ## Coverage + Freshness
 
@@ -23,8 +23,8 @@
 | Active ordered backlog | 350 |
 | Target range | 300-350 |
 | Coverage gap to minimum | 0 |
-| Near-term oldest evidence age (days) | 18 |
-| Overall oldest evidence age (days) | 1039 |
+| Near-term oldest evidence age (days) | 42 |
+| Overall oldest evidence age (days) | 111 |
 | Freshness threshold (existing sites) | 120 |
 | Near-term stale rows | 0/20 |
 | Refresh required | No |
@@ -33,460 +33,210 @@
 
 | Slug | Reason |
 |------|--------|
-| what-to-mop-floors-with | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| are-robot-vacuums-worth-it | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-steam-mop-for-laminate-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| carpet-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-for-wood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-hardwood-floor-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| steam-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robot-vacuum-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-is-a-steam-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-for-vinyl-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| swiffer-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| dyson-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robot-vacuum-black-friday | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| self-emptying-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-budget-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-pet-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| grout-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-handheld-steam-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-for-carpet | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-grout-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-and-mop-combo | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-floor-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-to-clean-stainless-steel-pans | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mops-for-tile-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-and-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-to-clean-stainless-steel-with | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| mop-bucket-with-wringer | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-for-dog-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-shark-cordless-stick-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| bissell-vs-hoover-carpet-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-stick-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-spot-carpet-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-under-300 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| handheld-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-for-laminate-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-for-lvp-flooring | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-is-the-most-powerful-handheld-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| diy-carpet-cleaner-solution | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robot-vacuum-names | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| stick-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-floor-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-steam-mop-for-vinyl-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-grout-cleaner-for-shower | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| natural-carpet-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-vacuum-and-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-to-clean-vinyl-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-under-200 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| dyson-stick-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| wet-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-vacuum-combo | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-budget-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-handheld-vacuum-for-pet-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-rental-carpet-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-mop-combo | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-on-the-market | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| mop-sauce-for-ribs | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robot-vacuum-for-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| corded-vs-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-laminate-floor-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-to-mop-tile-floors-with | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-for-pets | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| laminate-floor-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robot-vacuum-for-pet-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| stainless-steel-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robot-vacuum-for-high-pile-carpet | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| is-roomba-the-best-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robot-vacuum-for-carpet | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-for-concrete-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| eufy-vs-shark-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-are-the-best-cordless-vacuum-cleaners | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-pet-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-spray-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| roborock-vs-eufy | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-brand | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-dyson-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| steam-mop-vs-regular-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| mop-for-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-for-vinyl-plank-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| swiffer-power-mop-vs-wet-jet | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| irobot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| quietest-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| wall-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-to-best-clean-grout | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-to-clean-stainless-steel-sink | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-product-to-clean-engineered-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-to-wash-o-cedar-mop-head | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-for-tile-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-handheld-vacuum-sealer-for-food | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-handheld-vacuum-for-stairs | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-handheld-vacuum-sealer | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| spin-mop-and-bucket-set | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| most-powerful-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-and-mop-under-200 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-under-200 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-floor-cleaner-liquid-for-mopping | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| commercial-mop-bucket | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-rental-carpet-cleaner-machine | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-steam-carpet-cleaner-machine | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-cleaner-with-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-to-mop-hardwood-floors-with | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robot-mop-and-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| vacuum-and-mop-robot | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-carpet-cleaner-machine-for-dog-urine | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-electric-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-wall-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| black-friday-robot-vacuum-deals | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-upholstery-cleaner-machine | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-long-battery-life | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | carolina-mopping-sauce | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-quiet | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-tile-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-stainless-steel-cleaner-polish | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | floor-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-stick-vacuum-under-200 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-under-100 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-for-home | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-under-500 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-at-walmart | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-that-separates-dirty-water | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-with-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-to-clean-laminate-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| cheap-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-stick-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-black-friday-robot-vacuum-deals | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | black-friday-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-for-luxury-vinyl-plank | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-wet-mop-for-laminate-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| compare-best-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-not-dyson | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-grout-cleaner-for-pet-urine | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-stainless-steel-cleaner-for-fridge | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-under-500 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-for-marble | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-for-urine-stains | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-handheld-pool-vacuum-for-inground-pool | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-soap-for-laminate-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-and-mop-under-500 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-for-german-shepherd-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-mop-combo-for-pets | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-mop-under-400 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-under-1000 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-under-400 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-without-mop-for-pet-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robot-vacuum-without-wifi | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-malaysia | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-with-removable-battery | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-and-mop-australia | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-and-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-on-market | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-with-scrubber | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| norwex-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robot-vs-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-carpet-cleaner-product-without-machine | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | bissell-powerfresh-pet-steam-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-soap-for-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-to-best-mop-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-are-the-10-best-cordless-vacuum-cleaners | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-best-mop-for-tile-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-is-best-cordless-vacuum-to-buy | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-mop-is-the-best | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-without-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-tineco-vacuum-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-black-friday | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-spray-mop-for-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-for-cleaning-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-prime-day-robot-vacuum-deals | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-pet-hair-self-emptying | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-shark-handheld-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-to-clean-floor-without-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | longest-lasting-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-for-grease | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-cordless-vacuum-cleaner-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-homemade-grout-cleaner-without-bleach | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-classes | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-and-mop-in-india | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-obstacle-avoidance | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-of | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-only-no-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-with-roller-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-cheap | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-xiaomi-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| the-best-mop-and-vacuum-combo | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| the-best-robot-vacuum-and-mop-combo | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-wet-mop-for-tile-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-cleaner-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-to-mop-lvp-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-long-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-multi-purpose | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-to-clean-mop-head | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-carpet-cleaner-machine-for-car-detailing | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-for-kitchen-counter | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-grout-cleaner-for-porcelain-tile | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-for-everyday-use | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-australia | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-steam-mop-on-the-market | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | microfiber-mop-for-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | the-best-steam-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-to-deep-clean-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | where-to-buy-a-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-carpet-cleaner-machine-for-berber-carpet | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| commercial-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-handheld-vacuum-black-and-decker | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-cleaner-for-pet-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-kitchen-mop-for-tile | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-and-mop-for-pets | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | which-best-handheld-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-for-kitchen-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-steam-mop-walmart | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-2-in-1-steam-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-alternative-to-dyson | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-besides-dyson | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | vacuum-mop-for-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | carpet-cleaner-for-fleas | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-small-spaces | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | black-diamond-grout-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| concrete-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-grout-cleaner-machine | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-is-best-stainless-steel-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cheap-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-for-golden-retriever-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-to-clean-stainless-steel-stove-top | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | orfeld-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-mop-for-tile-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-mop-for-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | i-robot-vacuum-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-budget-friendly-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-stick-vacuum-for-dog-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | power-mop-for-laminate-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-for-allergies | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-carpet-and-tile | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-dark-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-multiple-surfaces | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-sand | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robot-vacuum-that-can-go-over-threshold | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| the-best-cordless-vacuum-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | mops-for-dog-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robot-vacuum-for-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-vinyl-floor-cleaner-machine | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-lightweight-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | garage-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-cleaner-for-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-to-clean-stainless-appliances | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-self-empty | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-hybrid-robot-vacuum-and-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-i-robot-vacuum-and-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-quiet-robot-vacuum-for-pet-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-litter | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-long-dog-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-mopping | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-pet-owners | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-roomba-mop-and-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-stick-vacuum-under-100 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | robot-vacuum-and-mop-best | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-electric-floor-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | homemade-mopping-solution | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| mop-vs-swiffer | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-seller-buture-vac01-cordless-vacuum-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | 10-best-robot-vacuums | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-ai-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-cleaner-review | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-with-wall-mount-charger | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-multi-surface-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-quietest-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-amazon | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-that-maps-house | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-for-rubber-gym-floor | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| garage-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-for-high-thresholds | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | floor-cleaner-for-robot-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-dust-mop-for-pet-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-microfiber-mop-for-vinyl-plank-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-for-bamboo-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-for-epoxy-floor | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-for-pets | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| mop-basement-floor | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mops-for-apartments | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-for-textured-tile-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-head-for-waxing-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-only | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-smelling-floor-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-way-to-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | o-cedar-spin-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robot-vacuum-deals | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-stick-vacuum-with-removable-battery | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | ceiling-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-for-dog-hair-on-hardwood | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-vacuum-robot-combo | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | non-toxic-stainless-steel-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-quality-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-large-house | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-multiple-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-navigation | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-that-mops | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-self-cleaning-robot-vacuum-and-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-floor-cleaner-for-tile-and-grout | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | robot-vacuum-with-self-empty | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | ultimate-grout-cleaner-best-grout-cleaner-for-tile-grout | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-for-seniors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-for-garage | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-for-laminate-wood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-bar-mop-towels | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-dyson-cordless-vacuum-for-carpet-and-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-flat-mop-system | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-small-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-heads | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-price-on-a-dyson-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-for-two-story-house | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-for-rugs | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-shark-pet-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-time-to-buy-a-dyson-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-time-to-buy-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-for-tile-with-grout | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-no-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-on-a-budget | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-rugs-for-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-for-elderly | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-homemade-stainless-steel-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-for-dog-pee | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-under-100 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-sponge-mops | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-budget-handheld-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-dust-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-under-100 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-for-pet-hair-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-dust-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-roborock-vacuum-and-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-electric-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| spray-mop-vs-steam-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-under-300 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-vacuum-mop-for-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-to-avoid-pet-waste | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-battery-life | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | tineco-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-bissell | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-dyson-alternative | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-dyson-or-shark | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-other-than-dyson | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-shark-or-dyson | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-that-is-not-a-dyson | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-for-lvp-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-and-handheld-steamer | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-steam-mop-bissell | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-canada | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-in-india | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-in-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-reviews-australia | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-steam-mop-to-buy | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| roborock-best-mop-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | steam-mop-best-price | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| the-best-steam-mop-to-buy | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-shark-handheld-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-black-friday | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-commercial-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | lidar-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-carpet-cleaner-for-little-green-machine | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-carpet-cleaner-for-vax-machine | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-carpet-cleaner-machine-for-dog-pee | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-carpet-cleaner-machine-for-dogs | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-carpet-cleaner-machine-for-high-traffic-areas | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-carpet-cleaner-machine-for-home-use | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-carpet-cleaner-machine-for-old-pet-urine | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-carpet-cleaner-machine-for-old-stains | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-carpet-cleaner-machine-for-pet-urine-smell | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-carpet-cleaner-machine-for-rent | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-carpet-cleaner-machine-for-stains | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-carpet-cleaner-machine-for-wool-rugs | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-carpet-cleaner-machine-under-100 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-handheld-vacuum-under-50 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-stick-vacuum-under-400 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-stick-vacuum-under-500 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-and-mop-for-pet-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-cleaner-under-300 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-cleaners-for-carpets | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-for-carpet | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-for-everyday-use | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-for-pets | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-for-the-elderly | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-for-the-money | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-for-your-car | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-for-your-money | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-tile-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-uk-for-pet-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-under-350 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-under-80 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-under-300-euro | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-under-300-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-under-50 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-value-for-money | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-for-bathrooms | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-grout-cleaner-for-black-grout | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-for-ceramic-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-for-dark-grout | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-for-hard-water | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-for-hard-water-stains | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-grout-cleaner-for-kitchen-backsplash | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-grout-cleaner-for-kitchen-tile-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-for-mold-and-mildew | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-grout-cleaner-for-shower-floor | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-for-yellow-grout | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-machine-for-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-machine-for-tile-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-and-blower-for-car | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-handheld-vacuum-budget | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-handheld-vacuum-for-cars | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-for-pets | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-handheld-vacuum-for-your-car | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-under-30 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-wet-and-dry | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-kitchen-mop-for-wood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-for-wooden-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-head-for-concrete-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-head-for-laminate-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-liquid-for-vinyl-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-machine-for-tile-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-mixture-for-laminate-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-under-1000 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-water-for-laminate-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-water-for-vinyl-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-and-mop-value-for-money | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-mop-under-600 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-mop-under-800 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-steam-mop-on-a-budget | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-under-200 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | cheap-and-best-cordless-vacuum-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | reviews-for-best-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | the-best-carpet-cleaner-machine-for-home | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| the-best-cordless-vacuum-for-car | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| the-best-cordless-vacuum-for-dog-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | the-best-cordless-vacuum-for-pets | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| the-best-grout-cleaner-for-ceramic-tile | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | the-best-grout-cleaner-for-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | the-best-mop-for-cleaning-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-cleaner-india | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-spray-mop-for-laminate-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-2-in-1-cordless-stick-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-carpet-cleaner-machine-professional | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-good-housekeeping | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-floor-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-corded | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-overall | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-handheld-vacuum-plug-in | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-handheld-vacuum-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-brand | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-of | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | the-best-grout-cleaner-on-the-market | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -494,8 +244,6 @@
 | best-3-in-1-steam-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-appliance-stainless-steel-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-bbq-stainless-steel-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-black-stainless-steel-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-brushed-stainless-steel-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-and-mop-for-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-hardwood-floors-pet-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -503,8 +251,6 @@
 | best-household-stainless-steel-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-marine-stainless-steel-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-pads-for-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-quality-steam-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-uk-with-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-scrub-and-steam-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-stainless-steel-cleaner-amazon | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-stainless-steel-cleaner-australia | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -512,8 +258,6 @@
 | best-stainless-steel-cleaner-diy | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-stainless-steel-cleaner-for-bosch-appliances | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-stainless-steel-cleaner-for-elevator-doors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-stainless-steel-cleaner-for-elevators | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-stainless-steel-cleaner-for-fingerprints | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-stainless-steel-cleaner-for-outdoor-grills | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-stainless-steel-cleaner-for-stove-top | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-stainless-steel-cleaner-for-sub-zero | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -521,8 +265,6 @@
 | best-stainless-steel-cleaner-for-weber-grill | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-stainless-steel-cleaner-home-depot | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-stainless-steel-cleaner-polisher | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-stainless-steel-cleaner-recipe | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-stainless-steel-cleaner-walmart | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-stainless-steel-cleaner-wipes | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-and-scrubber | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-and-vacuum-in-one | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -530,8 +272,6 @@
 | best-steam-mop-australia-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-carpet | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-choice | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-steam-mop-cleaner-for-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-steam-mop-cleaning-solution | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-combo | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-costco | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-detergent | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -539,8 +279,6 @@
 | best-steam-mop-for-karndean-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-for-tile | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-for-wood-floor | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-steam-mop-for-wood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-steam-mop-good-guys | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-good-housekeeping | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-hardwood | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-harvey-norman | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -548,8 +286,6 @@
 | best-steam-mop-ireland | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-laminate | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-linoleum-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-steam-mop-malaysia | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-steam-mop-new-zealand | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-nz | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-nz-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-reviews-nz | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -557,8 +293,6 @@
 | best-steam-mop-singapore | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-tile-floor | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-to-clean-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-steam-mop-to-clean-tile-floors-and-grout | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-steam-mop-to-get | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-uae | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-uk-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -566,9 +300,6 @@
 | best-steam-mop-with-detachable-handheld | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-with-grout-attachment | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-with-handheld-attachment | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-steam-mop-wooden-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| cordless-vacuum-vs-corded | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| steam-best-mop-for-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | the-best-robot-vacuum-with-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | the-best-steam-mop-for-vinyl-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | the-best-steam-mop-for-wood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -576,9 +307,6 @@
 | the-best-steam-mop-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | which-best-buy-steam-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | which-best-steam-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| which-best-steam-mop-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| which-steam-mop-is-the-best-to-buy | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| hoover-vs-bissell-carpet-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-3-in-1-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-3-in-1-mop-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-bathroom-grout-cleaner-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -586,8 +314,6 @@
 | best-carpet-cleaner-machine-australia | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-carpet-cleaner-machine-canada | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-carpet-cleaner-machine-commercial | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-carpet-cleaner-machine-nz | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-carpet-cleaner-machine-pets | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-carpet-cleaner-machine-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-carpet-cleaner-machine-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-class-mop-5-4-8 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -595,8 +321,6 @@
 | best-cordless-vacuum-and-mop-combo | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-and-mop-in-one | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-at-costco | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-at-target | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-battery | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-blower | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-bosch | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-cnet | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -604,8 +328,6 @@
 | best-cordless-vacuum-costco | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-deals-right-now | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-deals-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-dewalt-or-milwaukee | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-europe | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-guide | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-hepa | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -613,8 +335,6 @@
 | best-cordless-vacuum-home-depot | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-hoover | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-in | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-in-australia | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-in-canada | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-in-malaysia | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-in-the-world | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-india | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -622,8 +342,6 @@
 | best-cordless-vacuum-lg | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-mop-combo-australia | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-mops | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-multi-surface | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-no-hair-tangle | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-no-hair-wrap | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-nz-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -631,8 +349,6 @@
 | best-cordless-vacuum-on-amazon | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-on-prime-day | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-on-temu | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-on-the-market-today | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-on-the-market | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-overall | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-pet-hair-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-philippines | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -640,8 +356,6 @@
 | best-cordless-vacuum-powerful-suction | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-project-farm | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-pump | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-pump-hvac | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-removable-battery | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-reviews-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-rtings | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-samsung | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -649,8 +363,6 @@
 | best-cordless-vacuum-small-apartment | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-south-africa | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-strong-suction | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-target | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-techradar | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-that-stands-on-its-own | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-to-buy | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-travel-bags | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -658,8 +370,6 @@
 | best-cordless-vacuum-under-150-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-vacuum-wars | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-value | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-vax | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-xiaomi | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-you-can-buy | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-youtube | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-do-it-yourself-carpet-cleaner-machine | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -667,8 +377,6 @@
 | best-enzyme-grout-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-floor-grout-cleaner-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-bunnings | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-grout-cleaner-ace-hardware | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-grout-cleaner-amazon | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-and-whitener | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-australia | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-bathroom | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -676,8 +384,6 @@
 | best-grout-cleaner-floor-tiles | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-home-depot | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-in-australia | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-grout-cleaner-ireland | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-grout-cleaner-kitchen-floor | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-lowes | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-nz | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-on-the-market | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -685,8 +391,6 @@
 | best-grout-cleaner-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-singapore | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-solution | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-grout-cleaner-south-africa | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-grout-cleaner-spray | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-to-buy | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-to-use | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-walmart | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -694,8 +398,6 @@
 | best-grout-cleaner-without-scrubbing | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-woolworths | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-battery-operated-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-handheld-leaf-vacuum-mulcher | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-handheld-pool-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-and-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-and-mop-combo | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-at-walmart | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -703,8 +405,6 @@
 | best-handheld-vacuum-bag-sealer | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-canada | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-cleaner-suction-power | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-handheld-vacuum-cleaners | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-handheld-vacuum-cnet | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-cordless | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-dustbuster | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-duster | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -712,8 +412,6 @@
 | best-handheld-vacuum-good-housekeeping | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-hepa-filter | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-india | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-handheld-vacuum-ireland | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-handheld-vacuum-kitty-litter | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-long-battery-life | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-nz | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-on-the-market | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -721,8 +419,6 @@
 | best-handheld-vacuum-powerful | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-replaceable-battery | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-handheld-vacuum-reviews-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-handheld-vacuum-rtings | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-sealer-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-singapore | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-small | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -730,8 +426,6 @@
 | best-handheld-vacuum-target | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-to-buy | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-to-clean-car | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-handheld-vacuum-to-keep-in-car | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-handheld-vacuum-to-pick-up-dog-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-uk-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-under-50-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-with-charging-dock | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -739,8 +433,6 @@
 | best-handheld-vacuum-with-extension | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-with-extension-wand | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-with-motorized-brush | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-homemade-grout-cleaner-recipe | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-homemade-grout-cleaner-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-homemade-grout-cleaner-with-dawn | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-in-home-carpet-cleaner-machine | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-inexpensive-carpet-cleaner-machine | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -748,8 +440,6 @@
 | best-kitchen-mop-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mini-carpet-cleaner-machine | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-10-man-comp | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-2s-comps | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-and-vacuum-robot | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-brand-in-india | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-bucket-set | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-bucket-set-in-india | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -757,8 +447,6 @@
 | best-mop-bunnings | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-design | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-easy-to-use | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-gold-farm | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-holder-wall-mount | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-hunter-pets | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-in | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-in-australia | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -766,8 +454,6 @@
 | best-mop-in-pakistan | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-in-singapore | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-in-the-market | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-kitchen-floor | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-mage-spec | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-malaysia | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-monk-race | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-near-me | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -775,8 +461,6 @@
 | best-mop-online | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-options | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-out-there | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-pets-wow | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-philippines | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-products | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-refill | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-replacement | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -784,8 +468,6 @@
 | best-mop-robot-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-robot-india | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-sweeper | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-to-get | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-to-use | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-uk-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -793,8 +475,6 @@
 | best-mop-walmart | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-when-you-have-dogs | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-with-separate-clean-and-dirty-water | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-with-spin-bucket | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-with-sprayer | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-without-bucket | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-o-cedar-mop-head | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-pvp-class-mop-5-4-8 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -802,8 +482,6 @@
 | best-quality-mop-bucket | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-quality-mop-in-india | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-quality-mop-stick | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-and-mop-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-and-mop-in-australia | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-mop-value | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-not-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-pet-hair-no-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -811,8 +489,6 @@
 | best-stick-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-tank-mop-5-4-8 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-tile-and-grout-cleaner-near-me | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-tile-grout-cleaner-diy | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-tile-grout-cleaner-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-value-cordless-vacuum-australia | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-value-cordless-vacuum-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-xiaomi-cordless-vacuum-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -820,8 +496,6 @@
 | cnet-best-cordless-stick-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | cnet-best-robot-vacuum-and-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | mop-best-1v1-class | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robotic-best-mop-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| stick-best-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | the-best-carpet-cleaner-machine-to-buy | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | the-best-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | the-best-cordless-vacuum-cleaner-malaysia | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -829,8 +503,6 @@
 | the-best-cordless-vacuum-cleaner-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | the-best-cordless-vacuum-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | the-best-handheld-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| the-best-handheld-vacuum-cleaner-to-buy | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| the-best-mop-and-bucket-set | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | the-best-mop-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | the-best-mop-robot | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | the-best-mop-to-clean-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -838,8 +510,6 @@
 | the-best-robot-vacuum-and-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | the-best-robot-vacuum-and-mop-australia | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | top-5-best-handheld-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| top-best-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| very-best-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | what-s-best-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | which-best-buy-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | which-best-buy-handheld-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -847,68 +517,27 @@
 | which-best-cordless-vacuum-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | which-best-cordless-vacuum-cleaner-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | which-best-robot-vacuum-and-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| which-carpet-cleaner-machine-is-best | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| which-magazine-best-cordless-vacuum-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-upright-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-to-choose-best-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-robot-vacuum-handles-rough-surfaces-best | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-robot-vacuum-has-the-best-mapping | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
+| best-robot-vacuum-and-mop-for-pets | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-handheld-pool-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-machine | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| is-a-spray-mop-or-steam-mop-better | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-cordless-vacuum-has-the-best-suction | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-the-best-cordless-vacuum-to-buy | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-commercial-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-and-mop-for-pets | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-handheld-vacuum-has-the-best-suction | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-mop-for-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| dyson-cordless-vacuum-vs-corded | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| hoover-cleanslate-portable-carpet-cleaner-vs-bissell-little-green | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-robot-vacuums-work-with-5g | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-robot-vacuums-work-with-google-home | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-robot-vacuums-work-with-homekit | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| easy-to-use-mop-for-seniors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mopping-solution | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-comparison | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-mop-comparison | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | the-best-cordless-vacuum-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-way-to-clean-a-mop-head | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-carpet-cleaner-hoover-vs-bissell | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| bissell-vs-hoover-carpet-cleaner-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| corded-vs-cordless-vacuum-dyson | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| eufy-vs-shark-robot-vacuum-for-pet-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| eufy-vs-shark-robot-vacuum-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| cordless-vs-corded-stick-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
+| robot-vacuum-with-hepa-filter | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-o-cedar-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-is-a-good-mop-to-buy | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-is-best-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-dyson-mop-attachment | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | robot-vacuum-lidar | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-wet-mop-for-pet-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| is-bissell-or-hoover-carpet-cleaner-better | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| is-bissell-or-hoover-steam-cleaner-better | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| is-dyson-best-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| is-dyson-v15-the-best-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| is-eufy-or-shark-robot-vacuum-better | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robot-vacuum-with-mapping | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-shark-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-eufy-robot-vacuum-and-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-roborock-mop-and-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-roborock-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-roborock-vacuum-without-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-pet-hair-on-carpet | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| hoover-portable-carpet-cleaner-vs-bissell | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| hoover-smartwash-carpet-cleaner-vs-bissell-proheat-2x | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-stick-vacuum-for-stairs | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-cleaner-for-tile-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-handheld-vacuum-for-stairs-carpet | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-is-best-shark-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-is-dyson-s-best-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-is-shark-s-best-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-is-sharks-best-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | affordable-best-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-affordable-robot-vacuum-and-mop-combo | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-brand-robot-vacuum-for-wood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -916,8 +545,6 @@
 | best-budget-robot-vacuum-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-budget-robot-vacuum-for-small-spaces | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-budget-robot-vacuum-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-budget-robot-vacuum-mop-combo | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-budget-robot-vacuum-review | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-budget-robot-vacuum-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-budget-robot-vacuum-with-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cheap-robot-vacuum-and-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -925,8 +552,6 @@
 | best-compact-robot-vacuum-for-apartments | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | dirt-devil-handheld-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | dust-mop-spray-for-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-dustbuster-handheld-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-floor-cleaner-for-ceramic-tiles-with-grout | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-home-robot-vacuum-for-low-light | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | dust-mop-for-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-for-lvp-with-grooves | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -934,8 +559,6 @@
 | best-mop-soap-for-tile-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-solution-for-dog-urine-on-tile-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-vacuum-combo-for-pets | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-race-for-monk-mop-classic | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-rated-robot-vacuum-for-large-spaces | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-and-mop-affordable | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-and-mop-combo-for-tile-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-and-mop-for-small-apartment | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -943,8 +566,6 @@
 | best-robot-vacuum-cleaner-for-small-living-spaces | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-cleaner-for-tile-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-cleaner-for-wood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-cleaners-for-pet-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-for-a-small-apartment | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-avoiding-obstacles | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-big-houses | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-carpets | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -952,8 +573,6 @@
 | best-robot-vacuum-for-cleaning-large-homes | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-dark-carpet | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-dark-rooms | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-for-dust-mites | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-for-edges-and-corners | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-large-homes | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-limited-space | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-mapping | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -961,8 +580,6 @@
 | best-robot-vacuum-for-multiple-floor-types | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-pet-hair-no-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-pet-hair-on-carpets | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-for-pet-hair-review | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-for-pet-hair-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-small-apartment | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-small-home | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-smart-home | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -970,37 +587,20 @@
 | best-robot-vacuum-for-suction | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-suction-power | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-thick-carpets | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-for-tiny-apartments | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-mop-for-pet-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-mop-for-pets | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-mop-under-300 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-mop-under-500 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-under-200-euros | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-under-300-euros | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-with-mop-under-300 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| corded-vs-cordless-vacuum-suction-power | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | robot-vacuum-best-for-small-apartments | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| which-robot-vacuum-is-best-for-carpet-cleaning | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| which-robot-vacuum-is-best-for-cat-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | which-robot-vacuum-is-best-for-large-homes | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| is-a-steam-mop-best-for-tile-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| is-corded-or-cordless-vacuum-better | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| is-hot-mop-the-best-shower-pan | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| is-it-best-compact-cordless-vacuum-for-apartments | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| is-it-best-handheld-vacuum-for-car-interiors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| is-it-best-handheld-vacuum-for-pet-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| is-it-best-handheld-vacuum-for-upholstery | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| is-it-best-home-appliance-robot-vacuum-with-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| is-it-best-to-mop-with-hot-water | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-bissell-cordless-stick-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-bissell-steam-mop-for-tile-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-for-hardwoods | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-dyson-cordless-vacuum-for-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-dyson-stick-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-laminate-steam-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-powered-mop-for-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-rated-stick-vacuum-cordless | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robot-vacuum-with-hepa-filter | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-with-pets | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-shark-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-for-stone-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -1008,8 +608,6 @@
 | best-steam-mop-with-detachable-steamer | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | steam-mop-best-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-mop-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-vacuum-mop-robot | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| 2-in-1-steam-mop-and-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-stick-vacuum-for-long-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-stick-vacuum-on-a-budget | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-cleaner-for-elderly | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -1017,8 +615,6 @@
 | best-cordless-vacuum-for-dorm | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-floor-sweeper-and-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-dog-hair-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-handheld-vacuum-for-bed | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-handheld-vacuum-for-long-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-home-appliance-robot-vacuum-with-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-for-floating-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-for-wet-room-floor | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -1026,101 +622,20 @@
 | best-prime-day-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-mop-combo-for-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-with-mapping-and-self-empty | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-with-mopping-feature | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-vacuum-mop-for-carpet-and-hard-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| do-it-best-sponge-mop-refill | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | handheld-best-vacuum-for-pet-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-best-to-mop-wooden-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-to-best-mop-a-wooden-floor | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-to-best-mop-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-to-best-mop-laminate-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-to-best-mop-lvp | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-to-best-mop-vinyl-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-to-choose-the-best-cordless-vacuum-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-to-choose-the-best-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-to-make-the-best-mop-water | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-to-use-best-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | steam-mop-top-rated | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-are-the-best-cordless-vacuum-cleaners-to-buy | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-are-the-best-stainless-steel-cleaners | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-best-mop-to-buy | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-best-stainless-steel-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-brand-is-the-best-cordless-vacuum-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-brand-is-the-best-robot-vacuum-and-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-cordless-stick-vacuum-has-best-suction | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-cordless-stick-vacuum-has-the-best-suction | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-cordless-vacuum-has-the-best-rating | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-cordless-vacuum-is-best | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-handheld-vacuum-has-the-best-suction-power | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-is-best-carpet-cleaner-machine | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-is-best-cordless-vacuum-for-pet-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-is-best-handheld-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-is-best-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-is-best-mop-to-buy | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-is-best-to-mop-with | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-is-best-to-use-to-mop-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-is-best-to-use-to-mop-laminate-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-is-best-to-use-to-mop-tile-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-is-considered-the-best-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-is-rhe-best-robo-mop-and-vaccum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-is-the-absolute-best-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-is-the-cheapest-and-best-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-is-the-most-popular-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-is-the-strongest-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-is-the-very-best-stainless-steel-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-is-the-very-best-steam-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-kind-of-mop-cleans-the-best | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-mop-is-best | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-mop-is-best-to-clean-tile-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-o-cedar-mop-is-best | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-robot-vacuum-mop-is-the-best | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-steam-mop-is-rated-the-best | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-swiffer-mop-is-the-best | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-the-best-steam-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-vacuum-mop-is-the-best | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-was-the-best-class-in-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-was-the-best-dps-in-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-were-the-best-classes-in-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| when-are-the-best-robot-vacuum-deals | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| when-is-the-best-time-to-buy-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | steam-cleaner-handheld | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| is-carpet-cleaning-hard-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-buy-cordless-stick-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | o-cedar-mop-solution | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-vs-dyson | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-dyson-cordless-vacuum-comparison | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-dyson-cordless-vacuum-models-comparison | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-homemade-stainless-steel-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-multi-surface-vacuum-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-pet-vacuum-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-power-floor-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-powered-floor-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| bissell-vs-hoover-carpet-cleaner-solution | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| bissell-vs-hoover-spot-carpet-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| bissell-vs-hoover-vs-shark-carpet-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| carpet-cleaner-reviews-bissell-vs-hoover | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| dyson-corded-vs-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| eufy-robot-vacuum-vs-shark | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| eufy-vs-shark-robot-vacuum-comparison | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| hoover-pet-carpet-cleaner-vs-bissell | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| hoover-spotless-portable-carpet-and-upholstery-cleaner-vs-bissell | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| hoover-vs-bissell-carpet-cleaner-review | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| hoover-vs-bissell-carpet-cleaner-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| hoover-vs-bissell-vs-shark-carpet-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | robot-mop-best-buy | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| shark-robot-vacuum-vs-eufy | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| shark-vs-eufy-robot-vacuum-comparison | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| shark-vs-eufy-robot-vacuum-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| shark-vs-eufy-vs-roomba-robot-vacuum-comparison | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-budget-handheld-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-buy-shark-steam-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-price-on-shark-steam-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| is-bissell-carpet-cleaner-toxic | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| is-eufy-a-good-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | the-best-shark-steam-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | which-shark-steam-mop-is-best | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-automatic-vacuum-mop-combo | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-battle-pets-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-battle-pets-mop-classic | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-classes-in-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-classes-in-mop-classic | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -1128,8 +643,6 @@
 | best-commercial-wet-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-corded-handheld-vacuum-for-stairs | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-handheld-vacuum-for-stairs | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-hardwood-floor-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-pool-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-stick-vacuum-for-luxury-vinyl-plank-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-stick-vacuum-review | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-for-wood-floor | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -1137,8 +650,6 @@
 | best-deal-on-robot-vacuum-and-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-dps-in-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-dps-in-mop-classic | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-dps-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-dps-mop-classic | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-dreame-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-dust-mop-for-laminate-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-electric-hardwood-floor-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -1146,8 +657,6 @@
 | best-epoxy-grout-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-floor-mop-for-vinyl-plank | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-grout-cleaner-for-showers | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-handheld-vacuum-for-boat | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-handheld-vacuum-review | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-vacuum-sealer-for-mason-jars | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-hardwood-floor-electric-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-hardwood-floor-steamer-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -1155,8 +664,6 @@
 | best-healer-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-healer-mop-classic | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-healers-in-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-healers-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-heavy-duty-steam-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-home-appliance-robot-vacuum-app | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-home-appliance-robot-vacuum-suction | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-laminate-flooring-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -1164,8 +671,6 @@
 | best-mage-spec-mop-classic | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-dps | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-for-cleaning-up-dog-accidents | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-for-rv-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-professions | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-mop-pvp-classes | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-multi-floor-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-narwal-vacuum-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -1173,8 +678,6 @@
 | best-noise-free-robot-vacuum-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-non-mopping-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-professions-mop-classic | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-pvp-class-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-pvp-classes-in-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-pvp-classes-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-rated-cordless-stick-vacuum-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-rated-cordless-vacuum-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -1182,8 +685,6 @@
 | best-rated-robot-vacuum-with-app-control | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-rated-self-emptying-bin-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robo-vac-and-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robo-vac-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-cleaner-and-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-floor-vacuum-and-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-mop-and-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-mop-and-vacuum-combo | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -1191,8 +692,6 @@
 | best-robot-mop-cleaning-solution | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-mop-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-mop-vacuum-review | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-mop-vacuum-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-mop-without-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-and-mop-combo-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-and-mop-combos | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-and-mop-review | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -1200,8 +699,6 @@
 | best-robot-vacuum-and-mop-with-mapping | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-and-mops | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-app-features | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-app-integration | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-auto-empty | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-brands | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-cleaner-japan | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-cleaners-india | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -1209,8 +706,6 @@
 | best-robot-vacuum-cleaning-solution | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-combo | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-company | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-deals-today | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-expert-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-home-assistant | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-mop-combo-review | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-mop-combo-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -1218,8 +713,6 @@
 | best-robot-vacuum-mop-review | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-mop-self-cleaning | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-mop-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-mops-us-market | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-mops-us-market-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-obstacle-detection | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-overall | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-review | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -1227,8 +720,6 @@
 | best-robot-vacuum-suction-power-home-use | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-that-can-go-over-threshold | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-t-rkiye | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-vacuum-wars | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-with-app-control | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-with-camera | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-with-camera-navigation | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-with-self-emptying-bin | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -1236,8 +727,6 @@
 | best-robotic-vacuun-and-mop-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-roller-mop-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-scrub-mop-for-tile | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-self-emptying-robot-vacuum-deals | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-selling-robot-vacuum-brands | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-silent-robot-vacuum-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-small-space-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-smart-robot-vacuum-with-obstacle-sensors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -1245,8 +734,6 @@
 | best-spin-mop-for-wood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-spin-mop-that-separates-dirty-water | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-spray-mop-for-vinyl-plank-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-steam-mop-for-dogs | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-steam-mop-for-hardwood-floors-and-pets | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-for-textured-tile-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-for-tile-and-laminate-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-for-vinyl-plank | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -1254,8 +741,6 @@
 | best-suction-robot-vacuum-cleaner-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-tank-in-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-tank-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-tank-mop-classic | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-tanks-in-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-tanks-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-tanks-mop-classic | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-vacuum-and-mop-combo-for-pets | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -1263,8 +748,6 @@
 | best-vacuum-and-mop-for-laminate-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-vacuum-and-mop-for-tile-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-vacuum-and-mop-robot | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-vacuum-and-steam-mop-combo-for-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-vacuum-mop-combo-review | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-vacuum-only-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-value-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-value-robot-vacuum-and-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -1272,8 +755,6 @@
 | best-value-robot-vacuum-with-camera-mapping | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-wet-and-dry-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-reviewed-robot-vacuum-with-camera-navigation | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| wet-mop-handle | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| commercial-best-carpet-cleaner-machine | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | mop-best-battle-pets | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | mop-best-classes | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | mop-best-dps | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -1281,8 +762,6 @@
 | mop-best-professions | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | mop-classic-best-battle-pets | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | mop-classic-best-classes | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| quiet-robot-vacuum-best-brand | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robot-vacuum-best-at-avoiding-furniture | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | robotic-best-vacuum-mop-combo | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | rtings-best-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | self-emptying-robot-vacuum-with-best-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -1290,9 +769,6 @@
 | the-best-vacuum-mop-combo | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | top-5-robot-vacuums | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | u-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| vacuum-wars-best-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-do-steam-cleaners-work-on | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-s-the-best-self-emptying-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | which-cordless-vacuum-has-best-battery-life | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | which-robot-vacuum-has-best-app-control | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | which-robot-vacuum-has-the-best-ai-in | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -1303,47 +779,29 @@
 | which-robot-vacuum-works-best-in-the-dark | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | which-robot-vacuum-works-best-on-carpets | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | which-top-robot-vacuum-has-the-best-navigation | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| why-do-steam-cleaners-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | wow-mop-best-battle-pets | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | zep-mopping-solution | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| do-shark-robot-vacuums-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
+| best-robot-vacuum-for-elderly | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | robot-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| advantages-cordless-vacuum-vs-corded-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| benefits-of-steam-mop-vs-regular-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-animal-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-bissell-handheld-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-black-and-decker-handheld-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-braava-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-buy-robot-vacuum-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-rechargeable-handheld-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-stick-vacuum-comparison | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-stick-vacuum-reviews-comparison | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-cleaner-comparison | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-cleaners | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-comparison | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-vacuum-tineco | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-cordless-vacuum-vs-corded-vacuum-comparison | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-dog-hair-handheld-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-dyson-cordless-vacuum-for-hard-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-electric-cordless-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-electric-floor-mop-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-handheld-steam-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-handheld-vacuum-suction-power-comparison | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-inexpensive-steam-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-makita-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-mop-types-comparison | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-multi-surface-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-pet-hair-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-price-steam-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-reviewed-steam-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-mop-comparison | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-mop-vacuum-comparison | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-and-mop-comparison | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-mop-comparison-review | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-mop-comparisons | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-mop-price-comparison | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-mop-reviews-comparison | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-mop-us-reviews-comparison | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-run-time-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-shark-steam-mop-for-laminate-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-spinwave-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -1352,36 +810,8 @@
 | best-stick-vacuum-cleaner-australia | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-wet-dry-mop-vacuum-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-wet-dry-vacuum-cleaner-and-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| can-robot-vacuums-work-without-wifi | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| corded-stick-vacuum-vs-cordless | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| corded-vs-cordless-handheld-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| corded-vs-cordless-vacuum-cleaner-pros-and-cons | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| corded-vs-cordless-vacuum-performance | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| corded-vs-cordless-vacuum-pros-and-cons | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| corded-vs-cordless-vacuum-pros-cons | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| corded-vs-cordless-vacuum-runtime | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| corded-vs-cordless-vacuum-suction-comparison | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| cordless-stick-vacuum-vs-corded | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| cordless-vacuum-vs-corded-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| cordless-vacuum-vs-corded-vacuum-comparison | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| cordless-vacuum-vs-corded-vacuum-pros-cons | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| cordless-vacuum-vs-robot-vacuum-pros-cons | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-to-compare-cordless-vacuum-cleaners | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| is-a-steam-mop-better-than-a-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| is-a-steam-mop-effective | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| is-steam-mop-better-than-regular-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robot-vacuum-vs-cordless-stick-vacuum-advantages | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robot-vacuum-vs-cordless-vacuum-comparison | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| steam-mop-vs-regular-mop-benefits | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| steam-mop-vs-regular-mop-comparison | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| steam-mop-vs-regular-mop-for-tile-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| steam-mop-vs-regular-mop-pros-cons | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| steam-mop-vs-regular-mop-which-one-is-best | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| steam-vs-regular-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| stick-vacuum-corded-vs-cordless | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | where-to-buy-robot-vacuum-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | which-bissell-steam-mop-is-best | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| which-is-better-speed-mop-or-power-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | which-steam-mop-is-best | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-handheld-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-broom-and-mop-for-laminate-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -1415,6 +845,7 @@
 | best-scrubbing-mop-for-wood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-shark-steam-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-squeegee-mop-for-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
+| best-cordless-vacuum-for-pet-hair-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-buy-bissell-steam-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-buy-dyson-handheld-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-dyson-handheld-vacuum-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -1434,8 +865,6 @@
 | dyson-handheld-vacuum-best-buy | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | dyson-handheld-vacuum-cleaner-best-price | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | shark-steam-mop-best-buy | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| are-home-carpet-cleaners-worth-it | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| are-robot-vacuums-really-worth-it | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-affordable-dyson-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-bagless-handheld-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-budget-cordless-vacuum-alternatives-to-dyson | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -1495,38 +924,8 @@
 | best-small-portable-handheld-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-wet-dry-handheld-vacuum-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-wringer-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| do-carpet-cleaners-make-good-money | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| do-carpet-cleaners-use-steam | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| do-carpet-cleaners-vacuum-first | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| do-carpet-cleaners-work-as-vacuums | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| do-carpet-cleaners-work-on-couches | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| do-carpet-cleaners-work-on-hard-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| do-carpet-cleaners-work-on-mattresses | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| do-carpet-cleaners-work-on-rugs | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| do-professional-carpet-cleaners-vacuum-first | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| do-robot-vacuums-work-in-corners | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| do-robot-vacuums-work-in-the-dark | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| do-robot-vacuums-work-well | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| do-robot-vacuums-work-well-on-carpet | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| do-spray-on-carpet-cleaners-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| do-steam-mops-actually-clean | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| do-steam-mops-really-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| do-steam-mops-work-on-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| do-steam-mops-work-on-laminate-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| do-steam-mops-work-on-vinyl-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| do-steam-mops-work-well | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-professional-carpet-cleaners-clean-carpets | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-robot-vacuums-use-ai | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-much-do-carpet-cleaners-make | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-much-do-carpet-cleaners-make-per-hour | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-shark-steam-mop-works | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| bissell-carpet-cleaner-vs-hoover-carpet-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | the-best-mop-to-buy | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-robot-vacuums-work-with-home-assistant | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-robot-vacuums-work-with-smartthings | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-robot-vacuums-work-without-wifi | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | which-mop-is-best-for-mopping-the-floor | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| why-is-my-carpet-cleaner-leaving-streaks | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | x3-mop-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-hardwood-floors-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-kitchen-stainless-steel-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -1536,27 +935,6 @@
 | best-mop-to-use-for-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-steam-mop-with-handheld | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-tineco-cordless-vacuum-for-hardwood-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| bissell-vs-hoover-carpet-cleaner-for-pets | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| bissell-vs-hoover-portable-carpet-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| bissell-vs-hoover-upright-carpet-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| eufy-e20-vs-shark-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| eufy-robot-vacuum-vs-shark-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| eufy-vs-shark-robot-vacuum-and-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| eufy-vs-shark-vs-roomba | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| hoover-cleanslate-pet-carpet-cleaner-vs-bissell-little-green | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| hoover-powerdash-pet-carpet-cleaner-vs-bissell-turboclean-powerbrush-pet | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| hoover-powerdash-vs-bissell-powerforce-carpet-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| hoover-smartwash-automatic-carpet-cleaner-vs-bissell-proheat-2x | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| hoover-smartwash-automatic-carpet-cleaner-vs-bissell-proheat-2x-revolution | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| hoover-vs-bissell-carpet-cleaner-machine | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| hoover-vs-bissell-handheld-carpet-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| hoover-vs-bissell-lightweight-carpet-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| hoover-vs-bissell-steam-carpet-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| hoover-vs-bissell-vs-shark-portable-carpet-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robot-vacuum-vs-dyson-cordless | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| shark-corded-vs-cordless-stick-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| shark-robot-vacuum-and-mop-vs-eufy-x10 | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| shark-vs-eufy-robot-vacuum-reviews | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | spin-mop-cleaning-solution | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-vacuum-mop-combo-for-pets | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-all-in-one-vacuum-and-steam-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -1714,7 +1092,6 @@
 | best-robot-vacuum-and-mop-roborock | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-and-mop-shark | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-dyson-360-vis-nav | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-robot-vacuum-for-elderly | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-with-self-empty-base | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-sale-on-dyson-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-selling-dyson-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -3612,15 +2989,6 @@
 | handheld-best-cordless-vacuum-for-pet-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | handheld-best-pool-vacuum-for-above-ground-pool | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | handheld-best-vacuum-cleaner-for-home | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-carpet-cleaning-machine-works | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-carpet-cleaners-work-around-furniture | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-steam-mops-work-on-carpet | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-does-carpet-cleaners-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-does-carpet-cleaning-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-does-robot-vacuums-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-does-steam-mop-work-on-carpet | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-does-steam-mops-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-good-do-robot-vacuums-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | i-need-reviews-for-the-best-handheld-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | microfiber-best-mop-for-vinyl-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | mop-best-buy | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -3828,47 +3196,13 @@
 | best-wet-and-dry-handheld-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-wireless-handheld-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | cedar-spin-mop-best-price | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| corded-vacuum-vs-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| corded-vs-cordless-stick-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| corded-vs-cordless-stick-vacuums | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| corded-vs-cordless-vacuum-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| corded-vs-cordless-vacuum-for-pet-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| corded-vs-cordless-vacuum-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| corded-vs-cordless-vacuum-power | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| cordless-stick-vacuum-vs-corded-stick-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| cordless-stick-vacuum-vs-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| cordless-vacuum-cleaner-vs-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| cordless-vacuum-vs-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | handheld-vacuum-best-buy | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-best-to-clean-floor-grout | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-best-to-clean-grout-in-floor-tiles | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-to-best-clean-grout-in-shower | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | i-need-a-good-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | mop-tile-floors-best | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robot-vacuum-cleaner-vs-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robot-vacuum-cleaner-vs-handheld-vacuum-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robot-vacuum-cleaner-vs-normal | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robot-vacuum-cleaner-vs-stick-vacuum-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robot-vacuum-vs-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robot-vacuum-vs-stick-vac | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robot-vs-handheld-pool-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | shower-grout-cleaner-best | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| spray-mop-vs-regular-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| steam-mop-vs-electric-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| steam-mop-vs-mop-bucket | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| steam-mop-vs-mop-vac | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| steam-mop-vs-mop-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| steam-mop-vs-power-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| steam-mop-vs-robot-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| steam-mop-vs-spin-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| steam-mop-vs-spray-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| steam-mop-vs-swiffer-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| steam-mop-vs-wet-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | sweet-home-best-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | the-best-mop-ever | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | top-10-best-cordless-vacuum-cleaners | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-is-best-cleaner-for-shower-grout | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| what-is-best-hand-held-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | where-to-buy-a-good-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | where-to-buy-handheld-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | which-cordless-stick-vacuum-is-best | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -4555,13 +3889,7 @@
 | which-steam-mop-is-best-for-tiles | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | which-steam-mop-is-best-for-vinyl-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | who-makes-the-best-stainless-steel-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| do-corded-or-cordless-vacuums-have-more-suction | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| do-corded-or-cordless-vacuums-work-better | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robot-vs-handheld-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robot-vs-stick-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| steam-vs-spray-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-budget-robot-vacuum-for-pet-hair | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| robot-vacuum-with-self-empty | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | 1-best-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | 1-handheld-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | 1-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
@@ -8941,57 +8269,23 @@
 | youtube-best-cordless-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | zdnet-best-robot-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | gold-mop-cypress-care | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| best-stats-mop-remix | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| mop-remix-best-stats | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | cordless-vacuum-with-charging-station | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-wet-mop-for-laminate-floor | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| why-carpet-cleaning-is-important | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| why-do-steam-cleaners-work-so-well | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-bissell-steam-mop-works | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-bissell-carpet-cleaners-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-well-do-bissell-carpet-cleaners-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | shark-robot-vacuum-comparison-chart | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | laminate-floor-cleaner | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| do-robot-vacuums-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-laminate-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-robot-vacuums-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | cordless-vacuum-with-2-batteries | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-a-steam-mop-works | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-carpet-cleaners-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-carpet-cleaning-machines-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-carpet-cleaning-services-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-carpet-spot-cleaners-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-commercial-carpet-cleaners-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-enzyme-carpet-cleaners-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-home-carpet-cleaners-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-pool-robot-vacuums-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-professional-carpet-cleaners-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-rental-carpet-cleaners-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-robot-vacuums-and-mops-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-robot-vacuums-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-robot-vacuums-work-on-carpet | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-robot-vacuums-work-with-multiple-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-robot-vacuums-work-with-rugs | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-robot-vacuums-work-with-stairs | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-robot-vacuums-work-without-mapping | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-self-emptying-robot-vacuums-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-steam-carpet-cleaners-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-steam-cleaners-work-on-carpets | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-steam-cleaners-work-on-furniture | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-steam-cleaners-work-on-upholstery | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-steam-mops-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-truck-mounted-carpet-cleaners-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-do-vax-carpet-cleaners-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-does-a-carpet-cleaning-van-work | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| how-does-a-steam-cleaner-work-on-a-couch | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| corded-vs-stick-vacuum | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| are-steam-mops-worth-it | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| mop-vs-steam-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| steam-mop-vs-mop | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
-| steam-mop-vs-regular | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
+| robot-vacuum-for-concrete-floors | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
+| best-robot-vacuum-cleaner-uk | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-corners | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-cordless-mops | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
 | best-robot-vacuum-for-carpet-and-hardwood | No candidate satisfied the primary balancing band; relaxed to fallback/highest-score selection. |
+
+## Cadence Enforcement
+
+*Cadence vector: S, M, S, S, M, S, C, S, M, L (M=money-guide, S=support-guide, C=comparison, L=linkable-asset)*
+
+All pending positions matched the cadence vector.
 
 ## Ordered Backlog
 
@@ -9005,410 +8299,408 @@
 | 6 | best-steam-mop | Best Steam Mops (2026): Floor-Type-First Picks (Read the Warranty First) | money-guide | feature-roundup | buy | best steam mop | 9200 | 2 | 13000 | 83.5 | export-backed | cleaning-support | safe-surface-desk | Surface Protector | LIVE |
 | 7 | best-carpet-cleaner-machine | Best Carpet Cleaner Machines (2026): Rent-or-Buy Math + Head-to-Head Picks | money-guide | flagship-roundup | buy | best carpet cleaner machine | 4000 | 3 | 12000 | 80.3 | export-backed | cleaning-support | safe-surface-desk | Event-Driven Restorer | LIVE |
 | 8 | how-to-clean-grout | How to Clean Grout (Without Bleaching the Color Out) | support-guide | maintenance-cleaning | maintain | how to clean grout | 22000 | 14 | 22000 | 78.5 | export-backed | cleaning-support | safe-surface-desk | Surface Protector | LIVE |
-| 9 | best-handheld-cordless-vacuum | Best Handheld Vacuum | money-guide | flagship-roundup | buy | best handheld vacuum | 17000 | 2 | 23000 | 82 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 10 | vacuum-and-mop-combo | Best Hard Floor Vacuum And Mop | money-guide | flagship-roundup | buy | best hard floor vacuum and mop | 8600 | 1 | 16000 | 80 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 11 | what-to-mop-floors-with | Best Product To Mop Floors | support-guide | troubleshooting-fix | buy | best product to mop floors | 800 | 4 | 4100 | 68 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 12 | best-carpet-cleaner | The Best Carpet Cleaner Machine | money-guide | flagship-roundup | buy | the best carpet cleaner machine | 22000 | 6 | 18000 | 78.8 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
-| 13 | carpet-cleaner-machine | Best Professional Carpet Cleaner Machine | money-guide | flagship-roundup | buy | best professional carpet cleaner machine | 15000 | 4 | 21000 | 77.8 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
-| 14 | best-mop | Best Mops for Everyday Home Cleaning (2026) | money-guide | flagship-roundup | buy | best mop | 11000 | 2 | 14000 | 83.3 | export-backed | cleaning-support | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 15 | are-robot-vacuums-worth-it | Are Robot Vacuums Worth It | support-guide | worth-it-buying-decision | decide | are robot vacuums worth it | 700 | 2 | 400 | 66.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 16 | shark-robot-vacuum | Best Shark Robot Vacuum For Pet Hair | money-guide | brand-roundup | buy | best shark robot vacuum for pet hair | 40000 | 3 | 25000 | 76.8 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 17 | vacuum-mop-combo | Vacuum Mop Combo | money-guide | flagship-roundup | buy | vacuum mop combo | 8600 | 1 | 6900 | 77 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 18 | best-steam-mop-for-laminate-floors | Best Steam Mop For Laminate Floors | money-guide | feature-roundup | buy | best steam mop for laminate floors | 500 | 1 | 13000 | 76.7 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 19 | carpet-cleaner | Best Carpet Machine Cleaner | money-guide | flagship-roundup | buy | best carpet machine cleaner | 149000 | 4 | 21000 | 76.5 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
-| 20 | best-mop-for-wood-floors | Best Mop For Wood Floors | money-guide | use-case-roundup | buy | best mop for wood floors | 1000 | 0 | 13000 | 76.5 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 21 | best-hardwood-floor-mop | Best Hardwood Floor Mop | money-guide | feature-roundup | buy | best hardwood floor mop | 700 | 3 | 11000 | 76.3 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 22 | steam-mop | Shop Best Steam Mop Deals | money-guide | feature-roundup | buy | shop best steam mop deals | 30000 | 8 | 7100 | 74.8 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 23 | robot-vacuum-reviews | Robot Vacuum Reviews | money-guide | flagship-roundup | buy | robot vacuum reviews | 4000 | 9 | 39000 | 73.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 24 | what-is-a-steam-mop | Best Steam Mop For Tile Floors | money-guide | feature-roundup | buy | best steam mop for tile floors | 450 | 2 | 16000 | 72.8 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 25 | best-robot-vacuum-mop | Best Robot Vacuum Mop | money-guide | flagship-roundup | buy | best robot vacuum mop | 900 | 10 | 13000 | 72.2 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 26 | best-mop-for-vinyl-floors | Best Mop For Vinyl Plank Flooring | money-guide | use-case-roundup | buy | best mop for vinyl plank flooring | 1100 | 0 | 1800 | 71.5 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 27 | swiffer-mop | Best Swiffer Mop For Hardwood Floors | money-guide | feature-roundup | buy | best swiffer mop for hardwood floors | 23000 | 2 | 16000 | 71.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 28 | dyson-cordless-vacuum | Dyson Cordless Vacuum | money-guide | brand-roundup | buy | dyson cordless vacuum | 45000 | 33 | 56000 | 71.5 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 29 | robot-vacuum-black-friday | Best Robot Vacuum Black Friday Deals | money-guide | flagship-roundup | buy | best robot vacuum black friday deals | 1900 | 2 | 1700 | 71.3 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 30 | self-emptying-robot-vacuum | Best Self Cleaning Robot Vacuum | money-guide | flagship-roundup | buy | best self cleaning robot vacuum | 3200 | 7 | 2800 | 71.3 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 31 | best-budget-robot-vacuum | Best Mid Range Robot Vacuum | money-guide | flagship-roundup | buy | best mid range robot vacuum | 1400 | 3 | 2600 | 71 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 32 | best-robot-vacuum-pet-hair | Best Robot Vacuum Pet Hair | money-guide | flagship-roundup | buy | best robot vacuum pet hair | 350 | 14 | 13000 | 70.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 33 | grout-cleaner | Best Homemade Grout Cleaner For Mold | money-guide | use-case-roundup | buy | best homemade grout cleaner for mold | 0 | 2 | 16000 | 70 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
-| 34 | best-handheld-steam-cleaner | Best Handheld Steam Cleaner For Grout | money-guide | use-case-roundup | buy | best handheld steam cleaner for grout | 100 | 2 | 7300 | 69.5 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 35 | best-robot-vacuum-cleaner | Best Robot Vacuum Cleaner | money-guide | flagship-roundup | buy | best robot vacuum cleaner | 1400 | 40 | 38000 | 69 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 36 | best-robot-vacuum-for-carpet | Best Carpet Robot Vacuum | money-guide | flagship-roundup | buy | best carpet robot vacuum | 1400 | 6 | 2000 | 68.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 37 | best-grout-cleaner | Best Grout Cleaner For Floors | money-guide | use-case-roundup | buy | best grout cleaner for floors | 900 | 2 | 6100 | 68.7 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
-| 38 | best-cordless-vacuum-reviews | Best Cordless Vacuum | money-guide | flagship-roundup | buy | best cordless vacuum | 51000 | 24 | 68000 | 68.5 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 39 | best-robot-vacuum-and-mop-combo | Best Robot Vacuum And Mop Combo | money-guide | flagship-roundup | buy | best robot vacuum and mop combo | 1800 | 8 | 19000 | 68.2 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 40 | best-floor-cleaner | Best Solution To Mop Floors | money-guide | flagship-roundup | buy | best solution to mop floors | 450 | 2 | 6300 | 68 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
-| 41 | how-to-clean-stainless-steel-pans | Best Cleaner For Stainless Steel Pans | support-guide | troubleshooting-fix | learn | best cleaner for stainless steel pans | 100 | 3 | 6400 | 67.3 | export-backed | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
-| 42 | best-mops-for-tile-floors | Best Mop For Tile Floors | money-guide | use-case-roundup | buy | best mop for tile floors | 2200 | 1 | 2500 | 67 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 43 | best-robot-vacuum-and-mop | Best Vacuum Mop Combo Robot | money-guide | flagship-roundup | buy | best vacuum mop combo robot | 1300 | 11 | 21000 | 67 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 44 | what-to-clean-stainless-steel-with | What To Clean Stainless Steel With | support-guide | troubleshooting-fix | learn | what to clean stainless steel with | 700 | 1 | 12000 | 67 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
-| 45 | mop-bucket-with-wringer | Best Mop Bucket With Wringer | money-guide | flagship-roundup | buy | best mop bucket with wringer | 4900 | 0 | 1400 | 66.8 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 46 | best-robot-vacuum-for-dog-hair | Best Robot Vacuum For Dog Hair | money-guide | use-case-roundup | buy | best robot vacuum for dog hair | 1100 | 17 | 16000 | 66.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 47 | best-shark-cordless-stick-vacuum | Best Shark Cordless Stick Vacuum? | money-guide | brand-roundup | buy | best shark cordless stick vacuum? | 150 | 8 | 35000 | 66.5 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 48 | bissell-vs-hoover-carpet-cleaner | Bissell Vs Hoover Carpet Cleaner | comparison | head-to-head | decide | bissell vs hoover carpet cleaner | 250 | 0 | 100 | 66.1 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
-| 49 | best-cordless-stick-vacuum | The Best Stick Vacuum | money-guide | flagship-roundup | buy | the best stick vacuum | 150 | 17 | 22000 | 66 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 50 | best-spot-carpet-cleaner | Best Pet Stain Carpet Cleaner Machine | money-guide | flagship-roundup | buy | best pet stain carpet cleaner machine | 1000 | 6 | 4100 | 65.8 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
-| 51 | best-robot-vacuum-under-300 | Best Robot Vacuum Under 300 | money-guide | budget-roundup | buy | best robot vacuum under 300 | 150 | 2 | 400 | 65.5 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 52 | handheld-vacuum | Handheld Vacuum | money-guide | flagship-roundup | buy | handheld vacuum | 19000 | 4 | 27000 | 65.5 | needs-serp-check | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 53 | best-mop-for-laminate-floors | Best Mop For Laminate Wood Flooring | money-guide | use-case-roundup | buy | best mop for laminate wood flooring | 3600 | 15 | 4800 | 65 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 54 | best-mop-for-lvp-flooring | Best Mop For Lvp | money-guide | use-case-roundup | buy | best mop for lvp | 1000 | 1 | 1900 | 65 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 55 | what-is-the-most-powerful-handheld-vacuum | What Is The Most Powerful Handheld Vacuum | support-guide | glossary-explainer | learn | what is the most powerful handheld vacuum | 50 | 5 | 17000 | 64.7 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 56 | diy-carpet-cleaner-solution | Best Homemade Carpet Cleaner For Machine | money-guide | use-case-roundup | buy | best homemade carpet cleaner for machine | 2200 | 4 | 10000 | 64.6 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
-| 57 | robot-vacuum-names | Best Names For Robot Vacuum | money-guide | use-case-roundup | buy | best names for robot vacuum | 600 | 0 | 2100 | 64.3 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 58 | stick-vacuum | Stick Vacuum | money-guide | flagship-roundup | buy | stick vacuum | 15000 | 4 | 12000 | 64.3 | needs-serp-check | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 59 | best-floor-robot-vacuum | Best Floor Robot Vacuum | money-guide | flagship-roundup | buy | best floor robot vacuum | 150 | 4 | 48000 | 63.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 60 | best-steam-mop-for-vinyl-floors | Best Steam Mop For Vinyl Floors | money-guide | feature-roundup | buy | best steam mop for vinyl floors | 100 | 2 | 5500 | 63.8 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 61 | best-grout-cleaner-for-shower | Best Cleaner For Shower Tile And Grout | money-guide | use-case-roundup | buy | best cleaner for shower tile and grout | 350 | 0 | 2000 | 63.5 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
-| 62 | natural-carpet-cleaner | Best Natural Carpet Cleaner For Machine | money-guide | use-case-roundup | buy | best natural carpet cleaner for machine | 900 | 3 | 900 | 63.5 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
-| 63 | best-vacuum-and-mop | Best Vacuum/Mop Combo | money-guide | flagship-roundup | buy | best vacuum/mop combo | 3300 | 5 | 9700 | 63.5 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 64 | how-to-clean-vinyl-floors | Best Way To Mop Vinyl Floors | support-guide | troubleshooting-fix | learn | best way to mop vinyl floors | 150 | 0 | 3000 | 63.5 | export-backed | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
-| 65 | best-cordless-vacuum-under-200 | Best Cordless Vacuums Under $200 (2026): What's Worth Keeping at This Price | money-guide | budget-roundup | buy | best cordless vacuum under 200 | 2200 | 1 | 2200 | 63.4 | export-backed | cleaning-support | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 66 | dyson-stick-vacuum | Dyson Stick Vacuum | money-guide | brand-roundup | buy | dyson stick vacuum | 15000 | 33 | 55000 | 63.3 | needs-serp-check | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 67 | wet-mop | Wet Mop | money-guide | flagship-roundup | buy | wet mop | 3000 | 1 | 11000 | 63.2 | needs-serp-check | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 68 | best-mop-vacuum-combo | Best Mop/Vacuum Combo | money-guide | flagship-roundup | buy | best mop/vacuum combo | 500 | 2 | 4600 | 63.1 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 69 | best-budget-cordless-vacuum | Best Cordless Vacuum Under $150 | money-guide | budget-roundup | buy | best cordless vacuum under $150 | 900 | 2 | 1400 | 63 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 70 | mop | Mop | money-guide | flagship-roundup | buy | mop | 100000 | 5 | 8200 | 62.8 | needs-serp-check | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 71 | best-handheld-vacuum-for-pet-hair | Best Handheld Vacuum For Pet Hair | money-guide | use-case-roundup | buy | best handheld vacuum for pet hair | 2200 | 1 | 900 | 62.7 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 72 | best-rental-carpet-cleaner | Best Carpet Cleaner Rental Machine | money-guide | flagship-roundup | buy | best carpet cleaner rental machine | 150 | 7 | 600 | 62.5 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
-| 73 | best-robot-vacuum-mop-combo | Best Robot Vacuum Mop Combo | money-guide | flagship-roundup | buy | best robot vacuum mop combo | 2700 | 28 | 13000 | 62.5 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 74 | best-robot-vacuum-on-the-market | Best Robot Vacuum On The Market | money-guide | flagship-roundup | buy | best robot vacuum on the market | 90 | 23 | 51000 | 62.4 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 75 | mop-sauce-for-ribs | Best Mop Sauce For Ribs | money-guide | use-case-roundup | buy | best mop sauce for ribs | 450 | 0 | 500 | 62.3 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 76 | robot-vacuum-for-hardwood-floors | Best Robot Vacuums for Hardwood Floors (2026) | money-guide | feature-roundup | buy | best robot vacuum for hardwood | 450 | 3 | 2200 | 62.3 | fallback-evidence | cleaning-support | labor-math-desk | Labor Trader | NOT BUILT |
-| 77 | corded-vs-cordless-vacuum | Corded Vs Cordless Vacuum | comparison | head-to-head | decide | corded vs cordless vacuum | 200 | 1 | 300 | 62.1 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 78 | best-laminate-floor-cleaner | Best Mop Solution For Laminate Floors | money-guide | use-case-roundup | buy | best mop solution for laminate floors | 150 | 0 | 3200 | 62 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
-| 79 | what-to-mop-tile-floors-with | Best Mop Solution For Tile Floors | support-guide | troubleshooting-fix | buy | best mop solution for tile floors | 150 | 4 | 450 | 62 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 80 | best-robot-vacuum-for-pets | Best Robot Vacuum For Pets | money-guide | use-case-roundup | buy | best robot vacuum for pets | 900 | 25 | 2000 | 61.9 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 81 | laminate-floor-mop | Best Mop For Laminate Wood Floors | money-guide | use-case-roundup | buy | best mop for laminate wood floors | 450 | 0 | 900 | 61.7 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 82 | robot-vacuum-for-pet-hair | Best Pet Robot Vacuum | money-guide | flagship-roundup | buy | best pet robot vacuum | 2700 | 22 | 13000 | 61.6 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 83 | stainless-steel-cleaner | Best Cleaner For Stainless Steel | money-guide | feature-roundup | buy | best cleaner for stainless steel | 100 | 1 | 1900 | 61.5 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
-| 84 | robot-vacuum-for-high-pile-carpet | Best Robot Vacuum For High Pile Carpet | money-guide | use-case-roundup | buy | best robot vacuum for high pile carpet | 250 | 1 | 200 | 61.1 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 85 | is-roomba-the-best-robot-vacuum | Is Roomba The Best Robot Vacuum | support-guide | compatibility-safety | decide | is roomba the best robot vacuum | 60 | 0 | 60 | 61.1 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 86 | robot-vacuum-for-carpet | Best Robot Vacuum For Thick Carpet And Pet Hair | money-guide | use-case-roundup | buy | best robot vacuum for thick carpet and pet hair | 1000 | 3 | 2100 | 61 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 87 | best-mop-for-concrete-floors | Best Mop For Concrete Floors | money-guide | use-case-roundup | buy | best mop for concrete floors | 250 | 0 | 150 | 60.9 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 88 | eufy-vs-shark-robot-vacuum | Eufy Vs Shark Robot Vacuum | comparison | brand-vs-brand | decide | eufy vs shark robot vacuum | 90 | 0 | 50 | 60.6 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 89 | what-are-the-best-cordless-vacuum-cleaners | What Are The Best Cordless Vacuum Cleaners | support-guide | troubleshooting-fix | learn | what are the best cordless vacuum cleaners | 50 | 21 | 20000 | 60.6 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 90 | best-cordless-vacuum-pet-hair | Best Cordless Vacuum Pet Hair | money-guide | flagship-roundup | buy | best cordless vacuum pet hair | 200 | 4 | 9400 | 60.3 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 91 | best-spray-mop | Best Spray Mop | money-guide | flagship-roundup | buy | best spray mop | 800 | 4 | 40 | 60.3 | export-backed | ordered-backlog | labor-math-desk | Labor Trader | NOT BUILT |
-| 92 | roborock-vs-eufy | Roborock vs Eufy: Which Robot Vacuum Brand Actually Fits Your House | comparison | brand-vs-brand | decide | roborock vs eufy | 300 | 4 | 200 | 60.2 | export-backed | cleaning-support | labor-math-desk | Labor Trader | NOT BUILT |
-| 93 | best-robot-vacuum-brand | Best Robot Vacuum Brand | money-guide | flagship-roundup | buy | best robot vacuum brand | 200 | 35 | 38000 | 60.1 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 94 | best-dyson-cordless-vacuum | Best Dyson Cordless Vacuum? | money-guide | brand-roundup | buy | best dyson cordless vacuum? | 4400 | 9 | 3400 | 60 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 95 | steam-mop-vs-regular-mop | Steam Mop Vs Regular Mop | comparison | head-to-head | decide | steam mop vs regular mop | 400 | 0 | 900 | 60 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 96 | mop-for-hardwood-floors | Mop For Hardwood Floors | money-guide | feature-roundup | buy | mop for hardwood floors | 1000 | 0 | 1600 | 59.9 | needs-serp-check | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 97 | best-mop-for-vinyl-plank-floors | Best Mop For Lvp Floors | money-guide | use-case-roundup | buy | best mop for lvp floors | 500 | 1 | 1700 | 59.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 98 | swiffer-power-mop-vs-wet-jet | Which Swiffer Mop Is Best | comparison | head-to-head | compare | which swiffer mop is best | 1900 | 2 | 1900 | 59.3 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 99 | irobot-vacuum | Irobot Vacuum | money-guide | flagship-roundup | buy | irobot vacuum | 4800 | 45 | 142000 | 59.1 | needs-serp-check | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 100 | quietest-robot-vacuum | Best Quiet Robot Vacuum | money-guide | flagship-roundup | buy | best quiet robot vacuum | 500 | 1 | 600 | 58.8 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 101 | wall-mop | Best Wall Cleaning Mop | money-guide | flagship-roundup | buy | best wall cleaning mop | 2300 | 1 | 1300 | 58.8 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 102 | how-to-best-clean-grout | How To Best Clean Grout | support-guide | setup-how-to | learn | how to best clean grout | 40 | 5 | 6800 | 58.5 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
-| 103 | how-to-clean-stainless-steel-sink | Best Cleaner For Stainless Steel Sink | support-guide | troubleshooting-fix | learn | best cleaner for stainless steel sink | 450 | 2 | 3700 | 58.3 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
-| 104 | best-product-to-clean-engineered-hardwood-floors | Best Mop For Engineered Hardwood Floors | money-guide | feature-roundup | buy | best mop for engineered hardwood floors | 100 | 1 | 450 | 58.3 | export-backed | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
-| 105 | how-to-wash-o-cedar-mop-head | Best Way To Clean O'Cedar Mop Head | support-guide | troubleshooting-fix | learn | best way to clean o'cedar mop head | 400 | 0 | 2900 | 58.3 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 106 | best-robot-vacuum-for-tile-floors | Best Robot Vacuum For Tile Floors | money-guide | use-case-roundup | buy | best robot vacuum for tile floors | 200 | 13 | 150 | 58.2 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 107 | best-handheld-vacuum-sealer-for-food | Best Handheld Vacuum Sealer For Food | money-guide | use-case-roundup | buy | best handheld vacuum sealer for food | 250 | 0 | 250 | 57.9 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 108 | best-handheld-vacuum-for-stairs | Best Handheld Vacuum For Carpeted Stairs | money-guide | use-case-roundup | buy | best handheld vacuum for carpeted stairs | 50 | 0 | 60 | 57.8 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 109 | best-handheld-vacuum-sealer | Best Handheld Food Vacuum Sealer | money-guide | flagship-roundup | buy | best handheld food vacuum sealer | 150 | 2 | 700 | 57.6 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 110 | spin-mop-and-bucket-set | Spin Mop And Bucket Set | money-guide | flagship-roundup | buy | spin mop and bucket set | 1300 | 9 | 11000 | 57.5 | needs-serp-check | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 111 | most-powerful-cordless-vacuum | Best Cordless Vacuum Suction Power | money-guide | flagship-roundup | buy | best cordless vacuum suction power | 50 | 15 | 1000 | 57.3 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 112 | best-robot-mop | Best Robot Mop | money-guide | flagship-roundup | buy | best robot mop | 5400 | 12 | 5800 | 57.3 | needs-serp-check | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 113 | best-robot-vacuum-and-mop-under-200 | Best Robot Vacuum And Mop Under $200 | money-guide | budget-roundup | buy | best robot vacuum and mop under $200 | 30 | 0 | 30 | 57 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 114 | best-robot-vacuum-under-200 | Best Robot Vacuum Under $200 | money-guide | budget-roundup | buy | best robot vacuum under $200 | 150 | 2 | 100 | 57 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 115 | best-floor-cleaner-liquid-for-mopping | Best Stuff To Mop Floors With | money-guide | flagship-roundup | buy | best stuff to mop floors with | 50 | 1 | 6600 | 57 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 116 | commercial-mop-bucket | Best Commercial Mop Bucket | money-guide | flagship-roundup | buy | best commercial mop bucket | 1600 | 0 | 400 | 56.8 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 117 | best-rental-carpet-cleaner-machine | Best Rental Carpet Cleaner Machine | money-guide | flagship-roundup | buy | best rental carpet cleaner machine | 70 | 0 | 70 | 56.8 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
-| 118 | best-steam-carpet-cleaner-machine | Best Steam Carpet Cleaner Machine | money-guide | flagship-roundup | buy | best steam carpet cleaner machine | 50 | 0 | 50 | 56.8 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
-| 119 | best-robot-vacuum-cleaner-with-mop | Best Robot Vacuum Cleaner With Mop | money-guide | feature-roundup | buy | best robot vacuum cleaner with mop | 50 | 0 | 50 | 56.6 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 120 | what-to-mop-hardwood-floors-with | Best Thing To Mop Hardwood Floors With | support-guide | troubleshooting-fix | buy | best thing to mop hardwood floors with | 350 | 2 | 600 | 56.6 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 121 | robot-mop-and-vacuum | Robot Mop And Vacuum | money-guide | flagship-roundup | buy | robot mop and vacuum | 3400 | 33 | 14000 | 56.6 | needs-serp-check | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 122 | vacuum-and-mop-robot | Vacuum And Mop Robot | money-guide | flagship-roundup | buy | vacuum and mop robot | 3200 | 33 | 14000 | 56.6 | needs-serp-check | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 123 | best-carpet-cleaner-machine-for-dog-urine | Best Carpet Cleaner Machine For Dog Urine | money-guide | use-case-roundup | buy | best carpet cleaner machine for dog urine | 70 | 14 | 9500 | 56.4 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
-| 124 | best-cordless-electric-mop | Best Cordless Electric Mop | money-guide | flagship-roundup | buy | best cordless electric mop | 150 | 0 | 3400 | 56.4 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 125 | best-wall-mop | Best Mop To Clean Walls | money-guide | flagship-roundup | buy | best mop to clean walls | 150 | 0 | 150 | 56.3 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 126 | black-friday-robot-vacuum-deals | Best Black Friday Deals On Robot Vacuum | money-guide | flagship-roundup | buy | best black friday deals on robot vacuum | 700 | 1 | 1800 | 56.1 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 127 | best-upholstery-cleaner-machine | Best Carpet Cleaner Machine For Cars | money-guide | use-case-roundup | buy | best carpet cleaner machine for cars | 250 | 1 | 3000 | 56 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
-| 128 | best-cordless-vacuum-long-battery-life | Best Cordless Vacuum Long Battery Life | money-guide | flagship-roundup | buy | best cordless vacuum long battery life | 30 | 0 | 30 | 56 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 129 | carolina-mopping-sauce | Best Mop Sauce Recipe | money-guide | flagship-roundup | buy | best mop sauce recipe | 1300 | 0 | 600 | 56 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 130 | best-robot-vacuum-quiet | Best Robot Vacuum Quiet | money-guide | flagship-roundup | buy | best robot vacuum quiet | 50 | 0 | 50 | 56 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 131 | best-robot-vacuum-tile-floors | Best Robot Vacuum Tile Floors | money-guide | flagship-roundup | buy | best robot vacuum tile floors | 50 | 0 | 50 | 56 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 132 | best-stainless-steel-cleaner-polish | Best Stainless Steel Cleaner Polish | money-guide | feature-roundup | buy | best stainless steel cleaner polish | 50 | 0 | 50 | 56 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
-| 133 | floor-mop | Floor Mop | money-guide | flagship-roundup | buy | floor mop | 3400 | 1 | 350 | 56 | needs-serp-check | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 134 | best-cordless-stick-vacuum-under-200 | Best Cordless Stick Vacuum Under $200 | money-guide | budget-roundup | buy | best cordless stick vacuum under $200 | 150 | 0 | 1500 | 55.9 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 135 | best-cordless-vacuum-under-100 | Best Cordless Vacuum Under $100 | money-guide | budget-roundup | buy | best cordless vacuum under $100 | 100 | 0 | 200 | 55.9 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 136 | best-handheld-vacuum-for-home | Best Handheld Vacuum For Home | money-guide | use-case-roundup | buy | best handheld vacuum for home | 100 | 0 | 100 | 55.8 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 137 | best-steam-mop-uk | Best Steam Mop Uk | money-guide | feature-roundup | buy | best steam mop uk | 40 | 1 | 200 | 55.8 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 138 | best-robot-vacuum-under-500 | Best Robot Vacuums Under $500 (2026): Where the Time-Math Still Works | money-guide | budget-roundup | buy | best robot vacuum under 500 | 150 | 1 | 1900 | 55.6 | fallback-evidence | cleaning-support | labor-math-desk | Labor Trader | NOT BUILT |
-| 139 | best-cordless-vacuum-at-walmart | Best Cordless Vacuum At Walmart | money-guide | flagship-roundup | buy | best cordless vacuum at walmart | 50 | 0 | 20 | 55.5 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 140 | best-mop-that-separates-dirty-water | Best Mop That Separates Dirty Water | money-guide | flagship-roundup | buy | best mop that separates dirty water | 150 | 0 | 150 | 55.5 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 141 | best-robot-vacuum-with-mop | Best Robot Vacuum + Mop Combos (2026): When Two Tools Should Be One | money-guide | feature-roundup | buy | best robot vacuum with mop | 200 | 54 | 31000 | 55.5 | fallback-evidence | cleaning-support | labor-math-desk | Labor Trader | NOT BUILT |
-| 142 | how-to-clean-laminate-floors | Best Way To Mop Laminate Floors | support-guide | troubleshooting-fix | learn | best way to mop laminate floors | 300 | 0 | 3700 | 55.5 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
-| 143 | cheap-robot-vacuum | Best Budget Robot Vacuum With Mapping | money-guide | budget-roundup | buy | best budget robot vacuum with mapping | 600 | 5 | 600 | 55.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 144 | best-stick-vacuum | Best Stick Vacuum | money-guide | flagship-roundup | buy | best stick vacuum | 90 | 0 | 90 | 55.3 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 145 | best-black-friday-robot-vacuum-deals | Best Robot Vacuum Black Friday | money-guide | flagship-roundup | buy | best robot vacuum black friday | 200 | 1 | 1100 | 55.2 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 146 | black-friday-robot-vacuum | Best Robot Vacuum Deals Black Friday | money-guide | flagship-roundup | buy | best robot vacuum deals black friday | 200 | 1 | 1700 | 55.2 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 147 | best-mop-for-luxury-vinyl-plank | Best Mop For Luxury Vinyl Plank Floors | money-guide | use-case-roundup | buy | best mop for luxury vinyl plank floors | 200 | 0 | 1700 | 55.1 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 148 | best-wet-mop-for-laminate-floors | Best Power Mop For Laminate Floors | money-guide | use-case-roundup | buy | best power mop for laminate floors | 150 | 0 | 1500 | 55.1 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 149 | best-robot-vacuum-reviews | Best Robot Vacuum Reviews | money-guide | flagship-roundup | buy | best robot vacuum reviews | 150 | 34 | 9500 | 55.1 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 150 | compare-best-cordless-vacuum | Compare Best Cordless Vacuum | comparison | flagship-roundup | buy | compare best cordless vacuum | 60 | 0 | 60 | 55.1 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 151 | best-cordless-vacuum-not-dyson | Best Cordless Vacuum Not Dyson | money-guide | brand-roundup | buy | best cordless vacuum not dyson | 30 | 0 | 30 | 55 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 152 | best-grout-cleaner-for-pet-urine | Best Grout Cleaner For Pet Urine | money-guide | use-case-roundup | buy | best grout cleaner for pet urine | 0 | 0 | 0 | 55 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
-| 153 | best-stainless-steel-cleaner-for-fridge | Best Stainless Steel Cleaner For Fridge | money-guide | feature-roundup | buy | best stainless steel cleaner for fridge | 50 | 0 | 50 | 55 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
-| 154 | best-cordless-vacuum-under-500 | Best Cordless Vacuum Under $500 | money-guide | budget-roundup | buy | best cordless vacuum under $500 | 40 | 0 | 40 | 54.8 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 155 | best-grout-cleaner-for-marble | Best Grout Cleaner For Marble | money-guide | use-case-roundup | buy | best grout cleaner for marble | 50 | 0 | 50 | 54.8 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
-| 156 | best-grout-cleaner-for-urine-stains | Best Grout Cleaner For Urine Stains | money-guide | use-case-roundup | buy | best grout cleaner for urine stains | 70 | 0 | 70 | 54.8 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
-| 157 | best-handheld-pool-vacuum-for-inground-pool | Best Handheld Pool Vacuum For Inground Pool | money-guide | use-case-roundup | buy | best handheld pool vacuum for inground pool | 60 | 0 | 60 | 54.8 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 158 | best-mop-soap-for-laminate-floors | Best Mop Soap For Laminate Floors | money-guide | use-case-roundup | buy | best mop soap for laminate floors | 50 | 0 | 50 | 54.8 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 159 | best-robot-vacuum-and-mop-under-500 | Best Robot Vacuum And Mop Under $500 | money-guide | budget-roundup | buy | best robot vacuum and mop under $500 | 100 | 0 | 100 | 54.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 160 | best-robot-vacuum-for-german-shepherd-hair | Best Robot Vacuum For German Shepherd Hair | money-guide | use-case-roundup | buy | best robot vacuum for german shepherd hair | 50 | 0 | 50 | 54.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 161 | best-robot-vacuum-mop-combo-for-pets | Best Robot Vacuum Mop Combo For Pets | money-guide | use-case-roundup | buy | best robot vacuum mop combo for pets | 40 | 0 | 40 | 54.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 162 | best-robot-vacuum-mop-under-400 | Best Robot Vacuum Mop Under $400 | money-guide | budget-roundup | buy | best robot vacuum mop under $400 | 50 | 0 | 50 | 54.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 163 | best-robot-vacuum-under-1000 | Best Robot Vacuum Under $1000 | money-guide | budget-roundup | buy | best robot vacuum under $1000 | 50 | 0 | 50 | 54.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 164 | best-robot-vacuum-under-400 | Best Robot Vacuum Under $400 | money-guide | budget-roundup | buy | best robot vacuum under $400 | 50 | 0 | 50 | 54.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 165 | best-robot-vacuum-without-mop-for-pet-hair | Best Robot Vacuum Without Mop For Pet Hair | money-guide | use-case-roundup | buy | best robot vacuum without mop for pet hair | 50 | 0 | 50 | 54.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 166 | robot-vacuum-without-wifi | Best Robot Vacuum Without Wifi | money-guide | flagship-roundup | buy | best robot vacuum without wifi | 150 | 0 | 150 | 54.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 167 | best-cordless-vacuum-malaysia | Best Cordless Vacuum Malaysia | money-guide | flagship-roundup | buy | best cordless vacuum malaysia | 40 | 0 | 40 | 54.5 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 168 | best-cordless-vacuum-with-removable-battery | Best Cordless Vacuum With Removable Battery | money-guide | flagship-roundup | buy | best cordless vacuum with removable battery | 150 | 8 | 70 | 54.5 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 169 | best-robot-vacuum-and-mop-australia | Best Robot Vacuum And Mop Australia | money-guide | flagship-roundup | buy | best robot vacuum and mop australia | 80 | 0 | 80 | 54.5 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 170 | best-steam-mop-and-vacuum | Best Steam Mop And Vacuum | money-guide | feature-roundup | buy | best steam mop and vacuum | 0 | 0 | 0 | 54.5 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 171 | best-steam-mop-on-market | Best Steam Mop On Market | money-guide | feature-roundup | buy | best steam mop on market | 0 | 0 | 0 | 54.5 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 172 | best-steam-mop-with-scrubber | Best Steam Mop With Scrubber | money-guide | feature-roundup | buy | best steam mop with scrubber | 0 | 0 | 0 | 54.5 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 173 | norwex-mop | Norwex Mop | money-guide | flagship-roundup | buy | norwex mop | 900 | 0 | 500 | 54.5 | needs-serp-check | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 174 | robot-vs-cordless-vacuum | Robot Vs Cordless Vacuum | comparison | head-to-head | decide | robot vs cordless vacuum | 0 | 0 | 0 | 54.5 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 175 | best-carpet-cleaner-product-without-machine | Best Carpet Cleaner Product Without Machine | money-guide | flagship-roundup | buy | best carpet cleaner product without machine | 0 | 0 | 0 | 54.4 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
-| 176 | bissell-powerfresh-pet-steam-mop | Best Mop For Pet Urine | money-guide | use-case-roundup | buy | best mop for pet urine | 200 | 0 | 150 | 54.4 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 177 | best-mop-soap-for-hardwood-floors | Best Mop Soap For Hardwood Floors | money-guide | feature-roundup | buy | best mop soap for hardwood floors | 70 | 0 | 70 | 54.4 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 178 | how-to-best-mop-floors | How To Best Mop Floors | support-guide | setup-how-to | learn | how to best mop floors | 0 | 0 | 0 | 54.3 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 179 | what-are-the-10-best-cordless-vacuum-cleaners | What Are The 10 Best Cordless Vacuum Cleaners | support-guide | troubleshooting-fix | learn | what are the 10 best cordless vacuum cleaners | 0 | 0 | 0 | 54.3 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 180 | what-best-mop-for-tile-floors | What Best Mop For Tile Floors | support-guide | troubleshooting-fix | learn | what best mop for tile floors | 0 | 0 | 0 | 54.3 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 181 | what-is-best-cordless-vacuum-to-buy | What Is Best Cordless Vacuum To Buy | support-guide | glossary-explainer | learn | what is best cordless vacuum to buy | 0 | 0 | 0 | 54.3 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 182 | what-mop-is-the-best | What Mop Is The Best | support-guide | troubleshooting-fix | learn | what mop is the best | 0 | 0 | 0 | 54.3 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 183 | best-robot-vacuum-without-mop | Best Robot Vacuum Without Mop | money-guide | flagship-roundup | buy | best robot vacuum without mop | 700 | 23 | 1100 | 54.1 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 184 | best-tineco-vacuum-mop | Best Tineco Mop | money-guide | flagship-roundup | buy | best tineco mop | 600 | 5 | 1300 | 54.1 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 185 | best-cordless-vacuum-black-friday | Best Cordless Vacuum Black Friday | money-guide | flagship-roundup | buy | best cordless vacuum black friday | 50 | 0 | 1000 | 54 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 186 | best-spray-mop-for-hardwood-floors | Best Hardwood Spray Mop | money-guide | feature-roundup | buy | best hardwood spray mop | 150 | 4 | 450 | 54 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 187 | best-mop-for-cleaning-floors | Best Mop For Scrubbing Floors | money-guide | use-case-roundup | buy | best mop for scrubbing floors | 400 | 0 | 150 | 54 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 188 | best-prime-day-robot-vacuum-deals | Best Prime Day Robot Vacuum Deals | money-guide | flagship-roundup | buy | best prime day robot vacuum deals | 400 | 2 | 350 | 54 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 189 | best-robot-vacuum-for-pet-hair-self-emptying | Best Robot Vacuum For Pet Hair Self Emptying | money-guide | feature-roundup | buy | best robot vacuum for pet hair self emptying | 400 | 27 | 14000 | 54 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 190 | best-shark-handheld-vacuum | Best Shark Handheld Vacuum | money-guide | brand-roundup | buy | best shark handheld vacuum | 70 | 4 | 4400 | 54 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 191 | how-to-clean-floor-without-mop | Best Way To Clean Floors Without A Mop | support-guide | troubleshooting-fix | learn | best way to clean floors without a mop | 100 | 0 | 70 | 54 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 192 | longest-lasting-cordless-vacuum | Cordless Vacuum With Best Battery Life | money-guide | flagship-roundup | buy | cordless vacuum with best battery life | 50 | 13 | 350 | 54 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 193 | best-grout-cleaner-for-grease | Best Grout Cleaner For Grease | money-guide | use-case-roundup | buy | best grout cleaner for grease | 0 | 0 | 0 | 53.8 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
-| 194 | best-handheld-cordless-vacuum-cleaner-uk | Best Handheld Cordless Vacuum Cleaner Uk | money-guide | flagship-roundup | buy | best handheld cordless vacuum cleaner uk | 70 | 0 | 70 | 53.8 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 195 | best-homemade-grout-cleaner-without-bleach | Best Homemade Grout Cleaner Without Bleach | money-guide | flagship-roundup | buy | best homemade grout cleaner without bleach | 60 | 0 | 60 | 53.8 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
-| 196 | best-mop-classes | Best Mop Classes | money-guide | flagship-roundup | buy | best mop classes | 70 | 0 | 70 | 53.8 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 197 | best-robot-vacuum-and-mop-in-india | Best Robot Vacuum And Mop In India | money-guide | flagship-roundup | buy | best robot vacuum and mop in india | 30 | 0 | 30 | 53.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 198 | best-robot-vacuum-obstacle-avoidance | Best Robot Vacuum Obstacle Avoidance | money-guide | flagship-roundup | buy | best robot vacuum obstacle avoidance | 60 | 0 | 60 | 53.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 199 | best-robot-vacuum-of | Best Robot Vacuum Of ? | money-guide | flagship-roundup | buy | best robot vacuum of ? | 70 | 0 | 70 | 53.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 200 | best-robot-vacuum-only-no-mop | Best Robot Vacuum Only No Mop | money-guide | flagship-roundup | buy | best robot vacuum only no mop | 100 | 0 | 100 | 53.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 201 | best-robot-vacuum-with-roller-mop | Best Robot Vacuum With Roller Mop | money-guide | flagship-roundup | buy | best robot vacuum with roller mop | 40 | 0 | 40 | 53.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 202 | best-steam-mop-cheap | Best Steam Mop Cheap | money-guide | budget-roundup | buy | best steam mop cheap | 0 | 0 | 0 | 53.8 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 203 | best-xiaomi-robot-vacuum | Best Xiaomi Robot Vacuum | money-guide | flagship-roundup | buy | best xiaomi robot vacuum | 70 | 0 | 70 | 53.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 204 | the-best-mop-and-vacuum-combo | The Best Mop And Vacuum Combo | money-guide | flagship-roundup | buy | the best mop and vacuum combo | 50 | 0 | 50 | 53.8 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 205 | the-best-robot-vacuum-and-mop-combo | The Best Robot Vacuum And Mop Combo | money-guide | flagship-roundup | buy | the best robot vacuum and mop combo | 60 | 0 | 60 | 53.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 206 | best-wet-mop-for-tile-floors | Best Power Mop For Tile Floors | money-guide | use-case-roundup | buy | best power mop for tile floors | 150 | 2 | 1400 | 53.6 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 207 | best-robot-vacuum-cleaner-reviews | Best Robot Vacuum Cleaner Reviews | money-guide | flagship-roundup | buy | best robot vacuum cleaner reviews | 70 | 0 | 70 | 53.5 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 208 | how-to-mop-lvp-floors | Best Way To Mop Lvp Flooring | support-guide | troubleshooting-fix | learn | best way to mop lvp flooring | 200 | 1 | 400 | 53.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 209 | best-cordless-vacuum-long-hair | Best Cordless Vacuum Long Hair | money-guide | flagship-roundup | buy | best cordless vacuum long hair | 0 | 0 | 0 | 53.4 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 210 | best-steam-mop-multi-purpose | Best Steam Mop Multi Purpose | money-guide | feature-roundup | buy | best steam mop multi purpose | 0 | 0 | 0 | 53.4 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 211 | how-to-clean-mop-head | Best Way To Clean Mop Heads | support-guide | troubleshooting-fix | learn | best way to clean mop heads | 600 | 0 | 600 | 53.1 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 212 | best-carpet-cleaner-machine-for-car-detailing | Best Carpet Cleaner Machine For Car Detailing | money-guide | use-case-roundup | buy | best carpet cleaner machine for car detailing | 0 | 0 | 0 | 53 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
-| 213 | best-grout-cleaner-for-kitchen-counter | Best Grout Cleaner For Kitchen Counter | money-guide | use-case-roundup | buy | best grout cleaner for kitchen counter | 0 | 0 | 0 | 53 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
-| 214 | best-grout-cleaner-for-porcelain-tile | Best Grout Cleaner For Porcelain Tile | money-guide | use-case-roundup | buy | best grout cleaner for porcelain tile | 0 | 0 | 0 | 53 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
-| 215 | best-mop-for-everyday-use | Best Mop For Everyday Use | money-guide | use-case-roundup | buy | best mop for everyday use | 0 | 0 | 0 | 53 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 216 | best-steam-mop-australia | Best Steam Mop Australia | money-guide | feature-roundup | buy | best steam mop australia | 0 | 0 | 0 | 53 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 217 | best-steam-mop-on-the-market | Best Steam Mop On The Market | money-guide | feature-roundup | buy | best steam mop on the market | 0 | 0 | 0 | 53 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 218 | microfiber-mop-for-hardwood-floors | Microfiber Mop For Hardwood Floors | money-guide | feature-roundup | buy | microfiber mop for hardwood floors | 900 | 0 | 20 | 53 | needs-serp-check | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 219 | the-best-steam-mop | The Best Steam Mop | money-guide | feature-roundup | buy | the best steam mop | 0 | 0 | 0 | 53 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 220 | how-to-deep-clean-hardwood-floors | Best Way To Mop Hardwood Floors | support-guide | troubleshooting-fix | learn | best way to mop hardwood floors | 500 | 4 | 600 | 52.9 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
-| 221 | where-to-buy-a-mop | Where To Buy A Mop | money-guide | flagship-roundup | buy | where to buy a mop | 50 | 3 | 1400 | 52.9 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 222 | best-carpet-cleaner-machine-for-berber-carpet | Best Carpet Cleaner Machine For Berber Carpet | money-guide | use-case-roundup | buy | best carpet cleaner machine for berber carpet | 0 | 0 | 0 | 52.8 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
-| 223 | commercial-robot-vacuum | Best Commercial Robot Vacuum | money-guide | flagship-roundup | buy | best commercial robot vacuum | 500 | 1 | 400 | 52.8 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 224 | best-handheld-vacuum-black-and-decker | Best Handheld Vacuum Black And Decker | money-guide | flagship-roundup | buy | best handheld vacuum black and decker | 0 | 0 | 0 | 52.8 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 225 | best-handheld-vacuum-cleaner-for-pet-hair | Best Handheld Vacuum Cleaner For Pet Hair | money-guide | use-case-roundup | buy | best handheld vacuum cleaner for pet hair | 0 | 0 | 0 | 52.8 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 226 | best-kitchen-mop-for-tile | Best Kitchen Mop For Tile | money-guide | use-case-roundup | buy | best kitchen mop for tile | 0 | 0 | 0 | 52.8 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 227 | best-robot-vacuum-and-mop-for-pets | Best Robot Vacuum And Mop For Pet Hair | money-guide | use-case-roundup | buy | best robot vacuum and mop for pet hair | 1000 | 9 | 600 | 52.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 228 | best-robot-vacuum-for-hair | Best Robot Vacuum For Hair | money-guide | use-case-roundup | buy | best robot vacuum for hair | 150 | 10 | 150 | 52.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 229 | which-best-handheld-vacuum | Which Best Handheld Vacuum | money-guide | flagship-roundup | buy | which best handheld vacuum | 0 | 0 | 0 | 52.8 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 230 | best-steam-mop-for-kitchen-floors | Best Steam Mop For Kitchen Floors | money-guide | feature-roundup | buy | best steam mop for kitchen floors | 0 | 0 | 0 | 52.6 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 231 | best-steam-mop-walmart | Best Steam Mop Walmart | money-guide | feature-roundup | buy | best steam mop walmart | 0 | 0 | 0 | 52.6 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 232 | best-2-in-1-steam-mop | Best 2 In 1 Steam Mop | money-guide | feature-roundup | buy | best 2 in 1 steam mop | 0 | 0 | 0 | 52.4 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 233 | best-cordless-vacuum-alternative-to-dyson | Best Cordless Vacuum Alternative To Dyson | money-guide | brand-roundup | buy | best cordless vacuum alternative to dyson | 0 | 0 | 0 | 52.4 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 234 | best-cordless-vacuum-besides-dyson | Best Cordless Vacuum Besides Dyson | money-guide | brand-roundup | buy | best cordless vacuum besides dyson | 0 | 0 | 0 | 52.4 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 235 | vacuum-mop-for-hardwood-floors | Best Vacuum And Mop For Hardwood Floors | money-guide | feature-roundup | buy | best vacuum and mop for hardwood floors | 250 | 2 | 500 | 52.3 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 236 | carpet-cleaner-for-fleas | Best Steam Cleaner To Kill Fleas | money-guide | flagship-roundup | buy | best steam cleaner to kill fleas | 200 | 0 | 250 | 52.1 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
-| 237 | best-robot-vacuum-for-small-spaces | Best Robot Vacuum For Small Spaces | money-guide | use-case-roundup | buy | best robot vacuum for small spaces | 90 | 0 | 90 | 52 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 238 | black-diamond-grout-cleaner | Best Cleaner For Tile Grout | money-guide | use-case-roundup | buy | best cleaner for tile grout | 60 | 2 | 700 | 51.9 | fallback-evidence | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
-| 239 | concrete-mop | Best Wet Mop For Concrete Floors | money-guide | use-case-roundup | buy | best wet mop for concrete floors | 150 | 0 | 350 | 51.9 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 240 | best-grout-cleaner-machine | Best Grout Cleaner Machine | money-guide | flagship-roundup | buy | best grout cleaner machine | 150 | 0 | 350 | 51.6 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
-| 241 | what-is-best-stainless-steel-cleaner | What Is Best Stainless Steel Cleaner | support-guide | glossary-explainer | learn | what is best stainless steel cleaner | 30 | 0 | 30 | 51.6 | fallback-evidence | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
-| 242 | best-cheap-robot-vacuum | Best Cheap Robot Vacuum | money-guide | budget-roundup | buy | best cheap robot vacuum | 500 | 6 | 800 | 51.5 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 243 | best-robot-vacuum-for-golden-retriever-hair | Best Robot Vacuum For Golden Retriever Hair | money-guide | use-case-roundup | buy | best robot vacuum for golden retriever hair | 70 | 11 | 10 | 51.5 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 244 | how-to-clean-stainless-steel-stove-top | Best Cleaner For Stainless Steel Cooktop | support-guide | troubleshooting-fix | learn | best cleaner for stainless steel cooktop | 50 | 0 | 450 | 51.4 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
-| 245 | orfeld-cordless-vacuum | Best Orfeld Cordless Vacuum | money-guide | flagship-roundup | buy | best orfeld cordless vacuum | 0 | 0 | 250 | 51.4 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 246 | best-robot-vacuum-mop-for-tile-floors | Best Robot Vacuum Mop For Tile Floors | money-guide | use-case-roundup | buy | best robot vacuum mop for tile floors | 60 | 0 | 60 | 51.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 247 | best-robot-vacuum-mop-for-hardwood-floors | Best Robot Vacuum/Mop For Hardwood Floors | money-guide | feature-roundup | buy | best robot vacuum/mop for hardwood floors | 80 | 7 | 300 | 51.3 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 248 | i-robot-vacuum-reviews | I Robot Vacuum Reviews | money-guide | flagship-roundup | buy | i robot vacuum reviews | 50 | 0 | 50 | 51.1 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 249 | best-budget-friendly-robot-vacuum | Best Budget Friendly Robot Vacuum | money-guide | budget-roundup | buy | best budget friendly robot vacuum | 70 | 0 | 70 | 51 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 250 | best-cordless-stick-vacuum-for-dog-hair | Best Cordless Stick Vacuum For Dog Hair | money-guide | use-case-roundup | buy | best cordless stick vacuum for dog hair | 50 | 0 | 50 | 51 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 251 | power-mop-for-laminate-floors | Best Electric Mop For Laminate Floors | money-guide | use-case-roundup | buy | best electric mop for laminate floors | 80 | 0 | 40 | 51 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 252 | best-robot-vacuum-for-allergies | Best Robot Vacuum For Allergies | money-guide | use-case-roundup | buy | best robot vacuum for allergies | 90 | 0 | 40 | 51 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 253 | best-robot-vacuum-for-carpet-and-tile | Best Robot Vacuum For Carpet And Tile | money-guide | use-case-roundup | buy | best robot vacuum for carpet and tile | 50 | 0 | 50 | 51 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 254 | best-robot-vacuum-for-dark-floors | Best Robot Vacuum For Dark Floors | money-guide | use-case-roundup | buy | best robot vacuum for dark floors | 200 | 0 | 200 | 51 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 255 | best-robot-vacuum-for-multiple-surfaces | Best Robot Vacuum For Multiple Surfaces | money-guide | use-case-roundup | buy | best robot vacuum for multiple surfaces | 50 | 0 | 50 | 51 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 256 | best-robot-vacuum-for-sand | Best Robot Vacuum For Sand | money-guide | use-case-roundup | buy | best robot vacuum for sand | 70 | 0 | 70 | 51 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 257 | robot-vacuum-that-can-go-over-threshold | Best Robot Vacuum For Uneven Floors | money-guide | use-case-roundup | buy | best robot vacuum for uneven floors | 100 | 1 | 60 | 51 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 258 | the-best-cordless-vacuum-cleaner | The Best Cordless Vacuum Cleaner | money-guide | flagship-roundup | buy | the best cordless vacuum cleaner | 350 | 24 | 1900 | 51 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 259 | mops-for-dog-hair | Best Mop Dog Hair | money-guide | flagship-roundup | buy | best mop dog hair | 0 | 2 | 450 | 50.7 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 260 | robot-vacuum-for-hair | Best Robot Vacuum For Long Hair | money-guide | use-case-roundup | buy | best robot vacuum for long hair | 150 | 2 | 150 | 50.7 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 261 | best-vinyl-floor-cleaner-machine | Best Electric Mop For Vinyl Plank Floors | money-guide | use-case-roundup | buy | best electric mop for vinyl plank floors | 150 | 1 | 350 | 50.6 | fallback-evidence | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
-| 262 | best-lightweight-cordless-vacuum | Best Lightweight Cordless Vacuums (2026): For Stairs, Apartments, and Upper Floors | money-guide | feature-roundup | buy | best lightweight cordless vacuum | 800 | 2 | 800 | 50.6 | fallback-evidence | cleaning-support | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 263 | garage-mop | Best Mop For Garage Floor | money-guide | use-case-roundup | buy | best mop for garage floor | 200 | 0 | 250 | 50.6 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 264 | best-robot-vacuum-cleaner-for-hardwood-floors | Best Robot Vacuum Cleaner For Hardwood Floors | money-guide | feature-roundup | buy | best robot vacuum cleaner for hardwood floors | 100 | 0 | 100 | 50.5 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 265 | how-to-clean-stainless-appliances | Best Stainless Steel Refrigerator Cleaner | support-guide | troubleshooting-fix | learn | best stainless steel refrigerator cleaner | 30 | 4 | 600 | 50.5 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
-| 266 | best-robot-vacuum-self-empty | Best Self-Emptying Robot Vacuums (2026): When the Dock Earns Its Keep | money-guide | feature-roundup | buy | best robot vacuum self empty | 200 | 9 | 2500 | 50.4 | fallback-evidence | cleaning-support | labor-math-desk | Labor Trader | NOT BUILT |
-| 267 | best-hybrid-robot-vacuum-and-mop | Best Hybrid Robot Vacuum And Mop | money-guide | flagship-roundup | buy | best hybrid robot vacuum and mop | 60 | 0 | 60 | 50.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 268 | best-i-robot-vacuum-and-mop | Best I Robot Vacuum And Mop | money-guide | flagship-roundup | buy | best i robot vacuum and mop | 40 | 0 | 40 | 50.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 269 | best-quiet-robot-vacuum-for-pet-hair | Best Quiet Robot Vacuum For Pet Hair | money-guide | use-case-roundup | buy | best quiet robot vacuum for pet hair | 40 | 0 | 40 | 50.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 270 | best-robot-vacuum-for-litter | Best Robot Vacuum For Litter | money-guide | use-case-roundup | buy | best robot vacuum for litter | 60 | 0 | 60 | 50.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 271 | best-robot-vacuum-for-long-dog-hair | Best Robot Vacuum For Long Dog Hair | money-guide | use-case-roundup | buy | best robot vacuum for long dog hair | 50 | 0 | 50 | 50.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 272 | best-robot-vacuum-for-mopping | Best Robot Vacuum For Mopping | money-guide | use-case-roundup | buy | best robot vacuum for mopping | 50 | 0 | 50 | 50.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 273 | best-robot-vacuum-for-pet-owners | Best Robot Vacuum For Pet Owners | money-guide | use-case-roundup | buy | best robot vacuum for pet owners | 150 | 0 | 150 | 50.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 274 | best-roomba-mop-and-vacuum | Best Roomba Mop And Vacuum | money-guide | flagship-roundup | buy | best roomba mop and vacuum | 70 | 0 | 70 | 50.3 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 275 | best-stick-vacuum-under-100 | Best Stick Vacuum Under $100 | money-guide | budget-roundup | buy | best stick vacuum under $100 | 40 | 0 | 40 | 50.3 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 276 | robot-vacuum-and-mop-best | Robot Vacuum And Mop Best | money-guide | flagship-roundup | buy | robot vacuum and mop best | 70 | 0 | 70 | 50.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 277 | best-electric-floor-mop | Best Electric Floor Mop | money-guide | flagship-roundup | buy | best electric floor mop | 100 | 0 | 1300 | 50.1 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 278 | homemade-mopping-solution | Best Homemade Mop Solution | money-guide | flagship-roundup | buy | best homemade mop solution | 100 | 1 | 700 | 50.1 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 279 | mop-vs-swiffer | Best Swiffer Type Mop | comparison | head-to-head | compare | best swiffer type mop | 200 | 5 | 450 | 50.1 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 280 | best-seller-buture-vac01-cordless-vacuum-reviews | 【Best Seller】Buture Vac01 Cordless Vacuum Reviews | money-guide | flagship-roundup | buy | 【best seller】buture vac01 cordless vacuum reviews | 300 | 0 | 300 | 50 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 281 | 10-best-robot-vacuums | 10 Best Robot Vacuums | money-guide | flagship-roundup | buy | 10 best robot vacuums | 30 | 0 | 30 | 50 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 282 | best-ai-robot-vacuum | Best Ai Robot Vacuum | money-guide | flagship-roundup | buy | best ai robot vacuum | 50 | 0 | 50 | 50 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 283 | best-cordless-vacuum-cleaner-review | Best Cordless Vacuum Cleaner Review | money-guide | flagship-roundup | buy | best cordless vacuum cleaner review | 250 | 0 | 250 | 50 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 284 | best-cordless-vacuum-hardwood-floors | Best Cordless Vacuum Hardwood Floors | money-guide | feature-roundup | buy | best cordless vacuum hardwood floors | 200 | 9 | 700 | 50 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 285 | best-cordless-vacuum-with-wall-mount-charger | Best Cordless Vacuum With Wall Mount Charger | money-guide | flagship-roundup | buy | best cordless vacuum with wall mount charger | 30 | 0 | 30 | 50 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 286 | best-multi-surface-robot-vacuum | Best Multi Surface Robot Vacuum | money-guide | flagship-roundup | buy | best multi surface robot vacuum | 50 | 0 | 50 | 50 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 287 | best-quietest-robot-vacuum | Best Quietest Robot Vacuum | money-guide | flagship-roundup | buy | best quietest robot vacuum | 50 | 0 | 50 | 50 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 288 | best-robot-vacuum-amazon | Best Robot Vacuum Amazon | money-guide | flagship-roundup | buy | best robot vacuum amazon | 80 | 0 | 80 | 50 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 289 | best-robot-vacuum-that-maps-house | Best Robot Vacuum That Maps House | money-guide | flagship-roundup | buy | best robot vacuum that maps house | 50 | 0 | 50 | 50 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 290 | best-mop-for-rubber-gym-floor | Best Mop For Rubber Gym Floor | money-guide | use-case-roundup | buy | best mop for rubber gym floor | 150 | 0 | 50 | 49.7 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 291 | garage-robot-vacuum | Best Robot Vacuum For Garage Floors | money-guide | use-case-roundup | buy | best robot vacuum for garage floors | 200 | 0 | 200 | 49.7 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 292 | best-robot-vacuum-for-high-thresholds | Best Robot Vacuum For High Thresholds | money-guide | use-case-roundup | buy | best robot vacuum for high thresholds | 60 | 2 | 40 | 49.7 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 293 | floor-cleaner-for-robot-mop | Best Cleaning Solution For Robot Mop | money-guide | use-case-roundup | buy | best cleaning solution for robot mop | 200 | 0 | 30 | 49.6 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 294 | best-dust-mop-for-pet-hair | Best Dust Mop For Pet Hair | money-guide | use-case-roundup | buy | best dust mop for pet hair | 90 | 0 | 90 | 49.6 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 295 | best-microfiber-mop-for-vinyl-plank-floors | Best Microfiber Mop For Vinyl Plank Floors | money-guide | use-case-roundup | buy | best microfiber mop for vinyl plank floors | 70 | 0 | 70 | 49.6 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 296 | best-mop-for-bamboo-floors | Best Mop For Bamboo Floors | money-guide | use-case-roundup | buy | best mop for bamboo floors | 60 | 0 | 20 | 49.6 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 297 | best-mop-for-epoxy-floor | Best Mop For Epoxy Garage Floor | money-guide | use-case-roundup | buy | best mop for epoxy garage floor | 150 | 0 | 40 | 49.6 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 298 | best-mop-for-pets | Best Mop For Pets | money-guide | use-case-roundup | buy | best mop for pets | 150 | 0 | 150 | 49.6 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 299 | mop-basement-floor | Best Mop For Rough Concrete Floors | money-guide | use-case-roundup | buy | best mop for rough concrete floors | 50 | 0 | 50 | 49.6 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 300 | best-mops-for-apartments | Best Mop For Small Apartment | money-guide | use-case-roundup | buy | best mop for small apartment | 80 | 1 | 20 | 49.6 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 301 | best-mop-for-textured-tile-floors | Best Mop For Textured Tile Floors | money-guide | use-case-roundup | buy | best mop for textured tile floors | 60 | 0 | 20 | 49.6 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 302 | best-mop-head-for-waxing-floors | Best Mop Head For Waxing Floors | money-guide | use-case-roundup | buy | best mop head for waxing floors | 30 | 0 | 10 | 49.6 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 303 | best-robot-vacuum-only | Best Robot Vacuum Only | money-guide | flagship-roundup | buy | best robot vacuum only | 450 | 53 | 1000 | 49.6 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 304 | best-smelling-floor-cleaner | Best Smelling Mop Solution | money-guide | flagship-roundup | buy | best smelling mop solution | 200 | 0 | 450 | 49.6 | fallback-evidence | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
-| 305 | best-way-to-mop | Best Way To Mop | money-guide | flagship-roundup | buy | best way to mop | 200 | 3 | 1100 | 49.6 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 306 | o-cedar-spin-mop | Best Spin Mop | money-guide | flagship-roundup | buy | best spin mop | 0 | 2 | 50 | 49.5 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 307 | robot-vacuum-deals | Best Deal On Robot Vacuum | money-guide | flagship-roundup | buy | best deal on robot vacuum | 500 | 43 | 1800 | 49.4 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 308 | best-cordless-stick-vacuum-with-removable-battery | Best Cordless Stick Vacuum With Removable Battery | money-guide | flagship-roundup | buy | best cordless stick vacuum with removable battery | 90 | 0 | 90 | 49.3 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 309 | ceiling-mop | Best Mop For Cleaning Ceilings | money-guide | use-case-roundup | buy | best mop for cleaning ceilings | 250 | 0 | 200 | 49.3 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 310 | best-mop-for-dog-hair-on-hardwood | Best Mop For Dog Hair On Hardwood | money-guide | feature-roundup | buy | best mop for dog hair on hardwood | 100 | 0 | 80 | 49.3 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 311 | best-mop-vacuum-robot-combo | Best Mop Vacuum Robot Combo | money-guide | flagship-roundup | buy | best mop vacuum robot combo | 30 | 0 | 30 | 49.3 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 312 | non-toxic-stainless-steel-cleaner | Best Natural Stainless Steel Cleaner | money-guide | feature-roundup | buy | best natural stainless steel cleaner | 30 | 0 | 40 | 49.3 | fallback-evidence | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
-| 313 | best-quality-robot-vacuum | Best Quality Robot Vacuum | money-guide | flagship-roundup | buy | best quality robot vacuum | 30 | 0 | 30 | 49.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 314 | best-robot-vacuum-large-house | Best Robot Vacuum Large House | money-guide | flagship-roundup | buy | best robot vacuum large house | 40 | 0 | 40 | 49.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 315 | best-robot-vacuum-multiple-floors | Best Robot Vacuum Multiple Floors | money-guide | flagship-roundup | buy | best robot vacuum multiple floors | 50 | 0 | 50 | 49.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 316 | best-robot-vacuum-navigation | Best Robot Vacuum Navigation | money-guide | flagship-roundup | buy | best robot vacuum navigation | 40 | 0 | 40 | 49.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 317 | best-robot-vacuum-that-mops | Best Robot Vacuum That Mops | money-guide | flagship-roundup | buy | best robot vacuum that mops | 40 | 0 | 40 | 49.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 318 | best-self-cleaning-robot-vacuum-and-mop | Best Self Cleaning Robot Vacuum And Mop | money-guide | flagship-roundup | buy | best self cleaning robot vacuum and mop | 70 | 0 | 70 | 49.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 319 | best-floor-cleaner-for-tile-and-grout | Best Floor Cleaner For Tile And Grout | money-guide | use-case-roundup | buy | best floor cleaner for tile and grout | 90 | 1 | 2100 | 49.1 | fallback-evidence | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
-| 320 | robot-vacuum-with-self-empty | Best Self-Emptying Robot Vacuum | money-guide | flagship-roundup | buy | best self-emptying robot vacuum | 150 | 2 | 1000 | 49.1 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 321 | ultimate-grout-cleaner-best-grout-cleaner-for-tile-grout | Ultimate Grout Cleaner Best Grout Cleaner For Tile Grout | money-guide | use-case-roundup | buy | ultimate grout cleaner best grout cleaner for tile grout | 0 | 0 | 0 | 49.1 | fallback-evidence | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
-| 322 | best-cordless-vacuum-for-seniors | Best Cordless Vacuum For Seniors | money-guide | use-case-roundup | buy | best cordless vacuum for seniors | 30 | 0 | 30 | 49 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 323 | best-robot-vacuum-for-garage | Best Robot Vacuum For Garage | money-guide | use-case-roundup | buy | best robot vacuum for garage | 60 | 0 | 60 | 49 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 324 | best-robot-vacuum-for-laminate-wood-floors | Best Robot Vacuum For Laminate Wood Floors | money-guide | use-case-roundup | buy | best robot vacuum for laminate wood floors | 50 | 0 | 50 | 49 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 325 | best-bar-mop-towels | Best Bar Mop Towels | money-guide | flagship-roundup | buy | best bar mop towels | 70 | 1 | 30 | 48.8 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 326 | best-dyson-cordless-vacuum-for-carpet-and-hardwood-floors | Best Dyson Cordless Vacuum For Carpet And Hardwood Floors | money-guide | brand-roundup | buy | best dyson cordless vacuum for carpet and hardwood floors | 0 | 0 | 0 | 48.8 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 327 | best-flat-mop-system | Best Flat Mop System | money-guide | flagship-roundup | buy | best flat mop system | 90 | 0 | 90 | 48.8 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 328 | best-handheld-small-vacuum | Best Handheld Small Vacuum | money-guide | flagship-roundup | buy | best handheld small vacuum | 30 | 0 | 30 | 48.8 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 329 | best-mop-heads | Best Mop Heads | money-guide | flagship-roundup | buy | best mop heads | 30 | 0 | 30 | 48.8 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 330 | best-price-on-a-dyson-cordless-vacuum | Best Price On A Dyson Cordless Vacuum | money-guide | brand-roundup | buy | best price on a dyson cordless vacuum | 0 | 0 | 0 | 48.8 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 331 | best-robot-vacuum-for-two-story-house | Best Robot Vacuum For Multiple Floors | money-guide | use-case-roundup | buy | best robot vacuum for multiple floors | 150 | 6 | 10 | 48.8 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 332 | best-robot-vacuum-for-rugs | Best Robot Vacuum For Rugs | money-guide | use-case-roundup | buy | best robot vacuum for rugs | 90 | 7 | 30 | 48.8 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 333 | best-shark-pet-cordless-vacuum | Best Shark Pet Cordless Vacuum | money-guide | brand-roundup | buy | best shark pet cordless vacuum | 0 | 0 | 0 | 48.8 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 334 | best-time-to-buy-a-dyson-cordless-vacuum | Best Time To Buy A Dyson Cordless Vacuum | money-guide | brand-roundup | buy | best time to buy a dyson cordless vacuum | 0 | 0 | 0 | 48.8 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 335 | best-time-to-buy-robot-vacuum | Best Time To Buy Robot Vacuum | money-guide | flagship-roundup | buy | best time to buy robot vacuum | 80 | 0 | 20 | 48.7 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 336 | best-mop-for-tile-with-grout | Best Mop For Tile With Grout | money-guide | use-case-roundup | buy | best mop for tile with grout | 80 | 0 | 80 | 48.6 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 337 | best-robot-vacuum-no-mop | Best Robot Vacuum No Mop | money-guide | flagship-roundup | buy | best robot vacuum no mop | 300 | 43 | 900 | 48.6 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 338 | best-robot-vacuum-on-a-budget | Best Robot Vacuum On A Budget | money-guide | budget-roundup | buy | best robot vacuum on a budget | 40 | 0 | 40 | 48.6 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 339 | best-rugs-for-robot-vacuum | Best Rugs For Robot Vacuum | money-guide | use-case-roundup | buy | best rugs for robot vacuum | 60 | 0 | 60 | 48.6 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 340 | best-robot-vacuum-for-elderly | Best Robot Vacuum For Seniors | money-guide | use-case-roundup | buy | best robot vacuum for seniors | 60 | 6 | 10 | 48.5 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 341 | best-homemade-stainless-steel-cleaner | Best Homemade Stainless Steel Cleaner | money-guide | feature-roundup | buy | best homemade stainless steel cleaner | 40 | 0 | 200 | 48.4 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
-| 342 | best-mop-for-dog-pee | Best Mop For Dog Pee | money-guide | use-case-roundup | buy | best mop for dog pee | 100 | 0 | 100 | 48.4 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 343 | best-robot-vacuum-under-100 | Best Robot Vacuum Under $100 | money-guide | budget-roundup | buy | best robot vacuum under $100 | 40 | 2 | 10 | 48.4 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 344 | best-sponge-mops | Best Sponge Mop For Vinyl Floors | money-guide | use-case-roundup | buy | best sponge mop for vinyl floors | 60 | 0 | 200 | 48.4 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 345 | best-budget-handheld-vacuum | Best Budget Handheld Vacuum | money-guide | budget-roundup | buy | best budget handheld vacuum | 90 | 6 | 60 | 48.3 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 346 | best-dust-mop | Best Dust Mop? | money-guide | flagship-roundup | buy | best dust mop? | 250 | 6 | 250 | 48.3 | needs-serp-check | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 347 | best-cordless-vacuum-under-100 | Best Cordless Vacuum Under $100 | money-guide | budget-roundup | buy | best cordless vacuum under $100 | 100 | 0 | 200 | 48.1 | needs-serp-check | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 348 | best-cordless-vacuum-for-pet-hair-uk | Best Cordless Vacuum For Pet Hair Uk | money-guide | use-case-roundup | buy | best cordless vacuum for pet hair uk | 60 | 8 | 90 | 48 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 349 | best-dust-mop | Best Dust Mop? | money-guide | flagship-roundup | buy | best dust mop? | 250 | 6 | 250 | 48 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 350 | best-roborock-vacuum-and-mop | Best Roborock Vacuum And Mop | money-guide | brand-roundup | buy | best roborock vacuum and mop | 900 | 50 | 2500 | 48 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 9 | best-mop | Best Mops for Everyday Home Cleaning (2026) | money-guide | flagship-roundup | buy | best mop | 11000 | 2 | 14000 | 83.3 | export-backed | cleaning-support | everyday-cleaning-desk | Practical Floor Keeper | LIVE |
+| 94 | best-grout-cleaner | Best Grout Cleaner For Floors | money-guide | use-case-roundup | buy | best grout cleaner for floors | 900 | 2 | 6100 | 68.7 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | LIVE |
+| 10 | what-to-mop-floors-with | Best Product To Mop Floors | support-guide | troubleshooting-fix | buy | best product to mop floors | 800 | 4 | 4100 | 68 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 11 | best-handheld-cordless-vacuum | Best Handheld Vacuum | money-guide | flagship-roundup | buy | best handheld vacuum | 17000 | 2 | 23000 | 82 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 12 | are-robot-vacuums-worth-it | Are Robot Vacuums Worth It | support-guide | worth-it-buying-decision | decide | are robot vacuums worth it | 700 | 2 | 400 | 66.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 13 | what-is-the-most-powerful-handheld-vacuum | What Is The Most Powerful Handheld Vacuum | support-guide | glossary-explainer | learn | what is the most powerful handheld vacuum | 50 | 5 | 17000 | 64.7 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 14 | vacuum-and-mop-combo | Best Hard Floor Vacuum And Mop | money-guide | flagship-roundup | buy | best hard floor vacuum and mop | 8600 | 1 | 16000 | 80 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 15 | what-to-mop-tile-floors-with | Best Mop Solution For Tile Floors | support-guide | troubleshooting-fix | buy | best mop solution for tile floors | 150 | 4 | 450 | 62 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 16 | bissell-vs-hoover-carpet-cleaner | Bissell Vs Hoover Carpet Cleaner | comparison | head-to-head | decide | bissell vs hoover carpet cleaner | 250 | 0 | 100 | 66.1 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 17 | is-roomba-the-best-robot-vacuum | Is Roomba The Best Robot Vacuum | support-guide | compatibility-safety | decide | is roomba the best robot vacuum | 60 | 0 | 60 | 61.1 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 18 | best-carpet-cleaner | The Best Carpet Cleaner Machine | money-guide | flagship-roundup | buy | the best carpet cleaner machine | 22000 | 6 | 18000 | 78.8 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 19 | how-shark-steam-mop-works | How Shark Steam Mop Works | linkable-asset | data-study | learn | how shark steam mop works | 300 | 14 | 300 | 40 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 20 | what-are-the-best-cordless-vacuum-cleaners | What Are The Best Cordless Vacuum Cleaners | support-guide | troubleshooting-fix | learn | what are the best cordless vacuum cleaners | 50 | 21 | 20000 | 60.6 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 21 | carpet-cleaner-machine | Best Professional Carpet Cleaner Machine | money-guide | flagship-roundup | buy | best professional carpet cleaner machine | 15000 | 4 | 21000 | 77.8 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 22 | how-to-wash-o-cedar-mop-head | Best Way To Clean O'Cedar Mop Head | support-guide | troubleshooting-fix | learn | best way to clean o'cedar mop head | 400 | 0 | 2900 | 58.3 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 23 | what-to-mop-hardwood-floors-with | Best Thing To Mop Hardwood Floors With | support-guide | troubleshooting-fix | buy | best thing to mop hardwood floors with | 350 | 2 | 600 | 56.6 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 24 | vacuum-mop-combo | Vacuum Mop Combo | money-guide | flagship-roundup | buy | vacuum mop combo | 8600 | 1 | 6900 | 77 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 25 | how-to-best-mop-floors | How To Best Mop Floors | support-guide | setup-how-to | learn | how to best mop floors | 0 | 0 | 0 | 54.3 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 26 | corded-vs-cordless-vacuum | Corded Vs Cordless Vacuum | comparison | head-to-head | decide | corded vs cordless vacuum | 200 | 1 | 300 | 62.1 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 27 | what-are-the-10-best-cordless-vacuum-cleaners | What Are The 10 Best Cordless Vacuum Cleaners | support-guide | troubleshooting-fix | learn | what are the 10 best cordless vacuum cleaners | 0 | 0 | 0 | 54.3 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 28 | shark-robot-vacuum | Best Shark Robot Vacuum For Pet Hair | money-guide | brand-roundup | buy | best shark robot vacuum for pet hair | 40000 | 3 | 25000 | 76.8 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 29 | how-carpet-cleaning-machine-works | How Carpet Cleaning Machine Works | linkable-asset | data-study | learn | how carpet cleaning machine works | 300 | 14 | 300 | 39.3 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 30 | what-best-mop-for-tile-floors | What Best Mop For Tile Floors | support-guide | troubleshooting-fix | learn | what best mop for tile floors | 0 | 0 | 0 | 54.3 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 31 | best-steam-mop-for-laminate-floors | Best Steam Mop For Laminate Floors | money-guide | feature-roundup | buy | best steam mop for laminate floors | 500 | 1 | 13000 | 76.7 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 32 | how-to-clean-stainless-steel-pans | Best Cleaner For Stainless Steel Pans | support-guide | troubleshooting-fix | learn | best cleaner for stainless steel pans | 100 | 3 | 6400 | 67.3 | export-backed | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 33 | what-is-best-cordless-vacuum-to-buy | What Is Best Cordless Vacuum To Buy | support-guide | glossary-explainer | learn | what is best cordless vacuum to buy | 0 | 0 | 0 | 54.3 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 34 | carpet-cleaner | Best Carpet Machine Cleaner | money-guide | flagship-roundup | buy | best carpet machine cleaner | 149000 | 4 | 21000 | 76.5 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 35 | what-to-clean-stainless-steel-with | What To Clean Stainless Steel With | support-guide | troubleshooting-fix | learn | what to clean stainless steel with | 700 | 1 | 12000 | 67 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 36 | eufy-vs-shark-robot-vacuum | Eufy Vs Shark Robot Vacuum | comparison | brand-vs-brand | decide | eufy vs shark robot vacuum | 90 | 0 | 50 | 60.6 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 37 | what-mop-is-the-best | What Mop Is The Best | support-guide | troubleshooting-fix | learn | what mop is the best | 0 | 0 | 0 | 54.3 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 38 | best-mop-for-wood-floors | Best Mop For Wood Floors | money-guide | use-case-roundup | buy | best mop for wood floors | 1000 | 0 | 13000 | 76.5 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 39 | how-do-carpet-cleaners-work-around-furniture | How Do Carpet Cleaners Work Around Furniture | linkable-asset | data-study | learn | how do carpet cleaners work around furniture | 300 | 10 | 300 | 39.3 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 40 | how-to-clean-vinyl-floors | Best Way To Mop Vinyl Floors | support-guide | troubleshooting-fix | learn | best way to mop vinyl floors | 150 | 0 | 3000 | 63.5 | export-backed | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 41 | best-hardwood-floor-mop | Best Hardwood Floor Mop | money-guide | feature-roundup | buy | best hardwood floor mop | 700 | 3 | 11000 | 76.3 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 42 | how-to-best-clean-grout | How To Best Clean Grout | support-guide | setup-how-to | learn | how to best clean grout | 40 | 5 | 6800 | 58.5 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 43 | how-to-clean-stainless-steel-sink | Best Cleaner For Stainless Steel Sink | support-guide | troubleshooting-fix | learn | best cleaner for stainless steel sink | 450 | 2 | 3700 | 58.3 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 44 | steam-mop | Shop Best Steam Mop Deals | money-guide | feature-roundup | buy | shop best steam mop deals | 30000 | 8 | 7100 | 74.8 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 45 | how-to-clean-floor-without-mop | Best Way To Clean Floors Without A Mop | support-guide | troubleshooting-fix | learn | best way to clean floors without a mop | 100 | 0 | 70 | 54 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 46 | roborock-vs-eufy | Roborock vs Eufy: Which Robot Vacuum Brand Actually Fits Your House | comparison | brand-vs-brand | decide | roborock vs eufy | 300 | 4 | 200 | 60.2 | export-backed | cleaning-support | labor-math-desk | Labor Trader | NOT BUILT |
+| 47 | how-to-mop-lvp-floors | Best Way To Mop Lvp Flooring | support-guide | troubleshooting-fix | learn | best way to mop lvp flooring | 200 | 1 | 400 | 53.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 48 | robot-vacuum-reviews | Robot Vacuum Reviews | money-guide | flagship-roundup | buy | robot vacuum reviews | 4000 | 9 | 39000 | 73.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 49 | how-do-steam-mops-work-on-carpet | How Do Steam Mops Work On Carpet | linkable-asset | data-study | learn | how do steam mops work on carpet | 300 | 10 | 300 | 39.3 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 50 | how-to-clean-laminate-floors | Best Way To Mop Laminate Floors | support-guide | troubleshooting-fix | learn | best way to mop laminate floors | 300 | 0 | 3700 | 55.5 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 51 | best-robot-vacuum-mop | Best Robot Vacuum Mop | money-guide | flagship-roundup | buy | best robot vacuum mop | 900 | 10 | 13000 | 72.2 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 52 | how-to-deep-clean-hardwood-floors | Best Way To Mop Hardwood Floors | support-guide | troubleshooting-fix | learn | best way to mop hardwood floors | 500 | 4 | 600 | 52.9 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 53 | what-is-best-stainless-steel-cleaner | What Is Best Stainless Steel Cleaner | support-guide | glossary-explainer | learn | what is best stainless steel cleaner | 30 | 0 | 30 | 51.6 | fallback-evidence | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
+| 54 | dyson-cordless-vacuum | Dyson Cordless Vacuum | money-guide | brand-roundup | buy | dyson cordless vacuum | 45000 | 33 | 56000 | 71.5 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 55 | how-to-clean-stainless-steel-stove-top | Best Cleaner For Stainless Steel Cooktop | support-guide | troubleshooting-fix | learn | best cleaner for stainless steel cooktop | 50 | 0 | 450 | 51.4 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 56 | compare-best-cordless-vacuum | Compare Best Cordless Vacuum | comparison | flagship-roundup | buy | compare best cordless vacuum | 60 | 0 | 60 | 55.1 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 57 | how-to-clean-stainless-appliances | Best Stainless Steel Refrigerator Cleaner | support-guide | troubleshooting-fix | learn | best stainless steel refrigerator cleaner | 30 | 4 | 600 | 50.5 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 58 | robot-vacuum-black-friday | Best Robot Vacuum Black Friday Deals | money-guide | flagship-roundup | buy | best robot vacuum black friday deals | 1900 | 2 | 1700 | 71.3 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 59 | how-does-carpet-cleaners-work | How Does Carpet Cleaners Work | linkable-asset | data-study | learn | how does carpet cleaners work | 300 | 14 | 300 | 39.3 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 60 | how-to-clean-mop-head | Best Way To Clean Mop Heads | support-guide | troubleshooting-fix | learn | best way to clean mop heads | 600 | 0 | 600 | 53.1 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 61 | what-is-a-steam-mop | Best Steam Mop For Tile Floors | money-guide | feature-roundup | buy | best steam mop for tile floors | 450 | 2 | 16000 | 72.8 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 62 | how-to-choose-best-robot-vacuum | How To Choose Best Robot Vacuum | support-guide | setup-how-to | learn | how to choose best robot vacuum | 50 | 0 | 50 | 44.5 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 63 | what-robot-vacuum-handles-rough-surfaces-best | What Robot Vacuum Handles Rough Surfaces Best? | support-guide | troubleshooting-fix | learn | what robot vacuum handles rough surfaces best? | 90 | 0 | 90 | 44.5 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 64 | best-mop-for-vinyl-floors | Best Mop For Vinyl Plank Flooring | money-guide | use-case-roundup | buy | best mop for vinyl plank flooring | 1100 | 0 | 1800 | 71.5 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 65 | what-robot-vacuum-has-the-best-mapping | What Robot Vacuum Has The Best Mapping? | support-guide | troubleshooting-fix | learn | what robot vacuum has the best mapping? | 80 | 0 | 80 | 44.5 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 66 | steam-mop-vs-regular-mop | Steam Mop Vs Regular Mop | comparison | head-to-head | decide | steam mop vs regular mop | 400 | 0 | 900 | 60 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 67 | is-a-spray-mop-or-steam-mop-better | Is A Spray Mop.Or.Steam.Mop Better | support-guide | compatibility-safety | decide | is a spray mop.or.steam.mop better | 300 | 14 | 300 | 43.9 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 68 | swiffer-mop | Best Swiffer Mop For Hardwood Floors | money-guide | feature-roundup | buy | best swiffer mop for hardwood floors | 23000 | 2 | 16000 | 71.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 69 | how-does-carpet-cleaning-work | How Does Carpet Cleaning Work | linkable-asset | data-study | learn | how does carpet cleaning work | 300 | 14 | 300 | 39.3 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 70 | what-cordless-vacuum-has-the-best-suction | What Cordless Vacuum Has The Best Suction | support-guide | troubleshooting-fix | learn | what cordless vacuum has the best suction | 90 | 29 | 1000 | 43.9 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 71 | self-emptying-robot-vacuum | Best Self Cleaning Robot Vacuum | money-guide | flagship-roundup | buy | best self cleaning robot vacuum | 3200 | 7 | 2800 | 71.3 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 72 | what-the-best-cordless-vacuum-to-buy | What The Best Cordless Vacuum To Buy | support-guide | troubleshooting-fix | learn | what the best cordless vacuum to buy | 0 | 0 | 0 | 43.8 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 73 | what-handheld-vacuum-has-the-best-suction | What Handheld Vacuum Has The Best Suction | support-guide | troubleshooting-fix | learn | what handheld vacuum has the best suction | 0 | 0 | 0 | 43.6 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 74 | best-budget-robot-vacuum | Best Mid Range Robot Vacuum | money-guide | flagship-roundup | buy | best mid range robot vacuum | 1400 | 3 | 2600 | 71 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 75 | what-robot-vacuums-work-with-5g | What Robot Vacuums Work With 5g | support-guide | troubleshooting-fix | learn | what robot vacuums work with 5g | 300 | 10 | 300 | 43.5 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 76 | swiffer-power-mop-vs-wet-jet | Which Swiffer Mop Is Best | comparison | head-to-head | compare | which swiffer mop is best | 1900 | 2 | 1900 | 59.3 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 77 | what-robot-vacuums-work-with-google-home | What Robot Vacuums Work With Google Home | support-guide | troubleshooting-fix | learn | what robot vacuums work with google home | 300 | 10 | 300 | 43.5 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 78 | best-robot-vacuum-pet-hair | Best Robot Vacuum Pet Hair | money-guide | flagship-roundup | buy | best robot vacuum pet hair | 350 | 14 | 13000 | 70.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 79 | how-does-robot-vacuums-work | How Does Robot Vacuums Work | linkable-asset | data-study | learn | how does robot vacuums work | 300 | 14 | 300 | 39.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 80 | what-robot-vacuums-work-with-homekit | What Robot Vacuums Work With Homekit | support-guide | troubleshooting-fix | learn | what robot vacuums work with homekit | 500 | 10 | 500 | 43.5 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 81 | grout-cleaner | Best Homemade Grout Cleaner For Mold | money-guide | use-case-roundup | buy | best homemade grout cleaner for mold | 0 | 2 | 16000 | 70 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
+| 82 | what-is-a-good-mop-to-buy | What Is A Good Mop To Buy | support-guide | glossary-explainer | learn | what is a good mop to buy | 0 | 0 | 0 | 42.6 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 83 | what-is-best-robot-vacuum | What Is Best Robot Vacuum | support-guide | glossary-explainer | learn | what is best robot vacuum | 50 | 24 | 2900 | 42.6 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 84 | best-handheld-steam-cleaner | Best Handheld Steam Cleaner For Grout | money-guide | use-case-roundup | buy | best handheld steam cleaner for grout | 100 | 2 | 7300 | 69.5 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 85 | is-dyson-best-cordless-vacuum | Is Dyson Best Cordless Vacuum | support-guide | compatibility-safety | decide | is dyson best cordless vacuum | 0 | 0 | 0 | 42.5 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 86 | robot-vs-cordless-vacuum | Robot Vs Cordless Vacuum | comparison | head-to-head | decide | robot vs cordless vacuum | 0 | 0 | 0 | 54.5 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 87 | is-dyson-v15-the-best-cordless-vacuum | Is Dyson V15 The Best Cordless Vacuum | support-guide | compatibility-safety | decide | is dyson v15 the best cordless vacuum | 0 | 0 | 0 | 42.5 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 88 | best-robot-vacuum-cleaner | Best Robot Vacuum Cleaner | money-guide | flagship-roundup | buy | best robot vacuum cleaner | 1400 | 40 | 38000 | 69 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 89 | how-does-steam-mop-work-on-carpet | How Does Steam Mop Work On Carpet | linkable-asset | data-study | learn | how does steam mop work on carpet | 300 | 10 | 300 | 39.3 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 90 | what-is-best-shark-cordless-vacuum | What Is Best Shark Cordless Vacuum | support-guide | glossary-explainer | learn | what is best shark cordless vacuum | 0 | 0 | 0 | 42.1 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 91 | best-robot-vacuum-for-carpet | Best Carpet Robot Vacuum | money-guide | flagship-roundup | buy | best carpet robot vacuum | 1400 | 6 | 2000 | 68.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 92 | what-is-dyson-s-best-cordless-vacuum | What Is Dyson'S Best Cordless Vacuum | support-guide | glossary-explainer | learn | what is dyson's best cordless vacuum | 0 | 0 | 0 | 42.1 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 93 | what-is-shark-s-best-cordless-vacuum | What Is Shark'S Best Cordless Vacuum? | support-guide | glossary-explainer | learn | what is shark's best cordless vacuum? | 0 | 0 | 0 | 42.1 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 95 | what-is-sharks-best-cordless-vacuum | What Is Sharks Best Cordless Vacuum? | support-guide | glossary-explainer | learn | what is sharks best cordless vacuum? | 0 | 0 | 0 | 42.1 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 96 | mop-vs-swiffer | Best Swiffer Type Mop | comparison | head-to-head | compare | best swiffer type mop | 200 | 5 | 450 | 50.1 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 97 | is-a-steam-mop-best-for-tile-floors | Is A Steam Mop Best For Tile Floors | support-guide | compatibility-safety | decide | is a steam mop best for tile floors | 0 | 0 | 0 | 41.9 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 98 | best-cordless-vacuum-reviews | Best Cordless Vacuum | money-guide | flagship-roundup | buy | best cordless vacuum | 51000 | 24 | 68000 | 68.5 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 99 | how-does-steam-mops-work | How Does Steam Mops Work | linkable-asset | data-study | learn | how does steam mops work | 300 | 14 | 300 | 39.3 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 100 | is-hot-mop-the-best-shower-pan | Is Hot Mop The Best Shower Pan | support-guide | compatibility-safety | decide | is hot mop the best shower pan | 0 | 0 | 0 | 41.9 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 101 | best-robot-vacuum-and-mop-combo | Best Robot Vacuum And Mop Combo | money-guide | flagship-roundup | buy | best robot vacuum and mop combo | 1800 | 8 | 19000 | 68.2 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 102 | is-it-best-compact-cordless-vacuum-for-apartments | Is It Best Compact Cordless Vacuum For Apartments | support-guide | compatibility-safety | decide | is it best compact cordless vacuum for apartments | 0 | 0 | 0 | 41.9 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 103 | is-it-best-handheld-vacuum-for-car-interiors | Is It Best Handheld Vacuum For Car Interiors? | support-guide | compatibility-safety | decide | is it best handheld vacuum for car interiors? | 0 | 0 | 0 | 41.9 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 104 | best-floor-cleaner | Best Solution To Mop Floors | money-guide | flagship-roundup | buy | best solution to mop floors | 450 | 2 | 6300 | 68 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
+| 105 | is-it-best-handheld-vacuum-for-upholstery | Is It Best Handheld Vacuum For Upholstery? | support-guide | compatibility-safety | decide | is it best handheld vacuum for upholstery? | 0 | 0 | 0 | 41.9 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 106 | spray-mop-vs-steam-mop | Spray Mop Vs Steam Mop | comparison | head-to-head | decide | spray mop vs steam mop | 10 | 14 | 500 | 47.6 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 107 | is-it-best-home-appliance-robot-vacuum-with-mop | Is It Best Home Appliance Robot Vacuum With Mop | support-guide | compatibility-safety | decide | is it best home appliance robot vacuum with mop | 0 | 0 | 0 | 41.9 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 108 | best-mops-for-tile-floors | Best Mop For Tile Floors | money-guide | use-case-roundup | buy | best mop for tile floors | 2200 | 1 | 2500 | 67 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 109 | how-good-do-robot-vacuums-work | How Good Do Robot Vacuums Work | linkable-asset | data-study | learn | how good do robot vacuums work | 400 | 10 | 400 | 39.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 110 | is-it-best-to-mop-with-hot-water | Is It Best To Mop With Hot Water | support-guide | compatibility-safety | decide | is it best to mop with hot water | 0 | 0 | 0 | 41.9 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 111 | best-robot-vacuum-and-mop | Best Vacuum Mop Combo Robot | money-guide | flagship-roundup | buy | best vacuum mop combo robot | 1300 | 11 | 21000 | 67 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 112 | do-it-best-sponge-mop-refill | Do It Best Sponge Mop Refill | support-guide | troubleshooting-fix | learn | do it best sponge mop refill | 0 | 0 | 0 | 41.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 113 | how-best-to-mop-wooden-floors | How Best To Mop Wooden Floors | support-guide | troubleshooting-fix | learn | how best to mop wooden floors | 0 | 0 | 0 | 41.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 114 | mop-bucket-with-wringer | Best Mop Bucket With Wringer | money-guide | flagship-roundup | buy | best mop bucket with wringer | 4900 | 0 | 1400 | 66.8 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 115 | how-to-best-mop-a-wooden-floor | How To Best Mop A Wooden Floor | support-guide | setup-how-to | learn | how to best mop a wooden floor | 0 | 0 | 0 | 41.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 116 | cordless-vacuum-vs-corded | Cordless Vacuum Vs Corded | comparison | head-to-head | decide | cordless vacuum vs corded | 100 | 0 | 300 | 45.6 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 117 | how-to-best-mop-hardwood-floors | How To Best Mop Hardwood Floors | support-guide | setup-how-to | learn | how to best mop hardwood floors | 0 | 0 | 0 | 41.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 118 | best-robot-vacuum-for-dog-hair | Best Robot Vacuum For Dog Hair | money-guide | use-case-roundup | buy | best robot vacuum for dog hair | 1100 | 17 | 16000 | 66.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 119 | best-stats-mop-remix | Best Stats Mop Remix | linkable-asset | data-study | learn | best stats mop remix | 0 | 0 | 0 | 38 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 120 | how-to-best-mop-laminate-floors | How To Best Mop Laminate Floors | support-guide | setup-how-to | learn | how to best mop laminate floors | 0 | 0 | 0 | 41.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 121 | best-shark-cordless-stick-vacuum | Best Shark Cordless Stick Vacuum? | money-guide | brand-roundup | buy | best shark cordless stick vacuum? | 150 | 8 | 35000 | 66.5 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 122 | how-to-best-mop-lvp | How To Best Mop Lvp | support-guide | setup-how-to | learn | how to best mop lvp | 0 | 0 | 0 | 41.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 123 | how-to-best-mop-vinyl-floors | How To Best Mop Vinyl Floors | support-guide | setup-how-to | learn | how to best mop vinyl floors | 0 | 0 | 0 | 41.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 124 | best-cordless-stick-vacuum | The Best Stick Vacuum | money-guide | flagship-roundup | buy | the best stick vacuum | 150 | 17 | 22000 | 66 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 125 | how-to-choose-the-best-cordless-vacuum-cleaner | How To Choose The Best Cordless Vacuum Cleaner | support-guide | setup-how-to | learn | how to choose the best cordless vacuum cleaner | 0 | 0 | 0 | 41.5 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 126 | hoover-vs-bissell-carpet-cleaner | Hoover Vs Bissell Carpet Cleaner | comparison | head-to-head | decide | hoover vs bissell carpet cleaner | 0 | 0 | 200 | 45.5 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 127 | how-to-choose-the-best-cordless-vacuum | How To Choose The Best Cordless Vacuum? | support-guide | setup-how-to | learn | how to choose the best cordless vacuum? | 0 | 0 | 0 | 41.5 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 128 | best-spot-carpet-cleaner | Best Pet Stain Carpet Cleaner Machine | money-guide | flagship-roundup | buy | best pet stain carpet cleaner machine | 1000 | 6 | 4100 | 65.8 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 129 | mop-remix-best-stats | Mop Remix Best Stats | linkable-asset | data-study | learn | mop remix best stats | 0 | 0 | 0 | 38 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 130 | how-to-make-the-best-mop-water | How To Make The Best Mop Water | support-guide | setup-how-to | learn | how to make the best mop water | 0 | 0 | 0 | 41.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 131 | best-robot-vacuum-under-300 | Best Robot Vacuum Under 300 | money-guide | budget-roundup | buy | best robot vacuum under 300 | 150 | 2 | 400 | 65.5 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 132 | how-to-use-best-mop | How To Use Best Mop | support-guide | setup-how-to | learn | how to use best mop | 0 | 0 | 0 | 41.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 133 | what-are-the-best-cordless-vacuum-cleaners-to-buy | What Are The Best Cordless Vacuum Cleaners To Buy | support-guide | troubleshooting-fix | learn | what are the best cordless vacuum cleaners to buy | 0 | 0 | 0 | 41.5 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 134 | handheld-vacuum | Handheld Vacuum | money-guide | flagship-roundup | buy | handheld vacuum | 19000 | 4 | 27000 | 65.5 | needs-serp-check | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 135 | what-are-the-best-stainless-steel-cleaners | What Are The Best Stainless Steel Cleaners | support-guide | troubleshooting-fix | learn | what are the best stainless steel cleaners | 0 | 0 | 0 | 41.5 | fallback-evidence | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
+| 136 | dyson-cordless-vacuum-vs-corded | Dyson Cordless Vacuum Vs Corded | comparison | head-to-head | decide | dyson cordless vacuum vs corded | 0 | 0 | 0 | 43.5 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 137 | what-best-mop-to-buy | What Best Mop To Buy | support-guide | troubleshooting-fix | learn | what best mop to buy | 0 | 0 | 0 | 41.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 138 | best-mop-for-laminate-floors | Best Mop For Laminate Wood Flooring | money-guide | use-case-roundup | buy | best mop for laminate wood flooring | 3600 | 15 | 4800 | 65 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 139 | how-bissell-steam-mop-works | How Bissell Steam Mop Works | linkable-asset | data-study | learn | how bissell steam mop works | 180 | 14 | 180 | 37 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 140 | what-best-stainless-steel-cleaner | What Best Stainless Steel Cleaner | support-guide | troubleshooting-fix | learn | what best stainless steel cleaner | 0 | 0 | 0 | 41.5 | fallback-evidence | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
+| 141 | best-mop-for-lvp-flooring | Best Mop For Lvp | money-guide | use-case-roundup | buy | best mop for lvp | 1000 | 1 | 1900 | 65 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 142 | what-brand-is-the-best-cordless-vacuum-cleaner | What Brand Is The Best Cordless Vacuum Cleaner? | support-guide | troubleshooting-fix | learn | what brand is the best cordless vacuum cleaner? | 0 | 0 | 0 | 41.5 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 143 | what-brand-is-the-best-robot-vacuum-and-mop | What Brand Is The Best Robot Vacuum And Mop | support-guide | troubleshooting-fix | learn | what brand is the best robot vacuum and mop | 0 | 0 | 0 | 41.5 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 144 | diy-carpet-cleaner-solution | Best Homemade Carpet Cleaner For Machine | money-guide | use-case-roundup | buy | best homemade carpet cleaner for machine | 2200 | 4 | 10000 | 64.6 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 145 | what-cordless-stick-vacuum-has-best-suction | What Cordless Stick Vacuum Has Best Suction? | support-guide | troubleshooting-fix | learn | what cordless stick vacuum has best suction? | 0 | 0 | 0 | 41.5 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 146 | hoover-cleanslate-portable-carpet-cleaner-vs-bissell-little-green | Hoover Cleanslate Portable Carpet Cleaner Vs Bissell Little Green | comparison | head-to-head | decide | hoover cleanslate portable carpet cleaner vs bissell little green | 0 | 0 | 0 | 43.5 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 147 | what-cordless-stick-vacuum-has-the-best-suction | What Cordless Stick Vacuum Has The Best Suction? | support-guide | troubleshooting-fix | learn | what cordless stick vacuum has the best suction? | 0 | 0 | 0 | 41.5 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 148 | robot-vacuum-names | Best Names For Robot Vacuum | money-guide | use-case-roundup | buy | best names for robot vacuum | 600 | 0 | 2100 | 64.3 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 149 | how-do-bissell-carpet-cleaners-work | How Do Bissell Carpet Cleaners Work | linkable-asset | data-study | learn | how do bissell carpet cleaners work | 110 | 10 | 110 | 37 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 150 | what-cordless-vacuum-has-the-best-rating | What Cordless Vacuum Has The Best Rating? | support-guide | troubleshooting-fix | learn | what cordless vacuum has the best rating? | 0 | 0 | 0 | 41.5 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 151 | stick-vacuum | Stick Vacuum | money-guide | flagship-roundup | buy | stick vacuum | 15000 | 4 | 12000 | 64.3 | needs-serp-check | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 152 | what-cordless-vacuum-is-best | What Cordless Vacuum Is Best | support-guide | troubleshooting-fix | learn | what cordless vacuum is best | 0 | 0 | 0 | 41.5 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 153 | what-handheld-vacuum-has-the-best-suction-power | What Handheld Vacuum Has The Best Suction Power | support-guide | troubleshooting-fix | learn | what handheld vacuum has the best suction power | 0 | 0 | 0 | 41.5 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 154 | best-floor-robot-vacuum | Best Floor Robot Vacuum | money-guide | flagship-roundup | buy | best floor robot vacuum | 150 | 4 | 48000 | 63.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 155 | what-is-best-carpet-cleaner-machine | What Is Best Carpet Cleaner Machine | support-guide | glossary-explainer | learn | what is best carpet cleaner machine | 0 | 0 | 0 | 41.5 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 156 | best-robot-vacuum-comparison | Best Robot Vacuum Comparison | comparison | head-to-head | compare | best robot vacuum comparison | 90 | 0 | 90 | 43.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 157 | what-is-best-handheld-cordless-vacuum | What Is Best Handheld Cordless Vacuum | support-guide | glossary-explainer | learn | what is best handheld cordless vacuum | 0 | 0 | 0 | 41.5 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 158 | best-steam-mop-for-vinyl-floors | Best Steam Mop For Vinyl Floors | money-guide | feature-roundup | buy | best steam mop for vinyl floors | 100 | 2 | 5500 | 63.8 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 159 | how-well-do-bissell-carpet-cleaners-work | How Well Do Bissell Carpet Cleaners Work | linkable-asset | data-study | learn | how well do bissell carpet cleaners work | 50 | 10 | 50 | 37 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 160 | what-is-best-mop | What Is Best Mop | support-guide | glossary-explainer | learn | what is best mop | 0 | 0 | 0 | 41.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 161 | best-grout-cleaner-for-shower | Best Cleaner For Shower Tile And Grout | money-guide | use-case-roundup | buy | best cleaner for shower tile and grout | 350 | 0 | 2000 | 63.5 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
+| 162 | what-is-best-mop-to-buy | What Is Best Mop To Buy | support-guide | glossary-explainer | learn | what is best mop to buy | 0 | 0 | 0 | 41.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 163 | what-is-best-to-mop-with | What Is Best To Mop With | support-guide | glossary-explainer | learn | what is best to mop with | 0 | 0 | 0 | 41.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 164 | natural-carpet-cleaner | Best Natural Carpet Cleaner For Machine | money-guide | use-case-roundup | buy | best natural carpet cleaner for machine | 900 | 3 | 900 | 63.5 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 165 | what-is-best-to-use-to-mop-hardwood-floors | What Is Best To Use To Mop Hardwood Floors | support-guide | glossary-explainer | learn | what is best to use to mop hardwood floors | 0 | 0 | 0 | 41.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 166 | best-robot-vacuum-mop-comparison | Best Robot Vacuum Mop Comparison | comparison | head-to-head | compare | best robot vacuum mop comparison | 70 | 0 | 70 | 43.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 167 | what-is-best-to-use-to-mop-laminate-floors | What Is Best To Use To Mop Laminate Floors | support-guide | glossary-explainer | learn | what is best to use to mop laminate floors | 0 | 0 | 0 | 41.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 168 | best-vacuum-and-mop | Best Vacuum/Mop Combo | money-guide | flagship-roundup | buy | best vacuum/mop combo | 3300 | 5 | 9700 | 63.5 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 169 | how-robot-vacuums-work | How Robot Vacuums Work | linkable-asset | data-study | learn | how robot vacuums work | 500 | 20 | 500 | 36.6 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 170 | what-is-best-to-use-to-mop-tile-floors | What Is Best To Use To Mop Tile Floors | support-guide | glossary-explainer | learn | what is best to use to mop tile floors | 0 | 0 | 0 | 41.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 171 | best-cordless-vacuum-under-200 | Best Cordless Vacuums Under $200 (2026): What's Worth Keeping at This Price | money-guide | budget-roundup | buy | best cordless vacuum under 200 | 2200 | 1 | 2200 | 63.4 | export-backed | cleaning-support | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 172 | what-is-considered-the-best-cordless-vacuum | What Is Considered The Best Cordless Vacuum? | support-guide | glossary-explainer | learn | what is considered the best cordless vacuum? | 0 | 0 | 0 | 41.5 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 173 | what-is-rhe-best-robo-mop-and-vaccum | What Is Rhe Best Robo Mop And Vaccum | support-guide | glossary-explainer | learn | what is rhe best robo mop and vaccum | 0 | 0 | 0 | 41.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 174 | dyson-stick-vacuum | Dyson Stick Vacuum | money-guide | brand-roundup | buy | dyson stick vacuum | 15000 | 33 | 55000 | 63.3 | needs-serp-check | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 175 | what-is-the-absolute-best-cordless-vacuum | What Is The Absolute Best Cordless Vacuum? | support-guide | glossary-explainer | learn | what is the absolute best cordless vacuum? | 0 | 0 | 0 | 41.5 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 176 | best-carpet-cleaner-hoover-vs-bissell | Best Carpet Cleaner Hoover Vs Bissell | comparison | head-to-head | decide | best carpet cleaner hoover vs bissell | 400 | 10 | 400 | 42.9 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 177 | what-is-the-cheapest-and-best-cordless-vacuum | What Is The Cheapest And Best Cordless Vacuum? | support-guide | glossary-explainer | learn | what is the cheapest and best cordless vacuum? | 0 | 0 | 0 | 41.5 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 178 | wet-mop | Wet Mop | money-guide | flagship-roundup | buy | wet mop | 3000 | 1 | 11000 | 63.2 | needs-serp-check | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 179 | how-a-steam-mop-works | How A Steam Mop Works | linkable-asset | data-study | learn | how a steam mop works | 50 | 14 | 50 | 36.3 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 180 | what-is-the-most-popular-cordless-vacuum | What Is The Most Popular Cordless Vacuum | support-guide | glossary-explainer | learn | what is the most popular cordless vacuum | 0 | 0 | 0 | 41.5 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 181 | best-mop-vacuum-combo | Best Mop/Vacuum Combo | money-guide | flagship-roundup | buy | best mop/vacuum combo | 500 | 2 | 4600 | 63.1 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 182 | what-is-the-strongest-robot-vacuum | What Is The Strongest Robot Vacuum | support-guide | glossary-explainer | learn | what is the strongest robot vacuum | 0 | 0 | 0 | 41.5 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 183 | what-is-the-very-best-stainless-steel-cleaner | What Is The Very Best Stainless Steel Cleaner | support-guide | glossary-explainer | learn | what is the very best stainless steel cleaner | 0 | 0 | 0 | 41.5 | fallback-evidence | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
+| 184 | best-budget-cordless-vacuum | Best Cordless Vacuum Under $150 | money-guide | budget-roundup | buy | best cordless vacuum under $150 | 900 | 2 | 1400 | 63 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 185 | what-is-the-very-best-steam-mop | What Is The Very Best Steam Mop? | support-guide | glossary-explainer | learn | what is the very best steam mop? | 0 | 0 | 0 | 41.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 186 | bissell-vs-hoover-carpet-cleaner-reviews | Bissell Vs Hoover Carpet Cleaner Reviews | comparison | head-to-head | decide | bissell vs hoover carpet cleaner reviews | 300 | 10 | 300 | 42.9 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 187 | what-kind-of-mop-cleans-the-best | What Kind Of Mop Cleans The Best | support-guide | troubleshooting-fix | learn | what kind of mop cleans the best | 0 | 0 | 0 | 41.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 188 | mop | Mop | money-guide | flagship-roundup | buy | mop | 100000 | 5 | 8200 | 62.8 | needs-serp-check | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 189 | how-do-carpet-cleaners-work | How Do Carpet Cleaners Work | linkable-asset | data-study | learn | how do carpet cleaners work | 50 | 14 | 50 | 36.3 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 190 | what-mop-is-best | What Mop Is Best | support-guide | troubleshooting-fix | learn | what mop is best | 0 | 0 | 0 | 41.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 191 | best-handheld-vacuum-for-pet-hair | Best Handheld Vacuum For Pet Hair | money-guide | use-case-roundup | buy | best handheld vacuum for pet hair | 2200 | 1 | 900 | 62.7 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 192 | what-mop-is-best-to-clean-tile-floors | What Mop Is Best To Clean Tile Floors | support-guide | troubleshooting-fix | learn | what mop is best to clean tile floors | 0 | 0 | 0 | 41.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 193 | what-o-cedar-mop-is-best | What O Cedar Mop Is Best | support-guide | troubleshooting-fix | learn | what o cedar mop is best | 0 | 0 | 0 | 41.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 194 | best-rental-carpet-cleaner | Best Carpet Cleaner Rental Machine | money-guide | flagship-roundup | buy | best carpet cleaner rental machine | 150 | 7 | 600 | 62.5 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 195 | what-robot-vacuum-mop-is-the-best | What Robot Vacuum Mop Is The Best | support-guide | troubleshooting-fix | learn | what robot vacuum mop is the best | 0 | 0 | 0 | 41.5 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 196 | corded-vs-cordless-vacuum-dyson | Corded Vs Cordless Vacuum Dyson | comparison | head-to-head | decide | corded vs cordless vacuum dyson | 300 | 14 | 300 | 42.9 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 197 | what-steam-mop-is-rated-the-best | What Steam Mop Is Rated The Best? | support-guide | troubleshooting-fix | learn | what steam mop is rated the best? | 0 | 0 | 0 | 41.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 198 | best-robot-vacuum-mop-combo | Best Robot Vacuum Mop Combo | money-guide | flagship-roundup | buy | best robot vacuum mop combo | 2700 | 28 | 13000 | 62.5 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 199 | how-do-carpet-cleaning-machines-work | How Do Carpet Cleaning Machines Work | linkable-asset | data-study | learn | how do carpet cleaning machines work | 50 | 10 | 50 | 36.3 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 200 | what-swiffer-mop-is-the-best | What Swiffer Mop Is The Best | support-guide | troubleshooting-fix | learn | what swiffer mop is the best | 0 | 0 | 0 | 41.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 201 | best-robot-vacuum-on-the-market | Best Robot Vacuum On The Market | money-guide | flagship-roundup | buy | best robot vacuum on the market | 90 | 23 | 51000 | 62.4 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 202 | what-the-best-steam-mop | What The Best Steam Mop | support-guide | troubleshooting-fix | learn | what the best steam mop | 0 | 0 | 0 | 41.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 203 | what-vacuum-mop-is-the-best | What Vacuum Mop Is The Best | support-guide | troubleshooting-fix | learn | what vacuum mop is the best | 0 | 0 | 0 | 41.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 204 | mop-sauce-for-ribs | Best Mop Sauce For Ribs | money-guide | use-case-roundup | buy | best mop sauce for ribs | 450 | 0 | 500 | 62.3 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 205 | what-was-the-best-class-in-mop | What Was The Best Class In Mop | support-guide | troubleshooting-fix | learn | what was the best class in mop | 0 | 0 | 0 | 41.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 206 | eufy-vs-shark-robot-vacuum-for-pet-hair | Eufy Vs Shark Robot Vacuum For Pet Hair | comparison | brand-vs-brand | decide | eufy vs shark robot vacuum for pet hair | 300 | 10 | 300 | 42.9 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 207 | what-was-the-best-dps-in-mop | What Was The Best Dps In Mop | support-guide | troubleshooting-fix | learn | what was the best dps in mop | 0 | 0 | 0 | 41.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 208 | robot-vacuum-for-hardwood-floors | Best Robot Vacuums for Hardwood Floors (2026) | money-guide | feature-roundup | buy | best robot vacuum for hardwood | 450 | 3 | 2200 | 62.3 | fallback-evidence | cleaning-support | labor-math-desk | Labor Trader | NOT BUILT |
+| 209 | how-do-carpet-cleaning-services-work | How Do Carpet Cleaning Services Work | linkable-asset | data-study | learn | how do carpet cleaning services work | 50 | 10 | 50 | 36.3 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 210 | what-were-the-best-classes-in-mop | What Were The Best Classes In Mop | support-guide | troubleshooting-fix | learn | what were the best classes in mop | 0 | 0 | 0 | 41.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 211 | best-laminate-floor-cleaner | Best Mop Solution For Laminate Floors | money-guide | use-case-roundup | buy | best mop solution for laminate floors | 150 | 0 | 3200 | 62 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
+| 212 | when-are-the-best-robot-vacuum-deals | When Are The Best Robot Vacuum Deals | support-guide | troubleshooting-fix | learn | when are the best robot vacuum deals | 0 | 0 | 0 | 41.5 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 213 | when-is-the-best-time-to-buy-robot-vacuum | When Is The Best Time To Buy Robot Vacuum | support-guide | troubleshooting-fix | learn | when is the best time to buy robot vacuum | 0 | 0 | 0 | 41.5 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 214 | best-robot-vacuum-for-pets | Best Robot Vacuum For Pets | money-guide | use-case-roundup | buy | best robot vacuum for pets | 900 | 25 | 2000 | 61.9 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 215 | is-carpet-cleaning-hard-work | Is Carpet Cleaning Hard Work | support-guide | compatibility-safety | decide | is carpet cleaning hard work | 300 | 14 | 300 | 41.4 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 216 | eufy-vs-shark-robot-vacuum-mop | Eufy Vs Shark Robot Vacuum Mop | comparison | brand-vs-brand | decide | eufy vs shark robot vacuum mop | 500 | 10 | 500 | 42.9 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 217 | is-bissell-carpet-cleaner-toxic | Is Bissell Carpet Cleaner Toxic | support-guide | compatibility-safety | decide | is bissell carpet cleaner toxic | 50 | 14 | 50 | 41.1 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 218 | laminate-floor-mop | Best Mop For Laminate Wood Floors | money-guide | use-case-roundup | buy | best mop for laminate wood floors | 450 | 0 | 900 | 61.7 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 219 | how-do-carpet-spot-cleaners-work | How Do Carpet Spot Cleaners Work | linkable-asset | data-study | learn | how do carpet spot cleaners work | 50 | 10 | 50 | 36.3 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 220 | is-eufy-a-good-robot-vacuum | Is Eufy A Good Robot Vacuum | support-guide | compatibility-safety | decide | is eufy a good robot vacuum | 220 | 10 | 220 | 41.1 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 221 | robot-vacuum-for-pet-hair | Best Pet Robot Vacuum | money-guide | flagship-roundup | buy | best pet robot vacuum | 2700 | 22 | 13000 | 61.6 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 222 | what-do-steam-cleaners-work-on | What Do Steam Cleaners Work On | support-guide | troubleshooting-fix | learn | what do steam cleaners work on | 300 | 10 | 300 | 41 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 223 | why-do-steam-cleaners-work | Why Do Steam Cleaners Work | support-guide | problem-diagnostic | diagnose | why do steam cleaners work | 300 | 14 | 300 | 41 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 224 | stainless-steel-cleaner | Best Cleaner For Stainless Steel | money-guide | feature-roundup | buy | best cleaner for stainless steel | 100 | 1 | 1900 | 61.5 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
+| 225 | do-shark-robot-vacuums-work | Do Shark Robot Vacuums Work | support-guide | troubleshooting-fix | learn | do shark robot vacuums work | 50 | 14 | 50 | 40.8 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 226 | cordless-vs-corded-stick-vacuum | Cordless Vs Corded Stick Vacuum | comparison | head-to-head | decide | cordless vs corded stick vacuum | 0 | 0 | 0 | 42.8 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 227 | can-robot-vacuums-work-without-wifi | Can Robot Vacuums Work Without Wifi | support-guide | compatibility-safety | decide | can robot vacuums work without wifi | 110 | 10 | 110 | 40.5 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 228 | robot-vacuum-for-high-pile-carpet | Best Robot Vacuum For High Pile Carpet | money-guide | use-case-roundup | buy | best robot vacuum for high pile carpet | 250 | 1 | 200 | 61.1 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 229 | how-do-commercial-carpet-cleaners-work | How Do Commercial Carpet Cleaners Work | linkable-asset | data-study | learn | how do commercial carpet cleaners work | 50 | 10 | 50 | 36.3 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 230 | is-a-steam-mop-better-than-a-mop | Is A Steam Mop Better Than A Mop | support-guide | compatibility-safety | decide | is a steam mop better than a mop | 110 | 10 | 110 | 40.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 231 | robot-vacuum-for-carpet | Best Robot Vacuum For Thick Carpet And Pet Hair | money-guide | use-case-roundup | buy | best robot vacuum for thick carpet and pet hair | 1000 | 3 | 2100 | 61 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 232 | is-a-steam-mop-effective | Is A Steam Mop Effective | support-guide | compatibility-safety | decide | is a steam mop effective | 90 | 14 | 90 | 40.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 233 | is-steam-mop-better-than-regular-mop | Is Steam Mop Better Than Regular Mop | support-guide | compatibility-safety | decide | is steam mop better than regular mop | 180 | 10 | 180 | 40.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 234 | best-mop-for-concrete-floors | Best Mop For Concrete Floors | money-guide | use-case-roundup | buy | best mop for concrete floors | 250 | 0 | 150 | 60.9 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 235 | are-home-carpet-cleaners-worth-it | Are Home Carpet Cleaners Worth It | support-guide | worth-it-buying-decision | decide | are home carpet cleaners worth it | 50 | 10 | 50 | 40 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 236 | is-bissell-or-hoover-carpet-cleaner-better | Is Bissell Or Hoover Carpet Cleaner Better | comparison | head-to-head | compare | is bissell or hoover carpet cleaner better | 300 | 10 | 300 | 42.5 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 237 | are-robot-vacuums-really-worth-it | Are Robot Vacuums Really Worth It | support-guide | worth-it-buying-decision | decide | are robot vacuums really worth it | 180 | 10 | 180 | 40 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 238 | best-cordless-vacuum-pet-hair | Best Cordless Vacuum Pet Hair | money-guide | flagship-roundup | buy | best cordless vacuum pet hair | 200 | 4 | 9400 | 60.3 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 239 | how-do-enzyme-carpet-cleaners-work | How Do Enzyme Carpet Cleaners Work | linkable-asset | data-study | learn | how do enzyme carpet cleaners work | 80 | 10 | 80 | 36.3 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 240 | do-carpet-cleaners-make-good-money | Do Carpet Cleaners Make Good Money | support-guide | troubleshooting-fix | learn | do carpet cleaners make good money | 180 | 10 | 180 | 40 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 241 | best-robot-vacuum-brand | Best Robot Vacuum Brand | money-guide | flagship-roundup | buy | best robot vacuum brand | 200 | 35 | 38000 | 60.1 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 242 | do-carpet-cleaners-use-steam | Do Carpet Cleaners Use Steam | support-guide | troubleshooting-fix | learn | do carpet cleaners use steam | 50 | 14 | 50 | 40 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 243 | do-carpet-cleaners-vacuum-first | Do Carpet Cleaners Vacuum First | support-guide | troubleshooting-fix | learn | do carpet cleaners vacuum first | 50 | 14 | 50 | 40 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 244 | best-dyson-cordless-vacuum | Best Dyson Cordless Vacuum? | money-guide | brand-roundup | buy | best dyson cordless vacuum? | 4400 | 9 | 3400 | 60 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 245 | do-carpet-cleaners-work-as-vacuums | Do Carpet Cleaners Work As Vacuums | support-guide | troubleshooting-fix | learn | do carpet cleaners work as vacuums | 80 | 10 | 80 | 40 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 246 | is-bissell-or-hoover-steam-cleaner-better | Is Bissell Or Hoover Steam Cleaner Better | comparison | head-to-head | compare | is bissell or hoover steam cleaner better | 300 | 10 | 300 | 42.5 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 247 | do-carpet-cleaners-work-on-couches | Do Carpet Cleaners Work On Couches | support-guide | troubleshooting-fix | learn | do carpet cleaners work on couches | 80 | 10 | 80 | 40 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 248 | best-spray-mop | Best Spray Mop | money-guide | flagship-roundup | buy | best spray mop | 800 | 4 | 40 | 60 | export-backed | ordered-backlog | labor-math-desk | Labor Trader | NOT BUILT |
+| 249 | how-do-home-carpet-cleaners-work | How Do Home Carpet Cleaners Work | linkable-asset | data-study | learn | how do home carpet cleaners work | 50 | 10 | 50 | 36.3 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 250 | do-carpet-cleaners-work-on-hard-floors | Do Carpet Cleaners Work On Hard Floors | support-guide | troubleshooting-fix | learn | do carpet cleaners work on hard floors | 80 | 10 | 80 | 40 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 251 | mop-for-hardwood-floors | Mop For Hardwood Floors | money-guide | feature-roundup | buy | mop for hardwood floors | 1000 | 0 | 1600 | 59.9 | needs-serp-check | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 252 | do-carpet-cleaners-work-on-mattresses | Do Carpet Cleaners Work On Mattresses | support-guide | troubleshooting-fix | learn | do carpet cleaners work on mattresses | 80 | 10 | 80 | 40 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 253 | do-carpet-cleaners-work-on-rugs | Do Carpet Cleaners Work On Rugs | support-guide | troubleshooting-fix | learn | do carpet cleaners work on rugs | 110 | 10 | 110 | 40 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 254 | best-mop-for-vinyl-plank-floors | Best Mop For Lvp Floors | money-guide | use-case-roundup | buy | best mop for lvp floors | 500 | 1 | 1700 | 59.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 255 | do-professional-carpet-cleaners-vacuum-first | Do Professional Carpet Cleaners Vacuum First | support-guide | troubleshooting-fix | learn | do professional carpet cleaners vacuum first | 180 | 10 | 180 | 40 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 256 | is-eufy-or-shark-robot-vacuum-better | Is Eufy Or Shark Robot Vacuum Better | comparison | brand-vs-brand | compare | is eufy or shark robot vacuum better | 300 | 10 | 300 | 42.5 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 257 | do-robot-vacuums-work-in-corners | Do Robot Vacuums Work In Corners | support-guide | troubleshooting-fix | learn | do robot vacuums work in corners | 220 | 10 | 220 | 40 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 258 | irobot-vacuum | Irobot Vacuum | money-guide | flagship-roundup | buy | irobot vacuum | 4800 | 45 | 142000 | 59.1 | needs-serp-check | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 259 | how-do-pool-robot-vacuums-work | How Do Pool Robot Vacuums Work | linkable-asset | data-study | learn | how do pool robot vacuums work | 50 | 10 | 50 | 36.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 260 | do-robot-vacuums-work-in-the-dark | Do Robot Vacuums Work In The Dark | support-guide | troubleshooting-fix | learn | do robot vacuums work in the dark | 80 | 10 | 80 | 40 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 261 | quietest-robot-vacuum | Best Quiet Robot Vacuum | money-guide | flagship-roundup | buy | best quiet robot vacuum | 500 | 1 | 600 | 58.8 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 262 | do-robot-vacuums-work-well | Do Robot Vacuums Work Well | support-guide | troubleshooting-fix | learn | do robot vacuums work well | 80 | 14 | 80 | 40 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 263 | do-robot-vacuums-work-well-on-carpet | Do Robot Vacuums Work Well On Carpet | support-guide | troubleshooting-fix | learn | do robot vacuums work well on carpet | 220 | 10 | 220 | 40 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 264 | wall-mop | Best Wall Cleaning Mop | money-guide | flagship-roundup | buy | best wall cleaning mop | 2300 | 1 | 1300 | 58.8 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 265 | do-spray-on-carpet-cleaners-work | Do Spray On Carpet Cleaners Work | support-guide | troubleshooting-fix | learn | do spray on carpet cleaners work | 50 | 10 | 50 | 40 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 266 | hoover-portable-carpet-cleaner-vs-bissell | Hoover Portable Carpet Cleaner Vs Bissell | comparison | head-to-head | decide | hoover portable carpet cleaner vs bissell | 0 | 0 | 0 | 42.3 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 267 | do-steam-mops-actually-clean | Do Steam Mops Actually Clean | support-guide | troubleshooting-fix | learn | do steam mops actually clean | 180 | 14 | 180 | 40 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 268 | best-product-to-clean-engineered-hardwood-floors | Best Mop For Engineered Hardwood Floors | money-guide | feature-roundup | buy | best mop for engineered hardwood floors | 100 | 1 | 450 | 58.3 | export-backed | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 269 | how-do-professional-carpet-cleaners-work | How Do Professional Carpet Cleaners Work | linkable-asset | data-study | learn | how do professional carpet cleaners work | 110 | 10 | 110 | 36.3 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 270 | do-steam-mops-really-work | Do Steam Mops Really Work | support-guide | troubleshooting-fix | learn | do steam mops really work | 90 | 14 | 90 | 40 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 271 | best-robot-vacuum-for-tile-floors | Best Robot Vacuum For Tile Floors | money-guide | use-case-roundup | buy | best robot vacuum for tile floors | 200 | 13 | 150 | 58.2 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 272 | do-steam-mops-work-on-hardwood-floors | Do Steam Mops Work On Hardwood Floors | support-guide | troubleshooting-fix | learn | do steam mops work on hardwood floors | 80 | 10 | 80 | 40 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 273 | do-steam-mops-work-on-laminate-floors | Do Steam Mops Work On Laminate Floors | support-guide | troubleshooting-fix | learn | do steam mops work on laminate floors | 80 | 10 | 80 | 40 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 274 | best-handheld-vacuum-sealer-for-food | Best Handheld Vacuum Sealer For Food | money-guide | use-case-roundup | buy | best handheld vacuum sealer for food | 250 | 0 | 250 | 57.9 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 275 | do-steam-mops-work-on-vinyl-floors | Do Steam Mops Work On Vinyl Floors | support-guide | troubleshooting-fix | learn | do steam mops work on vinyl floors | 80 | 10 | 80 | 40 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 276 | hoover-smartwash-carpet-cleaner-vs-bissell-proheat-2x | Hoover Smartwash Carpet Cleaner Vs Bissell Proheat 2x | comparison | head-to-head | decide | hoover smartwash carpet cleaner vs bissell proheat 2x | 0 | 0 | 0 | 42.3 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 277 | do-steam-mops-work-well | Do Steam Mops Work Well | support-guide | troubleshooting-fix | learn | do steam mops work well | 80 | 14 | 80 | 40 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 278 | best-handheld-vacuum-for-stairs | Best Handheld Vacuum For Carpeted Stairs | money-guide | use-case-roundup | buy | best handheld vacuum for carpeted stairs | 50 | 0 | 60 | 57.8 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 279 | how-do-rental-carpet-cleaners-work | How Do Rental Carpet Cleaners Work | linkable-asset | data-study | learn | how do rental carpet cleaners work | 50 | 10 | 50 | 36.3 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 280 | how-do-professional-carpet-cleaners-clean-carpets | How Do Professional Carpet Cleaners Clean Carpets | support-guide | troubleshooting-fix | learn | how do professional carpet cleaners clean carpets | 80 | 10 | 80 | 40 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 281 | best-handheld-vacuum-sealer | Best Handheld Food Vacuum Sealer | money-guide | flagship-roundup | buy | best handheld food vacuum sealer | 150 | 2 | 700 | 57.6 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 282 | how-do-robot-vacuums-use-ai | How Do Robot Vacuums Use Ai | support-guide | troubleshooting-fix | learn | how do robot vacuums use ai | 50 | 10 | 50 | 40 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 283 | how-much-do-carpet-cleaners-make | How Much Do Carpet Cleaners Make | support-guide | troubleshooting-fix | learn | how much do carpet cleaners make | 80 | 10 | 80 | 40 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 284 | spin-mop-and-bucket-set | Spin Mop And Bucket Set | money-guide | flagship-roundup | buy | spin mop and bucket set | 1300 | 9 | 11000 | 57.5 | needs-serp-check | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 285 | how-much-do-carpet-cleaners-make-per-hour | How Much Do Carpet Cleaners Make Per Hour | support-guide | troubleshooting-fix | learn | how much do carpet cleaners make per hour | 50 | 10 | 50 | 40 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 286 | corded-vs-cordless-vacuum-suction-power | Corded Vs Cordless Vacuum Suction Power | comparison | head-to-head | decide | corded vs cordless vacuum suction power | 300 | 10 | 300 | 42 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 287 | how-to-use-robot-vacuum | How To Use Robot Vacuum | support-guide | setup-how-to | learn | how to use robot vacuum | 50 | 14 | 50 | 40 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 288 | most-powerful-cordless-vacuum | Best Cordless Vacuum Suction Power | money-guide | flagship-roundup | buy | best cordless vacuum suction power | 50 | 15 | 1000 | 57.3 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 289 | how-do-robot-vacuums-and-mops-work | How Do Robot Vacuums And Mops Work | linkable-asset | data-study | learn | how do robot vacuums and mops work | 50 | 10 | 50 | 36.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 290 | what-are-steam-mops-good-for | What Are Steam Mops Good For | support-guide | troubleshooting-fix | learn | what are steam mops good for | 90 | 10 | 90 | 40 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 291 | best-robot-mop | Best Robot Mop | money-guide | flagship-roundup | buy | best robot mop | 5400 | 12 | 5800 | 57.3 | needs-serp-check | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 292 | what-chemicals-do-professional-carpet-cleaners-use | What Chemicals Do Professional Carpet Cleaners Use | support-guide | troubleshooting-fix | learn | what chemicals do professional carpet cleaners use | 180 | 10 | 180 | 40 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 293 | what-makes-a-good-carpet-cleaner | What Makes A Good Carpet Cleaner | support-guide | troubleshooting-fix | learn | what makes a good carpet cleaner | 180 | 10 | 180 | 40 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 294 | best-robot-vacuum-and-mop-under-200 | Best Robot Vacuum And Mop Under $200 | money-guide | budget-roundup | buy | best robot vacuum and mop under $200 | 30 | 0 | 30 | 57 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 295 | what-robot-vacuums-work-on-5g | What Robot Vacuums Work On 5g | support-guide | troubleshooting-fix | learn | what robot vacuums work on 5g | 50 | 10 | 50 | 40 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 296 | is-corded-or-cordless-vacuum-better | Is Corded Or Cordless Vacuum Better | comparison | head-to-head | compare | is corded or cordless vacuum better | 300 | 10 | 300 | 41.9 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 297 | what-robot-vacuums-work-with-alexa | What Robot Vacuums Work With Alexa | support-guide | troubleshooting-fix | learn | what robot vacuums work with alexa | 180 | 10 | 180 | 40 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 298 | best-robot-vacuum-under-200 | Best Robot Vacuum Under $200 | money-guide | budget-roundup | buy | best robot vacuum under $200 | 150 | 2 | 100 | 57 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 299 | how-do-robot-vacuums-work | How Do Robot Vacuums Work | linkable-asset | data-study | learn | how do robot vacuums work | 50 | 14 | 50 | 36.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 300 | what-robot-vacuums-work-with-apple-home | What Robot Vacuums Work With Apple Home | support-guide | troubleshooting-fix | learn | what robot vacuums work with apple home | 180 | 10 | 180 | 40 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 301 | best-floor-cleaner-liquid-for-mopping | Best Stuff To Mop Floors With | money-guide | flagship-roundup | buy | best stuff to mop floors with | 50 | 1 | 6600 | 57 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 302 | what-robot-vacuums-work-with-apple-homekit | What Robot Vacuums Work With Apple Homekit | support-guide | troubleshooting-fix | learn | what robot vacuums work with apple homekit | 50 | 10 | 50 | 40 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 303 | what-robot-vacuums-work-with-home-assistant | What Robot Vacuums Work With Home Assistant | support-guide | troubleshooting-fix | learn | what robot vacuums work with home assistant | 110 | 10 | 110 | 40 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 304 | commercial-mop-bucket | Best Commercial Mop Bucket | money-guide | flagship-roundup | buy | best commercial mop bucket | 1600 | 0 | 400 | 56.8 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 305 | what-robot-vacuums-work-with-smartthings | What Robot Vacuums Work With Smartthings | support-guide | troubleshooting-fix | learn | what robot vacuums work with smartthings | 80 | 10 | 80 | 40 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 306 | best-cordless-vacuum-vs-dyson | Best Cordless Vacuum Vs Dyson | comparison | head-to-head | decide | best cordless vacuum vs dyson | 0 | 0 | 0 | 41.3 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 307 | what-robot-vacuums-work-without-wifi | What Robot Vacuums Work Without Wifi | support-guide | troubleshooting-fix | learn | what robot vacuums work without wifi | 110 | 10 | 110 | 40 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 308 | best-rental-carpet-cleaner-machine | Best Rental Carpet Cleaner Machine | money-guide | flagship-roundup | buy | best rental carpet cleaner machine | 70 | 0 | 70 | 56.8 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 309 | how-do-robot-vacuums-work-on-carpet | How Do Robot Vacuums Work On Carpet | linkable-asset | data-study | learn | how do robot vacuums work on carpet | 90 | 10 | 90 | 36.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 310 | why-is-my-carpet-cleaner-leaving-streaks | Why Is My Carpet Cleaner Leaving Streaks | support-guide | problem-diagnostic | diagnose | why is my carpet cleaner leaving streaks | 180 | 10 | 180 | 40 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 311 | best-steam-carpet-cleaner-machine | Best Steam Carpet Cleaner Machine | money-guide | flagship-roundup | buy | best steam carpet cleaner machine | 50 | 0 | 50 | 56.8 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 312 | how-best-to-clean-floor-grout | How Best To Clean Floor Grout | support-guide | troubleshooting-fix | learn | how best to clean floor grout | 0 | 0 | 0 | 39 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 313 | how-best-to-clean-grout-in-floor-tiles | How Best To Clean Grout In Floor Tiles | support-guide | troubleshooting-fix | learn | how best to clean grout in floor tiles | 0 | 0 | 0 | 39 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 314 | best-robot-vacuum-cleaner-with-mop | Best Robot Vacuum Cleaner With Mop | money-guide | feature-roundup | buy | best robot vacuum cleaner with mop | 50 | 0 | 50 | 56.6 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 315 | how-to-best-clean-grout-in-shower | How To Best Clean Grout In Shower | support-guide | setup-how-to | learn | how to best clean grout in shower | 0 | 0 | 0 | 39 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 316 | best-dyson-cordless-vacuum-comparison | Best Dyson Cordless Vacuum Comparison | comparison | head-to-head | compare | best dyson cordless vacuum comparison | 0 | 0 | 0 | 41.3 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 317 | what-is-best-cleaner-for-shower-grout | What Is Best Cleaner For Shower Grout | support-guide | glossary-explainer | learn | what is best cleaner for shower grout | 0 | 0 | 0 | 39 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 318 | robot-mop-and-vacuum | Robot Mop And Vacuum | money-guide | flagship-roundup | buy | robot mop and vacuum | 3400 | 33 | 14000 | 56.6 | needs-serp-check | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 319 | how-do-robot-vacuums-work-with-multiple-floors | How Do Robot Vacuums Work With Multiple Floors | linkable-asset | data-study | learn | how do robot vacuums work with multiple floors | 80 | 10 | 80 | 36.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 320 | what-is-best-hand-held-vacuum | What Is Best Hand Held Vacuum | support-guide | glossary-explainer | learn | what is best hand held vacuum | 0 | 0 | 0 | 39 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 321 | vacuum-and-mop-robot | Vacuum And Mop Robot | money-guide | flagship-roundup | buy | vacuum and mop robot | 3200 | 33 | 14000 | 56.6 | needs-serp-check | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 322 | why-carpet-cleaning-is-important | Why Carpet Cleaning Is Important | support-guide | problem-diagnostic | diagnose | why carpet cleaning is important | 110 | 14 | 110 | 37.5 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 323 | why-do-steam-cleaners-work-so-well | Why Do Steam Cleaners Work So.Well | support-guide | problem-diagnostic | diagnose | why do steam cleaners work so.well | 180 | 10 | 180 | 37.5 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
+| 324 | best-carpet-cleaner-machine-for-dog-urine | Best Carpet Cleaner Machine For Dog Urine | money-guide | use-case-roundup | buy | best carpet cleaner machine for dog urine | 70 | 14 | 9500 | 56.4 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 325 | do-robot-vacuums-work | Do Robot Vacuums Work | support-guide | troubleshooting-fix | learn | do robot vacuums work | 180 | 20 | 180 | 36.8 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 326 | best-dyson-cordless-vacuum-models-comparison | Best Dyson Cordless Vacuum Models Comparison | comparison | head-to-head | compare | best dyson cordless vacuum models comparison | 0 | 0 | 0 | 41.3 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 327 | are-steam-mops-worth-it | Are Steam.Mops Worth It | support-guide | worth-it-buying-decision | decide | are steam.mops worth it | 90 | 20 | 90 | 35.8 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 328 | best-cordless-electric-mop | Best Cordless Electric Mop | money-guide | flagship-roundup | buy | best cordless electric mop | 150 | 0 | 3400 | 56.4 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 329 | how-do-robot-vacuums-work-with-rugs | How Do Robot Vacuums Work With Rugs | linkable-asset | data-study | learn | how do robot vacuums work with rugs | 90 | 10 | 90 | 36.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 330 | best-wall-mop | Best Mop To Clean Walls | money-guide | flagship-roundup | buy | best mop to clean walls | 150 | 0 | 150 | 56.3 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 331 | black-friday-robot-vacuum-deals | Best Black Friday Deals On Robot Vacuum | money-guide | flagship-roundup | buy | best black friday deals on robot vacuum | 700 | 1 | 1800 | 56.1 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 332 | best-upholstery-cleaner-machine | Best Carpet Cleaner Machine For Cars | money-guide | use-case-roundup | buy | best carpet cleaner machine for cars | 250 | 1 | 3000 | 56 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 333 | best-cordless-vacuum-long-battery-life | Best Cordless Vacuum Long Battery Life | money-guide | flagship-roundup | buy | best cordless vacuum long battery life | 30 | 0 | 30 | 56 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 334 | carolina-mopping-sauce | Best Mop Sauce Recipe | money-guide | flagship-roundup | buy | best mop sauce recipe | 1300 | 0 | 600 | 56 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 335 | best-robot-vacuum-quiet | Best Robot Vacuum Quiet | money-guide | flagship-roundup | buy | best robot vacuum quiet | 50 | 0 | 50 | 56 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 336 | bissell-vs-hoover-carpet-cleaner-solution | Bissell Vs Hoover Carpet Cleaner Solution | comparison | head-to-head | decide | bissell vs hoover carpet cleaner solution | 0 | 0 | 0 | 41.3 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 337 | best-robot-vacuum-tile-floors | Best Robot Vacuum Tile Floors | money-guide | flagship-roundup | buy | best robot vacuum tile floors | 50 | 0 | 50 | 56 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 338 | best-stainless-steel-cleaner-polish | Best Stainless Steel Cleaner Polish | money-guide | feature-roundup | buy | best stainless steel cleaner polish | 50 | 0 | 50 | 56 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
+| 339 | how-do-robot-vacuums-work-with-stairs | How Do Robot Vacuums Work With Stairs | linkable-asset | data-study | learn | how do robot vacuums work with stairs | 80 | 10 | 80 | 36.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 340 | floor-mop | Floor Mop | money-guide | flagship-roundup | buy | floor mop | 3400 | 1 | 350 | 56 | needs-serp-check | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 341 | best-cordless-stick-vacuum-under-200 | Best Cordless Stick Vacuum Under $200 | money-guide | budget-roundup | buy | best cordless stick vacuum under $200 | 150 | 0 | 1500 | 55.9 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 342 | best-cordless-vacuum-under-100 | Best Cordless Vacuum Under $100 | money-guide | budget-roundup | buy | best cordless vacuum under $100 | 100 | 0 | 200 | 55.9 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 343 | best-handheld-vacuum-for-home | Best Handheld Vacuum For Home | money-guide | use-case-roundup | buy | best handheld vacuum for home | 100 | 0 | 100 | 55.8 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 344 | best-steam-mop-uk | Best Steam Mop Uk | money-guide | feature-roundup | buy | best steam mop uk | 40 | 1 | 200 | 55.8 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 345 | best-robot-vacuum-under-500 | Best Robot Vacuums Under $500 (2026): Where the Time-Math Still Works | money-guide | budget-roundup | buy | best robot vacuum under 500 | 150 | 1 | 1900 | 55.6 | fallback-evidence | cleaning-support | labor-math-desk | Labor Trader | NOT BUILT |
+| 346 | bissell-vs-hoover-spot-carpet-cleaner | Bissell Vs Hoover Spot Carpet Cleaner | comparison | head-to-head | decide | bissell vs hoover spot carpet cleaner | 0 | 0 | 0 | 41.3 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
+| 347 | best-cordless-vacuum-at-walmart | Best Cordless Vacuum At Walmart | money-guide | flagship-roundup | buy | best cordless vacuum at walmart | 50 | 0 | 20 | 55.5 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
+| 348 | best-mop-that-separates-dirty-water | Best Mop That Separates Dirty Water | money-guide | flagship-roundup | buy | best mop that separates dirty water | 150 | 0 | 150 | 55.5 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
+| 349 | how-do-robot-vacuums-work-without-mapping | How Do Robot Vacuums Work Without Mapping | linkable-asset | data-study | learn | how do robot vacuums work without mapping | 80 | 10 | 80 | 36.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
+| 350 | best-robot-vacuum-with-mop | Best Robot Vacuum + Mop Combos (2026): When Two Tools Should Be One | money-guide | feature-roundup | buy | best robot vacuum with mop | 200 | 54 | 31000 | 55.5 | fallback-evidence | cleaning-support | labor-math-desk | Labor Trader | NOT BUILT |
 
 ## Cluster Summary
 
 | Cluster | Total | Money | Support | Comparison | Linkable | First Order |
 |---------|------:|------:|--------:|-----------:|---------:|------------:|
-| cleaning-support | 26 | 14 | 11 | 1 | 0 | 1 |
-| cordless-vacuums | 60 | 53 | 4 | 3 | 0 | 9 |
-| mops-and-handhelds | 110 | 97 | 10 | 3 | 0 | 10 |
-| carpet-cleaners | 16 | 15 | 0 | 1 | 0 | 12 |
-| robot-vacuums | 113 | 110 | 2 | 1 | 0 | 15 |
-| cleaning-chemicals | 24 | 23 | 1 | 0 | 0 | 33 |
-| ordered-backlog | 1 | 1 | 0 | 0 | 0 | 91 |
+| cleaning-support | 40 | 12 | 21 | 2 | 5 | 1 |
+| mops-and-handhelds | 103 | 36 | 55 | 4 | 8 | 10 |
+| cordless-vacuums | 63 | 21 | 30 | 12 | 0 | 11 |
+| robot-vacuums | 82 | 32 | 33 | 6 | 11 | 12 |
+| carpet-cleaners | 50 | 11 | 19 | 10 | 10 | 16 |
+| cleaning-chemicals | 11 | 7 | 4 | 0 | 0 | 53 |
+| ordered-backlog | 1 | 1 | 0 | 0 | 0 | 248 |
 
 ## Skipped Overlaps
 
 | Guide | Primary Keyword | Notes |
 |-------|-----------------|-------|
-| best-carpet-cleaner-for-pets | best carpet cleaner machine for dog urine | Ahrefs-discovered candidate \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-carpet-cleaner-machine-for-dog-urine (best carpet cleaner machine for dog urine); matched on "best carpet cleaner machine for dog urine". |
-| best-affordable-robot-vacuum | best cheap robot vacuum | Ahrefs-discovered candidate \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-cheap-robot-vacuum (best cheap robot vacuum); matched on "best cheap robot vacuum". |
-| best-inexpensive-cordless-stick-vacuum | best cordless stick vacuum under $200 | Ahrefs-discovered candidate \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-cordless-stick-vacuum-under-200 (best cordless stick vacuum under 200); matched on "best cordless stick vacuum under $200". |
-| best-cordless-vacuum-reviews | best cordless vacuum | Ahrefs-discovered candidate \ \ \ \ \| on-disk-discovery-registration 2026-04-20 \| registered from src/app scan \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| FORTRESS-adjacent head term per shortlist row 2 — bare head SERP dominated by DR 68+ publishers. Carve via sub-niche spokes ($200, hardwood, lightweight). Hub introduces CR + GHI trust anchors + tradeoff table; depth pages own the volume. \| Ahrefs-discovered candidate Duplicate intent of LIVE /best-cordless-vacuum (best cordless vacuum); matched on "best cordless vacuum". |
+| best-affordable-robot-vacuum | best cheap robot vacuum | Ahrefs-discovered candidate \ \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-cheap-robot-vacuum (best cheap robot vacuum); matched on "best cheap robot vacuum". |
+| best-inexpensive-cordless-stick-vacuum | best cordless stick vacuum under $200 | Ahrefs-discovered candidate \ \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-cordless-stick-vacuum-under-200 (best cordless stick vacuum under 200); matched on "best cordless stick vacuum under $200". |
 | best-cordless-vacuum-cleaner-for-pet-hair | best cordless vacuum cleaner for pet hair | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Auto-skipped by roadmap v2 cross-site overlap guard (secondary-keyword collision). |
 | best-cordless-vacuum-for-pet-hair-budget | best cordless vacuum for pet hair budget | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision, primary-keyword collision). |
 | best-cordless-vacuum-for-pet-hair-under-150 | best cordless vacuum for pet hair under $150 | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision, primary-keyword collision). |
-| best-cordless-vacuum-for-pet-hair | best cordless vacuum pet hair | Ahrefs-discovered candidate \ \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \ \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision). |
-| budget-cordless-vacuum | best cordless vacuum under $150 | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-budget-cordless-vacuum (best cordless vacuum under 150); matched on "best cordless vacuum under $150". |
+| best-tile-and-grout-cleaner | best grout cleaner for floors? | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Oxygen-bleach-based picks (Oxi-based). Color-safe caveats explicit. Links up to `how-to-clean-grout` support guide + lateral to `best-steam-mop` for non-porous tile. |
 | best-cordless-vacuums | best cordless vacuums | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of LIVE /best-cordless-vacuum (best cordless vacuum); matched on "best cordless vacuums". |
-| best-dyson-stick-vacuum | best dyson cordless vacuum? | Ahrefs-discovered candidate \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-dyson-cordless-vacuum (best dyson cordless vacuum); matched on "best dyson cordless vacuum?". |
-| best-electric-mop | best electric floor mop | Ahrefs-discovered candidate \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-electric-floor-mop (best electric floor mop); matched on "best electric floor mop". |
-| best-floor-cleaner-for-tile | best floor cleaner for tile and grout | Ahrefs-discovered candidate \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-floor-cleaner-for-tile-and-grout (best floor cleaner for tile and grout); matched on "best floor cleaner for tile and grout". |
-| robot-vacuum | best floor robot vacuum | Ahrefs-discovered candidate \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-floor-robot-vacuum (best floor robot vacuum); matched on "best floor robot vacuum". |
-| best-tile-and-grout-cleaner | best grout cleaner for floors? | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| on-disk-drift-fix 2026-04-20 \| Oxygen-bleach-based picks (Oxi-based). Color-safe caveats explicit. Links up to `how-to-clean-grout` support guide + lateral to `best-steam-mop` for non-porous tile. |
-| best-handheld-cordless-vacuum | best handheld vacuum | Ahrefs-discovered candidate \ \ \ \ \| on-disk-discovery-registration 2026-04-20 \| registered from src/app scan \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Duplicate intent of LIVE /best-handheld-vacuum (best handheld vacuum kw, vol 17000). Skipping to avoid cannibalization. Duplicate Entry 2 at line ~60136 already marked SKIP with same reason. \| Ahrefs-discovered candidate \ \| Shortlist row 4. Support-tier standalone; links up to the cordless hub as 'supplement to your main vacuum.' CR + GHI trust anchors; no methodology deep-dive. \| Ahrefs-discovered candidate Duplicate intent of LIVE /best-handheld-vacuum (best handheld vacuum); matched on "best handheld vacuum". |
-| best-handheld-vacuum-for-cat-litter | best handheld vacuum for cat litter | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision, primary-keyword collision). |
-| handheld-vacuum-for-pet-hair | best handheld vacuum for pet hair | Ahrefs-discovered candidate \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-handheld-vacuum-for-pet-hair (best handheld vacuum for pet hair); matched on "best handheld vacuum for pet hair". |
-| best-handheld-vacuums-for-pet-hair | best handheld vacuum for pet hair on furniture | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-handheld-vacuum-for-pet-hair (best handheld vacuum for pet hair); matched on "best handheld vacuums for pet hair". |
-| best-handheld-vacuum-for-pet-hair-on-stairs | best handheld vacuum for pet hair on stairs | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision, primary-keyword collision). |
-| best-mop-for-dog-hair-on-hardwood | best mop for dog hair on hardwood | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-mop-for-dog-hair-on-hardwood (best mop for dog hair on hardwood); matched on "best mop for dog hair on hardwood". |
-| hardwood-floor-mop | best mop for hardwood floor | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-mop-for-hardwood-floors (best mop for hardwood floor); matched on "best mop for hardwood floor". |
-| best-mop-for-tile-floors | best mop for tile floors | Ahrefs-discovered candidate \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-mops-for-tile-floors (best mop for tile floor); matched on "best mop for tile floors". |
 | best-mops-for-hardwood-floors | best mops for hardwood floors | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-mop-for-hardwood-floors (best mop for hardwood floor); matched on "best mops for hardwood floors". |
-| best-wet-mop-for-tile-floors | best power mop for tile floors | Ahrefs-discovered candidate \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /types-of-mops (best power mop for tile floor); matched on "best power mop for tile floors". |
-| robot-vacuum-and-mop | best robot vacuum and mop combo | Ahrefs-discovered candidate \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-robot-vacuum-and-mop-combo (best robot vacuum and mop combo); matched on "best robot vacuum and mop combo". |
-| best-robot-vacuum-cleaner-review | best robot vacuum cleaner review | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-robot-vacuum-cleaner-reviews (best robot vacuum cleaner review); matched on "best robot vacuum cleaner review". |
+| best-steam-mops | best steam mop with attachments | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-steam-mop (best steam mop); matched on "best steam mops". |
+| best-mops | best type of mop | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-mop (best mop); matched on "best mops". |
+| hardwood-floor-mop | best mop for hardwood floor | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-mop-for-hardwood-floors (best mop for hardwood floor); matched on "best mop for hardwood floor". |
+| robot-vacuum-and-mop | best robot vacuum and mop combo | Ahrefs-discovered candidate \ \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-robot-vacuum-and-mop-combo (best robot vacuum and mop combo); matched on "best robot vacuum and mop combo". |
+| budget-cordless-vacuum | best cordless vacuum under $150 | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-budget-cordless-vacuum (best cordless vacuum under 150); matched on "best cordless vacuum under $150". |
+| best-cordless-vacuum-for-pet-hair | best cordless vacuum pet hair | Ahrefs-discovered candidate \ \ \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \ \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision). |
+| best-robot-vacuum-for-pet-hair | best robot vacuum for dog hair | Ahrefs-discovered candidate \ \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-robot-vacuum-for-dog-hair (best robot vacuum for dog hair); matched on "best robot vacuum for dog hair". |
+| shark-cordless-vacuum | best shark cordless stick vacuum? | Ahrefs-discovered candidate \ \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-shark-cordless-stick-vacuum (best shark cordless stick vacuum); matched on "best shark cordless stick vacuum?". |
+| best-mop-for-tile-floors | best mop for tile floors | Ahrefs-discovered candidate \ \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-mops-for-tile-floors (best mop for tile floor); matched on "best mop for tile floors". |
+| mops | mops | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /mop (mop); matched on "mops". |
+| robot-vacuum | best floor robot vacuum | Ahrefs-discovered candidate \ \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-floor-robot-vacuum (best floor robot vacuum); matched on "best floor robot vacuum". |
+| handheld-vacuum-for-pet-hair | best handheld vacuum for pet hair | Ahrefs-discovered candidate \ \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-handheld-vacuum-for-pet-hair (best handheld vacuum for pet hair); matched on "best handheld vacuum for pet hair". |
 | best-robot-vacuum-cleaners | best robot vacuum cleaners | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-robot-vacuum-cleaner (best robot vacuum cleaner); matched on "best robot vacuum cleaners". |
+| best-vacuum-mop-combo | best vacuum/mop combo | Ahrefs-discovered candidate \ \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-vacuum-and-mop (best vacuum mop combo); matched on "best vacuum/mop combo". |
+| best-wet-mop-for-tile-floors | best power mop for tile floors | Ahrefs-discovered candidate Ahrefs-discovered candidate \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /types-of-mops (best power mop for tile floor); matched on "best power mop for tile floors". |
+| best-handheld-vacuums-for-pet-hair | best handheld vacuum for pet hair on furniture | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-handheld-vacuum-for-pet-hair (best handheld vacuum for pet hair); matched on "best handheld vacuums for pet hair". |
+| best-robot-vacuum-for-high-pile-carpet | best robot vacuum for high pile carpet | Ahrefs-discovered candidate \ \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /robot-vacuum-for-high-pile-carpet (best robot vacuum for high pile carpet); matched on "best robot vacuum for high pile carpet". |
+| best-dyson-stick-vacuum | best dyson cordless vacuum? | Ahrefs-discovered candidate \ \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-dyson-cordless-vacuum (best dyson cordless vacuum); matched on "best dyson cordless vacuum?". |
+| best-carpet-cleaner-for-pets | best carpet cleaner machine for dog urine | Ahrefs-discovered candidate \ \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-carpet-cleaner-machine-for-dog-urine (best carpet cleaner machine for dog urine); matched on "best carpet cleaner machine for dog urine". |
+| best-electric-mop | best electric floor mop | Ahrefs-discovered candidate \ \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-electric-floor-mop (best electric floor mop); matched on "best electric floor mop". |
+| best-floor-cleaner-for-tile | best floor cleaner for tile and grout | Ahrefs-discovered candidate \ \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-floor-cleaner-for-tile-and-grout (best floor cleaner for tile and grout); matched on "best floor cleaner for tile and grout". |
+| best-handheld-vacuum-for-cat-litter | best handheld vacuum for cat litter | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision, primary-keyword collision). |
+| best-handheld-vacuum-for-pet-hair-on-stairs | best handheld vacuum for pet hair on stairs | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision, primary-keyword collision). |
+| best-robot-vacuum-cleaner-review | best robot vacuum cleaner review | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-robot-vacuum-cleaner-reviews (best robot vacuum cleaner review); matched on "best robot vacuum cleaner review". |
 | best-robot-vacuum-cleaners-reviews | best robot vacuum cleaners reviews | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-robot-vacuum-cleaner-reviews (best robot vacuum cleaner review); matched on "best robot vacuum cleaners reviews". |
+| best-mop-for-dog-hair-on-hardwood | best mop for dog hair on hardwood | Ahrefs-discovered candidate \| Ahrefs-discovered candidate Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-mop-for-dog-hair-on-hardwood (best mop for dog hair on hardwood); matched on "best mop for dog hair on hardwood". |
 | best-robot-vacuum-for-cat-litter | best robot vacuum for cat litter | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision, primary-keyword collision). |
-| best-robot-vacuum-for-pet-hair | best robot vacuum for dog hair | Ahrefs-discovered candidate \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-robot-vacuum-for-dog-hair (best robot vacuum for dog hair); matched on "best robot vacuum for dog hair". |
-| best-robot-vacuum-for-high-pile-carpet | best robot vacuum for high pile carpet | Ahrefs-discovered candidate \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /robot-vacuum-for-high-pile-carpet (best robot vacuum for high pile carpet); matched on "best robot vacuum for high pile carpet". |
 | best-robot-vacuum-for-pet-hair-without-mop | best robot vacuum for pet hair without mop | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision, primary-keyword collision). |
 | best-robot-vacuum-for-tile-floors-and-pet-hair | best robot vacuum for tile floors and pet hair | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision, primary-keyword collision). |
 | best-robot-vacuum-only-for-pet-hair | best robot vacuum only for pet hair | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision, primary-keyword collision). |
-| shark-cordless-vacuum | best shark cordless stick vacuum? | Ahrefs-discovered candidate \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-shark-cordless-stick-vacuum (best shark cordless stick vacuum); matched on "best shark cordless stick vacuum?". |
-| o-cedar-spin-mop | best spin mop | Ahrefs-discovered candidate \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-spin-mop (best spin mop); matched on "best spin mop". |
-| what-is-a-steam-mop | best steam mop for tile floors | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-mop-for-hardwood-floors (best steam mop for tile floor); matched on "best steam mop for tile floors". |
-| best-steam-mop-for-hardwood-floors | best steam mop for vinyl floors | Ahrefs-discovered candidate \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-steam-mop-for-vinyl-floors (best steam mop for vinyl floor); matched on "best steam mop for vinyl floors". |
-| best-steam-mops | best steam mop with attachments | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-steam-mop (best steam mop); matched on "best steam mops". |
-| best-mops | best type of mop | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-mop (best mop); matched on "best mops". |
-| best-cordless-vacuum-for-cat-litter | best vacuum for cat litter cordless | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision). |
-| best-robot-vacuum-and-mop | best vacuum mop combo robot | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-robot-vacuum-and-mop (best vacuum mop combo robot); matched on "best vacuum mop combo robot". |
-| best-vacuum-mop-combo | best vacuum/mop combo | Ahrefs-discovered candidate \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-vacuum-and-mop (best vacuum mop combo); matched on "best vacuum/mop combo". |
-| best-way-to-mop | best way to mop | Ahrefs-discovered candidate \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /how-to-mop-a-floor (best way to mop); matched on "best way to mop". |
+| best-steam-mop-for-hardwood-floors | best steam mop for vinyl floors | Ahrefs-discovered candidate \ \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-steam-mop-for-vinyl-floors (best steam mop for vinyl floor); matched on "best steam mop for vinyl floors". |
+| best-way-to-mop | best way to mop | Ahrefs-discovered candidate Ahrefs-discovered candidate \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /how-to-mop-a-floor (best way to mop); matched on "best way to mop". |
 | floor-mops | floor mops | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /floor-mop (floor mop); matched on "floor mops". |
-| mops | mops | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /mop (mop); matched on "mops". |
+| o-cedar-spin-mop | best spin mop | Ahrefs-discovered candidate Ahrefs-discovered candidate \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-spin-mop (best spin mop); matched on "best spin mop". |
+| best-cordless-vacuum-for-cat-litter | best vacuum for cat litter cordless | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision). |
+| is-it-best-handheld-vacuum-for-pet-hair | is it best handheld vacuum for pet hair? | Ahrefs-discovered candidate \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision, primary-keyword collision). |
+| what-is-best-cordless-vacuum-for-pet-hair | what is best cordless vacuum for pet hair | Ahrefs-discovered candidate \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision, primary-keyword collision). |
 
