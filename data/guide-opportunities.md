@@ -9,10 +9,10 @@
 
 | Status | Count |
 |--------|-------|
-| LIVE | 10 |
+| LIVE | 12 |
 | CONTENT READY | 0 |
 | IN PROGRESS | 0 |
-| NOT BUILT | 256 |
+| NOT BUILT | 254 |
 | SKIP | 129 |
 | **Total** | **395** |
 
@@ -8300,9 +8300,9 @@ All pending positions matched the cadence vector.
 | 7 | best-carpet-cleaner-machine | Best Carpet Cleaner Machines (2026): Rent-or-Buy Math + Head-to-Head Picks | money-guide | flagship-roundup | buy | best carpet cleaner machine | 4000 | 3 | 12000 | 80.3 | export-backed | cleaning-support | safe-surface-desk | Event-Driven Restorer | LIVE |
 | 8 | how-to-clean-grout | How to Clean Grout (Without Bleaching the Color Out) | support-guide | maintenance-cleaning | maintain | how to clean grout | 22000 | 14 | 22000 | 78.5 | export-backed | cleaning-support | safe-surface-desk | Surface Protector | LIVE |
 | 9 | best-mop | Best Mops for Everyday Home Cleaning (2026) | money-guide | flagship-roundup | buy | best mop | 11000 | 2 | 14000 | 83.3 | export-backed | cleaning-support | everyday-cleaning-desk | Practical Floor Keeper | LIVE |
+| 10 | what-to-mop-floors-with | Best Product To Mop Floors | support-guide | troubleshooting-fix | buy | best product to mop floors | 800 | 4 | 4100 | 68 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | LIVE |
+| 12 | are-robot-vacuums-worth-it | Are Robot Vacuums Worth It | support-guide | worth-it-buying-decision | decide | are robot vacuums worth it | 700 | 2 | 400 | 66.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | LIVE |
 | 94 | best-grout-cleaner | Best Grout Cleaner For Floors | money-guide | use-case-roundup | buy | best grout cleaner for floors | 900 | 2 | 6100 | 68.7 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | LIVE |
-| 10 | what-to-mop-floors-with | Best Product To Mop Floors | support-guide | troubleshooting-fix | buy | best product to mop floors | 800 | 4 | 4100 | 68 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 12 | are-robot-vacuums-worth-it | Are Robot Vacuums Worth It | support-guide | worth-it-buying-decision | decide | are robot vacuums worth it | 700 | 2 | 400 | 66.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
 | 13 | what-is-the-most-powerful-handheld-vacuum | What Is The Most Powerful Handheld Vacuum | support-guide | glossary-explainer | learn | what is the most powerful handheld vacuum | 50 | 5 | 17000 | 64.7 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
 | 14 | vacuum-and-mop-combo | Best Hard Floor Vacuum And Mop | money-guide | flagship-roundup | buy | best hard floor vacuum and mop | 8600 | 1 | 16000 | 80 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
 | 15 | what-to-mop-tile-floors-with | Best Mop Solution For Tile Floors | support-guide | troubleshooting-fix | buy | best mop solution for tile floors | 150 | 4 | 450 | 62 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
