@@ -5,7 +5,7 @@ import { type Author } from "@/data/authors";
 import { editor } from "@/data/publisher";
 import { articleSchema, breadcrumbSchema, faqSchema, howToSchema, JsonLd } from "@/lib/schema";
 import { siteConfig } from "@/config/site";
-import { RichText } from "@/lib/rich-text";
+import { RichText, RichInline } from "@/lib/rich-text";
 
 interface SupportImage {
   src: string;
@@ -249,7 +249,7 @@ export function SupportPage({
               </span>
               <h1 className="display-title mt-6 text-[#f6fbf8]">{title}</h1>
               <p className="mt-7 max-w-2xl text-[1.2rem] leading-9 text-[#dae4de] sm:text-[1.28rem]">
-                {intro}
+                <RichInline text={intro} />
               </p>
 
               <div className="mt-8 flex flex-wrap items-center gap-x-5 gap-y-2 text-[0.96rem] text-[#c3d0cb]">
