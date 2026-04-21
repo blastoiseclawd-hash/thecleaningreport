@@ -735,7 +735,7 @@ export const pageTargets: PageTarget[] = [
     clusterId: "robot-vacuums",
     buildOrder: 17,
     buildPriorityScore: 61.1,
-    buildStatus: "NOT BUILT",
+    buildStatus: "LIVE",
     primaryKeyword: "is roomba the best robot vacuum",
     primaryVolume: 60,
     primaryKd: 0,

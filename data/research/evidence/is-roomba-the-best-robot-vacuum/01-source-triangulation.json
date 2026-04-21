@@ -1,0 +1,139 @@
+{
+  "slug": "is-roomba-the-best-robot-vacuum",
+  "capturedOn": "2026-04-21",
+  "capturedBy": "Claude Opus 4.7 via Playwright MCP",
+  "sources": [
+    {
+      "id": 1,
+      "label": "RTINGS 2026 best robot vacuums",
+      "url": "https://www.rtings.com/vacuum/reviews/best/robot",
+      "tier": "tier1_methodology",
+      "capturedSnapshot": "sites/thecleaningreport/data/research/evidence/is-roomba-the-best-robot-vacuum/01-rtings-no-roomba.png",
+      "verbatimExtracts": [
+        "We replaced the discontinued Roborock Qrevo with the Roborock Qrevo Curv, and the discontinued Roborock Q5 Max+ with the MOVA P10 Pro Ultra. We removed the Dreame L10s Ultra from our Notable Mentions since it's so similar to the MOVA P10 Pro Ultra, and we also removed the iRobot Roomba j7+ as a Notable Mention due to concerns about the long-term viability of the company. (Nov 07, 2025)",
+        "We replaced the Roborock S8 Pro Ultra with the Roborock Saros 10R as our pick for the 'Best Robot Vacuum' due to availability and better overall performance. We removed the aging iRobot Roomba S9 from the Notable Mentions... (Jul 03, 2025)"
+      ],
+      "topPicks": [
+        "Roborock Saros 10R (Best Robot Vacuum)",
+        "Roborock Qrevo Curv (Best Mid-Range)",
+        "MOVA P10 Pro Ultra (Best Budget)",
+        "One more cheap pick (not named in extract)"
+      ],
+      "keyFinding": "RTINGS removed ALL Roomba models from their 4-pick top list AND their notable mentions as of November 2025. Reason given: 'concerns about the long-term viability of the company' (pre-bankruptcy) + 'aging' S9 model. No Roomba in the 2026 top picks."
+    },
+    {
+      "id": 2,
+      "label": "Wirecutter 2026 best robot vacuum",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-robot-vacuum/",
+      "tier": "tier1_methodology",
+      "capturedSnapshot": "sites/thecleaningreport/data/research/evidence/is-roomba-the-best-robot-vacuum/04-wirecutter-does-not-recommend-irobot.png",
+      "verbatimExtracts": [
+        "Why we don't currently recommend vacuums from iRobot (section heading in 'The competition' block)",
+        "iRobot's Roomba robot vacuums were once synonymous with the robot-vacuum category, but Roomba models have not performed well in our testing in recent years, and the company filed for bankruptcy in December 2025.",
+        "Roomba 694 (now discontinued): Previously one of our budget picks, the 694 model was outperformed by our previous budget pick, the Eufy RoboVac 11S Max. The Roomba 694 collected only between a third to a half of the debris that the 11S Max managed to pick up, and its dustbin is considerably smaller than that of the 11S Max.",
+        "Roomba j9+: The j9+ vacuum cleaned well, but like the i4+ EVO unit, its self-emptying dock didn't consistently remove all the debris from the bot's bin. Our contact at iRobot attributed this to the Cheerios in our tests, but we noticed similar issues with other, smaller debris, such as rice. This model also frequently bumped into furniture and pushed over a large cup, one of the obstacles we had put in its path.",
+        "In our research, we found that complaints about iRobot's customer service are rampant, reflecting a broader issue with its app and product support."
+      ],
+      "topPicks": [
+        "Roborock Q7 M5+ (top pick)",
+        "Tapo RV30 Max Plus (runner-up)"
+      ],
+      "keyFinding": "Wirecutter has a dedicated section 'Why we don't currently recommend vacuums from iRobot' covering iRobot's December 2025 bankruptcy, persistent testing underperformance, and rampant customer-service complaints. Wirecutter's 2026 top pick is the Roborock Q7 M5+; runner-up is the Tapo RV30 Max Plus. Zero Roomba picks."
+    },
+    {
+      "id": 3,
+      "label": "Vacuum Wars best robot vacuums with obstacle avoidance 2026",
+      "url": "https://vacuumwars.com/best-robot-vacuums-with-obstacle-avoidance/",
+      "tier": "tier1_methodology",
+      "capturedSnapshot": "sites/thecleaningreport/data/research/evidence/is-roomba-the-best-robot-vacuum/02-vacuumwars-top5-no-roomba.png",
+      "verbatimExtracts": [
+        "We've Independently Tested 150+ Robot Vacuums",
+        "Last updated April 9, 2026",
+        "#1 Roborock Saros 10R",
+        "#2 Eufy E28 Omni",
+        "#3 Narwal Freo Z Ultra",
+        "#4 Dreame X60 Max Ultra Complete",
+        "#5 MOVA Mobius 60"
+      ],
+      "topPicks": [
+        "Roborock Saros 10R",
+        "Eufy E28 Omni",
+        "Narwal Freo Z Ultra",
+        "Dreame X60 Max Ultra Complete",
+        "MOVA Mobius 60"
+      ],
+      "keyFinding": "Vacuum Wars' April 2026 top 5 obstacle-avoidance robot vacuums include zero Roomba models. Top 5 is split across Roborock, Eufy, Narwal, Dreame, and MOVA. Note: Vacuum Wars' earlier 2022 obstacle-avoidance testing had Roomba j7 tied for 1st; the shift reflects Roomba's falling behind competitors over 2023-2025."
+    },
+    {
+      "id": 4,
+      "label": "Modern Castle 8 best robot vacuums for 2026",
+      "url": "https://moderncastle.com/robot-vacuums/best-robot-vacuums/",
+      "tier": "tier1_methodology",
+      "capturedSnapshot": "sites/thecleaningreport/data/research/evidence/is-roomba-the-best-robot-vacuum/03-moderncastle-roomba-value-and-budget-tiers.png",
+      "verbatimExtracts": [
+        "The 8 Best Robot Vacuums for 2026: We Test 94 Robots",
+        "Updated on: January 22, 2026",
+        "Ultra High-End Robot Vacuums ($$$$+): Roborock S8 Pro Ultra, ECOVACS DEEBOT X2 OMNI",
+        "High-End Robot Vacuums ($$$$): Roborock Q Revo, Samsung Jet Bot AI+",
+        "Value Robot Vacuums ($$$): Roomba S9+, Shark Matrix",
+        "Budget Robot Vacuums ($$): Roomba i3+ EVO",
+        "The Roomba S9+ is an incredible vacuum, especially in terms of performance. In testing, it removed 99.0% of all debris across all floor types.",
+        "The Roomba i3+ EVO is a fantastic robot vacuum, especially considering the asking price. Despite not being the latest and greatest from Roomba, it still packs an auto-empty dock, improved mapping functionality, and fantastic cleaning performance."
+      ],
+      "topPicks": [
+        "Roborock S8 Pro Ultra (Ultra High-End)",
+        "Ecovacs Deebot X2 Omni (Ultra High-End)",
+        "Roborock Q Revo (High-End)",
+        "Samsung Jet Bot AI+ (High-End)",
+        "Roomba S9+ (Value)",
+        "Shark Matrix (Value)",
+        "Roomba i3+ EVO (Budget)"
+      ],
+      "keyFinding": "Modern Castle's 94-robot test gives Roomba only Value and Budget tier slots. All 4 top slots (Ultra High-End + High-End) are non-Roomba. Roomba S9+ scored 99.0% debris pickup but placed in Value tier because higher-end competitors now match or exceed on performance at the same or lower total cost of ownership."
+    },
+    {
+      "id": 5,
+      "label": "CNET best robot vacuums 2026",
+      "url": "https://www.cnet.com/home/kitchen-and-household/best-robot-vacuum/",
+      "tier": "tier1_methodology",
+      "capturedSnapshot": "sites/thecleaningreport/data/research/evidence/is-roomba-the-best-robot-vacuum/06-cnet-roomba-205-best-value-post-bankruptcy.png",
+      "verbatimExtracts": [
+        "Best Robot Vacuums: Our Latest Lab-Tested Robovacs Can Clean Just About Anything (Feb 21, 2026)",
+        "Best overall and best for carpet: Mova V50 Ultra Complete",
+        "Best cleaning coverage: Dreame X50 Ultra",
+        "Best value and best for hardwood: iRobot Roomba 205 DustCompactor Combo",
+        "iRobot is currently recovering from a bankruptcy and acquisition after being acquired by Picea, its manufacturing partner, but the company has assured us that its existing product lines will continue to be supported.",
+        "On the more affordable end, the Roomba DustCompactor 205 retained its spot from our previous tests, earning the best score on hardwood floors while costing under $500."
+      ],
+      "topPicks": [
+        "Mova V50 Ultra Complete (Best overall, best for carpet)",
+        "Dreame X50 Ultra (Best cleaning coverage)",
+        "iRobot Roomba 205 DustCompactor Combo (Best value, best hardwood, under $500)",
+        "Roborock Saros Z70 (Best low-clearance)",
+        "Ecovacs Deebot X8 Pro Omni (Best pet hair)",
+        "Yeedi S20 Infinity (Best bagless)"
+      ],
+      "keyFinding": "CNET is the outlier: they still recommend one Roomba (the new 205 DustCompactor Combo, released post-bankruptcy under the Picea ownership) specifically for best value + best hardwood floors under $500. CNET explicitly addresses the bankruptcy/Picea acquisition and states iRobot has assured existing product lines will continue to be supported. Best overall + cleaning coverage slots go to Mova and Dreame, not Roomba."
+    },
+    {
+      "id": 6,
+      "label": "Reddit r/RobotVacuums — iRobot bankruptcy thread",
+      "url": "https://www.reddit.com/r/RobotVacuums/comments/1pfs0xj/irobot_going_out_of_business_which_is_another/",
+      "tier": "tier3_community",
+      "capturedSnapshot": "sites/thecleaningreport/data/research/evidence/is-roomba-the-best-robot-vacuum/05-reddit-irobot-bankruptcy-thread.png",
+      "verbatimExtracts": [
+        "iRobot going out of business? Which is another alternative? (~5 months ago, 47 comments)",
+        "I have 2 robot vacuumes (iRobot/Roomba) I wanted to get my parents one but I'm worried as the price is so low, and if they got out of business as the reports have said. There will be no support, or app will go down.",
+        "I just went with roborock coming from owning Roomba J7+ units and have been happy. Even if iRobot somehow escapes bankruptcy it just seems they are behind the competition.",
+        "I own three roborocks now. Qrevo CurvX, Qrevo Edge, and the QV35A (each one on a different floor)... Happy to help!"
+      ],
+      "keyFinding": "Community sentiment on r/RobotVacuums (155K weekly visitors, 1.7K weekly contributions) in late 2025 was dominated by concern about iRobot bankruptcy. Dominant community recommendation: migrate to Roborock (Qrevo line especially). Owners of existing Roomba j7+ units reported satisfaction but also acknowledged Roomba falling behind competition."
+    }
+  ],
+  "crossCuttingNotes": {
+    "convergence": "4 of 5 tier1 methodology labs (RTINGS, Wirecutter, Vacuum Wars, Modern Castle) no longer place any Roomba in their top 1-4 picks. Top-pick convergence is on Roborock (Saros 10R named by RTINGS + Vacuum Wars) and Roborock/Dreame/MOVA more broadly.",
+    "divergence": "CNET is the singular outlier still recommending a Roomba (the 205 DustCompactor Combo) — and only in the value + hardwood-floors niche, not best overall. CNET also acknowledged the iRobot bankruptcy + Picea acquisition.",
+    "bankruptcyTimeline": "iRobot filed for bankruptcy in December 2025 (Wirecutter). iRobot was subsequently acquired by Picea, its manufacturing partner (CNET). CNET reports iRobot has assured that existing product lines will continue to be supported.",
+    "honestAnswer": "Not in 2026. Four of five top independent testing shops have moved on from Roomba as the best-robot-vacuum choice. Roborock dominates the top-pick convergence across RTINGS + Vacuum Wars + Wirecutter, with Dreame/MOVA/Ecovacs/Eufy/Narwal competing below. The one remaining case for a Roomba in 2026 is the new 205 DustCompactor (CNET best value + hardwood under $500, released under Picea ownership post-bankruptcy)."
+  }
+}

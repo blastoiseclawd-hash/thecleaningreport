@@ -142,6 +142,7 @@ export const areRobotVacuumsWorthItContent = {
     "The decision framework above routes most readers into one of three product categories. The guides below cover the picks for each, including the cases where a robot vacuum is the wrong answer and a cordless alternative is the honest recommendation.",
   relatedLinks: [
     { href: "/best-robot-vacuum", title: "The 6 Best Robot Vacuums of 2026: Labor-Math-First Picks" },
+    { href: "/is-roomba-the-best-robot-vacuum", title: "Is Roomba the Best Robot Vacuum? (2026 Honest Take)" },
     { href: "/best-cordless-vacuum", title: "Best Cordless Vacuums (2026): Everyday Floor Care Picks" },
     { href: "/best-cordless-stick-vacuum-for-hardwood", title: "Best Cordless Stick Vacuums for Hardwood Floors (2026)" },
     { href: "/best-handheld-vacuum", title: "Best Handheld Vacuums 2026: Stair-Friendly Quick-Cleanup Picks" },
