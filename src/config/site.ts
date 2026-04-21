@@ -97,8 +97,6 @@ export const siteConfig = {
         children: [
           { label: "Best Mops", href: "/best-mop" },
           { label: "Steam Mops", href: "/best-steam-mop" },
-          { label: "What to Mop Floors With", href: "/what-to-mop-floors-with" },
-          { label: "How to Clean Hardwood Floors", href: "/how-to-clean-hardwood-floors" },
         ],
       },
       { label: "Carpet Cleaners", href: "/best-carpet-cleaner-machine" },
@@ -107,8 +105,16 @@ export const siteConfig = {
         children: [
           { label: "Hardwood Floor Cleaners", href: "/best-hardwood-floor-cleaner" },
           { label: "Grout Cleaners", href: "/best-grout-cleaner" },
-          { label: "How to Clean Grout", href: "/how-to-clean-grout" },
           { label: "Stainless Steel Cleaners", href: "/best-stainless-steel-cleaner" },
+        ],
+      },
+      {
+        label: "Guides",
+        children: [
+          { label: "Are Robot Vacuums Worth It?", href: "/are-robot-vacuums-worth-it" },
+          { label: "What to Mop Floors With", href: "/what-to-mop-floors-with" },
+          { label: "How to Clean Hardwood Floors", href: "/how-to-clean-hardwood-floors" },
+          { label: "How to Clean Grout", href: "/how-to-clean-grout" },
         ],
       },
       { label: "About", href: "/about" },

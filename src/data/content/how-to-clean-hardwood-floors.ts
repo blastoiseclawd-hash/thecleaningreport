@@ -44,7 +44,7 @@ export const howToCleanHardwoodFloorsContent = {
   estimatedTime: "PT8M",
 
   breadcrumbLabel: "How to clean hardwood floors",
-  editorialLabel: "Safe Surface Desk",
+  editorialLabel: "How-To Guide",
 
   sections: [
     {

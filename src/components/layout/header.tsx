@@ -25,9 +25,10 @@ export function Header() {
 
           {siteConfig.nav.main.length > 0 && (
             <nav className="flex flex-wrap items-center gap-x-6 gap-y-2">
-              {siteConfig.nav.main.map((item) => {
+              {siteConfig.nav.main.map((item, index) => {
                 const hasChildren = Boolean(item.children && item.children.length > 0);
                 const isOpen = openMenu === item.label;
+                const alignRight = index >= Math.ceil(siteConfig.nav.main.length / 2);
 
                 if (!hasChildren && item.href) {
                   return (
@@ -61,11 +62,12 @@ export function Header() {
                       </span>
                     </button>
                     {isOpen && item.children && (
-                      <div className="absolute left-0 top-full z-10 mt-2 min-w-[15rem] rounded-md border border-[#d8d4cc] bg-[#f7f4ee] py-2 shadow-lg">
+                      <div className={`absolute top-full z-[60] mt-2 min-w-[15rem] rounded-md border border-[#d8d4cc] bg-[#f7f4ee] py-2 shadow-lg ${alignRight ? "right-0" : "left-0"}`}>
                         {item.children.map((child) => (
                           <Link
                             key={child.href}
                             href={child.href}
+                            onClick={() => setOpenMenu(null)}
                             className="block px-4 py-2 text-[0.95rem] text-[#4c5760] hover:bg-[#ece8df] hover:text-[#182028]"
                           >
                             {child.label}

@@ -38,7 +38,7 @@ export const areRobotVacuumsWorthItContent = {
 
   estimatedTime: "PT5M",
   breadcrumbLabel: "Are robot vacuums worth it",
-  editorialLabel: "Labor Math Desk",
+  editorialLabel: "Buying Decision Guide",
 
   sections: [
     {

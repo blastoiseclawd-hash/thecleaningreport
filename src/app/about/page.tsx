@@ -1,8 +1,9 @@
+import Image from "next/image";
 import Link from "next/link";
 
-import { authors } from "@/data/authors";
 import { siteConfig } from "@/config/site";
 import { aboutContent } from "@/data/content/trust-pages";
+import { editor } from "@/data/publisher";
 import { generatePageMetadata } from "@/lib/metadata";
 import { breadcrumbSchema, JsonLd, webPageSchema } from "@/lib/schema";
 
@@ -48,19 +49,28 @@ export default function AboutPage() {
       </section>
 
       <section className="section-space-sm bg-[#eef0ea]">
-        <div className="site-shell">
-          <div className="grid gap-5 lg:grid-cols-3">
-            {authors.map((desk) => (
-              <article key={desk.slug} id={desk.slug} className="sand-panel p-7">
-                <p className="eyebrow">{desk.title}</p>
-                <h2 className="mt-4 text-[2rem] font-bold leading-[1.02] text-[#23150f]">
-                  {desk.name}
-                </h2>
-                <p className="mt-4 text-[1rem] leading-8 text-[#46525b]">{desk.bio}</p>
-                <p className="mt-4 text-[0.95rem] leading-7 text-[#5f6a73]">{desk.audience}</p>
-              </article>
-            ))}
-          </div>
+        <div className="site-shell max-w-4xl">
+          <article className="sand-panel flex flex-col gap-6 p-7 sm:flex-row sm:items-start sm:gap-8 sm:p-9">
+            <div className="shrink-0">
+              <Image
+                src={editor.headshot}
+                alt={editor.name}
+                width={144}
+                height={144}
+                className="h-28 w-28 rounded-full object-cover sm:h-36 sm:w-36"
+              />
+            </div>
+            <div className="flex min-w-0 flex-1 flex-col gap-3">
+              <p className="eyebrow">Editor &amp; Publisher</p>
+              <h2 className="text-[2.2rem] font-bold leading-[1.02] text-[#23150f]">
+                {editor.name}
+              </h2>
+              <p className="text-[0.92rem] font-semibold uppercase tracking-[0.18em] text-[#4F7B62]">
+                {editor.jobTitle}
+              </p>
+              <p className="text-[1rem] leading-8 text-[#46525b]">{editor.visibleBio || editor.bio}</p>
+            </div>
+          </article>
         </div>
       </section>
 

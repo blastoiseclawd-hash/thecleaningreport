@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { type Author } from "@/data/authors";
-import { AuthorBioCard } from "@/components/content/author-bio";
+import { editor } from "@/data/publisher";
 import { articleSchema, breadcrumbSchema, faqSchema, howToSchema, JsonLd } from "@/lib/schema";
 import { siteConfig } from "@/config/site";
 import { RichText } from "@/lib/rich-text";
@@ -200,8 +200,8 @@ export function SupportPage({
           url: pageUrl,
           datePublished: publishedDate,
           dateModified: resolvedModifiedDate,
-          authorName: author.name,
-          authorUrl: `${siteConfig.url}/about#${author.slug}`,
+          authorName: editor.name,
+          authorUrl: `${siteConfig.url}/about`,
           imageUrl: heroImage?.src ? `${siteConfig.url}${heroImage.src}` : undefined,
         })}
       />
@@ -256,11 +256,12 @@ export function SupportPage({
                 <span>
                   By{" "}
                   <Link
-                    href={`/about#${author.slug}`}
+                    href="/about"
                     className="font-semibold text-[#cbd8c5] hover:text-white"
                   >
-                    {author.name}
+                    {editor.name}
                   </Link>
+                  <span className="ml-1 text-[#a8b5b0]">({editor.jobTitle})</span>
                 </span>
                 <span>Published {publishedDate}</span>
               </div>
@@ -411,7 +412,34 @@ export function SupportPage({
 
       <section className="border-t border-[#d9d4cb] bg-[#f3f2ec]">
         <div className="site-shell-narrow section-space-sm">
-          <AuthorBioCard author={author} />
+          <aside
+            aria-label={`About ${editor.name}`}
+            className="editorial-card-soft flex flex-col gap-4 p-6 sm:flex-row sm:items-start sm:gap-5 sm:p-7"
+          >
+            <div className="shrink-0">
+              <Image
+                src={editor.headshot}
+                alt={editor.name}
+                width={64}
+                height={64}
+                className="h-16 w-16 rounded-full object-cover"
+              />
+            </div>
+            <div className="flex min-w-0 flex-1 flex-col gap-2">
+              <div>
+                <p className="font-[family-name:var(--font-heading-family)] text-xl font-semibold text-[#2C1810]">
+                  {editor.name}
+                </p>
+                <p className="text-sm text-[#4F7B62]">{editor.jobTitle}</p>
+              </div>
+              <p className="text-sm leading-7 text-[#4e3b31]">{editor.visibleBio || editor.bio}</p>
+              <Link href="/about" className="button-quiet mt-1 text-sm">
+                More about {editor.displayName}
+              </Link>
+            </div>
+          </aside>
+          {/* author prop retained internally for editorial desk voice tooling */}
+          {author.slug && <span className="sr-only" data-editorial-desk={author.slug} />}
         </div>
       </section>
     </>

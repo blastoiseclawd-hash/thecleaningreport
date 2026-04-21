@@ -44,7 +44,7 @@ export const howToCleanGroutContent = {
   estimatedTime: "PT10M",
 
   breadcrumbLabel: "How to clean grout",
-  editorialLabel: "Safe Surface Desk",
+  editorialLabel: "How-To Guide",
 
   sections: [
     {

@@ -10,7 +10,7 @@ export const howWeReviewContent = {
       id: "how-we-build-a-page",
       heading: "How we build a page",
       body:
-        "Each guide is assigned to the editorial desk closest to the reader's decision. The Labor Math Desk covers premium robot vacuums and maintenance-heavy picks. The Everyday Cleaning Desk covers mid-priced cordless vacuums, handhelds, and mainstream mops. The Safe Surface Desk covers steam mops, carpet cleaners, and chemical picks where the floor or surface rules the choice. The desk builds a candidate pool from lab coverage, community threads, owner reports, and manufacturer specs, then narrows to a final lineup the desk can defend on a year-one and month-six basis.",
+        "Each guide starts by mapping the real buying decision a household is trying to make on that keyword. The editor builds a candidate pool from independent-lab coverage, community threads, owner reports, and manufacturer specs, then narrows to a final lineup that holds up on a year-one and month-six basis. Every page is signed off by Lee Serel, CPA before it ships; AI tools assist with research synthesis and drafting but do not make final calls.",
     },
     {
       id: "how-we-use-sources",
@@ -42,17 +42,17 @@ export const aboutContent = {
   slug: "about",
   title: "About TheCleaningReport",
   description:
-    "Independent buying guides for robot vacuums, cordless vacuums, steam mops, and pet-mess cleanup. Three editorial desks. Real-home friction first.",
+    "Independent buying guides for robot vacuums, cordless vacuums, steam mops, and pet-mess cleanup. Published and edited by Lee Serel, CPA.",
   intro:
-    "We publish buying guides for the cleaning tools that decide how much time a household spends on floor care, surface care, and pet-mess cleanup across a full year. The goal is to help readers make a decision they will not regret at month six, when the dock starts clogging, the firmware regresses, or the replacement pads cost more than the head of the mop.",
+    "TheCleaningReport publishes buying guides for the cleaning tools that decide how much time a household spends on floor care, surface care, and pet-mess cleanup across a full year. The goal is to help readers make a decision they will not regret at month six, when the dock starts clogging, the firmware regresses, or the replacement pads cost more than the head of the mop.",
   whatWeDo:
-    "Every guide on TheCleaningReport is built around a real buying decision a real household is trying to make. We do not chase keywords for the sake of traffic. We do not run spec-sheet theater. The recommendations favor tools that stay maintainable, keep their warranty posture intact, and pay back the purchase price in time saved across a year of ordinary use.",
+    "Every guide on this site is built around a real buying decision a real household is trying to make. We do not chase keywords for the sake of traffic. We do not run spec-sheet theater. The recommendations favor tools that stay maintainable, keep their warranty posture intact, and pay back the purchase price in time saved across a year of ordinary use.",
   howWeWork:
-    "We publish under three topical editorial desks plus a house voice for site-level pages. The Labor Math Desk handles premium robot vacuums and labor-removal picks. The Everyday Cleaning Desk handles mid-priced cordless vacuums, handhelds, and basic mops. The Safe Surface Desk handles steam mops, carpet cleaners, and chemical picks where flooring compatibility rules the recommendation. Each desk has its own voice, its own forbidden phrases, and its own trust-source allowlist. The goal is that two guides from different desks read like two different editors, because they are.",
+    "Lee Serel, CPA is the named publisher and editor for every page on this site. The editorial process uses independent-lab coverage, manufacturer spec sheets, and multi-month owner-report patterns as the primary sources. AI tools assist with research synthesis and drafting. A human editor (Lee) signs off on every ranking, every pro, and every con before a page ships. Commission rate is never a tiebreaker; the recommendation has to hold up on its own reasoning even if the affiliate link disappeared tomorrow.",
   closingSection: {
     heading: "Who writes here",
     body:
-      "TheCleaningReport publishes under editor Lee Serel, CPA, licensed in New York (NY SED #116821). Lee is the named editor for every guide shipped on the site, and the desk structure is how the guides stay internally consistent without pretending a single person has tested every robot vacuum on the market. Corrections, partnership inquiries, and reader questions are welcome and responded to within seven days.",
+      "TheCleaningReport publishes under editor Lee Serel, CPA, licensed in New York (NY SED #116821). Lee is the named publisher and editor for every guide shipped on the site. Corrections, partnership inquiries, and reader questions are welcome and responded to within seven days at the editorial contact below.",
   },
 };
 

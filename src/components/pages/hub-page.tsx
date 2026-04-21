@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 import { type Author } from "@/data/authors";
@@ -7,7 +8,7 @@ import {
   priceDisplay,
   type Product,
 } from "@/data/products";
-import { AuthorBioCard } from "@/components/content/author-bio";
+import { editor } from "@/data/publisher";
 import { ProductImageGallery } from "@/components/product/product-image-gallery";
 import { DirectAnswer } from "@/components/content/direct-answer";
 import { articleSchema, breadcrumbSchema, faqSchema, productSchema, JsonLd } from "@/lib/schema";
@@ -226,8 +227,8 @@ export function HubPage({
         url: pageUrl,
         datePublished: publishedDate,
         dateModified: resolvedModifiedDate,
-        authorName: author.name,
-        authorUrl: `${siteConfig.url}/about#${author.slug}`,
+        authorName: editor.name,
+        authorUrl: `${siteConfig.url}/about`,
       })} />
       <JsonLd data={breadcrumbSchema([
         { name: "Home", url: siteConfig.url },
@@ -274,9 +275,10 @@ export function HubPage({
               <div className="mt-8 flex flex-wrap items-center gap-x-5 gap-y-2 text-[0.96rem] text-[#c3d0cb]">
                 <span>
                   By{" "}
-                  <Link href={`/about#${author.slug}`} className="font-semibold text-[#cbd8c5] hover:text-white">
-                    {author.name}
+                  <Link href="/about" className="font-semibold text-[#cbd8c5] hover:text-white">
+                    {editor.name}
                   </Link>
+                  <span className="ml-1 text-[#a8b5b0]">({editor.jobTitle})</span>
                 </span>
                 <span>Updated {resolvedModifiedDate}</span>
               </div>
@@ -1019,8 +1021,8 @@ export function HubPage({
                   </Link>
                 </li>
                 <li>
-                  <Link href={`/about#${author.slug}`} className="text-[1rem] font-semibold text-[#cbd8c5] hover:text-white">
-                    About {author.name}
+                  <Link href="/about" className="text-[1rem] font-semibold text-[#cbd8c5] hover:text-white">
+                    About {editor.displayName}
                   </Link>
                 </li>
                 <li>
@@ -1039,7 +1041,34 @@ export function HubPage({
             </div>
 
             <div className="sand-panel bg-[#fff8ef] p-6 sm:p-8">
-              <AuthorBioCard author={author} />
+              <aside
+                aria-label={`About ${editor.name}`}
+                className="flex flex-col gap-4 sm:flex-row sm:items-start sm:gap-5"
+              >
+                <div className="shrink-0">
+                  <Image
+                    src={editor.headshot}
+                    alt={editor.name}
+                    width={64}
+                    height={64}
+                    className="h-16 w-16 rounded-full object-cover"
+                  />
+                </div>
+                <div className="flex min-w-0 flex-1 flex-col gap-2">
+                  <div>
+                    <p className="font-[family-name:var(--font-heading-family)] text-xl font-semibold text-[#2C1810]">
+                      {editor.name}
+                    </p>
+                    <p className="text-sm text-[#4F7B62]">{editor.jobTitle}</p>
+                  </div>
+                  <p className="text-sm leading-7 text-[#4e3b31]">{editor.visibleBio || editor.bio}</p>
+                  <Link href="/about" className="button-quiet mt-1 text-sm">
+                    More about {editor.displayName}
+                  </Link>
+                </div>
+              </aside>
+              {/* author prop retained internally for editorial desk voice tooling */}
+              {author.slug && <span className="sr-only" data-editorial-desk={author.slug} />}
               {lastUpdatedNote && (
                 <p className="mt-8 text-[0.94rem] leading-7 text-[#6d5749]">{lastUpdatedNote}</p>
               )}
