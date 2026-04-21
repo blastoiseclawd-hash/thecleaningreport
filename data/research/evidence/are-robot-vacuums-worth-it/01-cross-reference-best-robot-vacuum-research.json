@@ -1,0 +1,23 @@
+{
+  "crossReferenceTo": "sites/thecleaningreport/data/research/best-robot-vacuum.md",
+  "crossReferenceEvidence": "sites/thecleaningreport/data/research/evidence/best-robot-vacuum/",
+  "reason": "/are-robot-vacuums-worth-it is a pre-purchase decision-framework support page that shares the product category of the LIVE commercial hub /best-robot-vacuum. The tier1 lab evidence (Vacuum Wars 8-dim ratings, Modern Castle debris-pickup percentages, CNET lab scores) was already verified during the /best-robot-vacuum research pass on 2026-04-19. This support page re-uses those anchors without re-scraping. Specific claims that depend on tier1 lab data (cleaning-performance gap vs upright, hair-tangle failure rates, navigation-failure patterns) cite the LIVE page's footnotes rather than duplicating the scrape artifacts.",
+  "validatedClaims": [
+    {
+      "claim": "No single robot vacuum appears in all three tier1 publications' top picks (Vacuum Wars 2026 + Modern Castle 2026 + CNET 2026 rankings diverge).",
+      "source": "sites/thecleaningreport/data/research/best-robot-vacuum.md § How we ranked",
+      "usage": "Anchors the 'even the best robot vacuums don't all cover the same household' claim in this page's 'where the math breaks' section."
+    },
+    {
+      "claim": "Debris-pickup percentages in tier1 testing range 92-99% depending on floor type and robot model.",
+      "source": "sites/thecleaningreport/data/research/best-robot-vacuum.md § Candidate pool (lab rows)",
+      "usage": "Anchors the 'cleaning performance gap vs upright' claim."
+    },
+    {
+      "claim": "Robot vacuum maintenance cycle includes: brush replacement (6-12 months), filter replacement (3 months), dock bag replacement (2 months for self-empty models), wheel debris removal (weekly), sensor wiping (weekly).",
+      "source": "sites/thecleaningreport/data/research/best-robot-vacuum.md § maintenance honesty",
+      "usage": "Anchors the ongoing-cost math in the labor-trader break-even table."
+    }
+  ],
+  "note": "Per AGENTS.md rule #15 on zero-fabrication, we do not re-cite primary sources here that were captured in the LIVE page's evidence. If a new claim emerges in this support page that was not covered in the LIVE page's research, that claim requires fresh source capture (tracked in gaps section below)."
+}

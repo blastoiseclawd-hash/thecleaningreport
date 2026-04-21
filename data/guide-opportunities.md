@@ -12,17 +12,17 @@
 | LIVE | 10 |
 | CONTENT READY | 0 |
 | IN PROGRESS | 0 |
-| NOT BUILT | 262 |
-| SKIP | 123 |
+| NOT BUILT | 256 |
+| SKIP | 129 |
 | **Total** | **395** |
 
 ## Coverage + Freshness
 
 | Metric | Value |
 |--------|-------|
-| Active ordered backlog | 272 |
+| Active ordered backlog | 266 |
 | Target range | 300-350 |
-| Coverage gap to minimum | 28 |
+| Coverage gap to minimum | 34 |
 | Near-term oldest evidence age (days) | 42 |
 | Overall oldest evidence age (days) | 111 |
 | Freshness threshold (existing sites) | 120 |
@@ -8302,16 +8302,13 @@ All pending positions matched the cadence vector.
 | 9 | best-mop | Best Mops for Everyday Home Cleaning (2026) | money-guide | flagship-roundup | buy | best mop | 11000 | 2 | 14000 | 83.3 | export-backed | cleaning-support | everyday-cleaning-desk | Practical Floor Keeper | LIVE |
 | 94 | best-grout-cleaner | Best Grout Cleaner For Floors | money-guide | use-case-roundup | buy | best grout cleaner for floors | 900 | 2 | 6100 | 68.7 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | LIVE |
 | 10 | what-to-mop-floors-with | Best Product To Mop Floors | support-guide | troubleshooting-fix | buy | best product to mop floors | 800 | 4 | 4100 | 68 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 11 | best-handheld-cordless-vacuum | Best Handheld Vacuum | money-guide | flagship-roundup | buy | best handheld vacuum | 17000 | 2 | 23000 | 82 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
 | 12 | are-robot-vacuums-worth-it | Are Robot Vacuums Worth It | support-guide | worth-it-buying-decision | decide | are robot vacuums worth it | 700 | 2 | 400 | 66.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
 | 13 | what-is-the-most-powerful-handheld-vacuum | What Is The Most Powerful Handheld Vacuum | support-guide | glossary-explainer | learn | what is the most powerful handheld vacuum | 50 | 5 | 17000 | 64.7 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
 | 14 | vacuum-and-mop-combo | Best Hard Floor Vacuum And Mop | money-guide | flagship-roundup | buy | best hard floor vacuum and mop | 8600 | 1 | 16000 | 80 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
 | 15 | what-to-mop-tile-floors-with | Best Mop Solution For Tile Floors | support-guide | troubleshooting-fix | buy | best mop solution for tile floors | 150 | 4 | 450 | 62 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
 | 16 | bissell-vs-hoover-carpet-cleaner | Bissell Vs Hoover Carpet Cleaner | comparison | head-to-head | decide | bissell vs hoover carpet cleaner | 250 | 0 | 100 | 66.1 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
 | 17 | is-roomba-the-best-robot-vacuum | Is Roomba The Best Robot Vacuum | support-guide | compatibility-safety | decide | is roomba the best robot vacuum | 60 | 0 | 60 | 61.1 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 18 | best-carpet-cleaner | The Best Carpet Cleaner Machine | money-guide | flagship-roundup | buy | the best carpet cleaner machine | 22000 | 6 | 18000 | 78.8 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
 | 19 | how-shark-steam-mop-works | How Shark Steam Mop Works | linkable-asset | data-study | learn | how shark steam mop works | 300 | 14 | 300 | 40 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 20 | what-are-the-best-cordless-vacuum-cleaners | What Are The Best Cordless Vacuum Cleaners | support-guide | troubleshooting-fix | learn | what are the best cordless vacuum cleaners | 50 | 21 | 20000 | 60.6 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
 | 21 | carpet-cleaner-machine | Best Professional Carpet Cleaner Machine | money-guide | flagship-roundup | buy | best professional carpet cleaner machine | 15000 | 4 | 21000 | 77.8 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
 | 22 | how-to-wash-o-cedar-mop-head | Best Way To Clean O'Cedar Mop Head | support-guide | troubleshooting-fix | learn | best way to clean o'cedar mop head | 400 | 0 | 2900 | 58.3 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
 | 23 | what-to-mop-hardwood-floors-with | Best Thing To Mop Hardwood Floors With | support-guide | troubleshooting-fix | buy | best thing to mop hardwood floors with | 350 | 2 | 600 | 56.6 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
@@ -8321,14 +8318,12 @@ All pending positions matched the cadence vector.
 | 29 | how-carpet-cleaning-machine-works | How Carpet Cleaning Machine Works | linkable-asset | data-study | learn | how carpet cleaning machine works | 300 | 14 | 300 | 39.3 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
 | 31 | best-steam-mop-for-laminate-floors | Best Steam Mop For Laminate Floors | money-guide | feature-roundup | buy | best steam mop for laminate floors | 500 | 1 | 13000 | 76.7 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
 | 32 | how-to-clean-stainless-steel-pans | Best Cleaner For Stainless Steel Pans | support-guide | troubleshooting-fix | learn | best cleaner for stainless steel pans | 100 | 3 | 6400 | 67.3 | export-backed | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
-| 34 | carpet-cleaner | Best Carpet Machine Cleaner | money-guide | flagship-roundup | buy | best carpet machine cleaner | 149000 | 4 | 21000 | 76.5 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
 | 35 | what-to-clean-stainless-steel-with | What To Clean Stainless Steel With | support-guide | troubleshooting-fix | learn | what to clean stainless steel with | 700 | 1 | 12000 | 67 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
 | 36 | eufy-vs-shark-robot-vacuum | Eufy Vs Shark Robot Vacuum | comparison | brand-vs-brand | decide | eufy vs shark robot vacuum | 90 | 0 | 50 | 60.6 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
 | 38 | best-mop-for-wood-floors | Best Mop For Wood Floors | money-guide | use-case-roundup | buy | best mop for wood floors | 1000 | 0 | 13000 | 76.5 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
 | 39 | how-do-carpet-cleaners-work-around-furniture | How Do Carpet Cleaners Work Around Furniture | linkable-asset | data-study | learn | how do carpet cleaners work around furniture | 300 | 10 | 300 | 39.3 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
 | 40 | how-to-clean-vinyl-floors | Best Way To Mop Vinyl Floors | support-guide | troubleshooting-fix | learn | best way to mop vinyl floors | 150 | 0 | 3000 | 63.5 | export-backed | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
 | 41 | best-hardwood-floor-mop | Best Hardwood Floor Mop | money-guide | feature-roundup | buy | best hardwood floor mop | 700 | 3 | 11000 | 76.3 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 42 | how-to-best-clean-grout | How To Best Clean Grout | support-guide | setup-how-to | learn | how to best clean grout | 40 | 5 | 6800 | 58.5 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
 | 43 | how-to-clean-stainless-steel-sink | Best Cleaner For Stainless Steel Sink | support-guide | troubleshooting-fix | learn | best cleaner for stainless steel sink | 450 | 2 | 3700 | 58.3 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
 | 44 | steam-mop | Shop Best Steam Mop Deals | money-guide | feature-roundup | buy | shop best steam mop deals | 30000 | 8 | 7100 | 74.8 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
 | 45 | how-to-clean-floor-without-mop | Best Way To Clean Floors Without A Mop | support-guide | troubleshooting-fix | learn | best way to clean floors without a mop | 100 | 0 | 70 | 54 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
@@ -8338,7 +8333,6 @@ All pending positions matched the cadence vector.
 | 49 | how-do-steam-mops-work-on-carpet | How Do Steam Mops Work On Carpet | linkable-asset | data-study | learn | how do steam mops work on carpet | 300 | 10 | 300 | 39.3 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
 | 50 | how-to-clean-laminate-floors | Best Way To Mop Laminate Floors | support-guide | troubleshooting-fix | learn | best way to mop laminate floors | 300 | 0 | 3700 | 55.5 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
 | 51 | best-robot-vacuum-mop | Best Robot Vacuum Mop | money-guide | flagship-roundup | buy | best robot vacuum mop | 900 | 10 | 13000 | 72.2 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 52 | how-to-deep-clean-hardwood-floors | Best Way To Mop Hardwood Floors | support-guide | troubleshooting-fix | learn | best way to mop hardwood floors | 500 | 4 | 600 | 52.9 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
 | 53 | what-is-best-stainless-steel-cleaner | What Is Best Stainless Steel Cleaner | support-guide | glossary-explainer | learn | what is best stainless steel cleaner | 30 | 0 | 30 | 51.6 | fallback-evidence | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
 | 54 | dyson-cordless-vacuum | Dyson Cordless Vacuum | money-guide | brand-roundup | buy | dyson cordless vacuum | 45000 | 33 | 56000 | 71.5 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
 | 55 | how-to-clean-stainless-steel-stove-top | Best Cleaner For Stainless Steel Cooktop | support-guide | troubleshooting-fix | learn | best cleaner for stainless steel cooktop | 50 | 0 | 450 | 51.4 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
@@ -8568,11 +8562,11 @@ All pending positions matched the cadence vector.
 
 | Cluster | Total | Money | Support | Comparison | Linkable | First Order |
 |---------|------:|------:|--------:|-----------:|---------:|------------:|
-| cleaning-support | 35 | 12 | 16 | 2 | 5 | 1 |
+| cleaning-support | 33 | 12 | 14 | 2 | 5 | 1 |
 | mops-and-handhelds | 67 | 36 | 19 | 4 | 8 | 10 |
-| cordless-vacuums | 36 | 21 | 3 | 12 | 0 | 11 |
 | robot-vacuums | 76 | 32 | 27 | 6 | 11 | 12 |
-| carpet-cleaners | 49 | 11 | 18 | 10 | 10 | 16 |
+| cordless-vacuums | 34 | 20 | 2 | 12 | 0 | 13 |
+| carpet-cleaners | 47 | 9 | 18 | 10 | 10 | 16 |
 | cleaning-chemicals | 8 | 7 | 1 | 0 | 0 | 53 |
 | ordered-backlog | 1 | 1 | 0 | 0 | 0 | 248 |
 
@@ -8580,11 +8574,16 @@ All pending positions matched the cadence vector.
 
 | Guide | Primary Keyword | Notes |
 |-------|-----------------|-------|
+| best-handheld-cordless-vacuum | best handheld vacuum | Ahrefs-discovered candidate Ahrefs-discovered candidate Ahrefs-discovered candidate \ \ \ \ \| on-disk-discovery-registration 2026-04-20 \| registered from src/app scan \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Duplicate intent of LIVE /best-handheld-vacuum (best handheld vacuum kw, vol 17000). Skipping to avoid cannibalization. Duplicate Entry 2 at line ~60136 already marked SKIP with same reason. \| Ahrefs-discovered candidate \ \| Shortlist row 4. Support-tier standalone; links up to the cordless hub as 'supplement to your main vacuum.' CR + GHI trust anchors; no methodology deep-dive. \| Ahrefs-discovered candidate Duplicate intent of LIVE /best-handheld-vacuum (best handheld vacuum); matched on "best handheld vacuum". \| SKIP 2026-04-21: Duplicate primary keyword "best handheld vacuum" of LIVE /best-handheld-vacuum. |
+| best-carpet-cleaner | the best carpet cleaner machine | Ahrefs-discovered candidate \| SKIP 2026-04-21: Duplicate intent of LIVE /best-carpet-cleaner-machine (same buyer, same SERP). |
+| what-are-the-best-cordless-vacuum-cleaners | what are the best cordless vacuum cleaners | Ahrefs-discovered candidate \| SKIP 2026-04-21: Duplicate intent of LIVE /best-cordless-vacuum. |
 | how-to-best-mop-floors | how to best mop floors | Ahrefs-discovered candidate \| SKIP 2026-04-21: zero volume + zero TP; low-value long-tail noise per Lee directive. |
 | what-are-the-10-best-cordless-vacuum-cleaners | what are the 10 best cordless vacuum cleaners | Ahrefs-discovered candidate \| SKIP 2026-04-21: zero volume + zero TP; low-value long-tail noise per Lee directive. |
 | what-best-mop-for-tile-floors | what best mop for tile floors | Ahrefs-discovered candidate \| SKIP 2026-04-21: zero volume + zero TP; low-value long-tail noise per Lee directive. |
 | what-is-best-cordless-vacuum-to-buy | what is best cordless vacuum to buy | Ahrefs-discovered candidate \| SKIP 2026-04-21: zero volume + zero TP; low-value long-tail noise per Lee directive. |
+| carpet-cleaner | best carpet machine cleaner | Ahrefs-discovered candidate \| SKIP 2026-04-21: 149K head term, KD unclear; LIVE /best-carpet-cleaner-machine covers the commercial intent. |
 | what-mop-is-the-best | what mop is the best | Ahrefs-discovered candidate \| SKIP 2026-04-21: zero volume + zero TP; low-value long-tail noise per Lee directive. |
+| how-to-best-clean-grout | how to best clean grout | Ahrefs-discovered candidate \| SKIP 2026-04-21: Duplicate intent of LIVE /how-to-clean-grout. |
 | best-steam-mops | best steam mop with attachments | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-steam-mop (best steam mop); matched on "best steam mops". |
 | best-mops | best type of mop | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-mop (best mop); matched on "best mops". |
 | robot-vacuum-and-mop | best robot vacuum and mop combo | Ahrefs-discovered candidate \ \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-robot-vacuum-and-mop-combo (best robot vacuum and mop combo); matched on "best robot vacuum and mop combo". |
@@ -8691,6 +8690,7 @@ All pending positions matched the cadence vector.
 | best-robot-vacuum-for-pet-hair-without-mop | best robot vacuum for pet hair without mop | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision, primary-keyword collision). |
 | best-robot-vacuum-for-tile-floors-and-pet-hair | best robot vacuum for tile floors and pet hair | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision, primary-keyword collision). |
 | best-robot-vacuum-only-for-pet-hair | best robot vacuum only for pet hair | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision, primary-keyword collision). |
+| how-to-deep-clean-hardwood-floors | best way to mop hardwood floors | Ahrefs-discovered candidate \| SKIP 2026-04-21: Duplicate intent of LIVE /how-to-clean-hardwood-floors. |
 | best-steam-mop-for-hardwood-floors | best steam mop for vinyl floors | Ahrefs-discovered candidate \ \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-steam-mop-for-vinyl-floors (best steam mop for vinyl floor); matched on "best steam mop for vinyl floors". |
 | best-way-to-mop | best way to mop | Ahrefs-discovered candidate Ahrefs-discovered candidate \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /how-to-mop-a-floor (best way to mop); matched on "best way to mop". |
 | how-best-to-clean-floor-grout | how best to clean floor grout | Ahrefs-discovered candidate \| SKIP 2026-04-21: zero volume + zero TP; low-value long-tail noise per Lee directive. |
