@@ -666,7 +666,7 @@ export const pageTargets: PageTarget[] = [
     clusterId: "mops-and-handhelds",
     buildOrder: 15,
     buildPriorityScore: 62,
-    buildStatus: "NOT BUILT",
+    buildStatus: "LIVE",
     primaryKeyword: "best mop solution for tile floors",
     primaryVolume: 150,
     primaryKd: 4,

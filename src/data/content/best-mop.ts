@@ -589,6 +589,7 @@ You want a steam-based clean for sanitizing tile or grout. A steam mop is a diff
     { href: "/best-hardwood-floor-cleaner", title: "Best Hardwood Floor Cleaner (the pH-neutral solution for sealed hardwood)" },
     { href: "/how-to-clean-hardwood-floors", title: "How to Clean Hardwood Floors (the weekly maintenance sequence)" },
     { href: "/how-to-clean-vinyl-floors", title: "How to Clean Vinyl Floors (the LVP-specific routine and what to skip)" },
+    { href: "/what-to-mop-tile-floors-with", title: "What to Mop Tile Floors With (ceramic, porcelain, and natural stone by subtype)" },
     { href: "/best-grout-cleaner", title: "Best Grout Cleaner (for the grout lines a spin mop cannot fully reach)" },
     { href: "/how-to-clean-grout", title: "How to Clean Grout (the restoration sequence for tile between rooms)" },
     { href: "/best-carpet-cleaner-machine", title: "Best Carpet Cleaner Machine (for the carpeted rooms outside your mop's scope)" },

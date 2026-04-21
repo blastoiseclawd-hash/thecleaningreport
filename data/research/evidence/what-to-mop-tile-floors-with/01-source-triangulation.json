@@ -1,0 +1,144 @@
+{
+  "fetchedOn": "2026-04-21",
+  "topic": "what-to-mop-tile-floors-with",
+  "sources": [
+    {
+      "id": 1,
+      "label": "Natural Stone Institute — Cleaning Products for Natural Stone",
+      "url": "https://www.naturalstoneinstitute.org/consumers/care/",
+      "tier": "tier_primary",
+      "keyExtracts": [
+        "Clean stone surfaces with a neutral cleaner, stone soap, or a mild liquid dishwashing detergent and warm water.",
+        "Products containing lemon, vinegar or other acids may dull or etch calcareous stones.",
+        "Calcareous stone is composed mainly of calcium carbonate and is sensitive to acidic solutions so mild, non-acidic cleaners are recommended.",
+        "Siliceous stone is one composed primarily of silicates and is generally resistant to most acids found in kitchen settings, although acidic cleaners are still not recommended.",
+        "Dust mop interior floors frequently using a clean non-treated dry dust mop. Sand, dirt and grit are abrasive and can damage natural stone.",
+        "Many commercially available rust removers (laundry rust stain removers, toilet bowl cleaners) contain trace levels of hydrofluoric acid (HF). HF attacks silicates in addition to other minerals. All stones, including granite and quartzite, will be attacked if exposed to HF."
+      ]
+    },
+    {
+      "id": 2,
+      "label": "Daltile — Porcelain Tile Care & Maintenance",
+      "url": "https://www.daltile.com/how-to/how-to-care-for-and-maintain-tile/how-to-care-for-and-maintain-porcelain-tile",
+      "tier": "tier_primary",
+      "keyExtracts": [
+        "Regular, basic cleaning with warm water and mild soap is sufficient to keep floors looking good.",
+        "Do not use cleaning products that contain acids or ammonia (and other harsh chemicals) as these can damage grout and glazed surfaces of the tile.",
+        "Choose products that are compatible with your grout to avoid damage or discoloration of the grout.",
+        "Always dry your porcelain thoroughly after cleaning.",
+        "Porcelain does not require sealing, however, it is a good idea to seal grout or any joints.",
+        "Unglazed tile should be cleaned routinely with concentrated tile cleaners that have a neutral pH.",
+        "Use a nonhazardous and low VOC cleaning chemical.",
+        "Cleaners that contain fluorine compounds will damage ceramic, glass and stone.",
+        "Acid-based or solvent-based chemicals should be avoided on fully polished impervious or polished glaze porcelain tile.",
+        "Sweep up or vacuum away loose dirt prior to mopping. Squeegee, wipe, or vacuum the floor dry after rinsing."
+      ]
+    },
+    {
+      "id": 3,
+      "label": "American Olean — Natural Stone Care Instructions",
+      "url": "https://www.americanolean.com/resources/care-and-maintenance/natural-stone",
+      "tier": "tier_primary",
+      "keyExtracts": [
+        "Use neutral cleaners specifically designed for stone.",
+        "Cleaners should never contain acid or bleach.",
+        "Avoid vinegar and water on natural stone.",
+        "Spills should be cleaned up as soon as possible and surfaces should be dried thoroughly after cleaning."
+      ]
+    },
+    {
+      "id": 4,
+      "label": "Bob Vila — How to Clean Porcelain Tile",
+      "url": "https://www.bobvila.com/articles/how-to-clean-porcelain-tile/",
+      "tier": "tier_editorial",
+      "keyExtracts": [
+        "Regular, once-a-week cleaning requires nothing more than a simple sweep.",
+        "Once a month, mix 1/4 cup white vinegar with two gallons of water.",
+        "Never use a product containing ammonia or bleach (or any type of acid-based cleanser); these can alter the tile color and/or stain the grout.",
+        "Never use oil-based detergents or wax cleaners.",
+        "On unglazed porcelain, never use any cleaners that contain dye or coloring.",
+        "Never use steel wool to clean porcelain tile. Small particles of steel can become embedded in the tile and grout, eventually causing rust stains.",
+        "Unglazed porcelain: soak solution 5-10 minutes before scrubbing with soft-bristle brush.",
+        "Glazed/polished porcelain: never allow moisture to puddle; use half-strength commercial cleanser; buff with cheesecloth after drying.",
+        "Black Diamond Marble & Tile Floor Cleaner is named as a suitable commercial product option."
+      ],
+      "note": "Bob Vila's porcelain article allows 1/4 cup vinegar per 2 gallons water monthly. Daltile (manufacturer) says no acids. The porcelain article also explicitly says 'never use any type of acid-based cleanser' earlier in the same article, which is self-contradictory. The manufacturer position (Daltile) is the warranty authority. We side with Daltile and cite Bob Vila only for the dry-first/weekly-cadence parts."
+    },
+    {
+      "id": 5,
+      "label": "Bob Vila — How to Clean Ceramic Tile",
+      "url": "https://www.bobvila.com/articles/how-to-clean-ceramic-tile/",
+      "tier": "tier_editorial",
+      "keyExtracts": [
+        "Mop ceramic tile floors at least once a week with a small amount of mild dish detergent mixed in hot water.",
+        "Avoid a sponge mop, which will push dirt off tiles and into grout. Use a string or strip mop head instead.",
+        "A regular spray-down with vinegar-and-water solution will help to prevent new stains from setting in (grout-specific guidance).",
+        "Mop with chosen cleanser, mopping again with hot water before the cleanser dries, then dry the tile surface with a clean towel or a microfiber cloth."
+      ]
+    },
+    {
+      "id": 6,
+      "label": "Family Handyman — How to Deep Clean Tile Floors",
+      "url": "https://www.familyhandyman.com/article/how-to-clean-tile-floors/",
+      "tier": "tier_editorial",
+      "keyExtracts": [
+        "One cup of white vinegar with one gallon of warm water is a natural homemade option for ceramic/porcelain.",
+        "Marble floors should avoid acidic cleaners like vinegar.",
+        "Natural stone and marble are porous, often requiring specialized floor cleaners.",
+        "Step-by-step: sweep or vacuum the surface, wipe clean, apply cleaning solution, rinse with clean water, let floor dry completely before walking on it.",
+        "Ceramic vs. porcelain: ceramic tiles are more vulnerable to water and stains and can be cleaned with basic soap and water, while porcelain benefits from specialized products."
+      ],
+      "note": "Family Handyman vinegar ratio 4x stronger than Bob Vila's for porcelain. Both are above the 'zero acid' line drawn by manufacturers. Treat as editorial minority position."
+    },
+    {
+      "id": 7,
+      "label": "Bob Vila — Best Tile Cleaner (tested 10)",
+      "url": "https://www.bobvila.com/articles/best-tile-cleaner/",
+      "tier": "tier_editorial",
+      "keyExtracts": [
+        "Best Floor Cleaner: Bona Hard-Surface Floor Cleaner.",
+        "Bona has a pH-neutral formula that dries fast and is residue-free.",
+        "Bona Hard-Surface is formulated to be safe for sealed tile, stone, laminate, and other hard surfaces, including ceramic, sealed natural stone, terrazzo, and marble.",
+        "Best for Natural Stone: Black Diamond Stoneworks Marble & Tile Floor Cleaner.",
+        "Many household cleaners, especially acid-based products, can dull or damage natural stone surfaces. Black Diamond is designed specifically for natural stone.",
+        "When cleaning natural stone tile, avoid cleaners with acidic ingredients because they can damage it.",
+        "Testers mixed the cleaners according to the manufacturer's directions and sprayed them on ceramic tile surfaces for testing. Evaluated on a 0-5 scale for cleaning abilities on tile, versatility to clean other hard surfaces, scents, and ease of use."
+      ]
+    },
+    {
+      "id": 8,
+      "label": "Family Handyman — The 6 Best Tile Floor Cleaners",
+      "url": "https://www.familyhandyman.com/list/best-tile-floor-cleaner/",
+      "tier": "tile_editorial",
+      "keyExtracts": [
+        "Best Overall Tile Floor Cleaner: Bissell SpinWave Cordless Hard Floor Spin Mop at $164.99.",
+        "Armstrong Once 'N Done Concentrated Floor Cleaner highlighted as eco-friendly with plant-derived ingredients and free of phthalates and parabens.",
+        "Casabella Original Mop: $46.83.",
+        "Swiffer WetJet Starter Kit: $30.16.",
+        "For natural cleaning: vinegar is one of the best multi-purpose cleaners."
+      ],
+      "note": "Family Handyman tile cleaner roundup is mop/tool-ranked not cleaner-ranked. Secondary reference only."
+    },
+    {
+      "id": 9,
+      "label": "Bona Stone, Tile & Laminate Floor Cleaner Refill 128oz (Amazon)",
+      "url": "https://www.amazon.com/Bona-Laminate-Cleaner-Refill-pH-Neutral/dp/B07NQQDX61",
+      "tier": "tier_primary",
+      "keyExtracts": [
+        "pH-neutral formulation that protects floors from discoloration.",
+        "Safe for stone, no-wax sealed tile, laminate, and luxury vinyl (LVT).",
+        "Rinse-free, streak-free formula cleans multi-surface floors by removing dust, dirt, and grime.",
+        "Crafted with plant-derived ingredients and contains 92% USDA-certified biobased content.",
+        "Water-based, pH-neutral formula does not leave residue or dull the shine on floors."
+      ]
+    }
+  ],
+  "crossCuttingNotes": [
+    "Manufacturer-versus-editorial divergence on vinegar: Daltile (largest US ceramic tile manufacturer), American Olean (large US tile/stone manufacturer), Natural Stone Institute all explicitly prohibit vinegar on tile or stone. Bob Vila + Family Handyman allow vinegar-water at varying ratios on porcelain and ceramic. Page resolution: manufacturer-warranty position leads; editorial minority position acknowledged inline with risk callout.",
+    "Vinegar-on-cement-grout risk: vinegar is mild acid. Repeated passes slowly dissolve cement-based grout between tiles, accelerating grout wear and exposing the HDF/cement substrate. The ceramic/porcelain tile face itself is largely acid-tolerant; the grout is not. This is why manufacturers draw the no-acid line even though glazed tile alone would survive vinegar.",
+    "Glazed vs unglazed porcelain: glazed is dense and smooth, needs only pH-neutral. Unglazed is more porous, benefits from dwell-time (5-10 min per Bob Vila) before scrubbing. Both are acid-intolerant at the grout level.",
+    "Polished vs matte: polished porcelain can show etch marks more visibly than matte, which is why Daltile calls out 'fully polished impervious or polished glaze porcelain' specifically for the no-acid rule.",
+    "Natural stone subtype matters: calcium-carbonate stones (marble, travertine, limestone, onyx) etch instantly from any acid. Siliceous stones (granite, quartzite, slate) are more acid-tolerant but still NSI-advised against acidic cleaners. Safe default across all natural stone: pH-neutral only.",
+    "Cleaner categories for tile: (a) routine pH-neutral (Bona Hard-Surface / Bona Stone, Tile & Laminate / Method Squirt+Mop), (b) stone-specific (Black Diamond Stoneworks / StoneTech All-Purpose / Granite Gold), (c) eco/plant-based (Method / Aunt Fannie's / Armstrong Once 'N Done). All are pH-neutral; they differ in chemistry fine-points (plant-based vs surfactant-based) and brand trust."
+  ]
+}

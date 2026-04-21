@@ -161,6 +161,7 @@ export const whatToMopFloorsWithContent = {
     { href: "/how-to-clean-hardwood-floors", title: "How to Clean Hardwood Floors (Without Voiding the Warranty)" },
     { href: "/best-steam-mop", title: "Best Steam Mops for 2026 (Warranty-First Picks)" },
     { href: "/how-to-clean-vinyl-floors", title: "How to Clean Vinyl Floors: The LVP Routine (and What to Skip)" },
+    { href: "/what-to-mop-tile-floors-with", title: "What to Mop Tile Floors With: Ceramic, Porcelain, and Natural Stone by Subtype" },
     { href: "/best-grout-cleaner", title: "Best Grout Cleaners (2026): Cement-Safe and Stone-Safe Picks" },
     { href: "/how-to-clean-grout", title: "How to Clean Grout Without Damaging the Tile or Sealant" },
   ],

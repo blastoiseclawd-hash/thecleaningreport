@@ -197,6 +197,7 @@ export const howToCleanGroutContent = {
     "The sequence above assumes you have a nylon brush, baking soda, peroxide, an alkaline or enzyme cleaner, and (if stone) a pH-neutral stone-safe cleaner. The guides below cover product-level picks that match each step.",
   relatedLinks: [
     { href: "/best-grout-cleaner", title: "Best Grout Cleaners (2026): Cement-Safe and Stone-Safe Picks" },
+    { href: "/what-to-mop-tile-floors-with", title: "What to Mop Tile Floors With: Ceramic, Porcelain, and Natural Stone by Subtype" },
     { href: "/best-steam-mop", title: "Best Steam Mops for 2026 (Warranty-First Picks)" },
     { href: "/best-carpet-cleaner-machine", title: "Best Carpet Cleaner Machines 2026: Rent-or-Buy Math First" },
     { href: "/how-to-clean-hardwood-floors", title: "How to Clean Hardwood Floors (Without Voiding the Warranty)" },
