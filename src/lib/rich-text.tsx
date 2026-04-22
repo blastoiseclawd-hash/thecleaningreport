@@ -30,7 +30,7 @@ export function renderInline(text: string): ReactNode[] {
     if (linkText && linkUrl) {
       if (isInternal(linkUrl)) {
         nodes.push(
-          <Link key={`ri-${keyCounter++}`} href={linkUrl} className="underline decoration-[#2a5a8a]/40 underline-offset-2 hover:decoration-[#1a3d5c]">
+          <Link key={`ri-${keyCounter++}`} href={linkUrl} className="underline decoration-current/50 underline-offset-2 hover:decoration-current">
             {linkText}
           </Link>,
         );
@@ -41,7 +41,7 @@ export function renderInline(text: string): ReactNode[] {
             href={linkUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="underline decoration-[#2a5a8a]/40 underline-offset-2 hover:decoration-[#1a3d5c]"
+            className="underline decoration-current/50 underline-offset-2 hover:decoration-current"
           >
             {linkText}
           </a>,
@@ -54,7 +54,7 @@ export function renderInline(text: string): ReactNode[] {
         <sup key={`ri-${keyCounter++}`} className="text-[0.72em] leading-none">
           <a
             href={`#source-${footnoteNum}`}
-            className="ml-[1px] text-[#2a5a8a] no-underline hover:underline"
+            className="ml-[1px] font-semibold text-current underline decoration-current/60 underline-offset-2 hover:decoration-current"
             aria-label={`Source ${footnoteNum}`}
           >
             [{footnoteNum}]

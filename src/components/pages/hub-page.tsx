@@ -674,7 +674,9 @@ export function HubPage({
                               </div>
                             </div>
                           </div>
-                          <p className="mt-5 text-[0.94rem] leading-7 text-[#6b5649]">{content.scoreDiffReason}</p>
+                          <p className="mt-5 text-[0.94rem] leading-7 text-[#6b5649]">
+                            <RichInline text={content.scoreDiffReason} />
+                          </p>
                         </blockquote>
 
                         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-1">
