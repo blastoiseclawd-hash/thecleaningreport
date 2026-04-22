@@ -446,7 +446,7 @@ export function HubPage({
                       rel={getCommerceLinkRel(rowOfferLink)}
                       className="button-primary mt-5 w-full"
                     >
-                      Check price on {rowOfferLink.retailer}
+                      Shop {rowOfferLink.retailer}
                     </a>
                   )}
                 </article>
@@ -467,7 +467,7 @@ export function HubPage({
                     {comparisonColumns.filter(c => c.key !== "badge" && c.key !== "name" && c.key !== "price" && c.key !== "slug").map(col => (
                       <th key={col.key} className="px-4 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#697560]">{col.label}</th>
                     ))}
-                    <th className="w-[14%] px-4 py-4 text-right text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#697560]">Check price</th>
+                    <th className="w-[14%] px-4 py-4 text-right text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#697560]">Buy</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -502,7 +502,7 @@ export function HubPage({
                               rel={getCommerceLinkRel(rowOfferLink)}
                               className="inline-flex items-center justify-center rounded-sm bg-[#23150f] px-4 py-2 text-[0.85rem] font-semibold text-[#f7f4ee] transition hover:bg-[#3a251a]"
                             >
-                              Check price
+                              Shop {rowOfferLink.retailer}
                             </a>
                           ) : (
                             <span className="text-[0.85rem] text-[#9a8a7a]">—</span>
