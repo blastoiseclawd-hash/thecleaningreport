@@ -656,6 +656,10 @@ Decision tree: is this you. Darker-toned brushed stainless fridge, dishwasher, a
   },
   relatedLinks: [
     {
+      href: "/how-to-clean-stainless-steel-sink",
+      title: "How to Clean a Stainless Steel Sink Without Scratches",
+    },
+    {
       href: "/best-grout-cleaner",
       title: "Best Grout Cleaners 2026: Color-Safe, Sealer-Safe Picks",
     },
