@@ -1,6 +1,6 @@
 # TheCleaningReport 180-Day Launch Queue
 
-*Generated 2026-04-22 directly from data/guide-opportunities.json. The queue is a pure consumer of the ordered roadmap; it does not re-rank pages.*
+*Generated 2026-04-24 directly from data/guide-opportunities.json. The queue is a pure consumer of the ordered roadmap; it does not re-rank pages.*
 
 ## Summary
 

@@ -2,27 +2,27 @@
 
 > Generated from guide-opportunities.json - do not edit manually.
 
-*Regenerated 2026-04-22 by the portfolio Ahrefs-led roadmap system.*
+*Regenerated 2026-04-24 by the portfolio Ahrefs-led roadmap system.*
 *Profile: `affiliate-review-balanced` | Formula v3 | Taxonomy v1*
 
 ## Summary
 
 | Status | Count |
 |--------|-------|
-| LIVE | 17 |
+| LIVE | 19 |
 | CONTENT READY | 0 |
 | IN PROGRESS | 0 |
 | NOT BUILT | 246 |
 | SKIP | 132 |
-| **Total** | **395** |
+| **Total** | **397** |
 
 ## Coverage + Freshness
 
 | Metric | Value |
 |--------|-------|
-| Active ordered backlog | 263 |
+| Active ordered backlog | 265 |
 | Target range | 300-350 |
-| Coverage gap to minimum | 37 |
+| Coverage gap to minimum | 35 |
 | Near-term oldest evidence age (days) | 42 |
 | Overall oldest evidence age (days) | 111 |
 | Freshness threshold (existing sites) | 120 |
@@ -8291,6 +8291,8 @@ All pending positions matched the cadence vector.
 
 | # | Guide | Title | Page Type | Content Shape | Intent | Primary Keyword | Vol | KD | TP | Score | Evidence | Cluster | Desk | Primary Avatar | Status |
 |---|-------|-------|-----------|---------------|--------|-----------------|-----|----|----|-------|----------|---------|------|----------------|--------|
+| 0 | best-cordless-vacuum | The 5 Best Cordless Vacuums of 2026 | money-guide | flagship-roundup | buy | best cordless vacuum | 41000 | 12 | 85000 | 82 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | LIVE |
+| 0 | best-handheld-vacuum | Best Handheld Vacuums 2026: For Stairs, Couch, and Car Crumbs | money-guide | flagship-roundup | buy | best handheld vacuum | 8500 | 9 | 22000 | 72 | fallback-evidence | handheld-vacuums | everyday-cleaning-desk | Practical Floor Keeper | LIVE |
 | 1 | best-robot-vacuum | Best Robot Vacuums (2026): Labor-Math-First Picks | money-guide | flagship-roundup | buy | best robot vacuum | 60000 | 8 | 38000 | 86.3 | export-backed | cleaning-support | labor-math-desk | Labor Trader | LIVE |
 | 2 | how-to-clean-hardwood-floors | How to Clean Hardwood Floors (Without Voiding the Warranty) | support-guide | maintenance-cleaning | maintain | how to clean hardwood floors | 1100 | 1 | 11000 | 69.5 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | LIVE |
 | 3 | best-hardwood-floor-cleaner | Best Hardwood Floor Cleaners (2026): Manufacturer-Approved Picks | money-guide | troubleshooting-fix | learn | best hardwood floor cleaner | 4400 | 9 | 9800 | 70.8 | export-backed | cleaning-support | safe-surface-desk | Surface Protector | LIVE |
@@ -8562,10 +8564,11 @@ All pending positions matched the cadence vector.
 | cleaning-support | 31 | 12 | 12 | 2 | 5 | 1 |
 | mops-and-handhelds | 67 | 36 | 19 | 4 | 8 | 10 |
 | robot-vacuums | 76 | 32 | 27 | 6 | 11 | 12 |
-| cordless-vacuums | 34 | 20 | 2 | 12 | 0 | 13 |
+| cordless-vacuums | 35 | 21 | 2 | 12 | 0 | 13 |
 | carpet-cleaners | 46 | 8 | 18 | 10 | 10 | 16 |
 | cleaning-chemicals | 8 | 7 | 1 | 0 | 0 | 53 |
 | ordered-backlog | 1 | 1 | 0 | 0 | 0 | 248 |
+| handheld-vacuums | 1 | 1 | 0 | 0 | 0 | 0 |
 
 ## Skipped Overlaps
 
