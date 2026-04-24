@@ -82,6 +82,10 @@ export type Author = {
   canonicalVoiceCorpus?: { hero: string; tradeoffIntro: string; verdict: string };
   avatarJobsToAnswer?: string[]; // 3-5 concrete questions the avatar came to learn
 
+  // Optional niche-expertise one-liner — trailing line in AuthorBioCard when
+  // populated. Must match a visible methodology-page artifact.
+  nicheExpertise?: string;
+
   // House-voice 5-field schema (required when role === "house-voice").
   voiceCharacter?: string;
   coveredPages?: string[];
@@ -429,7 +433,7 @@ export const authors: Author[] = [
       "VacuumLand comparison threads (carpet-cleaner machine head-to-heads)",
     ],
     sentenceCadenceRule:
-      "20/40/40 — long warning + decision-tree construction dominates, occasional short cautions. First sentence often runs 25+ words.",
+      "Target grade 8 reading level (Flesch-Kincaid 8-9). Favor short sentences: most body sentences under 20 words. Open each product review with a warranty-check framing, but everything else reads like a friend talking. No insider jargon (no 'tier1', 'methodology', 'corpus', 'signal', 'holdover', 'cadence'). Define acronyms (LVP = luxury vinyl plank) on first use. Name reviewer sites in plain English ('TechRadar and Architectural Digest both picked this') not abstract bucket names.",
     canonicalVoiceCorpus: {
       hero:
         "Before you buy a steam mop, find your flooring manufacturer's care guide. Read the section about steam explicitly. If your floor is engineered hardwood or pre-2018 laminate, most manufacturers void their warranty when a steam mop is used on it, and that's not a fringe edge case. The pattern is consistent across the major engineered-hardwood brands' published care guides [1][2][3]. The short version: don't assume a steam mop is safe just because a reviewer said so. The safer option for engineered hardwood is a spray-and-wipe with a pH-neutral, manufacturer-approved cleaner (the brand most manufacturers co-market with is listed in the sources).",
