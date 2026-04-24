@@ -240,15 +240,9 @@ export const vacuumAndMopComboGuide: VacuumMopComboGuide = {
       evidenceLabel: "owner-review-analysis",
       scoreDiffReason:
         "We ranked this first for two reasons. TechRadar and Architectural Digest both named this Tineco family their top pick [2][3]. And the owners who bought it are still happy with it six months in. We held it to 4.5 instead of 5.0 because Tineco sells you a brand-specific soap cartridge that adds up over five years, and it still is not safe for engineered hardwood no matter what the marketing says.",
-      body: `Before you buy, check your warranty. Tineco says this tool is safe for sealed floors that are meant for wet cleaning. Their own care page is clear: engineered hardwood, unsealed hardwood, and laminate older than about 8 years are NOT on the approved list. If your floor is any of those three, skip down to the "Skip this if" note below and we will send you to a safer option [1].
+      body: `Before you buy, check your warranty. Tineco's own care page is clear that this tool is safe for sealed floors meant for wet cleaning, but NOT for engineered hardwood, unsealed hardwood, or laminate older than about 8 years [1]. For sealed tile and newer LVP, it earned the default slot because TechRadar and Architectural Digest both named the Tineco family their top pick [2][3], and owners are still happy with it six months in. The handle lays almost flat so it gets under couches, and the hot-air self-clean cycle solves the smelly-tank problem that hurts the rest of this category.
 
-Here is what makes this one stand out. First, the handle lays almost flat on the floor so you can push it under couches and beds without taking the head off. Second, after every use the tool runs a short self-cleaning cycle that uses 185 degree hot air to dry out the brush and the dirty-water tube. That cycle matters, because the number one complaint owners have with tools like this is a smelly tank at the six-month mark. Third, the two-tank design keeps clean water and dirty water separated, so the mop head never smears dirty water back onto your floor.
-
-Which floors it is safe for. Sealed ceramic and porcelain tile are the easiest fit. Luxury vinyl plank (LVP) that is thick and made for wet cleaning is fine too. For laminate, check your flooring brand's care page first. Shaw Floors, for example, says no wet mopping on their laminate at all [1]. Engineered hardwood is a hard no, even if a reviewer called it "hardwood safe."
-
-Why we trust this pick. TechRadar and Architectural Digest are two of the biggest reviewer sites for this category, and both of them named this Tineco family their top choice [2][3]. The tool runs about 50 minutes on a charge, which is enough to do most of a 2,000 square foot home in one pass. Owners who bought it say the hot-air self-clean is the reason they still like it after a few months.
-
-Two things to budget for. The soap cartridges are brand-specific, and they will cost you about $120 a year if you clean weekly. You can also run it with plain tap water on the lower setting, which saves money but skips the stain-fighting formula. Also, if you skip the self-cleaning cycle for more than a month or two, the water tank will start to smell. The HEPA filter needs to be swapped about once a month when you use the tool weekly.`,
+The real tradeoffs: the brand-specific soap cartridges run about $120 a year if you clean weekly, and the water tank will start to smell if you skip the self-clean cycle for more than a month. Budget for the soap before you buy, and let the cycle run after every use.`,
       pros: [
         "TechRadar and Architectural Digest both named this family their top pick [2][3]",
         "Hot-air self-cleaning cycle runs after every use, which solves the smelly-tank problem most of these tools have",
@@ -260,7 +254,7 @@ Two things to budget for. The soap cartridges are brand-specific, and they will 
         "Tank will get smelly if you skip the self-cleaning cycle for a month or two",
       ],
       verdict:
-        "This is the pick we would send a friend to if they had sealed tile or newer LVP and wanted a cordless tool that cleans itself. Not the right pick if you have engineered hardwood. And do budget for the soap cartridges.",
+        "This is the pick we would send a friend to when they have sealed tile or newer LVP and want a cordless tool that cleans itself between uses.",
       skipThisIf:
         "Skip this if your main floor is engineered hardwood, older laminate, or anything else the flooring brand says not to wet-mop. The safer option for those floors is a spray-and-wipe with a gentle cleaner. See [best hardwood floor cleaner](/best-hardwood-floor-cleaner).",
     },
@@ -270,15 +264,9 @@ Two things to budget for. The soap cartridges are brand-specific, and they will 
       evidenceLabel: "owner-review-analysis",
       scoreDiffReason:
         "We ranked this second because it has the longest track record of any pick on the page. The CrossWave family has been around for years, owners have tested it in every kind of home, and the feedback still holds up. The steam function helps with kitchen grease and pet messes in ways the cordless picks cannot match. Architectural Digest called a CrossWave model their best-for-pets pick in 2025 [3]. We held it at 4.0 instead of 4.5 because it has a cord, which slows down quick spill cleanups, and the steam will void the warranty on most hardwood and many laminate floors.",
-      body: `Before you buy, check your floor. Bissell says this tool is safe for sealed tile, sealed wood on low moisture, some laminates, and area rugs. But the steam makes the warranty question sharper. Shaw Floors, one of the biggest flooring brands, is clear on their hardwood care page: "Don't use wet mops or steam mops" [1]. So if your house is a mix of tile and engineered hardwood, this tool is safe on one and risky on the other. Do not run it across the whole house.
+      body: `Before you buy, check your floor. Bissell says this tool is safe for sealed tile, sealed wood on low moisture, some laminates, and area rugs, but the steam makes the warranty question sharper. Shaw Floors is plain about it: "Don't use wet mops or steam mops" on hardwood [1]. For sealed tile and grout, though, this has the longest owner track record of any pick here. Water plus steam in one pass cuts kitchen grease better than cold-water tools, and the tangle-free brush matters in pet homes [3].
 
-Here is what stands out. First, it combines water and steam in one pass. Bissell says this cuts through grease about 20 percent faster than a regular steam mop. We are not making any claims about germs, just that it works better on kitchen grease. Second, the brush is designed so hair does not wrap around it, which matters in homes with pets or long hair. Third, like the Tineco, it has two tanks so clean water stays clean.
-
-Which floors it is safe for. Sealed ceramic and porcelain tile are the best fit. Grout is where the steam really pays off, because hot water breaks up mineral buildup that cold-water tools cannot. Sealed hardwood is OK on the low-moisture mode, but check your specific flooring brand's care page first. Engineered hardwood, older laminate, and any solid hardwood that has been in the house more than 10 years should use a different cleaning tool.
-
-Why it works for pet homes. Pet accidents and food spills on sealed tile are what this tool was built for. It has been around long enough that there is a deep pile of real-world owner feedback, and most of it is positive [3]. At $280, it is a corded tool, which means you never run out of battery, but it also means you have to plug it in every time.
-
-The trade-off to know. Because it has a cord, pulling it out for a single spill takes work. You have to find an outlet, unwind 25 feet of cord, clean the spill, then wind it back up. If most of your cleaning is quick spill cleanup, the cordless Tineco or Shark picks fit that better. Also, Bissell requires their own brand of cleaning soap. If you use a third-party soap, it can void the warranty.`,
+The tradeoff is the cord. Pulling it out for a single spill means finding an outlet and unwinding 25 feet, then winding it back. Bissell also requires their own soap; third-party soap voids the warranty.`,
       pros: [
         "The longest track record of any pick on this page, with years of real owner feedback [3]",
         "Steam plus water handles kitchen grease and grout better than cordless-only tools",
@@ -290,7 +278,7 @@ The trade-off to know. Because it has a cord, pulling it out for a single spill 
         "Only Bissell's own soap is allowed, or the warranty goes away",
       ],
       verdict:
-        "This is the pick for pet homes with sealed tile floors, where you want the best steam cleaning and you do not mind the cord. Not the right pick if your floors are a mix of tile and engineered hardwood.",
+        "This is the pick for pet homes with sealed tile floors that want the best steam cleaning on grease and grout and do not mind a cord.",
       skipThisIf:
         "Skip this if most of your cleaning is quick spill cleanup. A cordless tool fits that better. Also skip if you have a mix of tile and engineered hardwood, because the steam will damage the hardwood.",
     },
@@ -300,15 +288,9 @@ The trade-off to know. Because it has a cord, pulling it out for a single spill 
       evidenceLabel: "owner-review-analysis",
       scoreDiffReason:
         "We ranked this third because it is the cheapest way into the category, and Shark is a US brand, so you can find parts and soap at any Target or Walmart. We held it at 3.5 because owners are not as happy with it as they are with the Tineco or Bissell, and some report the dirty-water tank seal wears out after about three months of use.",
-      body: `Before you buy, check your floor. Shark says this tool is safe for sealed hardwood (low moisture only), tile, marble, and laminate. Your flooring brand's care page has the final word. For example, Shaw Floors says no wet mopping on their laminate at all, no matter what vacuum brand you use [1]. If your floor is Shaw laminate or any engineered hardwood, skip to the "Skip this if" note below.
+      body: `Before you buy, check your floor. Shark says this tool is safe for sealed hardwood (low moisture), tile, marble, and laminate, but your flooring brand has the final word; Shaw Floors bans wet mopping on their laminate outright [1]. For sealed tile and newer LVP in a small home, under $200 is the cheapest way into this category, and because Shark is a US brand you can walk into Target or Walmart for filters and soap two years in.
 
-Here is what you get for under $200. First, it does the same three jobs as the Tineco and Bissell (vacuum, mop, clean itself), just at half the price. Second, there is a Stain Boost mode that doubles the soap output on a tough spot. Third, the dirty-water tank has a filter that separates solids from liquids, so emptying is less messy than older tools in this space.
-
-Which floors it is safe for. Sealed ceramic and porcelain tile are the best fit. Sealed hardwood is OK on the low-moisture mode, as long as your flooring brand allows it. For laminate, check your brand's care page. Engineered hardwood is a no, same as the other picks on this page.
-
-Why it works for small homes and renters. Under $200 is the cheapest way into this category. For a small apartment with a tile kitchen and a hallway of newer LVP, this is the right size tool. Because Shark is a US brand, you can walk into Target or Walmart and buy filters and soap. That matters two years in when the filter needs replacing.
-
-The trade-off to know. Owners are not as happy with this one as they are with the Tineco or Bissell. The most common complaint is that the dirty-water tank seal starts to leak after about three months of use. If you are a renter using it for a year and then moving, that is not a big deal. If you are buying something for a five-year stretch, the Tineco or Bissell will last longer.`,
+The tradeoff is staying power. Owners commonly report the dirty-water tank seal starts leaking after about three months. For a renter moving in a year that is fine; for a five-year tool, the Tineco or Bissell will last longer.`,
       pros: [
         "Under $200 is the cheapest way into the category",
         "Shark is a US brand, so filters and soap are easy to find at Target or Walmart",
@@ -320,7 +302,7 @@ The trade-off to know. Owners are not as happy with this one as they are with th
         "Same engineered-hardwood warning as every pick on this page",
       ],
       verdict:
-        "This is the pick for renters and small-home owners who want a tile-and-LVP tool for under $200. Not the right pick if you plan to keep it for five years.",
+        "This is the pick for renters and small-home owners who want a capable tile-and-LVP tool for under $200 and can replace it in two years if it wears out.",
       skipThisIf:
         "Skip this if you plan to keep the tool longer than two years. The tank seal problems show up after about three months, and the Tineco or Bissell will last longer.",
     },
@@ -330,15 +312,9 @@ The trade-off to know. Owners are not as happy with this one as they are with th
       evidenceLabel: "spec-based",
       scoreDiffReason:
         "We ranked this fourth because it works differently from every other pick. Instead of sucking up dirt, two spinning rollers wipe the floor like mops on wheels. We kept it on the list because Top Ten Reviews did a full review of it in January 2026 [4]. But there are not many happy owners yet, and we did not want to pretend that away.",
-      body: `Before you buy, check your floor. Dyson says this tool is safe for sealed hard floors only. Engineered hardwood is specifically not on the list, and Shaw Floors says no wet mopping on hardwood at all [1]. If your floor is engineered hardwood, skip to the note below.
+      body: `Before you buy, check your floor. Dyson says this tool is safe for sealed hard floors only, and engineered hardwood is explicitly not on the list [1]. What makes it different: there is no suction motor. Two motorized rollers wipe the floor and drop solid debris into a dry tray, which solves the smelly-tank problem every other pick has. The downside is the rollers can't pull debris out of grout cracks the way a real suction tool can.
 
-Here is what makes this one different. It does not have a suction motor. Two motorized rollers wipe the floor and pick up wet and dry dirt as they spin. The rollers drop solid debris into a dry tray, so there is no dirty-water tank to empty in the usual way. That is a real plus, because a smelly tank is the number one complaint owners have with other tools like this. The downside: because there is no suction, it cannot pull dirt out of grout lines the way a real suction tool can.
-
-Which floors it is safe for. Sealed ceramic and porcelain tile is the best fit. LVP is OK if your flooring brand says wet cleaning is allowed. Grout cleaning is weaker than the Bissell or Tineco, because the rollers cannot pull debris out of the cracks. Engineered hardwood is a no. Getting right up against a baseboard is also harder with this one than with the others.
-
-The honest price comparison. At $399, Dyson WashG1 costs the same as the Tineco Floor ONE S7 Stretch Ultra. Both TechRadar and Architectural Digest named the Tineco family their top pick. The Dyson is newer, and there are not many happy owners yet to back up the price tag [2]. We are not saying buy the Dyson over the Tineco. We are saying buy the Dyson only if you really want the rollers-only design (no tank to empty, no suction motor to service), and you are OK paying full price for a newer product. One real plus of Dyson: their service network in the US is bigger than Tineco's, which matters if something breaks in year three.
-
-One thing to know. The early owner reviews we could find cluster on two complaints: the rollers wear out faster than owners expect, and the tool struggles along edges and corners. If this is your first wet-dry tool, the Tineco at the same price is the safer starting point. If you already own a Dyson V15 or Gen5 and like how Dyson treats you, the WashG1 makes more sense as an add-on.`,
+At $399 it costs the same as the Tineco, which TechRadar and Architectural Digest both ranked higher [2][3]. Early owners cluster on two complaints: rollers wearing out faster than expected, and struggle along edges and baseboards. The one genuine Dyson advantage is a bigger US service network than Tineco or Roborock, which matters in year three.`,
       pros: [
         "No dirty-water tank to empty the usual way, which solves the smelly-tank problem",
         "Small screen on the handle shows battery life and when it needs cleaning",
@@ -350,7 +326,7 @@ One thing to know. The early owner reviews we could find cluster on two complain
         "Same $399 price as the Tineco, which TechRadar and AD both ranked higher",
       ],
       verdict:
-        "This is the pick for Dyson fans who already own a V15 or Gen5 and want the rollers-only design. Not the right pick if this is your first vacuum mop combo.",
+        "This is the pick for Dyson owners who already run a V15 or Gen5 and want the rollers-only design with a US service network behind it.",
       skipThisIf:
         "Skip this if this is your first vacuum mop combo. The Tineco is the same price with many more happy owners. Also skip if you clean a lot of grout, because the rollers cannot pull dirt out of the cracks.",
     },
@@ -360,15 +336,9 @@ One thing to know. The early owner reviews we could find cluster on two complain
       evidenceLabel: "spec-based",
       scoreDiffReason:
         "We ranked this fifth because TechRadar named it their second-best pick, and it makes the most sense for people who already own a Roborock robot vacuum and want matching tools [2]. We held it at 3.5 because it is a brand-new 2025 product, and there are not many real owner reviews yet.",
-      body: `Before you buy, check your floor. Roborock says this tool is safe for sealed hard floors rated for wet cleaning, plus swap-in heads for rugs and couches. Your flooring brand still has the final word. Shaw Floors says no wet mopping on engineered hardwood [1], and that applies here too.
+      body: `Before you buy, check your floor. Roborock says this tool is safe for sealed hard floors rated for wet cleaning plus swap-in heads for rugs and couches, but engineered hardwood is still a no [1]. For $749.99 you get the strongest suction on the list, a 65-minute battery (the longest cordless runtime here), and four swap-in heads for rugs, upholstery, crevices, and hard floors. TechRadar named it their second-best pick in December 2025 [2].
 
-Here is what you get for $749.99. First, the suction is the strongest on this list, and the battery lasts about 65 minutes on the eco setting. That is the longest runtime of any cordless tool on the page. Second, the head swaps between four attachments (a multi-surface brush, a small brush for upholstery, a crevice tool, and the standard wet-dry head), so you can clean more than just floors. Third, the self-cleaning cycle gives you a choice of a fast 5-minute or a quiet 30-minute drying mode, which is a nice touch.
-
-Which floors it is safe for. Sealed ceramic, porcelain, newer LVP, and some laminates (check your brand). Area rugs are fine for a quick refresh with the swap-in brush, but Roborock is clear that the wet mop head should never touch a rug. Engineered hardwood is a no.
-
-Is it worth the price? $749.99 is almost four times the Shark budget pick and twice the Tineco. The longer battery and the extra attachments only really pay off if you are going to use them. If your house is mostly tile, the Tineco at $399 does the same job for less money. The one case where this price makes sense: you already own a Roborock robot vacuum (like a Qrevo) and you want all your Roborock tools to share the same app.
-
-One thing to know. This is a 2025 product, so we do not have a full year of real owner feedback yet. Early reviews mention app trouble and the fact that four swap heads take a lot of closet space. If you do not need the smart features, the Tineco has more happy owners behind it.`,
+The price only makes sense in two cases: you already own a Roborock robot vacuum and want all your tools on one app, or you will genuinely use the carpet and couch attachments. If your home is mostly tile, the Tineco at $399 does the same wet-floor job for less.`,
       pros: [
         "65-minute battery life is the longest of any cordless tool on this page (eco mode)",
         "Four swap-in heads let you clean more than just floors",
@@ -380,7 +350,7 @@ One thing to know. This is a 2025 product, so we do not have a full year of real
         "Four swap heads take a lot of closet space",
       ],
       verdict:
-        "This is the pick for Roborock fans who already own a Qrevo robot vacuum, or for homes that really will use the carpet and couch attachments. Not the right pick for a mostly-tile home, where the Tineco does the same job for less.",
+        "This is the pick for Roborock owners who already run a Qrevo robot vacuum, or for mixed-surface homes that will actually use the carpet and couch attachments.",
       skipThisIf:
         "Skip this if your floors are mostly sealed tile or LVP and you do not own a Roborock robot vacuum. The Tineco at $399 does the same job and has more happy owners behind it.",
     },
