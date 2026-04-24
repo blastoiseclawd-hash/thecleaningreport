@@ -529,17 +529,17 @@ One thing to know. This is a 2025 product, so we do not have a full year of real
       },
       {
         id: 2,
-        label: "TechRadar, \"The best wet-dry vacuum cleaner,\" December 2025. Tier1 editorial roundup of five wet-dry picks. Feeds the testing-publication layer.",
+        label: "TechRadar, \"The best wet-dry vacuum cleaner,\" December 2025. Trusted reviewer roundup of five wet-dry picks. Feeds the testing-publication layer.",
         url: "https://www.techradar.com/home/vacuums/best-wet-dry-vacuum-cleaner",
       },
       {
         id: 3,
-        label: "Architectural Digest, \"7 Best Wet-Dry Vacuums of 2025, Tested and Reviewed by AD.\" Tier1 editorial roundup including Tineco Floor ONE Switch S7 best combo, Shark HydroVac MessMaster runner-up, Bissell CrossWave Omni Force best for pets.",
+        label: "Architectural Digest, \"7 Best Wet-Dry Vacuums of 2025, Tested and Reviewed by AD.\" Trusted reviewer roundup including Tineco Floor ONE Switch S7 best combo, Shark HydroVac MessMaster runner-up, Bissell CrossWave Omni Force best for pets.",
         url: "https://www.architecturaldigest.com/story/best-wet-dry-vacuums-reviewed",
       },
       {
         id: 4,
-        label: "Top Ten Reviews, \"Dyson WashG1 Wet Floor Cleaner review,\" January 2026. Tier1 dedicated single-product review establishing WashG1 as a distinct rollers-only category entry.",
+        label: "Top Ten Reviews, \"Dyson WashG1 Wet Floor Cleaner review,\" January 2026. Trusted-reviewer dedicated single-product review establishing WashG1 as a distinct rollers-only category entry.",
         url: "https://www.toptenreviews.com/dyson-washg1-wet-floor-cleaner-review",
       },
     ],
