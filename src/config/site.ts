@@ -97,6 +97,7 @@ export const siteConfig = {
         children: [
           { label: "Best Mops", href: "/best-mop" },
           { label: "Steam Mops", href: "/best-steam-mop" },
+          { label: "Vacuum + Mop Combos", href: "/vacuum-and-mop-combo" },
         ],
       },
       { label: "Carpet Cleaners", href: "/best-carpet-cleaner-machine" },

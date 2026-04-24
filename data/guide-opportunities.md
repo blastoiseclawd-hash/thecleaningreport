@@ -2,17 +2,17 @@
 
 > Generated from guide-opportunities.json - do not edit manually.
 
-*Regenerated 2026-04-24 by the portfolio Ahrefs-led roadmap system.*
+*Regenerated 2026-04-24 by the portfolio current-evidence roadmap system.*
 *Profile: `affiliate-review-balanced` | Formula v3 | Taxonomy v1*
 
 ## Summary
 
 | Status | Count |
 |--------|-------|
-| LIVE | 19 |
+| LIVE | 20 |
 | CONTENT READY | 0 |
 | IN PROGRESS | 0 |
-| NOT BUILT | 246 |
+| NOT BUILT | 245 |
 | SKIP | 132 |
 | **Total** | **397** |
 
@@ -8305,12 +8305,12 @@ All pending positions matched the cadence vector.
 | 10 | what-to-mop-floors-with | Best Product To Mop Floors | support-guide | troubleshooting-fix | buy | best product to mop floors | 800 | 4 | 4100 | 68 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | LIVE |
 | 12 | are-robot-vacuums-worth-it | Are Robot Vacuums Worth It | support-guide | worth-it-buying-decision | decide | are robot vacuums worth it | 700 | 2 | 400 | 66.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | LIVE |
 | 13 | what-is-the-most-powerful-handheld-vacuum | What Is The Most Powerful Handheld Vacuum | support-guide | glossary-explainer | learn | what is the most powerful handheld vacuum | 50 | 5 | 17000 | 64.7 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | LIVE |
+| 14 | vacuum-and-mop-combo | Best Hard Floor Vacuum And Mop | money-guide | flagship-roundup | buy | best hard floor vacuum and mop | 8600 | 1 | 16000 | 80 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | LIVE |
 | 15 | what-to-mop-tile-floors-with | Best Mop Solution For Tile Floors | support-guide | troubleshooting-fix | buy | best mop solution for tile floors | 150 | 4 | 450 | 62 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | LIVE |
 | 17 | is-roomba-the-best-robot-vacuum | Is Roomba The Best Robot Vacuum | support-guide | compatibility-safety | decide | is roomba the best robot vacuum | 60 | 0 | 60 | 61.1 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | LIVE |
 | 40 | how-to-clean-vinyl-floors | Best Way To Mop Vinyl Floors | support-guide | troubleshooting-fix | learn | best way to mop vinyl floors | 150 | 0 | 3000 | 63.5 | export-backed | cleaning-support | safe-surface-desk | Surface Protector | LIVE |
 | 43 | how-to-clean-stainless-steel-sink | How to Clean a Stainless Steel Sink Without Scratches | support-guide | maintenance-cleaning | maintain | how to clean stainless steel sink | 450 | 18 | 600 | 58.3 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | LIVE |
 | 94 | best-grout-cleaner | Best Grout Cleaner For Floors | money-guide | use-case-roundup | buy | best grout cleaner for floors | 900 | 2 | 6100 | 68.7 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | LIVE |
-| 14 | vacuum-and-mop-combo | Best Hard Floor Vacuum And Mop | money-guide | flagship-roundup | buy | best hard floor vacuum and mop | 8600 | 1 | 16000 | 80 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
 | 16 | bissell-vs-hoover-carpet-cleaner | Bissell Vs Hoover Carpet Cleaner | comparison | head-to-head | decide | bissell vs hoover carpet cleaner | 250 | 0 | 100 | 66.1 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
 | 19 | how-shark-steam-mop-works | How Shark Steam Mop Works | linkable-asset | data-study | learn | how shark steam mop works | 300 | 14 | 300 | 40 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
 | 22 | how-to-wash-o-cedar-mop-head | Best Way To Clean O'Cedar Mop Head | support-guide | troubleshooting-fix | learn | best way to clean o'cedar mop head | 400 | 0 | 2900 | 58.3 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
