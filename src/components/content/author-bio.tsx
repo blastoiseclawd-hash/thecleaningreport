@@ -53,6 +53,9 @@ function AuthorBioCard({ author, compact = false }: AuthorBioCardProps) {
                 ))}
               </div>
             ) : null}
+            {author.nicheExpertise ? (
+              <p className="mt-1 text-xs leading-6 text-[#4F7B62]">{author.nicheExpertise}</p>
+            ) : null}
           </>
         ) : null}
 
