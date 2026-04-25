@@ -750,7 +750,7 @@ export const pageTargets: PageTarget[] = [
   {
     slug: "diy-carpet-cleaner-solution",
     title: "Best Homemade Carpet Cleaner For Machine",
-    type: "spoke",
+    type: "guide",
     pageType: "support-guide",
     contentShape: "troubleshooting-fix",
     intentBucket: "learn",
@@ -808,7 +808,7 @@ export const pageTargets: PageTarget[] = [
   {
     slug: "best-mop-for-vinyl-floors",
     title: "Best Mop For Vinyl Plank Flooring",
-    type: "spoke",
+    type: "guide",
     pageType: "support-guide",
     contentShape: "troubleshooting-fix",
     intentBucket: "learn",
@@ -848,7 +848,7 @@ export const pageTargets: PageTarget[] = [
   {
     slug: "best-mop-for-laminate-floors",
     title: "Best Mop For Laminate Wood Flooring",
-    type: "spoke",
+    type: "guide",
     pageType: "support-guide",
     contentShape: "troubleshooting-fix",
     intentBucket: "learn",
@@ -996,7 +996,7 @@ export const pageTargets: PageTarget[] = [
   {
     slug: "carolina-mopping-sauce",
     title: "Best Mop Sauce Recipe",
-    type: "spoke",
+    type: "guide",
     pageType: "support-guide",
     contentShape: "troubleshooting-fix",
     intentBucket: "learn",
@@ -1084,7 +1084,7 @@ export const pageTargets: PageTarget[] = [
   {
     slug: "mop-sauce-for-ribs",
     title: "Best Mop Sauce For Ribs",
-    type: "spoke",
+    type: "guide",
     pageType: "support-guide",
     contentShape: "troubleshooting-fix",
     intentBucket: "learn",
@@ -1140,7 +1140,7 @@ export const pageTargets: PageTarget[] = [
   {
     slug: "natural-carpet-cleaner",
     title: "Best Natural Carpet Cleaner For Machine",
-    type: "spoke",
+    type: "guide",
     pageType: "support-guide",
     contentShape: "troubleshooting-fix",
     intentBucket: "learn",
@@ -1168,7 +1168,7 @@ export const pageTargets: PageTarget[] = [
   {
     slug: "best-grout-cleaner-for-shower",
     title: "Best Cleaner For Shower Tile And Grout",
-    type: "spoke",
+    type: "guide",
     pageType: "support-guide",
     contentShape: "troubleshooting-fix",
     intentBucket: "learn",
