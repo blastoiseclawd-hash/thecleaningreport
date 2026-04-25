@@ -6,6 +6,7 @@ import { editor } from "@/data/publisher";
 import { articleSchema, breadcrumbSchema, faqSchema, howToSchema, JsonLd } from "@/lib/schema";
 import { siteConfig } from "@/config/site";
 import { RichText, RichInline } from "@/lib/rich-text";
+import { EvidenceSummary, type EvidenceSummaryData } from "@/components/content/evidence-summary";
 
 interface SupportImage {
   src: string;
@@ -56,6 +57,9 @@ interface SupportPageProps {
   howToSteps?: { name: string; description: string }[];
   estimatedTime?: string;
   sourcesFooter?: SupportSourceEntry[];
+
+  // Evidence summary — collapsed <details> disclosure rendered above sources.
+  evidenceSummary?: EvidenceSummaryData;
 }
 
 function SectionImage({ image }: { image: SupportImage }) {
@@ -183,6 +187,7 @@ export function SupportPage({
   howToSteps,
   estimatedTime,
   sourcesFooter,
+  evidenceSummary,
 }: SupportPageProps) {
   const pageUrl = `${siteConfig.url}/${slug}`;
   const resolvedModifiedDate = modifiedDate || publishedDate;
@@ -405,6 +410,8 @@ export function SupportPage({
           </div>
         </section>
       )}
+
+      {evidenceSummary && <EvidenceSummary data={evidenceSummary} />}
 
       {sourcesFooter && sourcesFooter.length > 0 && (
         <SourcesFooter entries={sourcesFooter} />

@@ -14,6 +14,7 @@ import { DirectAnswer } from "@/components/content/direct-answer";
 import { articleSchema, breadcrumbSchema, faqSchema, productSchema, JsonLd } from "@/lib/schema";
 import { siteConfig } from "@/config/site";
 import { RichText, RichInline } from "@/lib/rich-text";
+import { EvidenceSummary, type EvidenceSummaryData, type ClaimLabel, CLAIM_LABEL_COPY } from "@/components/content/evidence-summary";
 
 // Per-product inline citation cluster. Renders in the review aside, under the pros/cons.
 export interface HubReviewCite {
@@ -34,6 +35,8 @@ interface HubReview {
   skipThisIf?: string; // per-product "when not to buy" framing; supports inline markdown
   ownerCites?: HubReviewCite[]; // positive + dissent owner references; each text supports inline markdown
   videoCite?: HubReviewCite; // independent non-tier1 YouTube reference
+  // Optional per-product claim label — muted pill near review heading.
+  evidenceLabel?: ClaimLabel;
 }
 
 // Methodology weights table block
@@ -153,6 +156,7 @@ interface HubPageProps {
   failureModes?: HubFailureModesBlock;
   divergence?: HubDivergenceBlock;
   sourcesFooter?: HubSourcesFooter;
+  evidenceSummary?: EvidenceSummaryData;
   whenNotToBuy?: {
     title: string;
     body: string; // inline markdown; paragraph-split on \n\n
@@ -190,6 +194,7 @@ export function HubPage({
   failureModes,
   divergence,
   sourcesFooter,
+  evidenceSummary,
   whenNotToBuy,
   relatedLinks,
   breadcrumbLabel,
@@ -557,6 +562,12 @@ export function HubPage({
                         {displayNames[product.id] || product.name}
                       </h3>
 
+                      {content.evidenceLabel && (
+                        <span className="mt-3 inline-flex items-center rounded-sm border border-[#e4e0d5] bg-[#f7f6f0] px-2.5 py-1 text-[0.72rem] font-medium uppercase tracking-[0.14em] text-[#6b7068]">
+                          {CLAIM_LABEL_COPY[content.evidenceLabel]}
+                        </span>
+                      )}
+
                       <div className="mt-6">
                         <ProductImageGallery
                           images={product.images}
@@ -910,6 +921,12 @@ export function HubPage({
           </div>
         </section>
       )}
+
+      {/* Evidence summary — collapsed <details> disclosure of owner-review +
+          thread + expert counts + last price check. Sibling to methodology,
+          rendered above so reader sees quantitative tally before qualitative
+          methodology. Non-intrusive by design. */}
+      {evidenceSummary && <EvidenceSummary data={evidenceSummary} />}
 
       {/* How we ranked (methodology) — demoted 2026-04-19. Muted styling,
           collapsed <details> by default. Anchor-navigable from jump links +
