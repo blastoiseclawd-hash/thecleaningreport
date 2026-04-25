@@ -2,7 +2,7 @@
 
 > Generated from guide-opportunities.json - do not edit manually.
 
-*Regenerated 2026-04-24 by the portfolio current-evidence roadmap system.*
+*Regenerated 2026-04-25 by the portfolio current-evidence roadmap system.*
 *Profile: `affiliate-review-balanced` | Formula v3 | Taxonomy v1*
 
 ## Summary
@@ -12,17 +12,17 @@
 | LIVE | 20 |
 | CONTENT READY | 0 |
 | IN PROGRESS | 0 |
-| NOT BUILT | 245 |
-| SKIP | 132 |
+| NOT BUILT | 229 |
+| SKIP | 148 |
 | **Total** | **397** |
 
 ## Coverage + Freshness
 
 | Metric | Value |
 |--------|-------|
-| Active ordered backlog | 265 |
+| Active ordered backlog | 249 |
 | Target range | 300-350 |
-| Coverage gap to minimum | 35 |
+| Coverage gap to minimum | 51 |
 | Near-term oldest evidence age (days) | 42 |
 | Overall oldest evidence age (days) | 111 |
 | Freshness threshold (existing sites) | 120 |
@@ -8315,20 +8315,14 @@ All pending positions matched the cadence vector.
 | 19 | how-shark-steam-mop-works | How Shark Steam Mop Works | linkable-asset | data-study | learn | how shark steam mop works | 300 | 14 | 300 | 40 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
 | 22 | how-to-wash-o-cedar-mop-head | Best Way To Clean O'Cedar Mop Head | support-guide | troubleshooting-fix | learn | best way to clean o'cedar mop head | 400 | 0 | 2900 | 58.3 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
 | 23 | what-to-mop-hardwood-floors-with | Best Thing To Mop Hardwood Floors With | support-guide | troubleshooting-fix | buy | best thing to mop hardwood floors with | 350 | 2 | 600 | 56.6 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 24 | vacuum-mop-combo | Vacuum Mop Combo | money-guide | flagship-roundup | buy | vacuum mop combo | 8600 | 1 | 6900 | 77 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
 | 26 | corded-vs-cordless-vacuum | Corded Vs Cordless Vacuum | comparison | head-to-head | decide | corded vs cordless vacuum | 200 | 1 | 300 | 62.1 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
 | 28 | shark-robot-vacuum | Best Shark Robot Vacuum For Pet Hair | money-guide | brand-roundup | buy | best shark robot vacuum for pet hair | 40000 | 3 | 25000 | 76.8 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
 | 29 | how-carpet-cleaning-machine-works | How Carpet Cleaning Machine Works | linkable-asset | data-study | learn | how carpet cleaning machine works | 300 | 14 | 300 | 39.3 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
-| 31 | best-steam-mop-for-laminate-floors | Best Steam Mop For Laminate Floors | money-guide | feature-roundup | buy | best steam mop for laminate floors | 500 | 1 | 13000 | 76.7 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
 | 36 | eufy-vs-shark-robot-vacuum | Eufy Vs Shark Robot Vacuum | comparison | brand-vs-brand | decide | eufy vs shark robot vacuum | 90 | 0 | 50 | 60.6 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 38 | best-mop-for-wood-floors | Best Mop For Wood Floors | money-guide | use-case-roundup | buy | best mop for wood floors | 1000 | 0 | 13000 | 76.5 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
 | 39 | how-do-carpet-cleaners-work-around-furniture | How Do Carpet Cleaners Work Around Furniture | linkable-asset | data-study | learn | how do carpet cleaners work around furniture | 300 | 10 | 300 | 39.3 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
-| 41 | best-hardwood-floor-mop | Best Hardwood Floor Mop | money-guide | feature-roundup | buy | best hardwood floor mop | 700 | 3 | 11000 | 76.3 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 44 | steam-mop | Shop Best Steam Mop Deals | money-guide | feature-roundup | buy | shop best steam mop deals | 30000 | 8 | 7100 | 74.8 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
 | 45 | how-to-clean-floor-without-mop | Best Way To Clean Floors Without A Mop | support-guide | troubleshooting-fix | learn | best way to clean floors without a mop | 100 | 0 | 70 | 54 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
 | 46 | roborock-vs-eufy | Roborock vs Eufy: Which Robot Vacuum Brand Actually Fits Your House | comparison | brand-vs-brand | decide | roborock vs eufy | 300 | 4 | 200 | 60.2 | export-backed | cleaning-support | labor-math-desk | Labor Trader | NOT BUILT |
 | 47 | how-to-mop-lvp-floors | Best Way To Mop Lvp Flooring | support-guide | troubleshooting-fix | learn | best way to mop lvp flooring | 200 | 1 | 400 | 53.5 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 48 | robot-vacuum-reviews | Robot Vacuum Reviews | money-guide | flagship-roundup | buy | robot vacuum reviews | 4000 | 9 | 39000 | 73.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
 | 49 | how-do-steam-mops-work-on-carpet | How Do Steam Mops Work On Carpet | linkable-asset | data-study | learn | how do steam mops work on carpet | 300 | 10 | 300 | 39.3 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
 | 50 | how-to-clean-laminate-floors | Best Way To Mop Laminate Floors | support-guide | troubleshooting-fix | learn | best way to mop laminate floors | 300 | 0 | 3700 | 55.5 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
 | 51 | best-robot-vacuum-mop | Best Robot Vacuum Mop | money-guide | flagship-roundup | buy | best robot vacuum mop | 900 | 10 | 13000 | 72.2 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
@@ -8358,7 +8352,6 @@ All pending positions matched the cadence vector.
 | 78 | best-robot-vacuum-pet-hair | Best Robot Vacuum Pet Hair | money-guide | flagship-roundup | buy | best robot vacuum pet hair | 350 | 14 | 13000 | 70.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
 | 79 | how-does-robot-vacuums-work | How Does Robot Vacuums Work | linkable-asset | data-study | learn | how does robot vacuums work | 300 | 14 | 300 | 39.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
 | 80 | what-robot-vacuums-work-with-homekit | What Robot Vacuums Work With Homekit | support-guide | troubleshooting-fix | learn | what robot vacuums work with homekit | 500 | 10 | 500 | 43.5 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 81 | grout-cleaner | Best Homemade Grout Cleaner For Mold | money-guide | use-case-roundup | buy | best homemade grout cleaner for mold | 0 | 2 | 16000 | 70 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
 | 83 | what-is-best-robot-vacuum | What Is Best Robot Vacuum | support-guide | glossary-explainer | learn | what is best robot vacuum | 50 | 24 | 2900 | 42.6 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
 | 84 | best-handheld-steam-cleaner | Best Handheld Steam Cleaner For Grout | money-guide | use-case-roundup | buy | best handheld steam cleaner for grout | 100 | 2 | 7300 | 69.5 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
 | 86 | robot-vs-cordless-vacuum | Robot Vs Cordless Vacuum | comparison | head-to-head | decide | robot vs cordless vacuum | 0 | 0 | 0 | 54.5 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
@@ -8366,12 +8359,9 @@ All pending positions matched the cadence vector.
 | 89 | how-does-steam-mop-work-on-carpet | How Does Steam Mop Work On Carpet | linkable-asset | data-study | learn | how does steam mop work on carpet | 300 | 10 | 300 | 39.3 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
 | 91 | best-robot-vacuum-for-carpet | Best Carpet Robot Vacuum | money-guide | flagship-roundup | buy | best carpet robot vacuum | 1400 | 6 | 2000 | 68.8 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
 | 96 | mop-vs-swiffer | Best Swiffer Type Mop | comparison | head-to-head | compare | best swiffer type mop | 200 | 5 | 450 | 50.1 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 98 | best-cordless-vacuum-reviews | Best Cordless Vacuum | money-guide | flagship-roundup | buy | best cordless vacuum | 51000 | 24 | 68000 | 68.5 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
 | 99 | how-does-steam-mops-work | How Does Steam Mops Work | linkable-asset | data-study | learn | how does steam mops work | 300 | 14 | 300 | 39.3 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 101 | best-robot-vacuum-and-mop-combo | Best Robot Vacuum And Mop Combo | money-guide | flagship-roundup | buy | best robot vacuum and mop combo | 1800 | 8 | 19000 | 68.2 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
 | 104 | best-floor-cleaner | Best Solution To Mop Floors | money-guide | flagship-roundup | buy | best solution to mop floors | 450 | 2 | 6300 | 68 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
 | 106 | spray-mop-vs-steam-mop | Spray Mop Vs Steam Mop | comparison | head-to-head | decide | spray mop vs steam mop | 10 | 14 | 500 | 47.6 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
-| 108 | best-mops-for-tile-floors | Best Mop For Tile Floors | money-guide | use-case-roundup | buy | best mop for tile floors | 2200 | 1 | 2500 | 67 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
 | 109 | how-good-do-robot-vacuums-work | How Good Do Robot Vacuums Work | linkable-asset | data-study | learn | how good do robot vacuums work | 400 | 10 | 400 | 39.3 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
 | 111 | best-robot-vacuum-and-mop | Best Vacuum Mop Combo Robot | money-guide | flagship-roundup | buy | best vacuum mop combo robot | 1300 | 11 | 21000 | 67 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
 | 114 | mop-bucket-with-wringer | Best Mop Bucket With Wringer | money-guide | flagship-roundup | buy | best mop bucket with wringer | 4900 | 0 | 1400 | 66.8 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
@@ -8384,7 +8374,6 @@ All pending positions matched the cadence vector.
 | 128 | best-spot-carpet-cleaner | Best Pet Stain Carpet Cleaner Machine | money-guide | flagship-roundup | buy | best pet stain carpet cleaner machine | 1000 | 6 | 4100 | 65.8 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
 | 129 | mop-remix-best-stats | Mop Remix Best Stats | linkable-asset | data-study | learn | mop remix best stats | 0 | 0 | 0 | 38 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
 | 131 | best-robot-vacuum-under-300 | Best Robot Vacuum Under 300 | money-guide | budget-roundup | buy | best robot vacuum under 300 | 150 | 2 | 400 | 65.5 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 134 | handheld-vacuum | Handheld Vacuum | money-guide | flagship-roundup | buy | handheld vacuum | 19000 | 4 | 27000 | 65.5 | needs-serp-check | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
 | 136 | dyson-cordless-vacuum-vs-corded | Dyson Cordless Vacuum Vs Corded | comparison | head-to-head | decide | dyson cordless vacuum vs corded | 0 | 0 | 0 | 43.5 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
 | 138 | best-mop-for-laminate-floors | Best Mop For Laminate Wood Flooring | money-guide | use-case-roundup | buy | best mop for laminate wood flooring | 3600 | 15 | 4800 | 65 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
 | 139 | how-bissell-steam-mop-works | How Bissell Steam Mop Works | linkable-asset | data-study | learn | how bissell steam mop works | 180 | 14 | 180 | 37 | fallback-evidence | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
@@ -8411,14 +8400,11 @@ All pending positions matched the cadence vector.
 | 181 | best-mop-vacuum-combo | Best Mop/Vacuum Combo | money-guide | flagship-roundup | buy | best mop/vacuum combo | 500 | 2 | 4600 | 63.1 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
 | 184 | best-budget-cordless-vacuum | Best Cordless Vacuum Under $150 | money-guide | budget-roundup | buy | best cordless vacuum under $150 | 900 | 2 | 1400 | 63 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
 | 186 | bissell-vs-hoover-carpet-cleaner-reviews | Bissell Vs Hoover Carpet Cleaner Reviews | comparison | head-to-head | decide | bissell vs hoover carpet cleaner reviews | 300 | 10 | 300 | 42.9 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
-| 188 | mop | Mop | money-guide | flagship-roundup | buy | mop | 100000 | 5 | 8200 | 62.8 | needs-serp-check | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
 | 189 | how-do-carpet-cleaners-work | How Do Carpet Cleaners Work | linkable-asset | data-study | learn | how do carpet cleaners work | 50 | 14 | 50 | 36.3 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
 | 191 | best-handheld-vacuum-for-pet-hair | Best Handheld Vacuum For Pet Hair | money-guide | use-case-roundup | buy | best handheld vacuum for pet hair | 2200 | 1 | 900 | 62.7 | export-backed | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
 | 194 | best-rental-carpet-cleaner | Best Carpet Cleaner Rental Machine | money-guide | flagship-roundup | buy | best carpet cleaner rental machine | 150 | 7 | 600 | 62.5 | export-backed | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
 | 196 | corded-vs-cordless-vacuum-dyson | Corded Vs Cordless Vacuum Dyson | comparison | head-to-head | decide | corded vs cordless vacuum dyson | 300 | 14 | 300 | 42.9 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
-| 198 | best-robot-vacuum-mop-combo | Best Robot Vacuum Mop Combo | money-guide | flagship-roundup | buy | best robot vacuum mop combo | 2700 | 28 | 13000 | 62.5 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
 | 199 | how-do-carpet-cleaning-machines-work | How Do Carpet Cleaning Machines Work | linkable-asset | data-study | learn | how do carpet cleaning machines work | 50 | 10 | 50 | 36.3 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
-| 201 | best-robot-vacuum-on-the-market | Best Robot Vacuum On The Market | money-guide | flagship-roundup | buy | best robot vacuum on the market | 90 | 23 | 51000 | 62.4 | export-backed | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
 | 204 | mop-sauce-for-ribs | Best Mop Sauce For Ribs | money-guide | use-case-roundup | buy | best mop sauce for ribs | 450 | 0 | 500 | 62.3 | export-backed | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
 | 206 | eufy-vs-shark-robot-vacuum-for-pet-hair | Eufy Vs Shark Robot Vacuum For Pet Hair | comparison | brand-vs-brand | decide | eufy vs shark robot vacuum for pet hair | 300 | 10 | 300 | 42.9 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
 | 208 | robot-vacuum-for-hardwood-floors | Best Robot Vacuums for Hardwood Floors (2026) | money-guide | feature-roundup | buy | best robot vacuum for hardwood | 450 | 3 | 2200 | 62.3 | fallback-evidence | cleaning-support | labor-math-desk | Labor Trader | NOT BUILT |
@@ -8434,7 +8420,6 @@ All pending positions matched the cadence vector.
 | 221 | robot-vacuum-for-pet-hair | Best Pet Robot Vacuum | money-guide | flagship-roundup | buy | best pet robot vacuum | 2700 | 22 | 13000 | 61.6 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
 | 222 | what-do-steam-cleaners-work-on | What Do Steam Cleaners Work On | support-guide | troubleshooting-fix | learn | what do steam cleaners work on | 300 | 10 | 300 | 41 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
 | 223 | why-do-steam-cleaners-work | Why Do Steam Cleaners Work | support-guide | problem-diagnostic | diagnose | why do steam cleaners work | 300 | 14 | 300 | 41 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
-| 224 | stainless-steel-cleaner | Best Cleaner For Stainless Steel | money-guide | feature-roundup | buy | best cleaner for stainless steel | 100 | 1 | 1900 | 61.5 | export-backed | cleaning-chemicals | safe-surface-desk | Surface Protector | NOT BUILT |
 | 225 | do-shark-robot-vacuums-work | Do Shark Robot Vacuums Work | support-guide | troubleshooting-fix | learn | do shark robot vacuums work | 50 | 14 | 50 | 40.8 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
 | 226 | cordless-vs-corded-stick-vacuum | Cordless Vs Corded Stick Vacuum | comparison | head-to-head | decide | cordless vs corded stick vacuum | 0 | 0 | 0 | 42.8 | fallback-evidence | cordless-vacuums | everyday-cleaning-desk | Practical Floor Keeper | NOT BUILT |
 | 227 | can-robot-vacuums-work-without-wifi | Can Robot Vacuums Work Without Wifi | support-guide | compatibility-safety | decide | can robot vacuums work without wifi | 110 | 10 | 110 | 40.5 | fallback-evidence | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
@@ -8458,7 +8443,6 @@ All pending positions matched the cadence vector.
 | 245 | do-carpet-cleaners-work-as-vacuums | Do Carpet Cleaners Work As Vacuums | support-guide | troubleshooting-fix | learn | do carpet cleaners work as vacuums | 80 | 10 | 80 | 40 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
 | 246 | is-bissell-or-hoover-steam-cleaner-better | Is Bissell Or Hoover Steam Cleaner Better | comparison | head-to-head | compare | is bissell or hoover steam cleaner better | 300 | 10 | 300 | 42.5 | fallback-evidence | cleaning-support | safe-surface-desk | Surface Protector | NOT BUILT |
 | 247 | do-carpet-cleaners-work-on-couches | Do Carpet Cleaners Work On Couches | support-guide | troubleshooting-fix | learn | do carpet cleaners work on couches | 80 | 10 | 80 | 40 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
-| 248 | best-spray-mop | Best Spray Mop | money-guide | flagship-roundup | buy | best spray mop | 800 | 4 | 40 | 60 | export-backed | ordered-backlog | labor-math-desk | Labor Trader | NOT BUILT |
 | 249 | how-do-home-carpet-cleaners-work | How Do Home Carpet Cleaners Work | linkable-asset | data-study | learn | how do home carpet cleaners work | 50 | 10 | 50 | 36.3 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
 | 250 | do-carpet-cleaners-work-on-hard-floors | Do Carpet Cleaners Work On Hard Floors | support-guide | troubleshooting-fix | learn | do carpet cleaners work on hard floors | 80 | 10 | 80 | 40 | fallback-evidence | carpet-cleaners | labor-math-desk | Labor Trader | NOT BUILT |
 | 251 | mop-for-hardwood-floors | Mop For Hardwood Floors | money-guide | feature-roundup | buy | mop for hardwood floors | 1000 | 0 | 1600 | 59.9 | needs-serp-check | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
@@ -8562,18 +8546,18 @@ All pending positions matched the cadence vector.
 | Cluster | Total | Money | Support | Comparison | Linkable | First Order |
 |---------|------:|------:|--------:|-----------:|---------:|------------:|
 | cleaning-support | 31 | 12 | 12 | 2 | 5 | 1 |
-| mops-and-handhelds | 67 | 36 | 19 | 4 | 8 | 10 |
-| robot-vacuums | 76 | 32 | 27 | 6 | 11 | 12 |
-| cordless-vacuums | 35 | 21 | 2 | 12 | 0 | 13 |
+| mops-and-handhelds | 60 | 29 | 19 | 4 | 8 | 10 |
+| robot-vacuums | 72 | 28 | 27 | 6 | 11 | 12 |
+| cordless-vacuums | 33 | 19 | 2 | 12 | 0 | 13 |
 | carpet-cleaners | 46 | 8 | 18 | 10 | 10 | 16 |
-| cleaning-chemicals | 8 | 7 | 1 | 0 | 0 | 53 |
-| ordered-backlog | 1 | 1 | 0 | 0 | 0 | 248 |
+| cleaning-chemicals | 6 | 5 | 1 | 0 | 0 | 53 |
 | handheld-vacuums | 1 | 1 | 0 | 0 | 0 | 0 |
 
 ## Skipped Overlaps
 
 | Guide | Primary Keyword | Notes |
 |-------|-----------------|-------|
+| stainless-steel-cleaner | best cleaner for stainless steel | Ahrefs-discovered candidate \| Cannibalization cleanup 2026-04-25: variant-slug cannibalization: normalized slug "stainless-steel-cleaner" matches LIVE /best-stainless-steel-cleaner. |
 | best-handheld-cordless-vacuum | best handheld vacuum | Ahrefs-discovered candidate Ahrefs-discovered candidate Ahrefs-discovered candidate \ \ \ \ \| on-disk-discovery-registration 2026-04-20 \| registered from src/app scan \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Duplicate intent of LIVE /best-handheld-vacuum (best handheld vacuum kw, vol 17000). Skipping to avoid cannibalization. Duplicate Entry 2 at line ~60136 already marked SKIP with same reason. \| Ahrefs-discovered candidate \ \| Shortlist row 4. Support-tier standalone; links up to the cordless hub as 'supplement to your main vacuum.' CR + GHI trust anchors; no methodology deep-dive. \| Ahrefs-discovered candidate Duplicate intent of LIVE /best-handheld-vacuum (best handheld vacuum); matched on "best handheld vacuum". \| SKIP 2026-04-21: Duplicate primary keyword "best handheld vacuum" of LIVE /best-handheld-vacuum. |
 | best-carpet-cleaner | the best carpet cleaner machine | Ahrefs-discovered candidate \| SKIP 2026-04-21: Duplicate intent of LIVE /best-carpet-cleaner-machine (same buyer, same SERP). |
 | what-are-the-best-cordless-vacuum-cleaners | what are the best cordless vacuum cleaners | Ahrefs-discovered candidate \| SKIP 2026-04-21: Duplicate intent of LIVE /best-cordless-vacuum. |
@@ -8681,16 +8665,24 @@ All pending positions matched the cadence vector.
 | best-robot-vacuum-for-high-pile-carpet | best robot vacuum for high pile carpet | Ahrefs-discovered candidate \ \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /robot-vacuum-for-high-pile-carpet (best robot vacuum for high pile carpet); matched on "best robot vacuum for high pile carpet". |
 | best-dyson-stick-vacuum | best dyson cordless vacuum? | Ahrefs-discovered candidate \ \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-dyson-cordless-vacuum (best dyson cordless vacuum); matched on "best dyson cordless vacuum?". |
 | best-carpet-cleaner-for-pets | best carpet cleaner machine for dog urine | Ahrefs-discovered candidate \ \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-carpet-cleaner-machine-for-dog-urine (best carpet cleaner machine for dog urine); matched on "best carpet cleaner machine for dog urine". |
+| best-cordless-vacuum-reviews | best cordless vacuum | Ahrefs-discovered candidate Ahrefs-discovered candidate Ahrefs-discovered candidate \ \ \ \ \| on-disk-discovery-registration 2026-04-20 \| registered from src/app scan \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| FORTRESS-adjacent head term per shortlist row 2 â€” bare head SERP dominated by DR 68+ publishers. Carve via sub-niche spokes ($200, hardwood, lightweight). Hub introduces CR + GHI trust anchors + tradeoff table; depth pages own the volume. \| Ahrefs-discovered candidate Duplicate intent of LIVE /best-cordless-vacuum (best cordless vacuum); matched on "best cordless vacuum". \| Cannibalization cleanup 2026-04-25: exact-match cannibalization: primary "best cordless vacuum" is also LIVE primary on /best-cordless-vacuum. |
 | best-electric-mop | best electric floor mop | Ahrefs-discovered candidate \ \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-electric-floor-mop (best electric floor mop); matched on "best electric floor mop". |
 | best-floor-cleaner-for-tile | best floor cleaner for tile and grout | Ahrefs-discovered candidate \ \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-floor-cleaner-for-tile-and-grout (best floor cleaner for tile and grout); matched on "best floor cleaner for tile and grout". |
 | best-handheld-vacuum-for-cat-litter | best handheld vacuum for cat litter | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision, primary-keyword collision). |
 | best-handheld-vacuum-for-pet-hair-on-stairs | best handheld vacuum for pet hair on stairs | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision, primary-keyword collision). |
+| best-hardwood-floor-mop | best hardwood floor mop | Ahrefs-discovered candidate \| Cannibalization cleanup 2026-04-25: exact-match cannibalization: primary "best hardwood floor mop" is claimed as secondaryKeyword on LIVE /best-mop. |
+| grout-cleaner | best homemade grout cleaner for mold | Ahrefs-discovered candidate \| Cannibalization cleanup 2026-04-25: variant-slug cannibalization: normalized slug "grout-cleaner" matches LIVE /best-grout-cleaner. |
 | best-robot-vacuum-cleaner-review | best robot vacuum cleaner review | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-robot-vacuum-cleaner-reviews (best robot vacuum cleaner review); matched on "best robot vacuum cleaner review". |
 | best-robot-vacuum-cleaners-reviews | best robot vacuum cleaners reviews | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-robot-vacuum-cleaner-reviews (best robot vacuum cleaner review); matched on "best robot vacuum cleaners reviews". |
 | best-mop-for-dog-hair-on-hardwood | best mop for dog hair on hardwood | Ahrefs-discovered candidate \| Ahrefs-discovered candidate Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-mop-for-dog-hair-on-hardwood (best mop for dog hair on hardwood); matched on "best mop for dog hair on hardwood". |
+| best-mops-for-tile-floors | best mop for tile floors | Ahrefs-discovered candidate \| Cannibalization cleanup 2026-04-25: exact-match cannibalization: primary "best mop for tile floors" is claimed as secondaryKeyword on LIVE /best-mop. |
+| best-mop-for-wood-floors | best mop for wood floors | Ahrefs-discovered candidate \| Cannibalization cleanup 2026-04-25: exact-match cannibalization: primary "best mop for wood floors" is claimed as secondaryKeyword on LIVE /best-mop. |
+| best-robot-vacuum-and-mop-combo | best robot vacuum and mop combo | Ahrefs-discovered candidate \| Cannibalization cleanup 2026-04-25: exact-match cannibalization: primary "best robot vacuum and mop combo" is claimed as secondaryKeyword on LIVE /best-robot-vacuum. |
 | best-robot-vacuum-for-cat-litter | best robot vacuum for cat litter | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision, primary-keyword collision). |
 | best-robot-vacuum-for-pet-hair-without-mop | best robot vacuum for pet hair without mop | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision, primary-keyword collision). |
 | best-robot-vacuum-for-tile-floors-and-pet-hair | best robot vacuum for tile floors and pet hair | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision, primary-keyword collision). |
+| best-robot-vacuum-mop-combo | best robot vacuum mop combo | Ahrefs-discovered candidate \| Cannibalization cleanup 2026-04-25: exact-match cannibalization: primary "best robot vacuum mop combo" is claimed as secondaryKeyword on LIVE /best-robot-vacuum. |
+| best-robot-vacuum-on-the-market | best robot vacuum on the market | Ahrefs-discovered candidate \| Cannibalization cleanup 2026-04-25: exact-match cannibalization: primary "best robot vacuum on the market" is claimed as secondaryKeyword on LIVE /best-robot-vacuum. |
 | best-robot-vacuum-only-for-pet-hair | best robot vacuum only for pet hair | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision, primary-keyword collision). |
 | how-to-deep-clean-hardwood-floors | best way to mop hardwood floors | Ahrefs-discovered candidate \| SKIP 2026-04-21: Duplicate intent of LIVE /how-to-clean-hardwood-floors. |
 | best-steam-mop-for-hardwood-floors | best steam mop for vinyl floors | Ahrefs-discovered candidate \ \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-steam-mop-for-vinyl-floors (best steam mop for vinyl floor); matched on "best steam mop for vinyl floors". |
@@ -8702,8 +8694,15 @@ All pending positions matched the cadence vector.
 | what-is-best-hand-held-vacuum | what is best hand held vacuum | Ahrefs-discovered candidate \| SKIP 2026-04-21: zero volume + zero TP; low-value long-tail noise per Lee directive. |
 | floor-mops | floor mops | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /floor-mop (floor mop); matched on "floor mops". |
 | o-cedar-spin-mop | best spin mop | Ahrefs-discovered candidate Ahrefs-discovered candidate \ \ \ \ \| Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \ \ \| Ahrefs-discovered candidate \ \ \| Ahrefs-discovered candidate \ \| Ahrefs-discovered candidate Duplicate intent of queued /best-spin-mop (best spin mop); matched on "best spin mop". |
+| best-spray-mop | best spray mop | Ahrefs-discovered candidate \| Cannibalization cleanup 2026-04-25: exact-match cannibalization: primary "best spray mop" is claimed as secondaryKeyword on LIVE /best-mop. |
+| best-steam-mop-for-laminate-floors | best steam mop for laminate floors | Ahrefs-discovered candidate \| Cannibalization cleanup 2026-04-25: exact-match cannibalization: primary "best steam mop for laminate floors" is claimed as secondaryKeyword on LIVE /best-steam-mop. |
 | best-cordless-vacuum-for-cat-litter | best vacuum for cat litter cordless | Ahrefs-discovered candidate \| Ahrefs-discovered candidate \ \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision). |
+| handheld-vacuum | handheld vacuum | Ahrefs-discovered candidate \| Cannibalization cleanup 2026-04-25: variant-slug cannibalization: normalized slug "handheld-vacuum" matches LIVE /best-handheld-vacuum. |
 | is-it-best-handheld-vacuum-for-pet-hair | is it best handheld vacuum for pet hair? | Ahrefs-discovered candidate \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision, primary-keyword collision). |
+| mop | mop | Ahrefs-discovered candidate \| Cannibalization cleanup 2026-04-25: variant-slug cannibalization: normalized slug "mop" matches LIVE /best-mop. |
+| robot-vacuum-reviews | robot vacuum reviews | Ahrefs-discovered candidate \| Cannibalization cleanup 2026-04-25: variant-slug cannibalization: normalized slug "robot-vacuum" matches LIVE /best-robot-vacuum. |
+| steam-mop | shop best steam mop deals | Ahrefs-discovered candidate \| Cannibalization cleanup 2026-04-25: variant-slug cannibalization: normalized slug "steam-mop" matches LIVE /best-steam-mop. |
+| vacuum-mop-combo | vacuum mop combo | Ahrefs-discovered candidate \| Cannibalization cleanup 2026-04-25: variant-slug cannibalization: normalized slug "vacuum-mop-combo" matches LIVE /vacuum-and-mop-combo. |
 | what-is-best-cordless-vacuum-for-pet-hair | what is best cordless vacuum for pet hair | Ahrefs-discovered candidate \| Auto-skipped by roadmap v2 cross-site overlap guard (slug collision, primary-keyword collision). |
 | what-to-clean-stainless-steel-with | what to clean stainless steel with | Ahrefs-discovered candidate |
 
