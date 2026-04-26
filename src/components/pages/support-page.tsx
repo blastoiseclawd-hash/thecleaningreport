@@ -38,6 +38,29 @@ interface SupportSourceEntry {
   body: string;
 }
 
+interface SupportSourcesFooterObject {
+  title?: string;
+  body?: string;
+  sources: SupportSourceEntry[];
+}
+
+type SupportSourcesFooter = SupportSourceEntry[] | SupportSourcesFooterObject;
+
+export interface SupportQuickPick {
+  label: string;
+  productName: string;
+  priceTier: string;
+  bestFor: string;
+  thumbnail: SupportImage;
+  href?: string;
+}
+
+export interface SupportQuickPicks {
+  title?: string;
+  intro?: string;
+  picks: SupportQuickPick[];
+}
+
 interface SupportPageProps {
   title: string;
   description: string;
@@ -47,6 +70,7 @@ interface SupportPageProps {
   intro: string;
   heroImage?: SupportImage;
   editorialLabel?: string;
+  quickPicks?: SupportQuickPicks;
   author: Author;
   sections: SupportSection[];
   faqs?: SupportFaq[];
@@ -56,7 +80,7 @@ interface SupportPageProps {
   breadcrumbLabel: string;
   howToSteps?: { name: string; description: string }[];
   estimatedTime?: string;
-  sourcesFooter?: SupportSourceEntry[];
+  sourcesFooter?: SupportSourcesFooter;
 
   // Evidence summary — collapsed <details> disclosure rendered above sources.
   evidenceSummary?: EvidenceSummaryData;
@@ -123,6 +147,70 @@ function FaqSection({ faqs }: { faqs: SupportFaq[] }) {
   );
 }
 
+function QuickPicksCard({ pick }: { pick: SupportQuickPick }) {
+  const inner = (
+    <div className="group flex h-full flex-col overflow-hidden rounded-md border border-[#d8d2c8] bg-[#fffefb] shadow-[0_12px_30px_rgba(24,32,40,0.05)] transition-all hover:-translate-y-0.5 hover:shadow-[0_18px_40px_rgba(24,32,40,0.08)]">
+      <div className="relative aspect-[4/3] overflow-hidden bg-[#f5f3ee]">
+        <Image
+          src={pick.thumbnail.src}
+          alt={pick.thumbnail.alt}
+          fill
+          className="object-cover"
+          sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+        />
+        <span className="absolute left-3 top-3 inline-flex items-center rounded-full bg-[#16212a]/85 px-3 py-1 text-[0.68rem] font-semibold uppercase tracking-[0.18em] text-[#dae4de] backdrop-blur-sm">
+          {pick.label}
+        </span>
+      </div>
+      <div className="flex flex-1 flex-col gap-2 px-5 py-5">
+        <p className="font-[family-name:var(--font-heading-family)] text-[1.18rem] font-semibold leading-snug text-[#23150f] group-hover:text-[#2f6842]">
+          {pick.productName}
+        </p>
+        <p className="text-[0.84rem] font-semibold uppercase tracking-[0.14em] text-[#697560]">
+          {pick.priceTier}
+        </p>
+        <p className="mt-auto text-[0.97rem] leading-7 text-[#4b5760]">
+          {pick.bestFor}
+        </p>
+      </div>
+    </div>
+  );
+
+  if (pick.href) {
+    return (
+      <Link href={pick.href} className="block h-full">
+        {inner}
+      </Link>
+    );
+  }
+  return inner;
+}
+
+function QuickPicksBlock({ data }: { data: SupportQuickPicks }) {
+  return (
+    <section className="border-b border-[#d9d4cb] bg-[#faf7f2]">
+      <div className="site-shell py-12 sm:py-14">
+        <span className="editorial-rule">
+          {data.title ? "" : "At a glance"}
+        </span>
+        <h2 className="mt-3 font-[family-name:var(--font-heading-family)] text-[2rem] font-semibold leading-[1.05] text-[#23150f] sm:text-[2.4rem]">
+          {data.title || "The picks at a glance"}
+        </h2>
+        {data.intro && (
+          <p className="mt-4 max-w-3xl text-[1.02rem] leading-8 text-[#4b5760]">
+            {data.intro}
+          </p>
+        )}
+        <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {data.picks.map((pick, i) => (
+            <QuickPicksCard key={i} pick={pick} />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function RelatedLinksGrid({ links }: { links: { href: string; title: string }[] }) {
   return (
     <div className="grid gap-3 sm:grid-cols-2">
@@ -177,6 +265,7 @@ export function SupportPage({
   intro,
   heroImage,
   editorialLabel = "Guide",
+  quickPicks,
   author,
   sections,
   faqs,
@@ -311,6 +400,10 @@ export function SupportPage({
         </div>
       </section>
 
+      {quickPicks && quickPicks.picks.length > 0 && (
+        <QuickPicksBlock data={quickPicks} />
+      )}
+
       <section className="border-b border-[#d9d4cb] bg-[#f3f2ec]">
         <div className="site-shell py-5">
           <div className="flex flex-wrap gap-2.5">
@@ -413,9 +506,13 @@ export function SupportPage({
 
       {evidenceSummary && <EvidenceSummary data={evidenceSummary} />}
 
-      {sourcesFooter && sourcesFooter.length > 0 && (
-        <SourcesFooter entries={sourcesFooter} />
-      )}
+      {sourcesFooter && (() => {
+        const entries = Array.isArray(sourcesFooter)
+          ? sourcesFooter
+          : sourcesFooter.sources;
+        if (!entries || entries.length === 0) return null;
+        return <SourcesFooter entries={entries} />;
+      })()}
 
       <section className="border-t border-[#d9d4cb] bg-[#f3f2ec]">
         <div className="site-shell-narrow section-space-sm">

@@ -1,0 +1,101 @@
+{
+  "site": "thecleaningreport",
+  "slug": "best-mop-for-vinyl-floors",
+  "pageType": "support-guide",
+  "pageRole": "topical_authority",
+  "researchedOn": "2026-04-26",
+  "researchedBy": "Claude Opus 4.7 (autonomous fire of build-next-page)",
+  "differentiationStatement": "Vinyl-specific mop archetype explainer. Routes Surface Protector readers (LVP/LVT/sheet vinyl owners) to the right mop type, with a 4-archetype QuickPicks block. Does NOT compete with /best-mop (broad commercial roundup) or /how-to-clean-vinyl-floors (technique guide). Cuts steam mop and wet-string archetypes from the recommendation pool because manufacturer (Shaw) factory care explicitly forbids steam and high-water-volume application on plank vinyl.",
+  "finalProducts": [],
+  "categoryEvidence": {
+    "categories": [
+      {
+        "id": "flat-microfiber-spray",
+        "label": "Flat-microfiber spray mop with refillable reservoir",
+        "examples": ["Rubbermaid Reveal Microfiber Spray Mop", "Bona Premium Spray Mop"],
+        "definingTraits": "Refillable reservoir holds pH-neutral cleaner; fine-mist spray puts the lowest water volume on the floor of any wet-mop archetype. Machine-washable microfiber pad. Manufacturer-aligned with Shaw spray-and-dry-mop technique."
+      },
+      {
+        "id": "microfiber-spin",
+        "label": "Microfiber twist-bucket spin mop",
+        "examples": ["O-Cedar EasyWring Microfiber Spin Mop"],
+        "definingTraits": "Wring-tightness control via foot-pedal centrifuge; thoroughly wrung microfiber head puts less water on the floor than a saturated sponge or string mop. Right archetype for sheet vinyl in larger rooms or when reservoir spray runs out too fast."
+      },
+      {
+        "id": "battery-scrubbing-spray",
+        "label": "Battery-powered scrubbing spray mop",
+        "examples": ["Bissell SpinWave Powered Hard Floor Mop", "Tineco Floor One S5 wet-dry"],
+        "definingTraits": "Soft-touch motorized pads add scrubbing torque without escalating water volume. Adjustable water control via product-specific spray triggers. 4-5x price multiplier vs flat microfiber. Manufacturer-marketed sealed-hardwood/laminate/vinyl-safe."
+      },
+      {
+        "id": "disposable-pad-spray",
+        "label": "Disposable-pad spray mop (caveats apply)",
+        "examples": ["Swiffer WetJet (with refilled cartridge)", "Bona disposable-pad systems"],
+        "definingTraits": "Cartridge-spray water volume is low; convenient (no laundering pads). Caveat: stock cartridge solutions are not pH-neutral across all formula variants — reload with a pH-neutral solution to align with Shaw factory care guidance."
+      }
+    ],
+    "definitionalSources": [
+      {
+        "claim": "Microfiber + spray (reservoir cartridge) is the manufacturer-recommended archetype for daily and weekly vinyl maintenance.",
+        "url": "https://costco.shawfloors.com/flooring/how-to/vinyl-how-to-s/care-maintenance/how-to-clean-resilient-vinyl-flooring",
+        "tier": "tier_primary",
+        "evidence": "sites/thecleaningreport/data/research/evidence/best-mop-for-vinyl-floors/03-shaw-manufacturer-care.md"
+      },
+      {
+        "claim": "Independent 8-mop test of vinyl-floor mops ranked Rubbermaid Reveal Microfiber Spray Mop best-overall and explicitly warned against steam mops on vinyl: 'high heat and moisture can cause damage if seams or adhesives are breached'.",
+        "url": "https://www.bobvila.com/articles/best-mop-for-vinyl-floors/",
+        "tier": "tier1_methodology",
+        "evidence": "sites/thecleaningreport/data/research/evidence/best-mop-for-vinyl-floors/02-bob-vila-quotes.md"
+      },
+      {
+        "claim": "Wet string mops are forbidden on plank vinyl because seam-water wicks into adhesive and curls plank edges.",
+        "url": "https://www.bobvila.com/articles/how-to-clean-vinyl-flooring/",
+        "tier": "tier1_methodology",
+        "evidence": "sites/thecleaningreport/data/research/evidence/best-mop-for-vinyl-floors/02-bob-vila-quotes.md"
+      },
+      {
+        "claim": "Family Handyman documents the seam-water mechanism on vinyl: 'too much water will infiltrate your vinyl floor's seams where it can affect the tile stickiness'.",
+        "url": "https://www.familyhandyman.com/article/how-to-clean-vinyl-floors/",
+        "tier": "tier2_editorial",
+        "evidence": "sites/thecleaningreport/data/research/evidence/best-mop-for-vinyl-floors/01-source-triangulation.json"
+      },
+      {
+        "claim": "Mainstream lifestyle roundups (BHG, Real Simple, The Spruce) name flat microfiber spray + microfiber twist as vinyl-safe archetypes; SpinWave and Tineco appear in motorized-scrubber slots.",
+        "url": "https://www.bhg.com/best-mops-7506024",
+        "tier": "tier2_editorial",
+        "evidence": "Cross-source triangulation against bhg.com / realsimple.com / thespruce.com archetype lists — see candidate-pool rows 7-9 in research doc."
+      }
+    ]
+  },
+  "evidenceSummary": {
+    "ownerReviewsAnalyzed": 0,
+    "redditThreadsReviewed": 1,
+    "expertReviewsChecked": 5,
+    "manufacturerSpecsVerified": true,
+    "lastPriceCheckDate": "2026-04-26",
+    "pageLevelClaimLabel": "expert-consensus",
+    "handsOnTesting": false
+  },
+  "decisions": [
+    {
+      "decision": "No Amazon availability sweep run.",
+      "reason": "Support-guide explainer; no product roundup; readers ready to buy a specific SKU are routed to /best-mop (cluster flagship) where Amazon ASINs already live."
+    },
+    {
+      "decision": "No Final 5-7 product list (finalProducts: []).",
+      "reason": "Page rank/score products is not the page's job; defining 4 archetypes and routing readers is. categoryEvidence with 4 categories replaces finalProducts for support-guide pageType."
+    },
+    {
+      "decision": "pageLevelClaimLabel: expert-consensus.",
+      "reason": "Substantive claims are triangulated across Shaw factory care (primary), Bob Vila eight-mop lab round (tier-1 methodology), Family Handyman (tier-2 editorial), and BHG/Real Simple/The Spruce (tier-2 editorial). 5 named expert sources. ownerReviewsAnalyzed:0 — TCR does not run an LVP-flooring lab; no first-person testing claims are made."
+    },
+    {
+      "decision": "Steam mop archetype explicitly cut from QuickPicks.",
+      "reason": "Shaw factory care forbids steam on resilient vinyl; Bob Vila category roundup explicitly warns against it. Including steam in any 'best mop for vinyl' list violates AGENTS rule #11 (zero fabrication of customer-first recommendations) — the page's job is to keep readers' floors under warranty."
+    },
+    {
+      "decision": "Cannibalization audit: PASS log-and-proceed (npm run audit:queue-cannibalization 2026-04-26).",
+      "reason": "Variable-swap differentiation test passes — vinyl-specific mop list is a different list than the broad /best-mop list because steam and saturated-sponge archetypes are cut. Distinct intent from /how-to-clean-vinyl-floors (technique-led) and /best-mop (product roundup)."
+    }
+  ]
+}

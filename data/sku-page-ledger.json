@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-25T23:29:27.531Z",
+  "generatedAt": "2026-04-26T16:12:36.560Z",
   "siteSlug": "thecleaningreport",
-  "sourceMtime": "2026-04-25T21:35:19.701Z",
-  "staleOnDisk": false,
+  "sourceMtime": "2026-04-26T14:18:17.783Z",
+  "staleOnDisk": true,
   "caps": {
     "topPickMaxLivePages": 1,
     "appearsMaxLivePages": 3
@@ -162,6 +162,20 @@
       "topProductId": null,
       "topProductKey": null
     },
+    "diy-carpet-cleaner-solution": {
+      "slug": "diy-carpet-cleaner-solution",
+      "status": "LIVE",
+      "pageType": "support-guide",
+      "clusterId": "carpet-cleaners",
+      "title": "Best Homemade Carpet Cleaner For Machine",
+      "primaryKeyword": "best homemade carpet cleaner for machine",
+      "source": "sites/thecleaningreport/src/data/content/diy-carpet-cleaner-solution.ts",
+      "commercial": false,
+      "productIds": [],
+      "productKeys": [],
+      "topProductId": null,
+      "topProductKey": null
+    },
     "how-to-clean-grout": {
       "slug": "how-to-clean-grout",
       "status": "LIVE",
@@ -291,7 +305,7 @@
   },
   "entries": {},
   "summary": {
-    "pageCount": 20,
+    "pageCount": 21,
     "commercialPageCount": 8,
     "skuCount": 0,
     "breachedSkuCount": 0,

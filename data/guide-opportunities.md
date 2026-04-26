@@ -9,10 +9,10 @@
 
 | Status | Count |
 |--------|-------|
-| LIVE | 18 |
+| LIVE | 19 |
 | CONTENT READY | 0 |
 | IN PROGRESS | 0 |
-| NOT BUILT | 140 |
+| NOT BUILT | 139 |
 | SKIP | 252 |
 | **Total** | **410** |
 
@@ -88,8 +88,8 @@ All pending positions matched the cadence vector.
 | 16 | how-to-clean-vinyl-floors | Best Way To Mop Vinyl Floors | support-guide | troubleshooting-fix | learn | best way to mop vinyl floors | 150 | 0 | 3000 | 49.9 | needs-serp-check | cleaning-support | safe-surface-desk | Surface Protector | LIVE |
 | 17 | how-to-clean-stainless-steel-sink | How to Clean a Stainless Steel Sink Without Scratches | support-guide | maintenance-cleaning | maintain | how to clean stainless steel sink | 450 | 18 | 600 | 39.4 | needs-serp-check | cleaning-support | safe-surface-desk | Surface Protector | LIVE |
 | 18 | diy-carpet-cleaner-solution | Best Homemade Carpet Cleaner For Machine | support-guide | troubleshooting-fix | learn | best homemade carpet cleaner for machine | 2200 | 4 | 2200 | 61.8 | needs-serp-check | carpet-cleaners | safe-surface-desk | Labor Trader | LIVE |
+| 20 | best-mop-for-vinyl-floors | Best Mop For Vinyl Plank Flooring | support-guide | troubleshooting-fix | learn | best mop for vinyl plank flooring | 1100 | 0 | 1800 | 58.7 | needs-serp-check | mops-and-handhelds | safe-surface-desk | Surface Protector | LIVE |
 | 19 | shark-robot-vacuum | Best Shark Robot Vacuum For Pet Hair | money-guide | brand-roundup | buy | best shark robot vacuum for pet hair | 40000 | 3 | 25000 | 70.7 | needs-serp-check | robot-vacuums | labor-math-desk | Labor Trader | NOT BUILT |
-| 20 | best-mop-for-vinyl-floors | Best Mop For Vinyl Plank Flooring | support-guide | troubleshooting-fix | learn | best mop for vinyl plank flooring | 1100 | 0 | 1800 | 58.7 | needs-serp-check | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
 | 21 | best-mop-for-laminate-floors | Best Mop For Laminate Wood Flooring | support-guide | troubleshooting-fix | learn | best mop for laminate wood flooring | 3600 | 15 | 4800 | 51.5 | needs-serp-check | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |
 | 22 | best-vacuum-for-cleaning-hardwood-floors | Best Vacuum For Cleaning Hardwood Floors 2026 | money-guide | feature-roundup | buy | best vacuum for cleaning hardwood floors | 22200 | 3 | 22200 | 65.8 | needs-serp-check | general | labor-math-desk | Labor Trader | NOT BUILT |
 | 23 | how-to-clean-a-mop-head | How to Clean a Mop Head | support-guide | troubleshooting-fix | learn | how to clean a mop head | 1300 | 0 | 1300 | 51.3 | needs-serp-check | mops-and-handhelds | safe-surface-desk | Surface Protector | NOT BUILT |

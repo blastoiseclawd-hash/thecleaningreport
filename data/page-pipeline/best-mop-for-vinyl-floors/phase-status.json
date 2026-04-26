@@ -1,0 +1,26 @@
+{
+  "phase2": {
+    "status": "pass",
+    "checkedAt": "2026-04-26T16:21:10.065Z",
+    "critiquePath": "sites/thecleaningreport/data/page-pipeline/best-mop-for-vinyl-floors/phase-2-critique.md",
+    "command": "node tools/audit/check-page-phase-gate.js --site thecleaningreport --slug best-mop-for-vinyl-floors --phase 2",
+    "blockingIssueCount": 0,
+    "warningCount": 1
+  },
+  "phase4": {
+    "status": "pass",
+    "checkedAt": "2026-04-26T16:28:39.698Z",
+    "critiquePath": "sites/thecleaningreport/data/page-pipeline/best-mop-for-vinyl-floors/phase-4-critique.md",
+    "command": "node tools/audit/check-page-phase-gate.js --site thecleaningreport --slug best-mop-for-vinyl-floors --phase 4",
+    "blockingIssueCount": 0,
+    "warningCount": 1
+  },
+  "phase5": {
+    "status": "pass",
+    "checkedAt": "2026-04-26T16:29:48.547Z",
+    "critiquePath": "sites/thecleaningreport/data/page-pipeline/best-mop-for-vinyl-floors/phase-5-critique.md",
+    "command": "node tools/audit/check-page-phase-gate.js --site thecleaningreport --slug best-mop-for-vinyl-floors --phase 5",
+    "blockingIssueCount": 0,
+    "warningCount": 2
+  }
+}
