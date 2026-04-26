@@ -668,6 +668,7 @@ You have pets and the contamination has soaked through to the subfloor. Home car
     ],
   },
   relatedLinks: [
+    { href: "/diy-carpet-cleaner-solution", title: "DIY Carpet Cleaner Solution (what's safe in the tank and what wrecks the machine)" },
     { href: "/best-steam-mop", title: "Best Steam Mop (for hard floors in homes without wall-to-wall carpet)" },
     { href: "/best-hardwood-floor-cleaner", title: "Best Hardwood Floor Cleaner (the chemical alternative for sealed hardwood)" },
     { href: "/best-grout-cleaner", title: "Best Grout Cleaner (for the tile-adjacent areas outside the carpet)" },

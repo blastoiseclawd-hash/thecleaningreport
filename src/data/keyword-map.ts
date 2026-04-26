@@ -59,6 +59,16 @@ export interface PageTarget {
   notes: string;
   parentKeyword?: string;
   keyword?: string;
+  pageRole?: "primary_commercial" | "secondary_commercial" | "topical_authority" | "glue_content";
+  parentCanonicalSlug?: string;
+  lineupStatus?: "unknown" | "predicted" | "validated" | "not-applicable";
+  predictedTopThreeSkus?: string[];
+  predictedTopFiveSkus?: string[];
+  differentiationMode?: string;
+  differentiationModes?: string[];
+  differentiationStatement?: string;
+  productCountPolicy?: string;
+  productCountJustification?: string;
 }
 
 export const pageTargets: PageTarget[] = [
@@ -131,7 +141,9 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Ahrefs-discovered candidate | Flagship. Revenue spine. Cluster shortlist row 1 (46 winners, $6,641/mo P3 floor). Cites Vacuum Wars 7-inch hair-tangle + Modern Castle 12-debris matrix. Maintenance-reality block is non-negotiable â€” dock mold, dirty water tank smell, firmware regression. No Labor Trader page buries these.",
     parentKeyword: "best robot vacuum",
-    keyword: "best robot vacuum"
+    keyword: "best robot vacuum",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "how-to-clean-hardwood-floors",
@@ -164,7 +176,8 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Ahrefs-discovered candidate | Decision tree: engineered vs solid vs laminate. What to avoid (vinegar, steam mop, wet mop). What Bona/Shaw/Armstrong endorse. Links down to `best-hardwood-floor-cleaner` product page + up to `best-mop` hub.",
     parentKeyword: "how to clean hardwood floors",
-    keyword: "how to clean hardwood floors"
+    keyword: "how to clean hardwood floors",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-hardwood-floor-cleaner",
@@ -197,7 +210,9 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Chemical Bundle spoke. Bona primary, Method/Seventh Generation alt, avoid vinegar-based + Murphy Oil narrative (long-term wax buildup). Links up to `how-to-clean-hardwood-floors`.",
     parentKeyword: "best hardwood floor cleaner",
-    keyword: "best hardwood floor cleaner"
+    keyword: "best hardwood floor cleaner",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-stainless-steel-cleaner",
@@ -237,7 +252,9 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Ahrefs-discovered candidate | Abrasives-out, direction-of-grain-matters. Weiman + Bar Keepers Friend positioning. Appliance manufacturer care endorsements (Whirlpool + GE + Bosch) where available.",
     parentKeyword: "best stainless steel cleaner",
-    keyword: "best stainless steel cleaner"
+    keyword: "best stainless steel cleaner",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cordless-stick-vacuum-for-hardwood",
@@ -270,7 +287,9 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Ahrefs-discovered candidate | Soft-roller heads (Dyson Fluffy, Shark PowerDetect with soft-roller mode). Brushroll-damage risk on engineered hardwood gets a single-paragraph caution box in Safe Surface voice.",
     parentKeyword: "best cordless stick vacuum for hardwood",
-    keyword: "best cordless stick vacuum for hardwood"
+    keyword: "best cordless stick vacuum for hardwood",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-steam-mop",
@@ -326,7 +345,9 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Ahrefs-discovered candidate | Shortlist row 5. Caution-block leads â€” NOT product list. Decision tree: what floor type â†’ safe / caveat / avoid. Bona + Shaw + Armstrong care guides cited. Fiber-tile-vinyl picks only; laminate + engineered hardwood get explicit 'check your warranty' callouts.",
     parentKeyword: "best steam mop",
-    keyword: "best steam mop"
+    keyword: "best steam mop",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-carpet-cleaner-machine",
@@ -363,7 +384,9 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Ahrefs-discovered candidate | Tight flagship per shortlist row 6 (1 winner keyword, $250 AOV Big-Green class). Lead with rent-vs-buy framework; name dry-time as THE differentiator per avatar dealbreaker. IICRC S100 + VacuumLand exclusive trust. Avoid pet-mess framing â€” that's BPP.",
     parentKeyword: "best carpet cleaner machine",
-    keyword: "best carpet cleaner machine"
+    keyword: "best carpet cleaner machine",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "how-to-clean-grout",
@@ -399,7 +422,8 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Ahrefs-discovered candidate | Lead with 'what you'll ruin first' â€” colored grout + sealer degradation. pH-neutral routes. Links to `best-grout-cleaner` product page.",
     parentKeyword: "how to clean grout",
-    keyword: "how to clean grout"
+    keyword: "how to clean grout",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-mop",
@@ -495,7 +519,9 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Ahrefs-discovered candidate | Deepest winner bench per shortlist row 3 (63 winners, 0.6 avg KD). Practical Floor Keeper voice primary until Generic Mop Buyer deepens per avatar-research.md Â§ Backlog-cluster deepening policy. Links to steam-mop + hardwood-floor-cleaner support.",
     parentKeyword: "best mop",
-    keyword: "best mop"
+    keyword: "best mop",
+    pageRole: "primary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "what-to-mop-floors-with",
@@ -525,7 +551,8 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best product to mop floors",
-    keyword: "best product to mop floors"
+    keyword: "best product to mop floors",
+    pageRole: "topical_authority"
   },
   {
     slug: "are-robot-vacuums-worth-it",
@@ -553,7 +580,8 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "are robot vacuums worth it",
-    keyword: "are robot vacuums worth it"
+    keyword: "are robot vacuums worth it",
+    pageRole: "topical_authority"
   },
   {
     slug: "what-is-the-most-powerful-handheld-vacuum",
@@ -581,7 +609,8 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "what is the most powerful handheld vacuum",
-    keyword: "what is the most powerful handheld vacuum"
+    keyword: "what is the most powerful handheld vacuum",
+    pageRole: "topical_authority"
   },
   {
     slug: "vacuum-and-mop-combo",
@@ -623,7 +652,9 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Cluster flagship for mops-and-handhelds. Ships with Vacuum + Mop Combos nav slot in Mops submenu. 2-of-2 tier1 editorial triangulation (TechRadar, AD) verified 2026-04-24.",
     parentKeyword: "best hard floor vacuum and mop",
-    keyword: "best hard floor vacuum and mop"
+    keyword: "best hard floor vacuum and mop",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "what-to-mop-tile-floors-with",
@@ -653,7 +684,8 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best mop solution for tile floors",
-    keyword: "best mop solution for tile floors"
+    keyword: "best mop solution for tile floors",
+    pageRole: "topical_authority"
   },
   {
     slug: "is-roomba-the-best-robot-vacuum",
@@ -681,7 +713,8 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "is roomba the best robot vacuum",
-    keyword: "is roomba the best robot vacuum"
+    keyword: "is roomba the best robot vacuum",
+    pageRole: "topical_authority"
   },
   {
     slug: "how-to-clean-vinyl-floors",
@@ -711,7 +744,8 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best way to mop vinyl floors",
-    keyword: "best way to mop vinyl floors"
+    keyword: "best way to mop vinyl floors",
+    pageRole: "topical_authority"
   },
   {
     slug: "how-to-clean-stainless-steel-sink",
@@ -745,7 +779,8 @@ export const pageTargets: PageTarget[] = [
     priority: 1,
     notes: "LIVE 2026-04-22. Technique support for /best-stainless-steel-cleaner hub. Lead with grain-direction rule. Separates daily wipe-dry from weekly deep clean. Routes rust-spot buyers to the cleaner hub.",
     parentKeyword: "how to clean stainless steel sink",
-    keyword: "how to clean stainless steel sink"
+    keyword: "how to clean stainless steel sink",
+    pageRole: "topical_authority"
   },
   {
     slug: "diy-carpet-cleaner-solution",
@@ -757,23 +792,24 @@ export const pageTargets: PageTarget[] = [
     clusterId: "carpet-cleaners",
     buildOrder: 18,
     buildPriorityScore: 61.8,
-    buildStatus: "NOT BUILT",
+    buildStatus: "LIVE",
     primaryKeyword: "best homemade carpet cleaner for machine",
-    modifiedDate: undefined,
+    modifiedDate: "2026-04-25",
     primaryVolume: 2200,
     primaryKd: 4,
-    trafficPotential: 10000,
+    trafficPotential: 2200,
     secondaryKeywords: [],
-    authorSlug: "labor-math-desk",
-    deskId: "labor-math-desk",
+    authorSlug: "safe-surface-desk",
+    deskId: "safe-surface-desk",
     audienceProfile: "time-saving-cleanup-buyer",
     primaryAvatar: "Labor Trader",
     secondaryAvatar: "",
     audienceEvidence: "Defaulted from TheCleaningReport keyword map and avatar research. Labor Trader pages sell saved time, not gadget novelty.",
     priority: 3,
-    notes: "Ahrefs-discovered candidate | intent-reclass-2026-04-25: DataForSEO mainIntent=informational; pageType money-guide → support-guide (route to ad-revenue support; SERP intent is informational not commercial).",
+    notes: "Ahrefs-discovered candidate | intent-reclass-2026-04-25: DataForSEO mainIntent=informational; pageType money-guide → support-guide (route to ad-revenue support; SERP intent is informational not commercial). | desk-override-2026-04-25: routed to safe-surface-desk per carpet-cleaners cluster ownership (intent-hierarchy decision doc).",
     parentKeyword: "best homemade carpet cleaner for machine",
-    keyword: "best homemade carpet cleaner for machine"
+    keyword: "best homemade carpet cleaner for machine",
+    pageRole: "topical_authority"
   },
   {
     slug: "shark-robot-vacuum",
@@ -803,7 +839,9 @@ export const pageTargets: PageTarget[] = [
     priority: 2,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best shark robot vacuum for pet hair",
-    keyword: "best shark robot vacuum for pet hair"
+    keyword: "best shark robot vacuum for pet hair",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-mop-for-vinyl-floors",
@@ -843,7 +881,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate | intent-reclass-2026-04-25: DataForSEO mainIntent=informational; pageType money-guide → support-guide (route to ad-revenue support; SERP intent is informational not commercial).",
     parentKeyword: "best mop for vinyl plank flooring",
-    keyword: "best mop for vinyl plank flooring"
+    keyword: "best mop for vinyl plank flooring",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-mop-for-laminate-floors",
@@ -890,7 +929,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate | intent-reclass-2026-04-25: DataForSEO mainIntent=informational; pageType money-guide → support-guide (route to ad-revenue support; SERP intent is informational not commercial).",
     parentKeyword: "best mop for laminate wood flooring",
-    keyword: "best mop for laminate wood flooring"
+    keyword: "best mop for laminate wood flooring",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-vacuum-for-cleaning-hardwood-floors",
@@ -918,7 +958,9 @@ export const pageTargets: PageTarget[] = [
     priority: 2,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=22200 KD=3 intent=commercial",
     parentKeyword: "best vacuum for cleaning hardwood floors",
-    keyword: "best vacuum for cleaning hardwood floors"
+    keyword: "best vacuum for cleaning hardwood floors",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "how-to-clean-a-mop-head",
@@ -950,7 +992,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Repaired 2026-04-25: primaryKeyword 'best way to clean mop heads' → 'how to clean a mop head'. Slug 'how-to-clean-mop-head' → 'how-to-clean-a-mop-head'. Old phrasing kept as secondary.",
     parentKeyword: "how to clean a mop head",
-    keyword: "how to clean a mop head"
+    keyword: "how to clean a mop head",
+    pageRole: "topical_authority"
   },
   {
     slug: "bissell-vs-hoover-carpet-cleaner",
@@ -991,7 +1034,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "bissell vs hoover carpet cleaner",
-    keyword: "bissell vs hoover carpet cleaner"
+    keyword: "bissell vs hoover carpet cleaner",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "carolina-mopping-sauce",
@@ -1019,7 +1064,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate | intent-reclass-2026-04-25: DataForSEO mainIntent=informational; pageType money-guide → support-guide (route to ad-revenue support; SERP intent is informational not commercial).",
     parentKeyword: "best mop sauce recipe",
-    keyword: "best mop sauce recipe"
+    keyword: "best mop sauce recipe",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-wood-floor-vacuum-cleaner",
@@ -1047,7 +1093,9 @@ export const pageTargets: PageTarget[] = [
     priority: 2,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=22200 KD=3 intent=commercial",
     parentKeyword: "best wood floor vacuum cleaner",
-    keyword: "best wood floor vacuum cleaner"
+    keyword: "best wood floor vacuum cleaner",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "shark-steam-mop-instructions",
@@ -1079,7 +1127,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Repaired 2026-04-25: primaryKeyword 'how shark steam mop works' → 'shark steam mop instructions'. Slug 'how-shark-steam-mop-works' → 'shark-steam-mop-instructions'. Old phrasing kept as secondary.",
     parentKeyword: "shark steam mop instructions",
-    keyword: "shark steam mop instructions"
+    keyword: "shark steam mop instructions",
+    pageRole: "glue_content"
   },
   {
     slug: "mop-sauce-for-ribs",
@@ -1107,7 +1156,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate | intent-reclass-2026-04-25: DataForSEO mainIntent=informational; pageType money-guide → support-guide (route to ad-revenue support; SERP intent is informational not commercial).",
     parentKeyword: "best mop sauce for ribs",
-    keyword: "best mop sauce for ribs"
+    keyword: "best mop sauce for ribs",
+    pageRole: "topical_authority"
   },
   {
     slug: "swiffer-mop",
@@ -1135,7 +1185,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best swiffer mop for hardwood floors",
-    keyword: "best swiffer mop for hardwood floors"
+    keyword: "best swiffer mop for hardwood floors",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "natural-carpet-cleaner",
@@ -1163,7 +1215,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate | intent-reclass-2026-04-25: DataForSEO mainIntent=informational; pageType money-guide → support-guide (route to ad-revenue support; SERP intent is informational not commercial).",
     parentKeyword: "best natural carpet cleaner for machine",
-    keyword: "best natural carpet cleaner for machine"
+    keyword: "best natural carpet cleaner for machine",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-grout-cleaner-for-shower",
@@ -1198,7 +1251,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate | intent-reclass-2026-04-25: DataForSEO mainIntent=informational; pageType money-guide → support-guide (route to ad-revenue support; SERP intent is informational not commercial).",
     parentKeyword: "best cleaner for shower tile and grout",
-    keyword: "best cleaner for shower tile and grout"
+    keyword: "best cleaner for shower tile and grout",
+    pageRole: "topical_authority"
   },
   {
     slug: "what-is-a-steam-mop",
@@ -1236,7 +1290,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate Ahrefs-discovered candidate | Ahrefs-discovered candidate \\ | Ahrefs-discovered candidate Duplicate intent of queued /best-mop-for-hardwood-floors (best steam mop for tile floor); matched on \"best steam mop for tile floors\".",
     parentKeyword: "best steam mop for tile floors",
-    keyword: "best steam mop for tile floors"
+    keyword: "best steam mop for tile floors",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "what-cordless-vacuum-has-the-best-suction",
@@ -1266,7 +1322,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "what cordless vacuum has the best suction",
-    keyword: "what cordless vacuum has the best suction"
+    keyword: "what cordless vacuum has the best suction",
+    pageRole: "topical_authority"
   },
   {
     slug: "corded-vs-cordless-vacuum",
@@ -1308,7 +1365,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "corded vs cordless vacuum",
-    keyword: "corded vs cordless vacuum"
+    keyword: "corded vs cordless vacuum",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "how-to-clean-laminate-floors",
@@ -1336,7 +1395,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best way to mop laminate floors",
-    keyword: "best way to mop laminate floors"
+    keyword: "best way to mop laminate floors",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-cordless-leaf-vacuum-blower",
@@ -1364,7 +1424,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=12100 KD=7 intent=commercial",
     parentKeyword: "best cordless leaf vacuum blower",
-    keyword: "best cordless leaf vacuum blower"
+    keyword: "best cordless leaf vacuum blower",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "how-do-carpet-cleaners-work-around-furniture",
@@ -1392,7 +1454,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "how do carpet cleaners work around furniture",
-    keyword: "how do carpet cleaners work around furniture"
+    keyword: "how do carpet cleaners work around furniture",
+    pageRole: "glue_content"
   },
   {
     slug: "what-to-mop-hardwood-floors-with",
@@ -1423,7 +1486,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best thing to mop hardwood floors with",
-    keyword: "best thing to mop hardwood floors with"
+    keyword: "best thing to mop hardwood floors with",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-carpet-cleaner-solution-for-carpet-cleaner",
@@ -1451,7 +1515,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=8100 KD=0 intent=commercial",
     parentKeyword: "best carpet cleaner solution for carpet cleaner",
-    keyword: "best carpet cleaner solution for carpet cleaner"
+    keyword: "best carpet cleaner solution for carpet cleaner",
+    pageRole: "primary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "how-to-clean-floor-without-mop",
@@ -1479,7 +1545,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best way to clean floors without a mop",
-    keyword: "best way to clean floors without a mop"
+    keyword: "best way to clean floors without a mop",
+    pageRole: "topical_authority"
   },
   {
     slug: "how-to-clean-an-o-cedar-mop-head",
@@ -1511,7 +1578,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Repaired 2026-04-25: primaryKeyword 'best way to clean o'cedar mop head' → 'how to clean an o cedar mop head'. Slug 'how-to-wash-o-cedar-mop-head' → 'how-to-clean-an-o-cedar-mop-head'. Old phrasing kept as secondary.",
     parentKeyword: "how to clean an o cedar mop head",
-    keyword: "how to clean an o cedar mop head"
+    keyword: "how to clean an o cedar mop head",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-robot-mop",
@@ -1579,7 +1647,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best robot mop",
-    keyword: "best robot mop"
+    keyword: "best robot mop",
+    pageRole: "primary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "is-carpet-cleaning-hard-work",
@@ -1607,7 +1677,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "is carpet cleaning hard work",
-    keyword: "is carpet cleaning hard work"
+    keyword: "is carpet cleaning hard work",
+    pageRole: "topical_authority"
   },
   {
     slug: "swiffer-power-mop-vs-wet-jet",
@@ -1637,7 +1708,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "which swiffer mop is best",
-    keyword: "which swiffer mop is best"
+    keyword: "which swiffer mop is best",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "what-do-steam-cleaners-work-on",
@@ -1665,7 +1738,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "what do steam cleaners work on",
-    keyword: "what do steam cleaners work on"
+    keyword: "what do steam cleaners work on",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-robot-vacuum-and-mop",
@@ -1733,7 +1807,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate Ahrefs-discovered candidate | Ahrefs-discovered candidate \\ | Ahrefs-discovered candidate Duplicate intent of queued /best-robot-vacuum-and-mop (best vacuum mop combo robot); matched on \"best vacuum mop combo robot\".",
     parentKeyword: "best vacuum mop combo robot",
-    keyword: "best vacuum mop combo robot"
+    keyword: "best vacuum mop combo robot",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "how-do-steam-mops-work-on-carpet",
@@ -1761,7 +1837,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "how do steam mops work on carpet",
-    keyword: "how do steam mops work on carpet"
+    keyword: "how do steam mops work on carpet",
+    pageRole: "glue_content"
   },
   {
     slug: "what-robot-vacuums-work-with-5g",
@@ -1789,7 +1866,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "what robot vacuums work with 5g",
-    keyword: "what robot vacuums work with 5g"
+    keyword: "what robot vacuums work with 5g",
+    pageRole: "topical_authority"
   },
   {
     slug: "stick-vacuum",
@@ -1817,7 +1895,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "stick vacuum",
-    keyword: "stick vacuum"
+    keyword: "stick vacuum",
+    pageRole: "primary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "what-robot-vacuums-work-with-google-home",
@@ -1845,7 +1925,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "what robot vacuums work with google home",
-    keyword: "what robot vacuums work with google home"
+    keyword: "what robot vacuums work with google home",
+    pageRole: "topical_authority"
   },
   {
     slug: "what-robot-vacuums-work-with-homekit",
@@ -1873,7 +1954,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "what robot vacuums work with homekit",
-    keyword: "what robot vacuums work with homekit"
+    keyword: "what robot vacuums work with homekit",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-carpet-cleaner-fluid",
@@ -1901,7 +1983,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=8100 KD=1 intent=commercial",
     parentKeyword: "best carpet cleaner fluid",
-    keyword: "best carpet cleaner fluid"
+    keyword: "best carpet cleaner fluid",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "is-bissell-carpet-cleaner-toxic",
@@ -1929,7 +2013,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "is bissell carpet cleaner toxic",
-    keyword: "is bissell carpet cleaner toxic"
+    keyword: "is bissell carpet cleaner toxic",
+    pageRole: "topical_authority"
   },
   {
     slug: "steam-mop-vs-regular-mop",
@@ -1960,7 +2045,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "steam mop vs regular mop",
-    keyword: "steam mop vs regular mop"
+    keyword: "steam mop vs regular mop",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "can-robot-vacuums-work-without-wifi",
@@ -1988,7 +2075,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "can robot vacuums work without wifi",
-    keyword: "can robot vacuums work without wifi"
+    keyword: "can robot vacuums work without wifi",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-household-carpet-cleaner",
@@ -2016,7 +2104,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=5400 KD=3 intent=commercial",
     parentKeyword: "best household carpet cleaner",
-    keyword: "best household carpet cleaner"
+    keyword: "best household carpet cleaner",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "how-does-carpet-cleaners-work",
@@ -2044,7 +2134,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "how does carpet cleaners work",
-    keyword: "how does carpet cleaners work"
+    keyword: "how does carpet cleaners work",
+    pageRole: "glue_content"
   },
   {
     slug: "is-steam-mop-better-than-regular-mop",
@@ -2072,7 +2163,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "is steam mop better than regular mop",
-    keyword: "is steam mop better than regular mop"
+    keyword: "is steam mop better than regular mop",
+    pageRole: "topical_authority"
   },
   {
     slug: "robot-vacuum-black-friday",
@@ -2100,7 +2192,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best robot vacuum black friday deals",
-    keyword: "best robot vacuum black friday deals"
+    keyword: "best robot vacuum black friday deals",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "are-home-carpet-cleaners-worth-it",
@@ -2128,7 +2222,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "are home carpet cleaners worth it",
-    keyword: "are home carpet cleaners worth it"
+    keyword: "are home carpet cleaners worth it",
+    pageRole: "topical_authority"
   },
   {
     slug: "do-carpet-cleaners-make-good-money",
@@ -2156,7 +2251,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "do carpet cleaners make good money",
-    keyword: "do carpet cleaners make good money"
+    keyword: "do carpet cleaners make good money",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-budget-robot-vacuum",
@@ -2189,7 +2285,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best mid range robot vacuum",
-    keyword: "best mid range robot vacuum"
+    keyword: "best mid range robot vacuum",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "do-carpet-cleaners-use-steam",
@@ -2217,7 +2315,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "do carpet cleaners use steam",
-    keyword: "do carpet cleaners use steam"
+    keyword: "do carpet cleaners use steam",
+    pageRole: "topical_authority"
   },
   {
     slug: "eufy-vs-shark-robot-vacuum",
@@ -2252,7 +2351,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "eufy vs shark robot vacuum",
-    keyword: "eufy vs shark robot vacuum"
+    keyword: "eufy vs shark robot vacuum",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "do-carpet-cleaners-work-as-vacuums",
@@ -2280,7 +2381,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "do carpet cleaners work as vacuums",
-    keyword: "do carpet cleaners work as vacuums"
+    keyword: "do carpet cleaners work as vacuums",
+    pageRole: "topical_authority"
   },
   {
     slug: "dyson-stick-vacuum",
@@ -2308,7 +2410,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "dyson stick vacuum",
-    keyword: "dyson stick vacuum"
+    keyword: "dyson stick vacuum",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "how-good-do-robot-vacuums-work",
@@ -2336,7 +2440,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "how good do robot vacuums work",
-    keyword: "how good do robot vacuums work"
+    keyword: "how good do robot vacuums work",
+    pageRole: "glue_content"
   },
   {
     slug: "do-carpet-cleaners-work-on-hard-floors",
@@ -2364,7 +2469,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "do carpet cleaners work on hard floors",
-    keyword: "do carpet cleaners work on hard floors"
+    keyword: "do carpet cleaners work on hard floors",
+    pageRole: "topical_authority"
   },
   {
     slug: "wet-mop",
@@ -2392,7 +2498,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "wet mop",
-    keyword: "wet mop"
+    keyword: "wet mop",
+    pageRole: "primary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "do-professional-carpet-cleaners-vacuum-first",
@@ -2420,7 +2528,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "do professional carpet cleaners vacuum first",
-    keyword: "do professional carpet cleaners vacuum first"
+    keyword: "do professional carpet cleaners vacuum first",
+    pageRole: "topical_authority"
   },
   {
     slug: "do-robot-vacuums-work-well-on-carpet",
@@ -2448,7 +2557,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "do robot vacuums work well on carpet",
-    keyword: "do robot vacuums work well on carpet"
+    keyword: "do robot vacuums work well on carpet",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-carpet-cleaner-for-home-use",
@@ -2476,7 +2586,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=5400 KD=5 intent=commercial",
     parentKeyword: "best carpet cleaner for home use",
-    keyword: "best carpet cleaner for home use"
+    keyword: "best carpet cleaner for home use",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "do-steam-mops-actually-clean",
@@ -2504,7 +2616,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "do steam mops actually clean",
-    keyword: "do steam mops actually clean"
+    keyword: "do steam mops actually clean",
+    pageRole: "topical_authority"
   },
   {
     slug: "spray-mop-vs-steam-mop",
@@ -2536,7 +2649,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "spray mop vs steam mop",
-    keyword: "spray mop vs steam mop"
+    keyword: "spray mop vs steam mop",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "do-steam-mops-really-work",
@@ -2564,7 +2679,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "do steam mops really work",
-    keyword: "do steam mops really work"
+    keyword: "do steam mops really work",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-handheld-steam-cleaner",
@@ -2594,7 +2710,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best handheld steam cleaner for grout",
-    keyword: "best handheld steam cleaner for grout"
+    keyword: "best handheld steam cleaner for grout",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-stats-mop-remix",
@@ -2622,7 +2740,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best stats mop remix",
-    keyword: "best stats mop remix"
+    keyword: "best stats mop remix",
+    pageRole: "glue_content"
   },
   {
     slug: "do-steam-mops-work-on-hardwood-floors",
@@ -2650,7 +2769,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "do steam mops work on hardwood floors",
-    keyword: "do steam mops work on hardwood floors"
+    keyword: "do steam mops work on hardwood floors",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-fake-wood-floor-cleaner",
@@ -2678,7 +2798,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=6600 KD=0 intent=transactional",
     parentKeyword: "best fake wood floor cleaner",
-    keyword: "best fake wood floor cleaner"
+    keyword: "best fake wood floor cleaner",
+    pageRole: "primary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "do-steam-mops-work-well",
@@ -2706,7 +2828,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "do steam mops work well",
-    keyword: "do steam mops work well"
+    keyword: "do steam mops work well",
+    pageRole: "topical_authority"
   },
   {
     slug: "how-do-professional-carpet-cleaners-clean-carpets",
@@ -2734,7 +2857,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "how do professional carpet cleaners clean carpets",
-    keyword: "how do professional carpet cleaners clean carpets"
+    keyword: "how do professional carpet cleaners clean carpets",
+    pageRole: "topical_authority"
   },
   {
     slug: "robot-vacuum-for-carpet",
@@ -2764,7 +2888,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best robot vacuum for thick carpet and pet hair",
-    keyword: "best robot vacuum for thick carpet and pet hair"
+    keyword: "best robot vacuum for thick carpet and pet hair",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "how-do-robot-vacuums-use-ai",
@@ -2792,7 +2918,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "how do robot vacuums use ai",
-    keyword: "how do robot vacuums use ai"
+    keyword: "how do robot vacuums use ai",
+    pageRole: "topical_authority"
   },
   {
     slug: "roborock-vs-eufy",
@@ -2825,7 +2952,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Head-to-head brand comparison. Use the same Vacuum Wars methodology table across both brands. App-privacy posture + post-warranty update history is a genuine Labor-Trader tiebreaker.",
     parentKeyword: "roborock vs eufy",
-    keyword: "roborock vs eufy"
+    keyword: "roborock vs eufy",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "how-much-do-carpet-cleaners-make",
@@ -2853,7 +2982,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "how much do carpet cleaners make",
-    keyword: "how much do carpet cleaners make"
+    keyword: "how much do carpet cleaners make",
+    pageRole: "topical_authority"
   },
   {
     slug: "self-emptying-robot-vacuum",
@@ -2888,7 +3018,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best self cleaning robot vacuum",
-    keyword: "best self cleaning robot vacuum"
+    keyword: "best self cleaning robot vacuum",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "how-bissell-steam-mop-works",
@@ -2916,7 +3048,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "how bissell steam mop works",
-    keyword: "how bissell steam mop works"
+    keyword: "how bissell steam mop works",
+    pageRole: "glue_content"
   },
   {
     slug: "how-much-do-carpet-cleaners-make-per-hour",
@@ -2944,7 +3077,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "how much do carpet cleaners make per hour",
-    keyword: "how much do carpet cleaners make per hour"
+    keyword: "how much do carpet cleaners make per hour",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-vacuum-mop-combination",
@@ -2972,7 +3106,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=6600 KD=7 intent=commercial",
     parentKeyword: "best vacuum mop combination",
-    keyword: "best vacuum mop combination"
+    keyword: "best vacuum mop combination",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "what-chemicals-do-professional-carpet-cleaners-use",
@@ -3000,7 +3136,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "what chemicals do professional carpet cleaners use",
-    keyword: "what chemicals do professional carpet cleaners use"
+    keyword: "what chemicals do professional carpet cleaners use",
+    pageRole: "topical_authority"
   },
   {
     slug: "what-makes-a-good-carpet-cleaner",
@@ -3028,7 +3165,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "what makes a good carpet cleaner",
-    keyword: "what makes a good carpet cleaner"
+    keyword: "what makes a good carpet cleaner",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-cordless-vacuum-for-animal-hair",
@@ -3056,7 +3194,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=9900 KD=13 intent=commercial",
     parentKeyword: "best cordless vacuum for animal hair",
-    keyword: "best cordless vacuum for animal hair"
+    keyword: "best cordless vacuum for animal hair",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "what-robot-vacuums-work-with-alexa",
@@ -3084,7 +3224,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "what robot vacuums work with alexa",
-    keyword: "what robot vacuums work with alexa"
+    keyword: "what robot vacuums work with alexa",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-robot-vacuum-mop-comparison",
@@ -3112,7 +3253,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best robot vacuum mop comparison",
-    keyword: "best robot vacuum mop comparison"
+    keyword: "best robot vacuum mop comparison",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "what-robot-vacuums-work-with-apple-home",
@@ -3140,7 +3283,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "what robot vacuums work with apple home",
-    keyword: "what robot vacuums work with apple home"
+    keyword: "what robot vacuums work with apple home",
+    pageRole: "topical_authority"
   },
   {
     slug: "wall-mop",
@@ -3170,7 +3314,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best wall cleaning mop",
-    keyword: "best wall cleaning mop"
+    keyword: "best wall cleaning mop",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "how-well-do-bissell-carpet-cleaners-work",
@@ -3198,7 +3344,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "how well do bissell carpet cleaners work",
-    keyword: "how well do bissell carpet cleaners work"
+    keyword: "how well do bissell carpet cleaners work",
+    pageRole: "glue_content"
   },
   {
     slug: "what-robot-vacuums-work-with-home-assistant",
@@ -3226,7 +3373,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "what robot vacuums work with home assistant",
-    keyword: "what robot vacuums work with home assistant"
+    keyword: "what robot vacuums work with home assistant",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-cordless-vacuum-for-hard-floors",
@@ -3254,7 +3402,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=2900 KD=0 intent=commercial",
     parentKeyword: "best cordless vacuum for hard floors",
-    keyword: "best cordless vacuum for hard floors"
+    keyword: "best cordless vacuum for hard floors",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "what-robot-vacuums-work-with-smartthings",
@@ -3282,7 +3432,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "what robot vacuums work with smartthings",
-    keyword: "what robot vacuums work with smartthings"
+    keyword: "what robot vacuums work with smartthings",
+    pageRole: "topical_authority"
   },
   {
     slug: "why-carpet-cleaning-is-important",
@@ -3310,7 +3461,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "why carpet cleaning is important",
-    keyword: "why carpet cleaning is important"
+    keyword: "why carpet cleaning is important",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-mop-for-vinyl-plank-floors",
@@ -3342,7 +3494,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best mop for lvp floors",
-    keyword: "best mop for lvp floors"
+    keyword: "best mop for lvp floors",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "why-do-steam-cleaners-work-so-well",
@@ -3370,7 +3524,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "why do steam cleaners work so.well",
-    keyword: "why do steam cleaners work so.well"
+    keyword: "why do steam cleaners work so.well",
+    pageRole: "topical_authority"
   },
   {
     slug: "compare-best-cordless-vacuum",
@@ -3398,7 +3553,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "compare best cordless vacuum",
-    keyword: "compare best cordless vacuum"
+    keyword: "compare best cordless vacuum",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "why-is-my-carpet-cleaner-leaving-streaks",
@@ -3426,7 +3583,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "why is my carpet cleaner leaving streaks",
-    keyword: "why is my carpet cleaner leaving streaks"
+    keyword: "why is my carpet cleaner leaving streaks",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-carpet-shampoo-cleaner-machine",
@@ -3454,7 +3612,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=12100 KD=21 intent=commercial",
     parentKeyword: "best carpet shampoo cleaner machine",
-    keyword: "best carpet shampoo cleaner machine"
+    keyword: "best carpet shampoo cleaner machine",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "how-do-carpet-cleaning-services-work",
@@ -3482,7 +3642,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "how do carpet cleaning services work",
-    keyword: "how do carpet cleaning services work"
+    keyword: "how do carpet cleaning services work",
+    pageRole: "glue_content"
   },
   {
     slug: "are-steam-mops-worth-it",
@@ -3510,7 +3671,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "are steam.mops worth it",
-    keyword: "are steam.mops worth it"
+    keyword: "are steam.mops worth it",
+    pageRole: "topical_authority"
   },
   {
     slug: "best-carpet-washer-cleaner",
@@ -3538,7 +3700,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=12100 KD=21 intent=commercial",
     parentKeyword: "best carpet washer cleaner",
-    keyword: "best carpet washer cleaner"
+    keyword: "best carpet washer cleaner",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "mop-bucket-with-wringer",
@@ -3566,7 +3730,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best mop bucket with wringer",
-    keyword: "best mop bucket with wringer"
+    keyword: "best mop bucket with wringer",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "irobot-vacuum",
@@ -3594,7 +3760,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "irobot vacuum",
-    keyword: "irobot vacuum"
+    keyword: "irobot vacuum",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-carpet-cleaner-spot-remover",
@@ -3622,7 +3790,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=5400 KD=11 intent=commercial",
     parentKeyword: "best carpet cleaner spot remover",
-    keyword: "best carpet cleaner spot remover"
+    keyword: "best carpet cleaner spot remover",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-robot-vacuum-under-300",
@@ -3652,7 +3822,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best robot vacuum under 300",
-    keyword: "best robot vacuum under 300"
+    keyword: "best robot vacuum under 300",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "hoover-cleanslate-portable-carpet-cleaner-vs-bissell-little-green",
@@ -3680,7 +3852,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "hoover cleanslate portable carpet cleaner vs bissell little green",
-    keyword: "hoover cleanslate portable carpet cleaner vs bissell little green"
+    keyword: "hoover cleanslate portable carpet cleaner vs bissell little green",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-vacuum-for-hardwood-and-carpet-floors",
@@ -3708,7 +3882,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=3600 KD=0 intent=commercial",
     parentKeyword: "best vacuum for hardwood and carpet floors",
-    keyword: "best vacuum for hardwood and carpet floors"
+    keyword: "best vacuum for hardwood and carpet floors",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-vacuum-for-rug-and-hardwood-floors",
@@ -3736,7 +3912,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=3600 KD=3 intent=commercial",
     parentKeyword: "best vacuum for rug and hardwood floors",
-    keyword: "best vacuum for rug and hardwood floors"
+    keyword: "best vacuum for rug and hardwood floors",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "how-do-robot-vacuums-work-with-multiple-floors",
@@ -3764,7 +3942,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "how do robot vacuums work with multiple floors",
-    keyword: "how do robot vacuums work with multiple floors"
+    keyword: "how do robot vacuums work with multiple floors",
+    pageRole: "glue_content"
   },
   {
     slug: "best-spot-carpet-cleaner",
@@ -3792,7 +3971,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best pet stain carpet cleaner machine",
-    keyword: "best pet stain carpet cleaner machine"
+    keyword: "best pet stain carpet cleaner machine",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-mop-for-tile-flooring",
@@ -3820,7 +4001,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=4400 KD=0 intent=commercial",
     parentKeyword: "best mop for tile flooring",
-    keyword: "best mop for tile flooring"
+    keyword: "best mop for tile flooring",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "hoover-smartwash-carpet-cleaner-vs-bissell-proheat-2x",
@@ -3848,7 +4031,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "hoover smartwash carpet cleaner vs bissell proheat 2x",
-    keyword: "hoover smartwash carpet cleaner vs bissell proheat 2x"
+    keyword: "hoover smartwash carpet cleaner vs bissell proheat 2x",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-window-cleaner",
@@ -3876,7 +4061,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=4400 KD=0 intent=commercial",
     parentKeyword: "best window cleaner",
-    keyword: "best window cleaner"
+    keyword: "best window cleaner",
+    pageRole: "primary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "carpet-cleaner-portable-best",
@@ -3904,7 +4091,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=4400 KD=1 intent=transactional",
     parentKeyword: "carpet cleaner portable best",
-    keyword: "carpet cleaner portable best"
+    keyword: "carpet cleaner portable best",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "is-bissell-or-hoover-carpet-cleaner-better",
@@ -3932,7 +4121,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "is bissell or hoover carpet cleaner better",
-    keyword: "is bissell or hoover carpet cleaner better"
+    keyword: "is bissell or hoover carpet cleaner better",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "is-bissell-or-hoover-steam-cleaner-better",
@@ -3960,7 +4151,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "is bissell or hoover steam cleaner better",
-    keyword: "is bissell or hoover steam cleaner better"
+    keyword: "is bissell or hoover steam cleaner better",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-mop-for-lvp-flooring",
@@ -3993,7 +4186,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best mop for lvp",
-    keyword: "best mop for lvp"
+    keyword: "best mop for lvp",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-floor-cleaner-liquid-for-mopping",
@@ -4021,7 +4216,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best stuff to mop floors with",
-    keyword: "best stuff to mop floors with"
+    keyword: "best stuff to mop floors with",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "how-do-robot-vacuums-work-without-mapping",
@@ -4049,7 +4246,8 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "how do robot vacuums work without mapping",
-    keyword: "how do robot vacuums work without mapping"
+    keyword: "how do robot vacuums work without mapping",
+    pageRole: "glue_content"
   },
   {
     slug: "is-eufy-or-shark-robot-vacuum-better",
@@ -4077,7 +4275,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "is eufy or shark robot vacuum better",
-    keyword: "is eufy or shark robot vacuum better"
+    keyword: "is eufy or shark robot vacuum better",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-carpet-cleaner-for-animals",
@@ -4105,7 +4305,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=6600 KD=21 intent=commercial",
     parentKeyword: "best carpet cleaner for animals",
-    keyword: "best carpet cleaner for animals"
+    keyword: "best carpet cleaner for animals",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "spin-mop-and-bucket-set",
@@ -4133,7 +4335,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "spin mop and bucket set",
-    keyword: "spin mop and bucket set"
+    keyword: "spin mop and bucket set",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "robot-vs-cordless-vacuum",
@@ -4172,7 +4376,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "robot vs cordless vacuum",
-    keyword: "robot vs cordless vacuum"
+    keyword: "robot vs cordless vacuum",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-auto-window-cleaner",
@@ -4200,7 +4406,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=3600 KD=0 intent=commercial",
     parentKeyword: "best auto window cleaner",
-    keyword: "best auto window cleaner"
+    keyword: "best auto window cleaner",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-window-cleaner-for-cars",
@@ -4228,7 +4436,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=3600 KD=0 intent=commercial",
     parentKeyword: "best window cleaner for cars",
-    keyword: "best window cleaner for cars"
+    keyword: "best window cleaner for cars",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "corded-vs-cordless-vacuum-suction-power",
@@ -4256,7 +4466,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "corded vs cordless vacuum suction power",
-    keyword: "corded vs cordless vacuum suction power"
+    keyword: "corded vs cordless vacuum suction power",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cordless-vacuum-under-200",
@@ -4289,7 +4501,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate | Sealed-filtration test is the non-negotiable quality gate at this price. Pull CR + GHI winners + 1 Reddit-validated long-runner. Real 3-year filter replacement cost tabulated.",
     parentKeyword: "best cordless vacuum under 200",
-    keyword: "best cordless vacuum under 200"
+    keyword: "best cordless vacuum under 200",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-robot-vacuum-under-500",
@@ -4322,7 +4536,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate | Under-$500 band is where the Labor Trader's time-math breaks even soonest. Eufy X10 Pro Omni-class + value-tier Roborock Q-series. Explicit 'what you give up vs $800+' tradeoff block.",
     parentKeyword: "best robot vacuum under 500",
-    keyword: "best robot vacuum under 500"
+    keyword: "best robot vacuum under 500",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "is-corded-or-cordless-vacuum-better",
@@ -4350,7 +4566,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "is corded or cordless vacuum better",
-    keyword: "is corded or cordless vacuum better"
+    keyword: "is corded or cordless vacuum better",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "commercial-mop-bucket",
@@ -4378,7 +4596,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best commercial mop bucket",
-    keyword: "best commercial mop bucket"
+    keyword: "best commercial mop bucket",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-upholstery-cleaner-machine",
@@ -4406,7 +4626,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best carpet cleaner machine for cars",
-    keyword: "best carpet cleaner machine for cars"
+    keyword: "best carpet cleaner machine for cars",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-dyson-cordless-vacuum-models-comparison",
@@ -4434,7 +4656,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best dyson cordless vacuum models comparison",
-    keyword: "best dyson cordless vacuum models comparison"
+    keyword: "best dyson cordless vacuum models comparison",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-carpet-cleaner-companies-near-me",
@@ -4462,7 +4686,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=4400 KD=9 intent=commercial",
     parentKeyword: "best carpet cleaner companies near me",
-    keyword: "best carpet cleaner companies near me"
+    keyword: "best carpet cleaner companies near me",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-rental-carpet-cleaner",
@@ -4490,7 +4716,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best carpet cleaner rental machine",
-    keyword: "best carpet cleaner rental machine"
+    keyword: "best carpet cleaner rental machine",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cordless-vacuum-under-100",
@@ -4522,7 +4750,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best cordless vacuum under $100",
-    keyword: "best cordless vacuum under $100"
+    keyword: "best cordless vacuum under $100",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cordless-electric-mop",
@@ -4560,7 +4790,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best cordless electric mop",
-    keyword: "best cordless electric mop"
+    keyword: "best cordless electric mop",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-mop-for-concrete-floors",
@@ -4591,7 +4823,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best mop for concrete floors",
-    keyword: "best mop for concrete floors"
+    keyword: "best mop for concrete floors",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-stick-vacuum-pet-hair",
@@ -4619,7 +4853,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Injected from DataForSEO discovery 2026-04-25: vol=4400 KD=14 intent=commercial",
     parentKeyword: "best stick vacuum pet hair",
-    keyword: "best stick vacuum pet hair"
+    keyword: "best stick vacuum pet hair",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-robot-vacuum-for-tile-floors",
@@ -4647,7 +4883,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best robot vacuum for tile floors",
-    keyword: "best robot vacuum for tile floors"
+    keyword: "best robot vacuum for tile floors",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-handheld-vacuum-sealer-for-food",
@@ -4675,7 +4913,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best handheld vacuum sealer for food",
-    keyword: "best handheld vacuum sealer for food"
+    keyword: "best handheld vacuum sealer for food",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-handheld-vacuum-for-stairs",
@@ -4705,7 +4945,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best handheld vacuum for carpeted stairs",
-    keyword: "best handheld vacuum for carpeted stairs"
+    keyword: "best handheld vacuum for carpeted stairs",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-robot-vacuum-under-200",
@@ -4735,7 +4977,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best robot vacuum under $200",
-    keyword: "best robot vacuum under $200"
+    keyword: "best robot vacuum under $200",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-product-to-clean-engineered-hardwood-floors",
@@ -4763,7 +5007,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best mop for engineered hardwood floors",
-    keyword: "best mop for engineered hardwood floors"
+    keyword: "best mop for engineered hardwood floors",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "most-powerful-cordless-vacuum",
@@ -4793,7 +5039,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best cordless vacuum suction power",
-    keyword: "best cordless vacuum suction power"
+    keyword: "best cordless vacuum suction power",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cordless-vacuum-long-battery-life",
@@ -4821,7 +5069,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best cordless vacuum long battery life",
-    keyword: "best cordless vacuum long battery life"
+    keyword: "best cordless vacuum long battery life",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-steam-carpet-cleaner-machine",
@@ -4849,7 +5099,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best steam carpet cleaner machine",
-    keyword: "best steam carpet cleaner machine"
+    keyword: "best steam carpet cleaner machine",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-handheld-vacuum-for-home",
@@ -4877,7 +5129,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best handheld vacuum for home",
-    keyword: "best handheld vacuum for home"
+    keyword: "best handheld vacuum for home",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-wall-mop",
@@ -4911,7 +5165,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best mop to clean walls",
-    keyword: "best mop to clean walls"
+    keyword: "best mop to clean walls",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-cordless-vacuum-at-walmart",
@@ -4939,7 +5195,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best cordless vacuum at walmart",
-    keyword: "best cordless vacuum at walmart"
+    keyword: "best cordless vacuum at walmart",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   },
   {
     slug: "best-mop-that-separates-dirty-water",
@@ -4967,7 +5225,9 @@ export const pageTargets: PageTarget[] = [
     priority: 3,
     notes: "Ahrefs-discovered candidate",
     parentKeyword: "best mop that separates dirty water",
-    keyword: "best mop that separates dirty water"
+    keyword: "best mop that separates dirty water",
+    pageRole: "secondary_commercial",
+    lineupStatus: "unknown"
   }
 ];
 
